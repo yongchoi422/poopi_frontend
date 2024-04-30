@@ -69,7 +69,7 @@ function onDisconnected() {
 }
 
 async function changeChain(chainId) {
-  if (chainId !== DEFAULT_CHAIN_ID) {
+  if (chainId !== DEFAULT_CHAIN_EID) {
     return switchNetwork({ chainId: DEFAULT_CHAIN_ID })
   }
 }
