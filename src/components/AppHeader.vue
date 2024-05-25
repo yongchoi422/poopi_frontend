@@ -5,7 +5,7 @@
     <div class="header__content">
       <div class="header__info">
         <UniversalImage src="./images/fungi/logo.png" class="header__info-image" />
-        <div class="header__info-title">Poopi</div>
+        <div class="header__info-title">Souli</div>
         <div class="header__info-description">CA: {{ CONTRACTS.token.address }}</div>
       </div>
 
@@ -32,7 +32,7 @@
           {{ shortAddress(userStore.address, 4) }}
         </BaseButton>
 
-        <div class="header__connection-point">Your $FUNGI: <NumberText>{{ tokenBalance }}</NumberText></div>
+        <div class="header__connection-point">Your $SOULI: <NumberText>{{ tokenBalance }}</NumberText></div>
         <div class="header__connection-point">Your Inscriptions: <NumberText>{{ inscriptionBalance }}</NumberText></div>
       </template>
 

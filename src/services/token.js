@@ -3,7 +3,7 @@ import { CONTRACTS } from '@/const/contracts'
 import web3 from '@/services/web3'
 import { isAddressCorrect } from '@/utils/web3'
 
-class Fungi {
+class Souli {
   constructor() {
     this.contract = new Contract(CONTRACTS.token.address, CONTRACTS.token.abi)
   }
@@ -112,7 +112,7 @@ class Fungi {
     const promises = []
 
     for (let seed of seeds) {
-      promises.push(fungi.getInscription(seed))
+      promises.push(souli.getInscription(seed))
     }
 
     let list = await Promise.all(promises)
@@ -122,13 +122,13 @@ class Fungi {
 
   async fetchSeedsByAddress(address) {
     if (address && isAddressCorrect) {
-      return fungi.getInscriptionsByAddress(address)
+      return souli.getInscriptionsByAddress(address)
     }
 
     return []
   }
 }
 
-const fungi = new Fungi()
+const souli = new Souli()
 
-export default fungi
+export default souli

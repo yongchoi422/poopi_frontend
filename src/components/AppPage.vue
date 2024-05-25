@@ -2,8 +2,8 @@
   <div class="page">
     <div class="page__header">
       <TextWrapper :max-symbols="102" class="page__description">
-        Poopi, $POOPI. The ERC-20i with Native Inscriptions./n/n
-        $POOPI is a unique, fully on-chain art project offering an innovative new ERC-20i format with inscription metadata. Each portion of tokens resembles a seed that generates unique 24x24 dynamic images of Poopi stored on-chain, depending on the wallet's token balance./n/n
+        Souli, $SOULI. The ERC-20i with Native Inscriptions./n/n
+        $SOULI is a unique, fully on-chain art project offering an innovative new ERC-20i format with inscription metadata. Each portion of tokens resembles a seed that generates unique 24x24 dynamic images of Souli stored on-chain, depending on the wallet's token balance./n/n
         To achieve a visual rendering of the project, we built a front end and uploaded it to the decentralized IPFS storage, making the project immutable. All project files, including the arts, smart contracts, and the frontend app's source codes, were uploaded to the project's GitHub page for other developers who want to utilize the new ERC-20i inscriptions format.
       </TextWrapper>
 
