@@ -9,7 +9,7 @@
 
       <div class="inscription-list__item-info">
         <div class="inscription-list__item-title">
-          {{ inscription.seed.isDynamic ? 'Dynamic Fungi' : 'Stable Fungi' }}
+          {{ inscription.seed.isDynamic ? 'Dynamic Souli' : 'Stable Souli' }}
           <NumberText>{{ inscription.seed.seed }}</NumberText>
         </div>
 
@@ -27,7 +27,7 @@
         <UniversalImage src="/images/fungi/logo.png" class="inscription-list__item-icon" />
 
         <div class="inscription-list__item-info">
-          <div class="inscription-list__item-title">Fungi</div>
+          <div class="inscription-list__item-title">Souli</div>
         </div>
       </div>
     </template>

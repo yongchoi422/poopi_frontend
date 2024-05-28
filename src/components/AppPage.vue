@@ -50,7 +50,7 @@
 
 
     <div v-else class="page__body">
-      <div class="page__empty">Connect your wallet to view the results.</div>
+      <div class="page__empty" style="color: white;">Connect your wallet to view the results.</div>
       <BaseButton icon="/images/wallet.png" class="page__button" @click="connect">Connect Wallet</BaseButton>
     </div>
   </div>
@@ -174,6 +174,7 @@ function startLoadMoreTimer() {
     &-heading
       font-size: 32px
       font-weight: 600
+      color : #ffffff
 
   &__header
     display: flex
@@ -181,6 +182,7 @@ function startLoadMoreTimer() {
     gap: 24px
     align-items: flex-start
     margin-bottom: 32px
+    color : #ffffff
 
   &__description
     max-width: 50%
@@ -213,6 +215,7 @@ function startLoadMoreTimer() {
 
       &-select
         width: 100%
+        
 
     &__search
       max-width: 100%
@@ -223,4 +226,6 @@ function startLoadMoreTimer() {
     &__empty
       text-align: center
       margin-top: 54px
+      color: #ffffff 
+
 </style>
