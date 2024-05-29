@@ -35,7 +35,7 @@ function onOptionClick(option) {
   display: flex
   justify-content: space-between
   gap: 6px
-  background-color: $mainColor
+  background-color: black
   padding: 4px
   border: 1px solid $borderColor
   box-sizing: content-box
@@ -56,7 +56,7 @@ function onOptionClick(option) {
     font-weight: 500
     white-space: nowrap
     padding: 6px 12px
-    color: black
+    color: white
     width: inherit
     width: -webkit-fill-available
     text-align: center
@@ -67,6 +67,6 @@ function onOptionClick(option) {
       background-color: $borderColor
 
     &.--active
-      background-color: black
-      color: $mainColor
+      background-color: #FFB3E6
+      color: black
 </style>

@@ -38,7 +38,7 @@
           class="page__list"
       />
 
-      <div v-else-if="!isLoading" class="page__empty">Results not found.</div>
+      <div v-else-if="!isLoading" class="page__empty" style="color: white;">Results not found.</div>
 
       <BaseButton
           v-if="inscriptions.length && currentOption.id === 'all'"

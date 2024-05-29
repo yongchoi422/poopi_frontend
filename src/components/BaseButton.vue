@@ -25,7 +25,7 @@ defineProps({
   display: flex
   align-items: center
   justify-content: center
-  background-color: $mainColor
+  background-color: #FFE780
   user-select: none
 
   &:hover

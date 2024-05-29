@@ -69,8 +69,8 @@ function onItemClick(item) {
     cursor: pointer
     width: 100%
     overflow: hidden
-    background-color: $mainColor
-    border: 1px solid $borderColor
+    background-color: #242424
+    border: 1px solid #252221
     transition: transform 350ms ease
     animation: fadeIn 350ms ease
 
@@ -92,9 +92,10 @@ function onItemClick(item) {
     &-title
       font-weight: 500
       font-size: 20px
+      color: white
 
     &-description
-      color: grey
+      color: white
       word-break: break-all
 
     &.--loading
@@ -105,7 +106,7 @@ function onItemClick(item) {
         height: 100%
         top: 0
         left: 0
-        background-color: #dddddd
+        background-color: #252221
 
       &:hover
         transform: none

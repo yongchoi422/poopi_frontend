@@ -27,7 +27,7 @@ import { SOCIALS } from '@/const/socials'
     display: flex
     color: black
     cursor: pointer !important
-    background-color: $mainColor
+    background-color: black
     transition: all 350ms ease
 
     &:hover

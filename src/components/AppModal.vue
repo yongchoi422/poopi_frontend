@@ -37,7 +37,7 @@ $maxContentWidth: 428px
 
 .modal
   position: fixed
-  color: black
+  color: white
   z-index: 10
   width: 100%
   height: 100%
@@ -60,7 +60,7 @@ $maxContentWidth: 428px
     width: 100%
     max-width: $maxContentWidth
     padding: 24px
-    background-color: $mainColor
+    background-color: #181818
     margin: auto
     cursor: auto
 
@@ -79,7 +79,7 @@ $maxContentWidth: 428px
     justify-content: center
     user-select: none
     transition: opacity 0.5s ease
-    background-color: $mainColor
+    background-color: #242424
 
     &:hover
       opacity: 0.7
