@@ -17,6 +17,7 @@ defineProps({
 .button-component
   color: black
   font-size: 18px
+  font-weight: 600
   padding: 8px 18px 8px 12px
   cursor: pointer
   border-radius: 0
