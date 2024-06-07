@@ -19,7 +19,7 @@ export const SOCIALS = [
   {
     icon: './images/socials/whitepaper.png',
     // url: `https://souli.net/souli_whitepaper.pdf`
-    url: `https://www.dropbox.com/scl/fi/la5gfel5tu6lvuzgck2ba/souli_whitepaper.pdf?rlkey=4aib4kqk689qros14kr764edl&dl=0`
+    url: `https://pickit-1.gitbook.io/souli-whitepaper/`
   },
 
   // {

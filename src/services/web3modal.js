@@ -3,10 +3,10 @@ import { base, baseSepolia } from '@wagmi/core/chains'
 
 //https://cloud.walletconnect.com/
 
-const projectId = '75c770563883e59a5702bcd960096c01' // <-- put your walletconnect projectId here
+const projectId = '8fcf094483e98262c307c7879e58b244' // <-- put your walletconnect projectId here
 
-// const chains = [base]
-const chains = [baseSepolia]
+const chains = [base]
+// const chains = [baseSepolia]
 const wagmiConfig = defaultWagmiConfig({
   chains,
   projectId,
