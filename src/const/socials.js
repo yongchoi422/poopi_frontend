@@ -1,15 +1,26 @@
 import { CONTRACTS } from '@/const/contracts'
 
 export const SOCIALS = [
+  
+
   {
-    icon: './images/socials/x.png',
+    icon: './images/socials/telegram_logo.svg',
+    url: 'https://t.me/pickitlab'
+
+  },
+  {
+    icon: './images/socials/moofy.png',
+    url: 'https://pickitlab.com'
+  },
+  {
+    icon: './images/socials/x_logo.svg',
     url: 'https://x.com/MOOFY_Base'
   },
-
-  // {
-  //   icon: './images/socials/github.png',
-  //   url: 'https://github.com/ToddStool/fungi'
-  // },
+  
+  {
+    icon: './images/socials/logo_opensea.svg',
+    url: `https://opensea.io/collection/moofy-1`
+  },
 
   {
     icon: './images/socials/etherscan.png',
@@ -18,14 +29,9 @@ export const SOCIALS = [
 
   {
     icon: './images/socials/whitepaper.png',
-    // url: `https://souli.net/souli_whitepaper.pdf`
-    url: `https://pickit-1.gitbook.io/souli-whitepaper/`
+    url: `https://docs.souli.net/`
   },
 
-  // {
-  //   icon: './images/socials/dextools.png',
-  //   url: `https://www.dextools.io/app/en/base/pair-explorer/0x8ce9b689018fc94f44540b62ba6e10dc8b346448`
-  // },
 
   // {
   //   icon: './images/socials/dexscreener.png',
