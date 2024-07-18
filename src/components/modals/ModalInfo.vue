@@ -3,7 +3,7 @@
     <div v-html="item.svg" class="meta-modal__image" />
 
     <div class="meta-modal__title">
-      Fungi <NumberText>{{ item.seed.seed }}</NumberText>
+      Souli <NumberText>{{ item.seed.seed }}</NumberText>
     </div>
 
     <div v-for="[key, value] of Object.entries(item.meta)" class="meta-modal__point">
