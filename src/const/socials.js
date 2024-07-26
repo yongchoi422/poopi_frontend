@@ -14,7 +14,7 @@ export const SOCIALS = [
   },
   {
     icon: './images/socials/x_logo.svg',
-    url: 'https://x.com/MOOFY_Base'
+    url: 'https://x.com/Souli_ERC20i'
   },
   
   {
