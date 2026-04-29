@@ -1,5 +1,5 @@
 <template>
-  <div class="socials">
+  <div v-if="SOCIALS.length" class="socials">
     <a
         v-for="social in SOCIALS"
         :href="social.url"
