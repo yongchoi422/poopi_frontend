@@ -1,0 +1,147 @@
+/* Shared parchment UI for the world, wallet, launch and original village. */
+.game-app :is(button,a,input,summary):focus-visible { outline: 3px solid #a87739; outline-offset: 3px; }
+.game-app .modal-backdrop { background: #162e39bf; backdrop-filter: none; padding: 24px; }
+.game-app :is(.library-dialog,.journal-dialog,.purchase-dialog,.launch-dialog) { background: var(--paper); color: var(--ink); border: 3px solid var(--ink); box-shadow: 7px 7px #142f3b66; border-radius: 0; padding: 28px; max-height: calc(100dvh - 48px); scrollbar-color: #9eaa86 var(--paper); color-scheme: light; }
+.game-app .launch-dialog { width: min(100%, 620px); }
+.game-app :is(.library-dialog,.journal-dialog,.purchase-dialog,.launch-dialog) :is(h2,h3) { font-family: var(--pixel); font-weight: normal; color: var(--ink); }
+.game-app :is(.library-dialog,.journal-dialog,.purchase-dialog,.launch-dialog) h2 { font-size: 30px; line-height: 1.1; }
+.game-app :is(.library-dialog,.journal-dialog,.purchase-dialog,.launch-dialog) h3 { font-size: 22px; }
+.game-app :is(.library-dialog,.journal-dialog,.purchase-dialog,.launch-dialog) p { line-height: 1.7; }
+.game-app :is(.library-dialog,.journal-dialog,.purchase-dialog,.launch-dialog) a { color: #456847; text-underline-offset: 3px; }
+.game-app :is(.library-dialog,.journal-dialog,.purchase-dialog,.launch-dialog) :is(.hud-square,.square-button) { width: 38px; height: 38px; flex-shrink: 0; background: #e4dfc9; color: var(--ink); border: 1px solid #adb197; box-shadow: 2px 2px #c0c6a9; font: 21px var(--pixel); }
+.game-app :is(.eyebrow,.dialog-heading small,.launch-heading small,.purchase-kicker) { font: 12px var(--pixel); letter-spacing: 1px; color: var(--muted); }
+.game-app :is(.library-intro,.library-caption,.journal-list p,.journal-list small,.journal-footnote,.journal-empty,.library-section h3 small) { color: var(--muted); }
+.game-app .library-intro { font-size: 13px; margin: 18px 0; }
+.game-app .library-caption { font-size: 11px; }
+.game-app .address-form label { font-size: 12px; }
+.game-app .address-form label span { color: var(--muted); }
+.game-app .address-form input { color: var(--ink); background: #faf6e9; border: 2px solid #9ba88b; }
+.game-app :is(.primary-button,.wallet-connect,.switch-base,.launch-main-action,.purchase-review) { color: var(--ink); background: var(--gold); border: 2px solid var(--ink); box-shadow: 3px 3px #b9bea1; font: 18px var(--pixel); font-weight: normal; min-height: 43px; }
+.game-app .address-form .primary-button { white-space: nowrap; padding: 10px 15px; }
+.game-app :is(.text-button,.contract-link) { color: #44634a; font-size: 12px; }
+.game-app :is(.library-section,.journal-list li,.journal-footnote) { border-color: var(--paper-edge); }
+.game-app .library-section h3 small { font-family: system-ui,sans-serif; font-size: 11px; line-height: 1.6; }
+.game-app .soul-library { grid-template-columns: repeat(3,minmax(0,1fr)); gap: 15px; }
+.game-app .soul-library img { border: 2px solid #8e9e7b; box-shadow: 3px 3px #c0c8aa; }
+.game-app .soul-library span { color: var(--ink); font: 17px var(--pixel); margin: 10px 0 3px; }
+.game-app .soul-library button:hover img { border-color: #84639c; }
+.game-app .journal-list li > span { color: #957343; }
+.game-app .world-journal-message { color: var(--ink); }
+.game-app .wallet-access { border: 1px solid #b4bea1; background: #e4e8d3; padding: 15px; margin: 20px 0; }
+.game-app .wallet-access-top small { color: #596e58; font: 11px var(--pixel); letter-spacing: .6px; }
+.game-app .wallet-access-top strong { color: var(--ink); font-size: 12px; }
+.game-app .wallet-access-top button { font-size: 16px; background: #cedbb3; padding: 9px 12px; }
+.game-app .wallet-access > p { color: var(--muted); font-size: 11px; margin-bottom: 9px; }
+.game-app .wallet-permissions { color: #476248; font-size: 10px; gap: 5px 10px; }
+.game-app .wallet-permissions span::before { color: #476248; }
+.game-app :is(.wallet-full-address,.wallet-clear,.wallet-clear-note) { color: var(--muted); font-size: 11px; }
+.game-app .wallet-full-address { color: var(--ink); }
+.game-app .purchase-brand { font: 21px var(--pixel); letter-spacing: 2px; }
+.game-app .purchase-brand > span { font: 11px var(--pixel); color: var(--muted); background: #dedfca; }
+.game-app .purchase-soul { width: 75px; height: 75px; background: #b7cba3; border: 2px solid #6d845f; box-shadow: 3px 3px #bdc5a6; }
+.game-app .purchase-hero { padding: 21px 0; gap: 18px; }
+.game-app .purchase-kicker { font-size: 10px; letter-spacing: .4px; }
+.game-app .purchase-hero > div > p:last-child { color: var(--muted); font-size: 12px; }
+.game-app :is(.sale-state,.launch-demo-label) { background: #e3dbc4; color: #665d45; border: 1px solid #c8b995; padding: 11px 13px; font-size: 11px; }
+.game-app .sale-state > span { font: 12px var(--pixel); color: #6d5b30; }
+.game-app .launch-demo-label strong { display: block; font: 13px var(--pixel); margin-bottom: 3px; }
+.game-app .purchase-price small { color: var(--muted); font-size: 11px; }
+.game-app .purchase-price strong { color: var(--ink); font: 18px var(--pixel); }
+.game-app .purchase-price strong > span { color: var(--muted); font-size: 11px; }
+.game-app .purchase-network { color: var(--muted); font-size: 11px; }
+.game-app .purchase-amount { background: #fbf7e9; color: var(--ink); border: 2px solid #a6b193; box-shadow: none; }
+.game-app .amount-label { color: var(--muted); font-size: 12px; }
+.game-app .amount-label > span { font-size: 10px; }
+.game-app .amount-input input { color: var(--ink); font: 36px var(--pixel); }
+.game-app .quick-amounts button { background: #e6e8d3; color: #52674b; border: 1px solid #b3bd9f; font: 17px var(--pixel); min-height: 35px; }
+.game-app .quick-amounts button.active { background: #cedab0; border-color: #7f956b; color: var(--ink); }
+.game-app .purchase-arrow { color: #647859; background: var(--paper); }
+.game-app .purchase-receive { background: #e2dbea; border: 2px solid #ab98b8; box-shadow: none; }
+.game-app .purchase-receive :is(small,p) { color: #71627e; font-size: 11px; }
+.game-app .purchase-receive strong { font: 33px var(--pixel); color: #59456d; }
+.game-app .purchase-receive > div > span { color: #645273; font: 18px var(--pixel); }
+.game-app .purchase-confirm { background: #e5e7d1; border: 1px solid #aeb99b; }
+.game-app :is(.purchase-confirm,.purchase-details,.proof-details,.launch-ledger) dl > div { font-size: 12px; line-height: 1.65; gap: 16px; }
+.game-app :is(.purchase-confirm,.purchase-details,.proof-details,.launch-ledger) dt { color: var(--muted); }
+.game-app :is(.purchase-confirm,.purchase-details,.proof-details,.launch-ledger) dd { color: var(--ink); overflow-wrap: anywhere; }
+.game-app :is(.purchase-confirm > p,.purchase-details > p,.proof-details p,.launch-ledger > p) { color: var(--muted); font-size: 11px; }
+.game-app .purchase-confirm .purchase-review { font-size: 17px; }
+.game-app .purchase-notice { background: #dce7cd; color: #476047; font-size: 11px; }
+.game-app :is(.purchase-error,.error-message), .game-app .wallet-access .purchase-error { color: #904e37; border-color: #ad755e; font-size: 12px; }
+.game-app :is(.purchase-details,.liquidity-plan,.launch-ledger) { background: transparent; border: 0; border-top: 1px solid var(--paper-edge); padding: 15px 0 0; margin: 18px 0; }
+.game-app :is(.purchase-details,.liquidity-plan,.proof-details,.launch-ledger) summary { color: var(--ink); font: 18px var(--pixel); cursor: pointer; padding: 3px 0; line-height: 1.4; }
+.game-app :is(.purchase-details,.proof-details) a { font-size: 11px; }
+.game-app .liquidity-intro { color: var(--muted); font-size: 12px; margin-top: 14px; }
+.game-app .launch-route-link { color: var(--ink); background: #d8e1c2; border-color: #a7b490; font: 16px var(--pixel); padding: 12px; }
+.game-app .liquidity-route li { background: #dfe5cf; border-color: #aebd9c; }
+.game-app .liquidity-route li :is(span,strong,small) { color: var(--ink); white-space: normal; }
+.game-app .liquidity-matching { background: #e3dfea; border-color: #9c87ae; }
+.game-app .liquidity-matching :is(span,p,small,strong) { color: #665871; font-size: 11px; }
+.game-app .launch-plan-intro { font-size: 14px; color: var(--muted); margin: 20px 0; }
+.launch-plan-stats { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin: 22px 0; }
+.launch-plan-stats > div { background: #e2e6ce; padding: 16px; border: 1px solid #b8c09f; }
+.launch-plan-stats small,.launch-plan-stats span { display: block; font-size: 11px; line-height: 1.5; color: var(--muted); }
+.launch-plan-stats strong { display: block; font: 21px var(--pixel); margin: 10px 0 8px; }
+.launch-plan-steps { padding: 0; margin: 24px 0; list-style: none; }
+.launch-plan-steps li { display: flex; align-items: flex-start; gap: 16px; margin-top: 19px; }
+.launch-plan-steps li > b { display: grid; place-items: center; flex-shrink: 0; width: 34px; height: 34px; background: #d5c9df; border: 1px solid #aa9ab6; font: 20px var(--pixel); }
+.launch-plan-steps strong { font: 21px var(--pixel); }
+.launch-plan-steps p { margin: 6px 0 0; font-size: 12px; color: var(--muted); }
+.launch-plan-refund { font-size: 11px; color: var(--muted); padding: 0 0 0 14px; border-left: 3px solid #a6b28f; }
+.launch-demo-toggle { display: block; width: 100%; padding: 14px; border: 2px solid var(--ink); background: var(--forest-ui); color: var(--paper); font: 19px var(--pixel); box-shadow: 3px 3px #b7bea1; text-align: left; }
+.launch-simulation { border-top: 3px dashed #b7b89c; margin-top: 25px; padding-top: 10px; }
+.game-app .launch-scene { border-color: #829479; }
+.game-app .launch-scene > span { font-size: 9px; letter-spacing: 0; }
+.game-app .launch-status small { color: #7b628e; font: 13px var(--pixel); }
+.game-app .launch-status p { color: var(--muted); font-size: 12px; }
+.game-app .launch-targets { border-color: var(--paper-edge); }
+.game-app .launch-targets legend { color: var(--ink); font-size: 12px; }
+.game-app .launch-targets small { color: var(--muted); font-size: 11px; }
+.game-app .launch-targets button { color: var(--ink); background: #e3e4cd; border-color: #b1b99a; font: 18px var(--pixel); padding: 11px 7px; }
+.game-app .launch-targets button[aria-pressed='true'] { background: #cec2dd; border-color: #9986ad; }
+.game-app .launch-meter { color: var(--ink); background: #e2e6d0; border-color: #aebc98; padding: 15px; }
+.game-app .launch-meter :is(span,small,p) { color: var(--muted); font-size: 11px; }
+.game-app .launch-meter strong { font-size: 13px; color: var(--ink); }
+.game-app .launch-meter progress { accent-color: #849d66; background: #c6ceb3; }
+.game-app .launch-meter progress::-webkit-progress-bar { background: #c6ceb3; }.game-app .launch-meter progress::-webkit-progress-value { background: #849d66; }
+.game-app .launch-terms small { color: var(--muted); font-size: 11px; }
+.game-app .launch-terms strong { color: var(--ink); font: 18px var(--pixel); }
+.game-app .launch-alt-action { color: var(--ink); border-color: #afb79c; background: #e3dfca; font: 16px var(--pixel); }
+.game-app .pool-depth-table { font-size: 12px; color: var(--ink); }
+.game-app .pool-depth-table :is(caption,th) { color: var(--muted); font-size: 11px; }
+.game-app .pool-depth-table :is(th,td) { border-color: var(--paper-edge); }
+.game-app .launch-preview-footer { border-color: var(--paper-edge); }
+.game-app .launch-preview-footer p { color: var(--muted); font-size: 11px; }
+.game-app .launch-preview-footer button { color: #51674b; font: 17px var(--pixel); }
+/* The earlier top-down map keeps its controls, with the same frame and type. */
+.idle-village :is(.game-hud,.game-dock) { background: var(--paper); color: var(--ink); border-color: var(--ink); box-shadow: none; }
+.idle-village :is(.village-identity h1,.selection-details h2,.launch-button,.resource strong) { font-family: var(--pixel); font-weight: normal; }
+.idle-village .village-identity h1 { text-shadow: none; }
+.idle-village :is(.village-identity h1 span,.village-identity p span,.resource em) { color: var(--muted); }
+.idle-village .resource { box-shadow: none; }
+.idle-village :is(.village-identity p,.selection-details > p,.soul-source,.idle-hint,.resource small,.squad-toggle,.squad-toggle span) { color: var(--muted); }
+.idle-village .resource { background: #e0e5cf; border-color: #a1b28c; color: var(--ink); }
+.idle-village .resource strong { color: var(--ink); }
+.idle-village :is(.dock-menu > button,.hud-square) { color: var(--ink); background: #dce2c9; border-color: #a6b792; box-shadow: 2px 2px #b4bea1; }
+.idle-village :is(.weather-hud,.squad-popover,.tide-popover,.launch-entry,.community-hud) { background: #263f37; border-color: #bac797; box-shadow: 3px 3px #213b3466; backdrop-filter: none; }
+.idle-village :is(.selection-details > small,.selection-details > small span,.dock-menu > button > span:first-child,.building-copy small,.building-copy p,.building-copy h2 span) { color: var(--muted); }
+.idle-village :is(.community-card,.weather-hud) { background: var(--paper); color: var(--ink); border: 2px solid var(--ink); box-shadow: 4px 4px #213b3466; }
+.idle-village .community-card h2 { color: var(--ink); font: 23px/1.15 var(--pixel); }
+.idle-village :is(.community-card > small,.community-card p,.community-card .community-progress,.season-title,.season-title b,.demo-label) { color: var(--muted); }
+.idle-village .community-card .launch-entry { color: #625478; background: transparent; border-color: var(--paper-edge); box-shadow: none; }
+.idle-village :is(.community-action,.purchase-entry,.launch-button) { font-family: var(--pixel); font-weight: normal; border: 2px solid var(--ink); box-shadow: 3px 3px #b7bea1; }
+.idle-village .community-action { font-size: 17px; background: #d3dfb7; }
+.idle-village .launch-button span { font-size: 21px; font-weight: normal; text-shadow: none; }
+.idle-village .claim-button { color: #58456b; background: #dfd4eb; border-color: #9b8aaa; box-shadow: 3px 3px #b7bea1; }
+@media (max-width: 580px) {
+  .game-app .modal-backdrop { padding: 12px; }
+  .game-app :is(.library-dialog,.journal-dialog,.purchase-dialog,.launch-dialog) { padding: 19px; max-height: calc(100dvh - 24px); box-shadow: 4px 4px #142f3b66; }
+  .game-app :is(.library-dialog,.journal-dialog,.purchase-dialog,.launch-dialog) h2 { font-size: 27px; }
+  .game-app .soul-library { gap: 10px; }.game-app .soul-library span { font-size: 15px; }
+  .game-app .address-form > div { flex-direction: column; }.game-app .address-form input { font-size: 16px; }
+  .game-app .purchase-hero { gap: 12px; }.game-app .purchase-soul { width: 65px; height: 65px; }
+  .game-app .purchase-kicker { font-size: 9px; }.game-app .purchase-hero > div > p:last-child { font-size: 11px; }
+  .game-app .purchase-price { flex-wrap: wrap; gap: 12px 20px; }.game-app .purchase-price strong { font-size: 17px; }
+  .launch-plan-stats { gap: 8px; }.launch-plan-stats > div { padding: 12px; }.launch-plan-stats strong { font-size: 18px; }.launch-plan-stats span { font-size: 10px; }
+  .game-app .launch-meter > div { flex-wrap: wrap; gap: 8px; }.game-app .launch-meter strong { overflow-wrap: anywhere; }
+}

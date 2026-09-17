@@ -1,0 +1,70 @@
+.launch-entry { position: absolute; z-index: 9; left: 23px; top: 96px; display: flex; align-items: center; gap: 11px; background: #263e46f2; border: 2px solid #b8abc9; padding: 10px 14px; box-shadow: 0 4px #193b3466; text-align: left; color: #f7edce; }
+.launch-entry > span { font-size: 29px; color: #e2c586; }
+.launch-entry small { display: block; font-size: 7px; letter-spacing: 1.2px; color: #c4b8d3; margin-bottom: 4px; }
+.launch-entry strong { font-size: 11px; }
+.launch-entry em { display: block; width: 120px; height: 3px; margin-top: 6px; background: #172e36; }
+.launch-entry i { display: block; height: 100%; background: #e7c17a; }
+.launch-entry.launch-entry-live { border-color: #ffe2a5; }
+.launch-route-link { color: #f7dc9d; background: #385547; border: 1px solid #8d9d76; padding: 9px 11px; margin: 0 0 14px; font-size: 10px; width: 100%; text-align: left; }
+.launch-backdrop { background: #152c34e6; backdrop-filter: blur(3px); }
+.launch-dialog { width: min(100%, 560px); max-height: calc(100dvh - 48px); overflow-y: auto; overscroll-behavior: contain; background: #263d45; border: 3px solid #a7b5ae; box-shadow: 0 0 0 5px #172e32, 0 15px 70px #10212677; padding: 23px; color: #f3ebd4; scrollbar-color: #9c9bb0 #263d45; }
+.launch-heading { display: flex; justify-content: space-between; align-items: center; gap: 15px; }
+.launch-heading small { font-size: 8px; letter-spacing: 2px; color: #c5b8d9; }
+.launch-heading h2 { font-size: 28px; margin: 5px 0 0; }
+.launch-heading .hud-square { width: 32px; height: 32px; font-size: 15px; }
+.launch-demo-label { color: #d7d2bd; background: #344e52; padding: 8px 10px; font-size: 9px; margin: 16px 0 12px; }
+.launch-scene { position: relative; overflow: hidden; border: 2px solid #829a99; background: #253f55; }
+.launch-scene svg { display: block; width: 100%; }
+.launch-fren { position: absolute; width: 15%; height: auto; bottom: 7%; image-rendering: pixelated; pointer-events: none; }
+.launch-fren-0 { left: 9%; }.launch-fren-1 { left: 68%; }.launch-fren-2 { left: 81%; width: 12%; }
+.launch-scene > span { position: absolute; top: 6px; left: 8px; font-size: 6px; letter-spacing: .7px; color: #cad4d1; }
+.launch-status { margin-top: 19px; outline-offset: 5px; }
+.launch-status small { color: #c3b5db; font-size: 9px; letter-spacing: .7px; }
+.launch-status h3 { font-size: 21px; margin: 6px 0; line-height: 1.3; color: #f9e3af; }
+.launch-status p { font-size: 11px; color: #c3d5cc; line-height: 1.75; margin: 0 0 18px; }
+.launch-meter { border: 1px solid #728a84; background: #20383f; padding: 13px; }
+.launch-meter > div { display: flex; justify-content: space-between; gap: 8px; align-items: center; }
+.launch-meter span { font-size: 9px; color: #c4d7cd; }
+.launch-meter strong { font-size: 16px; color: #f4dcaa; }
+.launch-meter small { font-size: 9px; font-weight: 400; color: #b9cbbf; }
+.launch-meter progress { display: block; width: 100%; height: 8px; margin-top: 12px; accent-color: #cdb177; }
+.launch-meter p { color: #aec5bd; font-size: 9px; margin: 8px 0 0; }
+.launch-targets { padding: 0; margin: 0 0 15px; border: 0; }
+.launch-targets legend { color: #d8ccb0; font-size: 10px; margin-bottom: 8px; }
+.launch-targets > div { display: flex; gap: 8px; }
+.launch-targets button { flex: 1; background: #30494e; color: #d3dccb; border: 1px solid #7c9387; padding: 9px 5px; font-size: 11px; }
+.launch-targets button[aria-pressed="true"] { color: #ffe6b4; background: #4e5d53; border-color: #e0bf83; }
+.launch-targets small { display: block; font-size: 8px; color: #b0c6bd; margin-top: 7px; line-height: 1.7; }
+.pool-depth-table { width: 100%; border-collapse: collapse; margin-top: 12px; font-size: 10px; text-align: right; }
+.pool-depth-table caption { text-align: left; font-size: 10px; color: #d6cbae; margin-bottom: 8px; }
+.pool-depth-table th { color: #b9cdbf; font-weight: 500; }
+.pool-depth-table td, .pool-depth-table th { padding: 8px 3px; border-bottom: 1px solid #5a7673; }
+.pool-depth-table td { color: #eee2c4; }.pool-depth-table :is(th,td):first-child { text-align: left; }
+.launch-terms { display: flex; justify-content: space-between; gap: 14px; padding: 16px 0; }
+.launch-terms small { display: block; font-size: 9px; color: #b9cabb; margin-bottom: 5px; }
+.launch-terms strong { font-size: 13px; color: #ede4c3; }
+.launch-sim-controls { display: flex; gap: 10px; flex-wrap: wrap; }
+.launch-main-action { flex: 1 1 230px; display: flex; justify-content: space-between; align-items: center; gap: 10px; padding: 12px 15px; background: #e8c17e; color: #30403b; border: 2px solid #ffe3a5; box-shadow: inset 0 -4px #b99057; font-size: 12px; font-weight: 800; min-height: 47px; }
+.launch-main-action > span { font-size: 18px; }
+.launch-alt-action { color: #cbd2ce; background: #354a54; border: 1px solid #788998; padding: 9px; font-size: 10px; }
+.launch-ledger { border-top: 1px solid #6a8380; margin-top: 21px; padding-top: 12px; }
+.launch-ledger summary { font-size: 11px; color: #ddceb4; cursor: pointer; }
+.launch-ledger dl > div { display: flex; justify-content: space-between; gap: 16px; margin: 8px 0; font-size: 10px; line-height: 1.6; }
+.launch-ledger dt { color: #b6cbbf; }.launch-ledger dd { margin: 0; text-align: right; color: #f2dbb6; }
+.launch-ledger p, .launch-preview-footer p { font-size: 9px; line-height: 1.8; color: #b2c8bf; }
+.launch-preview-footer { display: flex; align-items: center; gap: 14px; margin-top: 12px; }
+.launch-preview-footer p { flex: 1; margin: 0; }
+.launch-preview-footer button { flex-shrink: 0; font-size: 9px; background: none; text-decoration: underline; color: #e0c9b0; padding: 6px 0; }
+.launch-sparkles { animation: beacon-arrival 2s steps(2, end) infinite; }
+@keyframes beacon-arrival { 50% { opacity: .55; } }
+.reduce-motion .launch-sparkles { animation: none; }
+@media (max-width: 850px) { .launch-entry { left: 14px; top: 89px; padding: 8px 11px; } .launch-entry strong { font-size: 10px; } .launch-entry > span { font-size: 23px; } }
+@media (max-width: 650px) {
+  .launch-entry { top: 114px; left: 10px; gap: 7px; padding: 7px 9px; }
+  .launch-entry small { font-size: 6px; }.launch-entry em { width: 105px; }
+  .launch-dialog { padding: 17px; max-height: calc(100dvh - 24px); }
+  .launch-backdrop { padding: 12px; }.launch-heading h2 { font-size: 25px; }
+  .launch-status h3 { font-size: 20px; }.launch-meter > div { flex-direction: column; align-items: flex-start; }
+  .launch-preview-footer { flex-direction: column; align-items: flex-start; gap: 6px; }
+  .launch-demo-label { font-size: 8px; }
+}

@@ -1,0 +1,117 @@
+.idle-village { --grass: #76bb4c; }
+.idle-village.tide-calm { --grass: #68a977; }
+.idle-village.tide-down { --grass: #508e87; }
+.idle-village .village-viewport { overflow: clip; }
+.idle-village .world-board { width: 3840px; height: 2560px; }
+.wilds-art { position: absolute; inset: 0; width: 100%; height: 100%; pointer-events: none; }
+.village-core { position: absolute; left: 1280px; top: 853.333px; width: 1280px; height: 853.333px; }
+.idle-village .game-hud { background: #213e3b; border-bottom-color: #142e2d; box-shadow: inset 0 -2px #557b65; }
+.idle-village .game-dock { min-height: 112px; padding: 13px 23px; gap: 18px; background: #213e3b; border-top-color: #719776; }
+.idle-village .resource { background: #183430; border-color: #719477; }
+.idle-village .selection-panel { min-width: 250px; max-width: 430px; }
+.idle-village .selected-portrait { width: 72px; height: 72px; }
+.idle-village .selection-details h2 { margin: 2px 0 6px; font-size: 19px; letter-spacing: 0; }
+.squad-toggle { background: none; color: #f3e8b5; padding: 0; font-size: 11px; text-align: left; }
+.squad-toggle span { color: #b6d3bc; }
+.squad-popover, .tide-popover { position: absolute; background: #223d39; border: 2px solid #a5bb83; box-shadow: 0 5px #18332bbb; padding: 17px; width: 315px; text-align: left; }
+.squad-popover { left: 0; bottom: calc(100% + 26px); }
+.squad-popover strong { font-size: 14px; color: #ffdf96; }
+.squad-popover p, .tide-popover p { font-size: 11px; color: #d1dfc4; line-height: 1.7; margin: 7px 0 13px; }
+.tide-popover { right: -2px; top: calc(100% + 8px); }
+.tide-popover small { display: block; margin-top: 10px; color: #aec7b5; font-size: 10px; }
+.tide-edit { width: 27px; height: 27px; background: #4a6951; font-size: 18px; }
+.idle-village .weather-hud { background: #244239ed; border-color: #9abe8b; }
+.idle-village .dock-menu { flex-direction: row; gap: 8px; }
+.idle-village .dock-menu > button { min-width: 62px; height: 72px; padding: 8px; background: #3e6250; border-color: #87a47a; }
+.idle-village .dock-menu > button > span:first-child { font-size: 23px; margin-bottom: 4px; }
+.idle-actions { display: flex; align-items: center; gap: 10px; }
+.idle-village .expedition-controls { min-width: 200px; width: 230px; }
+.idle-village .launch-button { min-height: 48px; background: #f1c66e; border-color: #ffe2a0; }
+.idle-village .launch-button.chilling { background: #a1d38c; border-color: #d6ed9e; box-shadow: inset 0 3px #d4e99c77, inset 0 -5px #6e9e70, 0 3px #18322d; }
+.idle-hint { font-size: 10px; text-align: center; color: #c3d6c0; margin-top: 7px; white-space: nowrap; }
+.idle-village progress { margin-top: 6px; }
+.claim-button { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 5px; background: #8273b0; color: #fff1d4; border: 2px solid #c5afe5; box-shadow: inset 0 -4px #625384; min-width: 85px; height: 74px; }
+.claim-button span { font-size: 20px; font-weight: 800; }
+.claim-button strong { font-size: 12px; }
+.claim-button:not(:disabled):hover { background: #9d86c7; }
+.idle-village .game-toast { bottom: 125px; left: 50%; transform: translateX(-50%); text-align: center; width: max-content; max-width: calc(100% - 350px); background: #23423ce8; border: 1px solid #a0b78c; padding: 7px 13px; }
+.minimap { position: absolute; z-index: 6; left: 23px; bottom: 22px; padding: 5px 5px 3px; width: 152px; background: #264b3fed; border: 2px solid #a5bd8c; box-shadow: 0 4px #21443866; }
+.minimap svg { width: 100%; display: block; }
+.minimap span { display: block; font-size: 8px; letter-spacing: 1.1px; margin-top: 5px; color: #d4dfb8; }
+.idle-village .camera-controls { bottom: 25px; }
+.camera-controls .overview-button { width: 119px; height: 29px; font-size: 10px; margin-bottom: 7px; background: #325c4a; }
+.idle-village .battle-banner { top: 76px; font-size: 12px; background: #25443ded; }
+@media (max-width: 1100px) {
+  .idle-village .game-dock { padding: 12px 16px; gap: 12px; }
+  .idle-village .selection-panel { min-width: 225px; gap: 10px; }
+  .idle-village .expedition-controls { min-width: 185px; width: 195px; }
+  .idle-village .selected-portrait { width: 64px; height: 64px; }
+  .idle-village .dock-menu > button { min-width: 53px; }
+  .idle-village .selection-details h2 { font-size: 17px; }
+  .claim-button { min-width: 72px; }
+}
+@media (max-width: 850px) {
+  .idle-village .game-dock { gap: 10px; padding: 11px 14px; }
+  .idle-village .selection-panel { min-width: 193px; }
+  .idle-village .selection-details > small { font-size: 8px; }
+  .idle-village .selected-portrait { width: 58px; height: 58px; }
+  .idle-village .selection-details h2 { font-size: 15px; }
+  .squad-toggle { font-size: 10px; }
+  .squad-toggle span { display: block; }
+  .idle-village .dock-menu { flex-direction: column; gap: 4px; }
+  .idle-village .dock-menu > button { min-width: 68px; height: 34px; padding: 4px 7px; flex-direction: row; }
+  .idle-village .dock-menu > button > span:first-child { font-size: 17px; margin: 0; }
+  .idle-village .expedition-controls { min-width: 164px; width: 180px; }
+  .idle-village .weather-hud { right: 18px; left: auto; }
+  .idle-village .map-corner { top: 57px; }
+  .idle-village .battle-banner { top: 96px; white-space: nowrap; }
+  .idle-village .game-toast { max-width: calc(100% - 310px); bottom: 122px; font-size: 10px; }
+}
+@media (max-width: 650px) {
+  .idle-village .game-dock { min-height: 168px; grid-template-columns: minmax(0, 1fr) 92px; grid-template-rows: 62px 74px; gap: 8px; padding: 8px 12px 10px; }
+  .idle-village .selection-panel { grid-column: 1; min-width: 0; padding-bottom: 0; border: 0; gap: 9px; }
+  .idle-village .selected-portrait { width: 55px; height: 55px; }
+  .idle-village .selection-details h2 { margin: 1px 0 3px; font-size: 15px; }
+  .idle-village .selection-details > small { font-size: 8px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .squad-toggle span { display: inline; font-size: 9px; }
+  .idle-village .dock-menu { grid-column: 2; grid-row: 1; flex-direction: row; gap: 5px; }
+  .idle-village .dock-menu > button { flex: 1; min-width: 0; height: 55px; font-size: 9px; flex-direction: column; gap: 4px; padding: 3px; }
+  .idle-actions { grid-column: 1 / -1; grid-row: 2; width: 100%; gap: 10px; border-top: 1px solid #5b7a62; padding-top: 8px; }
+  .claim-button { height: 61px; min-width: 94px; gap: 2px; }
+  .claim-button span { font-size: 20px; }
+  .idle-village .expedition-controls { min-width: 0; width: auto; flex: 1; }
+  .idle-village .launch-button { min-height: 39px; padding: 5px 12px; }
+  .idle-village .launch-button span { font-size: 14px; }
+  .idle-village .idle-hint { font-size: 9px; margin-top: 5px; }
+  .idle-village progress { margin-top: 4px; }
+  .idle-village .weather-hud { top: 82px; left: 11px; right: 11px; padding: 5px 8px; gap: 5px; }
+  .idle-village .demo-label { display: block; font-size: 8px; margin-left: auto; }
+  .idle-village .season-title { font-size: 11px; }
+  .idle-village .map-corner { top: 53px; }
+  .idle-village .battle-banner { top: 87px; padding: 7px 9px; gap: 4px; font-size: 10px; max-width: calc(100% - 20px); }
+  .minimap { width: 105px; left: 12px; bottom: 51px; padding: 4px; }
+  .minimap span { font-size: 6px; letter-spacing: .8px; }
+  .idle-village .camera-controls { right: 12px; bottom: 50px; }
+  .camera-controls .overview-button { width: 107px; font-size: 10px; margin-bottom: 4px; }
+  .idle-village .camera-controls > span { display: none; }
+  .idle-village .game-toast { bottom: 177px; max-width: calc(100% - 24px); font-size: 9px; padding: 5px 8px; }
+  .squad-popover { bottom: calc(100% + 17px); width: min(310px, calc(100vw - 24px)); }
+  .tide-popover { width: min(310px, calc(100vw - 24px)); }
+  .idle-village .building-icon { width: 40px; height: 44px; font-size: 26px; }
+  .idle-village .building-copy h2 { font-size: 12px; margin: 2px 0; }
+  .idle-village .building-copy p { display: none; }
+  .idle-village .panel-close { align-self: flex-start; padding: 0; }
+}
+@media (max-width: 380px) {
+  .idle-village .game-dock { padding-left: 9px; padding-right: 9px; grid-template-columns: minmax(0, 1fr) 82px; }
+  .idle-village .selected-portrait { width: 45px; height: 45px; }
+  .squad-toggle span { display: block; }
+  .idle-village .village-identity p { font-size: 8px; }
+}
+@media (max-height: 570px) and (min-width: 651px) {
+  .idle-village .game-dock { min-height: 94px; padding-top: 6px; padding-bottom: 6px; }
+  .idle-village .game-toast { bottom: 102px; }
+  .idle-village .weather-hud { top: 66px; }
+  .idle-village .battle-banner { top: 55px; }
+  .minimap { width: 110px; bottom: 17px; }
+}
