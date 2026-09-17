@@ -10,7 +10,12 @@ const chains = [base]
 const wagmiConfig = defaultWagmiConfig({
   chains,
   projectId,
-  appName: 'App',
+  metadata: {
+    name: ['souli.net', 'www.souli.net'].includes(window.location.hostname) ? 'SOULI' : 'SOULI · Development preview',
+    description: 'SOULI on Base — on-chain SVG souls',
+    url: window.location.origin,
+    icons: [new URL('/images/fungi/logo.png', window.location.origin).href],
+  },
 })
 
 export default createWeb3Modal({ wagmiConfig, projectId, chains })
