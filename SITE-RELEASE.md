@@ -24,13 +24,17 @@ node scripts/test-wallet-session.mjs
 
 Verified on 2026-09-17: production build, all four test scripts, desktop / 390px / 360px layouts, five-layer preview, gallery-to-game selection, launch deep link, SVG address lookup against Base, FAQ, image loading and browser console. No wallet signing or financial transaction was performed.
 
+Handoff verification on 2026-09-30: a fresh GitHub master clone passed `npm ci --no-audit --no-fund`, production build and all four test scripts with Node v24.16.0 / npm 11.13.0. The existing dependency deprecation and game bundle-size warnings remain.
+
 The homepage shares the SVG renderer with the game but does not load Web3. The game keeps the existing `souli-idle-v2` saved-progress schema. Changing hosting origin starts a separate browser save; local development progress does not transfer automatically.
 
 ## Official deployment status
 
-The release candidate lives on `souli-pixel-world`; the existing default branch is `master`. The homepage canonical and sharing URL point to souli.net. The separate Sites preview is not the official deployment target, and its hosting binding is omitted from this branch.
+The website and game were merged into `master` in [PR #1](https://github.com/yongchoi422/poopi_frontend/pull/1), commit `df91159761c91f296051bc4cf4edf94660c85996`. The homepage canonical and sharing URL point to souli.net. The separate Sites preview is not the official deployment target, and its hosting binding is omitted. For another computer, start with [HANDOFF.ko.md](HANDOFF.ko.md).
 
-Read-only inspection on 2026-09-17 found Google serving souli.net, a Dockerfile in this repository that builds and serves `dist` on port 8080, and no GitHub Actions runs or commit checks on the existing master commit. This does not identify the actual hosting service or prove whether an external build trigger exists. No production deployment, DNS change, or default-branch update has been performed.
+Read-only inspection on 2026-09-17 found Google serving souli.net, a Dockerfile in this repository that builds and serves `dist` on port 8080, and no GitHub Actions runs or commit checks identifying deployment. Immediately after merging, souli.net still served its original page. This does not identify the actual hosting service or prove whether an external build trigger exists. No production deployment or DNS change was performed in this work; this dated observation is not a claim about the site's current state.
+
+The owner subsequently chose to leave the source on GitHub and manually deploy through the existing Google hosting service when ready. Do not add automatic deployment or create another Sites deployment as part of routine development or handoff.
 
 Before publishing this branch to souli.net, identify the Google Cloud project / hosting service and its build trigger, preserve the current deployment revision for rollback, and verify both `/` and `/lighthouse.html` on the resulting deployment. The current original collection UI is retained in source and development-only `legacy.html`, but is excluded from this candidate's production build; it must be given a production route if that interface is to remain available on the new site. The existing Dockerfile still uses Node 16 and has not been rebuilt or validated for the actual production environment.
 

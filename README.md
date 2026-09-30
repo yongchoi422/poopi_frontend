@@ -1,4 +1,10 @@
-# Fungi Interface
+# SOULI web and SVG world
+
+Start here when moving to another computer: [SOULI handoff and setup (한국어)](HANDOFF.ko.md).
+
+This repository contains the English pixel homepage and playable idle-world preview. The default branch is `master`; the game entry is `/lighthouse.html`. See [release scope](SITE-RELEASE.md) for implemented features and simulation boundaries. Production deployment to the existing Google-hosted souli.net service is manual; automatic deployment is not requested.
+
+## Original project artwork
 
 ```
 ////////////////////////////////////////////////////////////////////////////////
