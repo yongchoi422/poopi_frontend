@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "chainId": 8453,
+  "token": "0xb43eA104c7ec75038Ac8EcA57107Eefc8B039aFF",
+  "deployer": "0x4a4AA86208EcFdBACBaD551dF7baf5D3C84425BB",
+  "nonce": null,
+  "operators": [
+    "0x4a4AA86208EcFdBACBaD551dF7baf5D3C84425BB",
+    "0x3cDF38407cE65966055aDDF8bfC5B17eF00397e1",
+    "0x9Bf15CD7Cc82655fAe3803663Ba1c6D5ED07D607"
+  ],
+  "unitPriceWei": null,
+  "saleCap": "4200000",
+  "walletCap": "4200000",
+  "startsAt": null,
+  "endsAt": "0"
+}

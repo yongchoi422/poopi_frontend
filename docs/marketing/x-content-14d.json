@@ -1,0 +1,196 @@
+{
+  "version": 3,
+  "prepared_on": "2026-10-01",
+  "timezone": "Asia/Seoul",
+  "account": "Souli_ERC20i",
+  "updated_on": "2026-10-02",
+  "status": "preparation_only_not_scheduled",
+  "publishing_hold": "Owner requested preparation only while development continues. Do not publish, schedule, deploy or activate recurring execution until the owner resumes publishing.",
+  "cash_budget_usd": 0,
+  "schedule_basis": "The numbered days and KST times below are legacy draft slots, not a booked schedule. Select four posts per week after publishing resumes.",
+  "default_cadence": "Initial experiment after publishing resumes: four original posts per week, normally no more than one per day. Two character/mood posts, one real development post, one relevant Base/community post. Compare 10:00 and 22:00 KST; replace irrelevant drafts with verified event posts.",
+  "publisher_plan": "Prepare only now. After the owner resumes publishing, use the logged-in SOULI X browser, verify each published URL and record the result. Recurring execution is not configured.",
+  "market_asset": "ETH",
+  "ecosystem": "Base",
+  "video_library": "docs/marketing/video-content-library.json",
+  "owner_decisions": {
+    "game_entry": "Design the basic game so holding 1 SOULI is enough to participate. Verify the full production entry flow before claiming it is live.",
+    "launch_sequence": "SOULI sale, then use sale proceeds to seed LP, then open Uniswap trading on Base. The LP percentage, pair, timing and management terms are not yet finalized.",
+    "audience": "Start with a small committed holder and onchain-art community; mass gaming adoption is not a launch prerequisite.",
+    "ambition": "Work toward a $500M valuation as an aspirational target. Distinguish circulating market cap from FDV; never present the target as a return promise."
+  },
+  "profile": {
+    "bio": "Onchain pixel souls on Base. Building a little world you can join with 1 SOULI.",
+    "pinned_post": "SOULI is building a little world on Base.\n\nOur design: 1 SOULI is enough to join.\nOur launch plan: SOULI sale -> liquidity -> Uniswap trading.\n\nOriginal pixel souls. A small community with a big ambition.\n\nGame and launch details are in development.",
+    "website": "https://souli.net/",
+    "website_condition": "Check the public site's content and links before updating the profile or adding a play CTA."
+  },
+  "rules": [
+    "These are proposed brand posts, not financial recommendations or promises.",
+    "Keep source SVG artwork unchanged. Cinematic AI promotional interpretations are permitted by the owner; keep recognizable silhouettes and palette, label them as promotional animation when context could imply actual gameplay, and do not claim pixel-identical reproduction.",
+    "Mark local development images WIP; distinguish production footage from local or simulated footage.",
+    "Do not fabricate users, achievements, partnership announcements, token prices or release dates.",
+    "Do not publish internal funding records or private user information.",
+    "No automated unsolicited replies, mentions, follows, likes or DMs.",
+    "A missing or stale source blocks the relevant factual claim; it does not invite guessing.",
+    "No live sale or public demo claim until separately verified.",
+    "A user's artwork is featured only with permission and attribution.",
+    "Each post needs its required asset before moving from draft to ready."
+  ],
+  "posts": [
+    {
+      "id": "souli-restart-01",
+      "day": 1,
+      "kst_time": "22:00",
+      "pillar": "restart",
+      "text": "Small update from SOULI: we're building a cozy world around our original onchain companions.\n\nWe'll share the real work here, one little scene at a time.\n\nStill in development. Glad you're here.",
+      "asset": "One actual local village screenshot, marked WIP.",
+      "source": "docs/RELEASE-CANDIDATE.ko.md",
+      "goal": "Introduce the current project clearly.",
+      "status": "draft"
+    },
+    {
+      "id": "souli-restart-02",
+      "day": 2,
+      "kst_time": "10:00",
+      "pillar": "character",
+      "text": "24 x 24 pixels. A surprising amount of personality.\n\nWhat would you name this little soul?",
+      "asset": "One original SOULI SVG sample rendered without altering the character; label it a sample.",
+      "source": "src/site/SouliHome.vue",
+      "goal": "Invite a simple, genuine creative reply.",
+      "status": "draft"
+    },
+    {
+      "id": "souli-restart-03",
+      "day": 3,
+      "kst_time": "22:00",
+      "pillar": "build",
+      "text": "A small place to take a break from the charts.\n\nWe're working on village life that carries on quietly while you watch.\n\nSOULI development preview.",
+      "asset": "Six to ten seconds of actual automatic village activity, marked WIP.",
+      "source": "docs/AUTOMATIC-WORLD.ko.md",
+      "goal": "Communicate the game's mood through actual footage.",
+      "status": "draft"
+    },
+    {
+      "id": "souli-restart-04",
+      "day": 4,
+      "kst_time": "10:00",
+      "pillar": "meme",
+      "text": "me: just one more look at the chart\n\nmy little soul: the grass is right here",
+      "asset": "Original SOULI sample in an actual grassy game scene; mark WIP where applicable.",
+      "source": "src/site/SouliHome.vue",
+      "goal": "Test whether a character joke earns organic shares.",
+      "status": "draft"
+    },
+    {
+      "id": "souli-restart-05",
+      "day": 5,
+      "kst_time": "22:00",
+      "pillar": "origin",
+      "text": "Our roots are in the ERC-20i experiments pioneered by Fungi.\n\nWith SOULI, we're exploring what happens when those onchain forms have a little world to live in.\n\nStill building. Still curious.",
+      "asset": "One original SOULI sample and its actual development scene. Do not imply an official Fungi partnership.",
+      "source": "User-provided origin; https://github.com/ToddStool/fungi; docs/SOULI-GAME-DESIGN.ko.md",
+      "goal": "Explain the lineage and SOULI's own product direction.",
+      "status": "draft"
+    },
+    {
+      "id": "souli-restart-06",
+      "day": 6,
+      "kst_time": "10:00",
+      "pillar": "weather",
+      "text": "An idea we're testing: ETH moves the weather in a little pixel village.\n\nRain outside. Warm lights inside.\n\nSOULI development preview.",
+      "asset": "Actual local rain scene. Label simulated weather as Weather demo; do not claim live market conditions.",
+      "source": "docs/AUTOMATIC-WORLD.ko.md",
+      "goal": "Test understanding and interest in the weather feature.",
+      "status": "draft"
+    },
+    {
+      "id": "souli-restart-07",
+      "day": 7,
+      "kst_time": "22:00",
+      "pillar": "one_souli",
+      "text": "We're designing SOULI so holding just 1 token is enough to join the game.\n\nA tiny soul still belongs in the village. Higher artwork stages are optional collectibles.\n\nStill in development.",
+      "asset": "Optional actual tiny soul game screenshot, marked WIP. This text can stand alone.",
+      "source": "Owner decision 2026-10-01; docs/SOULI-MARKETING-PLAN.ko.md section 5; server/chain.mjs is partial evidence, not a production-flow verification.",
+      "goal": "Explain the 1 SOULI entry design without claiming public access is live.",
+      "status": "draft"
+    },
+    {
+      "id": "souli-restart-08",
+      "day": 8,
+      "kst_time": "10:00",
+      "pillar": "character",
+      "text": "Some souls start as a tiny dot.\n\nTiny still belongs in the village.\n\nA SOULI development peek.",
+      "asset": "Actual tiny soul sample in the local world, marked WIP.",
+      "source": "docs/BETA-READINESS.ko.md",
+      "goal": "Make the smallest form desirable without a spending prompt.",
+      "status": "draft"
+    },
+    {
+      "id": "souli-restart-09",
+      "day": 9,
+      "kst_time": "22:00",
+      "pillar": "education",
+      "text": "A SOULI companion comes from its token's onchain inscription. It isn't a separate NFT collection.\n\nWe're building the world around those original forms. Same pixels, a new place to explore.",
+      "asset": "Original sample beside the same form in the actual local scene.",
+      "source": "src/site/SouliHome.vue",
+      "goal": "Clarify ownership and the original artwork.",
+      "status": "draft"
+    },
+    {
+      "id": "souli-restart-10",
+      "day": 10,
+      "kst_time": "10:00",
+      "pillar": "meme",
+      "text": "no thoughts\njust a very small place to be",
+      "asset": "A short original SOULI ambient loop, marked WIP if from the local game.",
+      "source": "Original caption; existing SOULI scene.",
+      "goal": "Test a reusable emotional reaction format.",
+      "status": "draft"
+    },
+    {
+      "id": "souli-restart-11",
+      "day": 11,
+      "kst_time": "22:00",
+      "pillar": "launch_plan",
+      "text": "Our launch plan on Base:\n\nSOULI sale -> use sale proceeds to seed liquidity -> Uniswap trading.\n\nWe'll publish the sale terms and LP plan before the sale opens.\n\nThis is the plan; the new sale and pool aren't live yet.",
+      "asset": "Text-only is sufficient. Recheck sale and pool status immediately before publishing; do not invent a percentage or lock commitment.",
+      "source": "Owner decision 2026-10-01; docs/ETH-SALE.ko.md; actual sale and pool state must be rechecked.",
+      "goal": "Make the sale-to-LP sequence clear without announcing a completed launch.",
+      "status": "draft"
+    },
+    {
+      "id": "souli-restart-12",
+      "day": 12,
+      "kst_time": "10:00",
+      "pillar": "education",
+      "text": "A SOULI form can change as tokens move. Some transfers can preserve a form, but later spending can affect it too.\n\nWe're working on making those choices easier to understand.\n\nPreservation transfers aren't enabled in this preview.",
+      "asset": "Actual explanatory preview screen; no invented transaction result.",
+      "source": "docs/ETH-SALE.ko.md; src/site/SouliHome.vue",
+      "goal": "Explain a real limitation clearly.",
+      "status": "draft"
+    },
+    {
+      "id": "souli-restart-13",
+      "day": 13,
+      "kst_time": "22:00",
+      "pillar": "sale_preparation",
+      "text": "What we're preparing for SOULI's sale:\n\n- Amount offered and ETH price\n- Sale timing and purchase steps\n- How proceeds will seed LP\n- When and where trading opens\n\nWe'll put the details in one place before opening purchases.",
+      "asset": "Text-only is sufficient. Recheck preparation status before publishing; link final terms when they exist.",
+      "source": "docs/SOULI-MARKETING-PLAN.ko.md section 5; docs/ETH-SALE.ko.md",
+      "goal": "Explain what purchasers will be able to check before launch.",
+      "status": "draft"
+    },
+    {
+      "id": "souli-restart-14",
+      "day": 14,
+      "kst_time": "10:00",
+      "pillar": "recap",
+      "text": "A few quiet moments from the SOULI world we're building.\n\nWhich scene would you want to return to?\n\nDevelopment preview. Thanks for spending a little time here.",
+      "asset": "Three previously verified original development scenes; no fabricated community metrics.",
+      "source": "Previously verified assets from this content series.",
+      "goal": "Compare preferences and inform the next two-week cycle.",
+      "status": "draft"
+    }
+  ]
+}

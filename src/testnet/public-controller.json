@@ -1,0 +1,7 @@
+{
+  "chainId": 84532,
+  "address": "0x734417B7CAe7D8A00d15ED886d46463d1a64C087",
+  "sale": "0x534d2408dE5BA5c8dB54105C38D3040ec7388708",
+  "deploymentTransaction": "0x467e0b9fbea0257c02c7e46911aaf0a33ebf658259914ff07170a0ffebd21314",
+  "note": "Deployed Base Sepolia test only. Each registered wallet acts independently. Generic tSOULI has no inscription or monetary value. Mainnet sales remain disabled."
+}

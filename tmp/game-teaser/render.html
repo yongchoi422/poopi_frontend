@@ -1,0 +1,28 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><title>SOULI original 3D teaser render</title>
+<style>body{margin:0;background:#eaf0ff;font:16px system-ui;color:#172450}canvas{display:block;width:min(76vh,90vw)!important;height:auto!important;margin:20px auto}button{display:block;margin:20px auto;padding:16px 24px}p{text-align:center}</style>
+<script type="importmap">{"imports":{"three":"/three.module.js"}}</script>
+<p id="status">Rendering the existing original SOULI model…</p><button id="save" disabled>Save character PNG</button>
+<script type="module">
+import * as THREE from 'three';
+import {createSoulVolume} from '/soul-volume.mjs';
+import {parseArtwork} from '/artwork.mjs';
+const original=(await(await fetch('/souls.json')).json()).souls[0];
+const soul=parseArtwork(original.svg);
+if(soul.mode!=='volume')throw Error('Expected original pixel geometry');
+const renderer=new THREE.WebGLRenderer({antialias:true,alpha:true,preserveDrawingBuffer:true});
+renderer.setSize(1000,1000);renderer.setClearColor(0x000000,0);renderer.outputColorSpace=THREE.SRGBColorSpace;
+renderer.toneMapping=THREE.ACESFilmicToneMapping;renderer.toneMappingExposure=1.1;
+document.body.insertBefore(renderer.domElement,document.querySelector('#save'));
+const scene=new THREE.Scene();
+const figure=createSoulVolume(soul,{depth:5.5,roundness:.18,worldWidth:2.2});
+figure.rotation.y=-.42;figure.rotation.z=.035;scene.add(figure);
+const bounds=new THREE.Box3().setFromObject(figure),center=bounds.getCenter(new THREE.Vector3());figure.position.sub(center);
+const camera=new THREE.OrthographicCamera(-1.5,1.5,1.5,-1.5,.1,20);camera.position.set(.1,.65,7);camera.lookAt(0,0,0);
+scene.add(new THREE.HemisphereLight('#ffffff','#8da5d4',2.4));
+const key=new THREE.DirectionalLight('#fff4d9',3.4);key.position.set(-3,5,4);scene.add(key);
+const fill=new THREE.DirectionalLight('#dbe9ff',1.1);fill.position.set(4,2,-1);scene.add(fill);
+renderer.render(scene,camera);
+document.querySelector('#status').textContent='Original SOULI · existing game geometry · transparent 1000 × 1000';
+const save=document.querySelector('#save');save.disabled=false;
+save.onclick=()=>renderer.domElement.toBlob(blob=>{const a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download='souli-character-teaser-v1.png';a.click();setTimeout(()=>URL.revokeObjectURL(a.href),10000)},'image/png');
+</script></html>

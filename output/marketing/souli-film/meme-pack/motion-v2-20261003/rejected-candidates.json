@@ -1,0 +1,107 @@
+[
+  {
+    "id": "01",
+    "revision": "r1",
+    "status": "rejected",
+    "reason": "4.5초 부근 얼굴과 SOULI 글자 추가"
+  },
+  {
+    "id": "02",
+    "revision": "r1",
+    "status": "rejected",
+    "reason": "3.5초 무렵 새 눈과 눈썹 추가"
+  },
+  {
+    "id": "03",
+    "revision": "r1",
+    "status": "rejected",
+    "reason": "체커 무늬 위 새 검정 점과 눈썹"
+  },
+  {
+    "id": "06",
+    "revision": "r1",
+    "status": "rejected",
+    "reason": "4초 무렵 새 얼굴로 재도색"
+  },
+  {
+    "id": "07",
+    "revision": "r1",
+    "status": "rejected",
+    "reason": "2초 새 화난 얼굴과 무늬 없는 뒷면"
+  },
+  {
+    "id": "14",
+    "revision": "r1",
+    "status": "rejected",
+    "reason": "윗부분이 길어지고 새로운 검정 무늬"
+  },
+  {
+    "id": "21",
+    "revision": "r1",
+    "status": "rejected",
+    "reason": "원래 가로 무늬가 민트 테두리와 흰 눈으로 변함"
+  },
+  {
+    "id": "21",
+    "revision": "r2",
+    "status": "rejected",
+    "reason": "가려진 뒤 몸체가 길어지고 무늬가 세로로 바뀜. 사람 손 등장"
+  },
+  {
+    "id": "22",
+    "revision": "r1",
+    "status": "rejected",
+    "reason": "약1초에 새 흰 눈"
+  },
+  {
+    "id": "25",
+    "revision": "r1",
+    "status": "rejected",
+    "reason": "상단 두 돌출부가 크게 자람"
+  },
+  {
+    "id": "26",
+    "revision": "r1",
+    "status": "rejected",
+    "reason": "연기에 가려진 뒤 얼굴과 다리가 생성됨"
+  },
+  {
+    "id": "29",
+    "revision": "r1",
+    "status": "rejected",
+    "reason": "사람 형태로 완전 변형"
+  },
+  {
+    "id": "37",
+    "revision": "r1",
+    "status": "rejected",
+    "reason": "사람형 로봇으로 변형"
+  },
+  {
+    "id": "36",
+    "revision": "r1",
+    "status": "rejected",
+    "reason": "원래 없던 긴 수평 돌출부"
+  },
+  {
+    "id": "36",
+    "revision": "r2",
+    "status": "rejected",
+    "reason": "작은 복제 캐릭터가 추가로 등장"
+  },
+  {
+    "id": "36",
+    "revision": "r3",
+    "status": "rejected",
+    "reason": "검정 가로 막대가 눈 형태로 변함"
+  },
+  {
+    "id": "54",
+    "revision": "r1",
+    "status": "rejected",
+    "reason": "목처럼 긴 상단과 다리가 생성됨"
+  }
+,
+  {"id":"70","revision":"r1","status":"rejected","reason":"3초 부근 밝은 띠에 새로운 눈이 추가됨"},
+  {"id":"74","revision":"r1","status":"rejected","reason":"빈 상단에 웃거나 찡그리는 새 얼굴이 그려짐"}
+]

@@ -1,0 +1,178 @@
+{
+  "generatedAt": "2026-10-03T04:36:05.117Z",
+  "status": "ILLUSTRATIONS_NOT_CURRENT_MARKET_QUOTES",
+  "chainId": 8453,
+  "settlement": "Native ETH on Base",
+  "finalRateTimestamp": null,
+  "finalRateSource": null,
+  "requiresBeforeDeployment": [
+    "Fresh agreed ETH/USD reference and timestamp",
+    "Final wallet limit and sale dates",
+    "Review immutable terms",
+    "Original-token pilot and contract review"
+  ],
+  "scenarios": [
+    {
+      "status": "PLANNING_ONLY_NOT_LIVE_TERMS",
+      "totalSupply": "210000000",
+      "targetFdvUsd": "15000000",
+      "tokenUsdNumerator": "1",
+      "tokenUsdDenominator": "14",
+      "referenceEthUsd": "2500",
+      "unitPriceWei": "28571428571429",
+      "saleTokens": "700000",
+      "separateLpTokens": "700000",
+      "maximumPurchaseWei": "20000000000000300000",
+      "rounding": "UP_TO_NEXT_WEI_PER_WHOLE_SOULI",
+      "referenceTargetUsd": "50000",
+      "guaranteesFixedUsdPrice": false,
+      "unitPriceEth": "0.000028571428571429",
+      "saleCapEth": "20.0000000000003",
+      "levels": [
+        {
+          "level": "1",
+          "newSeedMinimumTokens": "1",
+          "referenceUsd": 0.07142857142857142,
+          "eth": "0.000028571428571429",
+          "fitsProposedSaleCap": true
+        },
+        {
+          "level": "2",
+          "newSeedMinimumTokens": "21000",
+          "referenceUsd": 1500,
+          "eth": "0.600000000000009",
+          "fitsProposedSaleCap": true
+        },
+        {
+          "level": "3",
+          "newSeedMinimumTokens": "150000",
+          "referenceUsd": 10714.285714285714,
+          "eth": "4.28571428571435",
+          "fitsProposedSaleCap": true
+        },
+        {
+          "level": "4",
+          "newSeedMinimumTokens": "500000",
+          "referenceUsd": 35714.28571428572,
+          "eth": "14.2857142857145",
+          "fitsProposedSaleCap": true
+        },
+        {
+          "level": "5",
+          "newSeedMinimumTokens": "2500000",
+          "referenceUsd": 178571.42857142858,
+          "eth": "71.4285714285725",
+          "fitsProposedSaleCap": false
+        }
+      ]
+    },
+    {
+      "status": "PLANNING_ONLY_NOT_LIVE_TERMS",
+      "totalSupply": "210000000",
+      "targetFdvUsd": "15000000",
+      "tokenUsdNumerator": "1",
+      "tokenUsdDenominator": "14",
+      "referenceEthUsd": "3000",
+      "unitPriceWei": "23809523809524",
+      "saleTokens": "700000",
+      "separateLpTokens": "700000",
+      "maximumPurchaseWei": "16666666666666800000",
+      "rounding": "UP_TO_NEXT_WEI_PER_WHOLE_SOULI",
+      "referenceTargetUsd": "50000",
+      "guaranteesFixedUsdPrice": false,
+      "unitPriceEth": "0.000023809523809524",
+      "saleCapEth": "16.6666666666668",
+      "levels": [
+        {
+          "level": "1",
+          "newSeedMinimumTokens": "1",
+          "referenceUsd": 0.07142857142857142,
+          "eth": "0.000023809523809524",
+          "fitsProposedSaleCap": true
+        },
+        {
+          "level": "2",
+          "newSeedMinimumTokens": "21000",
+          "referenceUsd": 1500,
+          "eth": "0.500000000000004",
+          "fitsProposedSaleCap": true
+        },
+        {
+          "level": "3",
+          "newSeedMinimumTokens": "150000",
+          "referenceUsd": 10714.285714285714,
+          "eth": "3.5714285714286",
+          "fitsProposedSaleCap": true
+        },
+        {
+          "level": "4",
+          "newSeedMinimumTokens": "500000",
+          "referenceUsd": 35714.28571428572,
+          "eth": "11.904761904762",
+          "fitsProposedSaleCap": true
+        },
+        {
+          "level": "5",
+          "newSeedMinimumTokens": "2500000",
+          "referenceUsd": 178571.42857142858,
+          "eth": "59.52380952381",
+          "fitsProposedSaleCap": false
+        }
+      ]
+    },
+    {
+      "status": "PLANNING_ONLY_NOT_LIVE_TERMS",
+      "totalSupply": "210000000",
+      "targetFdvUsd": "15000000",
+      "tokenUsdNumerator": "1",
+      "tokenUsdDenominator": "14",
+      "referenceEthUsd": "4000",
+      "unitPriceWei": "17857142857143",
+      "saleTokens": "700000",
+      "separateLpTokens": "700000",
+      "maximumPurchaseWei": "12500000000000100000",
+      "rounding": "UP_TO_NEXT_WEI_PER_WHOLE_SOULI",
+      "referenceTargetUsd": "50000",
+      "guaranteesFixedUsdPrice": false,
+      "unitPriceEth": "0.000017857142857143",
+      "saleCapEth": "12.5000000000001",
+      "levels": [
+        {
+          "level": "1",
+          "newSeedMinimumTokens": "1",
+          "referenceUsd": 0.07142857142857142,
+          "eth": "0.000017857142857143",
+          "fitsProposedSaleCap": true
+        },
+        {
+          "level": "2",
+          "newSeedMinimumTokens": "21000",
+          "referenceUsd": 1500,
+          "eth": "0.375000000000003",
+          "fitsProposedSaleCap": true
+        },
+        {
+          "level": "3",
+          "newSeedMinimumTokens": "150000",
+          "referenceUsd": 10714.285714285714,
+          "eth": "2.67857142857145",
+          "fitsProposedSaleCap": true
+        },
+        {
+          "level": "4",
+          "newSeedMinimumTokens": "500000",
+          "referenceUsd": 35714.28571428572,
+          "eth": "8.9285714285715",
+          "fitsProposedSaleCap": true
+        },
+        {
+          "level": "5",
+          "newSeedMinimumTokens": "2500000",
+          "referenceUsd": 178571.42857142858,
+          "eth": "44.6428571428575",
+          "fitsProposedSaleCap": false
+        }
+      ]
+    }
+  ]
+}

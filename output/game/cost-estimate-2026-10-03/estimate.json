@@ -1,0 +1,85 @@
+{
+  "date": "2026-10-03",
+  "currency": "USD",
+  "planningKrwPerUsd": 1500,
+  "basis": "Public list prices, not account invoice. Incremental game operating budget; existing shared database and registry fixed charges excluded. VAT, development subscriptions, gas sponsorship and cloud video processing excluded.",
+  "assumptions": {
+    "days": 30,
+    "minutesPerDailyActiveUser": 30,
+    "apiRequestsPerUserPerDay": 12,
+    "staticTransferredMbPerUserPerDay": [
+      2,
+      5
+    ],
+    "aiInferenceCallsPerModel": 0,
+    "freeGrantsSharedPerSubscription": true
+  },
+  "measuredModelBytes": 210152,
+  "modelStorage10000": {
+    "gb": 2.10152,
+    "usdPerMonthStorageOnly": 0.042030399999999996
+  },
+  "computeFullMonth": {
+    "oneReplicaWithFreeGrant": 14.040000000000001,
+    "oneReplicaWithoutFreeGrant": 19.439999999999998,
+    "twoReplicasWithFreeGrant": 33.48,
+    "twoReplicasWithoutFreeGrant": 38.879999999999995
+  },
+  "sharedDatabaseStandaloneEquivalentUsd": 23.172,
+  "scenarios": [
+    {
+      "dailyActiveUsers": 100,
+      "monthlyApiRequests": 36000,
+      "staticTrafficGb": [
+        6,
+        15
+      ],
+      "frontendStandardUsd": [
+        9,
+        9
+      ],
+      "recommendedIncrementalMonthlyBudgetKrw": [
+        0,
+        50000
+      ]
+    },
+    {
+      "dailyActiveUsers": 1000,
+      "monthlyApiRequests": 360000,
+      "staticTrafficGb": [
+        60,
+        150
+      ],
+      "frontendStandardUsd": [
+        9,
+        19
+      ],
+      "recommendedIncrementalMonthlyBudgetKrw": [
+        40000,
+        120000
+      ]
+    },
+    {
+      "dailyActiveUsers": 10000,
+      "monthlyApiRequests": 3600000,
+      "staticTrafficGb": [
+        600,
+        1500
+      ],
+      "frontendStandardUsd": [
+        109,
+        289
+      ],
+      "recommendedIncrementalMonthlyBudgetKrw": [
+        300000,
+        1000000
+      ]
+    }
+  ],
+  "notes": [
+    "100 DAU can remain on Free static hosting if subscription traffic remains below quota.",
+    "Budgets include headroom for RPC, egress and database growth; they are not load-tested capacity guarantees.",
+    "10000 DAU requires load testing and potentially API/database scaling beyond current settings.",
+    "Cache original SVG and generation parameters; browser builds geometry, so per-user GLB persistence is optional."
+  ]
+}

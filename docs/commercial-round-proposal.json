@@ -1,0 +1,356 @@
+{
+  "status": "POLICY_APPROVED_FINAL_TERMS_PENDING_NOT_DEPLOYABLE",
+  "preparedDate": "2026-10-03",
+  "chainId": 8453,
+  "userConfirmed": {
+    "targetFdvUsd": 15000000,
+    "totalSupplyTokens": 210000000,
+    "firstRoundGrossRangeUsd": [
+      200000,
+      300000
+    ],
+    "saleCapTokens": "4200000",
+    "walletCapTokens": "4200000",
+    "lpPrincipalLock": "ONE_YEAR_AFTER_INITIAL_LP_CREATION",
+    "lpShareOfGrossEthBps": 5000,
+    "operationsShareOfGrossEthBps": 5000,
+    "saleEndPreference": "SELL_OUT_WITHOUT_CALENDAR_DEADLINE",
+    "gameStatus": "COOKING",
+    "manualLiquidity": true,
+    "independentOperators": 3
+  },
+  "earlierLpTarget": {
+    "bothSidesUsd": [
+      50000,
+      100000
+    ],
+    "status": "SUPERSEDED_BY_APPROVED_50_PERCENT_SPLIT"
+  },
+  "recommendation": {
+    "saleCapTokens": "4200000",
+    "walletCapTokens": "4200000",
+    "minimumPurchaseTokens": "1",
+    "payment": "BASE_NATIVE_ETH",
+    "lpShareOfGrossEthBps": 5000,
+    "operationsShareOfGrossEthBps": 5000,
+    "proceedsSplitApproved": true,
+    "finiteRoundDays": null,
+    "saleEnd": "SELL_OUT_WITHOUT_CALENDAR_DEADLINE",
+    "endPolicyImplemented": true,
+    "endPolicyContractVersion": 2,
+    "endPolicyPubliclyDeployed": false,
+    "liquidityExecution": "LP timing is a separate decision; pause/close fixed-price sale before initial DEX liquidity and review existing pair and reserves first",
+    "lpExecutionDeadlineApproved": false,
+    "lpLockDurationApproved": true,
+    "lpPrincipalLockYears": 1,
+    "lpLockImplementationVerified": false,
+    "lpOwnerAndLockApproved": false,
+    "spendingPlanApproved": false
+  },
+  "liveEthUsdReference": null,
+  "referenceTimestamp": null,
+  "unitPriceWei": null,
+  "startsAt": null,
+  "endsAt": "0",
+  "notes": [
+    "15M is reference FDV, not circulating market cap or a price guarantee.",
+    "LP total includes token-side nominal value; only the ETH side is cash raised.",
+    "LP allocation is a disclosed operating policy, not enforced by the current contracts.",
+    "USD equivalents drift with ETH. Fixed ETH cannot simultaneously guarantee fixed USD price.",
+    "V2 implements no calendar deadline with endsAt=0. Local tests passed; deployment and independent review remain pending. Existing V1 contracts are unchanged.",
+    "At 50% of purchase ETH plus matching separate SOULI, nominal LP total equals reference gross proceeds, not half of gross.",
+    "Do not make sellout an unapproved prerequisite for LP; an unfinished sale could otherwise delay LP indefinitely.",
+    "No extra per-wallet limit: one wallet may buy all remaining stock within the 4.2M round cap.",
+    "One year of LP principal locking after initial pool creation is approved as a plan. No lock is deployed; provider, owner, fee rights, cost and exact unlock timestamp must be verified before funds move.",
+    "The 50:50 policy, 4.2M sale/wallet caps and one-year LP principal lock direction are approved. Final ETH pricing, opening time and LP custody/execution implementation remain pending. Do not open checkout from this draft."
+  ],
+  "scenarios": [
+    {
+      "grossReferenceUsd": 200000,
+      "buyerTokens": "2800000",
+      "buyerSupplyPercent": 1.3333333333333335,
+      "lpShareOfGrossEthBps": 5000,
+      "lpEthReferenceUsd": 100000,
+      "separateMatchingLpTokens": "1400000",
+      "nominalInitialLpBothSidesReferenceUsd": 200000,
+      "operationsReferenceUsdBeforeCosts": 100000,
+      "referenceEthUsd": "2500",
+      "unitPriceWei": "28571428571429",
+      "maximumPaymentEth": "80.0000000000012",
+      "lpEth": "40.0000000000006",
+      "operationsEthBeforeCosts": "40.0000000000006",
+      "priceImpactIllustration": {
+        "tokenInputAtInitialPriceUsd": 10000,
+        "spotPriceDropPctIgnoringFees": 17.355371900826455
+      }
+    },
+    {
+      "grossReferenceUsd": 250000,
+      "buyerTokens": "3500000",
+      "buyerSupplyPercent": 1.6666666666666667,
+      "lpShareOfGrossEthBps": 5000,
+      "lpEthReferenceUsd": 125000,
+      "separateMatchingLpTokens": "1750000",
+      "nominalInitialLpBothSidesReferenceUsd": 250000,
+      "operationsReferenceUsdBeforeCosts": 125000,
+      "referenceEthUsd": "2500",
+      "unitPriceWei": "28571428571429",
+      "maximumPaymentEth": "100.0000000000015",
+      "lpEth": "50.00000000000075",
+      "operationsEthBeforeCosts": "50.00000000000075",
+      "priceImpactIllustration": {
+        "tokenInputAtInitialPriceUsd": 10000,
+        "spotPriceDropPctIgnoringFees": 14.266117969821668
+      }
+    },
+    {
+      "grossReferenceUsd": 300000,
+      "buyerTokens": "4200000",
+      "buyerSupplyPercent": 2,
+      "lpShareOfGrossEthBps": 5000,
+      "lpEthReferenceUsd": 150000,
+      "separateMatchingLpTokens": "2100000",
+      "nominalInitialLpBothSidesReferenceUsd": 300000,
+      "operationsReferenceUsdBeforeCosts": 150000,
+      "referenceEthUsd": "2500",
+      "unitPriceWei": "28571428571429",
+      "maximumPaymentEth": "120.0000000000018",
+      "lpEth": "60.0000000000009",
+      "operationsEthBeforeCosts": "60.0000000000009",
+      "priceImpactIllustration": {
+        "tokenInputAtInitialPriceUsd": 10000,
+        "spotPriceDropPctIgnoringFees": 12.109375
+      }
+    },
+    {
+      "grossReferenceUsd": 200000,
+      "buyerTokens": "2800000",
+      "buyerSupplyPercent": 1.3333333333333335,
+      "lpShareOfGrossEthBps": 5000,
+      "lpEthReferenceUsd": 100000,
+      "separateMatchingLpTokens": "1400000",
+      "nominalInitialLpBothSidesReferenceUsd": 200000,
+      "operationsReferenceUsdBeforeCosts": 100000,
+      "referenceEthUsd": "3000",
+      "unitPriceWei": "23809523809524",
+      "maximumPaymentEth": "66.6666666666672",
+      "lpEth": "33.3333333333336",
+      "operationsEthBeforeCosts": "33.3333333333336",
+      "priceImpactIllustration": {
+        "tokenInputAtInitialPriceUsd": 10000,
+        "spotPriceDropPctIgnoringFees": 17.355371900826455
+      }
+    },
+    {
+      "grossReferenceUsd": 250000,
+      "buyerTokens": "3500000",
+      "buyerSupplyPercent": 1.6666666666666667,
+      "lpShareOfGrossEthBps": 5000,
+      "lpEthReferenceUsd": 125000,
+      "separateMatchingLpTokens": "1750000",
+      "nominalInitialLpBothSidesReferenceUsd": 250000,
+      "operationsReferenceUsdBeforeCosts": 125000,
+      "referenceEthUsd": "3000",
+      "unitPriceWei": "23809523809524",
+      "maximumPaymentEth": "83.333333333334",
+      "lpEth": "41.666666666667",
+      "operationsEthBeforeCosts": "41.666666666667",
+      "priceImpactIllustration": {
+        "tokenInputAtInitialPriceUsd": 10000,
+        "spotPriceDropPctIgnoringFees": 14.266117969821668
+      }
+    },
+    {
+      "grossReferenceUsd": 300000,
+      "buyerTokens": "4200000",
+      "buyerSupplyPercent": 2,
+      "lpShareOfGrossEthBps": 5000,
+      "lpEthReferenceUsd": 150000,
+      "separateMatchingLpTokens": "2100000",
+      "nominalInitialLpBothSidesReferenceUsd": 300000,
+      "operationsReferenceUsdBeforeCosts": 150000,
+      "referenceEthUsd": "3000",
+      "unitPriceWei": "23809523809524",
+      "maximumPaymentEth": "100.0000000000008",
+      "lpEth": "50.0000000000004",
+      "operationsEthBeforeCosts": "50.0000000000004",
+      "priceImpactIllustration": {
+        "tokenInputAtInitialPriceUsd": 10000,
+        "spotPriceDropPctIgnoringFees": 12.109375
+      }
+    },
+    {
+      "grossReferenceUsd": 200000,
+      "buyerTokens": "2800000",
+      "buyerSupplyPercent": 1.3333333333333335,
+      "lpShareOfGrossEthBps": 5000,
+      "lpEthReferenceUsd": 100000,
+      "separateMatchingLpTokens": "1400000",
+      "nominalInitialLpBothSidesReferenceUsd": 200000,
+      "operationsReferenceUsdBeforeCosts": 100000,
+      "referenceEthUsd": "4000",
+      "unitPriceWei": "17857142857143",
+      "maximumPaymentEth": "50.0000000000004",
+      "lpEth": "25.0000000000002",
+      "operationsEthBeforeCosts": "25.0000000000002",
+      "priceImpactIllustration": {
+        "tokenInputAtInitialPriceUsd": 10000,
+        "spotPriceDropPctIgnoringFees": 17.355371900826455
+      }
+    },
+    {
+      "grossReferenceUsd": 250000,
+      "buyerTokens": "3500000",
+      "buyerSupplyPercent": 1.6666666666666667,
+      "lpShareOfGrossEthBps": 5000,
+      "lpEthReferenceUsd": 125000,
+      "separateMatchingLpTokens": "1750000",
+      "nominalInitialLpBothSidesReferenceUsd": 250000,
+      "operationsReferenceUsdBeforeCosts": 125000,
+      "referenceEthUsd": "4000",
+      "unitPriceWei": "17857142857143",
+      "maximumPaymentEth": "62.5000000000005",
+      "lpEth": "31.25000000000025",
+      "operationsEthBeforeCosts": "31.25000000000025",
+      "priceImpactIllustration": {
+        "tokenInputAtInitialPriceUsd": 10000,
+        "spotPriceDropPctIgnoringFees": 14.266117969821668
+      }
+    },
+    {
+      "grossReferenceUsd": 300000,
+      "buyerTokens": "4200000",
+      "buyerSupplyPercent": 2,
+      "lpShareOfGrossEthBps": 5000,
+      "lpEthReferenceUsd": 150000,
+      "separateMatchingLpTokens": "2100000",
+      "nominalInitialLpBothSidesReferenceUsd": 300000,
+      "operationsReferenceUsdBeforeCosts": 150000,
+      "referenceEthUsd": "4000",
+      "unitPriceWei": "17857142857143",
+      "maximumPaymentEth": "75.0000000000006",
+      "lpEth": "37.5000000000003",
+      "operationsEthBeforeCosts": "37.5000000000003",
+      "priceImpactIllustration": {
+        "tokenInputAtInitialPriceUsd": 10000,
+        "spotPriceDropPctIgnoringFees": 12.109375
+      }
+    }
+  ],
+  "splitComparison": [
+    {
+      "grossReferenceUsd": 200000,
+      "buyerTokens": "2800000",
+      "buyerSupplyPercent": 1.3333333333333335,
+      "lpShareOfGrossEthBps": 1500,
+      "lpEthReferenceUsd": 30000,
+      "separateMatchingLpTokens": "420000",
+      "nominalInitialLpBothSidesReferenceUsd": 60000,
+      "operationsReferenceUsdBeforeCosts": 170000,
+      "referenceEthUsd": "3000",
+      "unitPriceWei": "23809523809524",
+      "maximumPaymentEth": "66.6666666666672",
+      "lpEth": "10.00000000000008",
+      "operationsEthBeforeCosts": "56.66666666666712",
+      "priceImpactIllustration": {
+        "tokenInputAtInitialPriceUsd": 10000,
+        "spotPriceDropPctIgnoringFees": 43.75
+      }
+    },
+    {
+      "grossReferenceUsd": 250000,
+      "buyerTokens": "3500000",
+      "buyerSupplyPercent": 1.6666666666666667,
+      "lpShareOfGrossEthBps": 1500,
+      "lpEthReferenceUsd": 37500,
+      "separateMatchingLpTokens": "525000",
+      "nominalInitialLpBothSidesReferenceUsd": 75000,
+      "operationsReferenceUsdBeforeCosts": 212500,
+      "referenceEthUsd": "3000",
+      "unitPriceWei": "23809523809524",
+      "maximumPaymentEth": "83.333333333334",
+      "lpEth": "12.5000000000001",
+      "operationsEthBeforeCosts": "70.8333333333339",
+      "priceImpactIllustration": {
+        "tokenInputAtInitialPriceUsd": 10000,
+        "spotPriceDropPctIgnoringFees": 37.67313019390581
+      }
+    },
+    {
+      "grossReferenceUsd": 300000,
+      "buyerTokens": "4200000",
+      "buyerSupplyPercent": 2,
+      "lpShareOfGrossEthBps": 1500,
+      "lpEthReferenceUsd": 45000,
+      "separateMatchingLpTokens": "630000",
+      "nominalInitialLpBothSidesReferenceUsd": 90000,
+      "operationsReferenceUsdBeforeCosts": 255000,
+      "referenceEthUsd": "3000",
+      "unitPriceWei": "23809523809524",
+      "maximumPaymentEth": "100.0000000000008",
+      "lpEth": "15.00000000000012",
+      "operationsEthBeforeCosts": "85.00000000000068",
+      "priceImpactIllustration": {
+        "tokenInputAtInitialPriceUsd": 10000,
+        "spotPriceDropPctIgnoringFees": 33.05785123966941
+      }
+    },
+    {
+      "grossReferenceUsd": 200000,
+      "buyerTokens": "2800000",
+      "buyerSupplyPercent": 1.3333333333333335,
+      "lpShareOfGrossEthBps": 5000,
+      "lpEthReferenceUsd": 100000,
+      "separateMatchingLpTokens": "1400000",
+      "nominalInitialLpBothSidesReferenceUsd": 200000,
+      "operationsReferenceUsdBeforeCosts": 100000,
+      "referenceEthUsd": "3000",
+      "unitPriceWei": "23809523809524",
+      "maximumPaymentEth": "66.6666666666672",
+      "lpEth": "33.3333333333336",
+      "operationsEthBeforeCosts": "33.3333333333336",
+      "priceImpactIllustration": {
+        "tokenInputAtInitialPriceUsd": 10000,
+        "spotPriceDropPctIgnoringFees": 17.355371900826455
+      }
+    },
+    {
+      "grossReferenceUsd": 250000,
+      "buyerTokens": "3500000",
+      "buyerSupplyPercent": 1.6666666666666667,
+      "lpShareOfGrossEthBps": 5000,
+      "lpEthReferenceUsd": 125000,
+      "separateMatchingLpTokens": "1750000",
+      "nominalInitialLpBothSidesReferenceUsd": 250000,
+      "operationsReferenceUsdBeforeCosts": 125000,
+      "referenceEthUsd": "3000",
+      "unitPriceWei": "23809523809524",
+      "maximumPaymentEth": "83.333333333334",
+      "lpEth": "41.666666666667",
+      "operationsEthBeforeCosts": "41.666666666667",
+      "priceImpactIllustration": {
+        "tokenInputAtInitialPriceUsd": 10000,
+        "spotPriceDropPctIgnoringFees": 14.266117969821668
+      }
+    },
+    {
+      "grossReferenceUsd": 300000,
+      "buyerTokens": "4200000",
+      "buyerSupplyPercent": 2,
+      "lpShareOfGrossEthBps": 5000,
+      "lpEthReferenceUsd": 150000,
+      "separateMatchingLpTokens": "2100000",
+      "nominalInitialLpBothSidesReferenceUsd": 300000,
+      "operationsReferenceUsdBeforeCosts": 150000,
+      "referenceEthUsd": "3000",
+      "unitPriceWei": "23809523809524",
+      "maximumPaymentEth": "100.0000000000008",
+      "lpEth": "50.0000000000004",
+      "operationsEthBeforeCosts": "50.0000000000004",
+      "priceImpactIllustration": {
+        "tokenInputAtInitialPriceUsd": 10000,
+        "spotPriceDropPctIgnoringFees": 12.109375
+      }
+    }
+  ]
+}

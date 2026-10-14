@@ -1,0 +1,6 @@
+SOULI continuity audit / 2026-10-03
+Open drive-review.html after extracting this archive. The HTML includes all 80 decisions and opens existing videos on Drive.
+The 26 episode-XX-event.jpg files compare approved references with dense event samples.
+17 remake recommendations + 3 watch items = 20 publication holds.
+No video has been regenerated or replaced by this audit.
+The old video ZIP and existing Drive video files remain unchanged. Use the new CSV/JSON hold fields before choosing videos to publish.

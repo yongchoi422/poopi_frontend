@@ -1,0 +1,15 @@
+/* Coin-inspired cobalt and gold. Keep inscription pixels in their original colors. */
+:root {
+  --souli-paper: #fffefa;
+  --souli-ink: #172450;
+  --souli-muted: #505e79;
+  --souli-line: #b9c9eb;
+  --souli-sky: #b8deff;
+  --souli-lilac: #d6c5ff;
+  --souli-mint: #b5edce;
+  --souli-pink: #ffc6df;
+  --souli-yellow: #ffd238;
+  --souli-focus: #214acb;
+  --souli-blue: #2455ee;
+  --souli-blue-deep: #183aad;
+}

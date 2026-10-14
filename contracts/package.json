@@ -1,0 +1,27 @@
+{
+  "name": "souli-sale-contracts",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "compile": "node scripts/compile.mjs",
+    "test": "node scripts/compile.mjs && node --test --test-concurrency=1 test/*.test.mjs",
+    "test:fork": "node scripts/check-fork.mjs",
+    "test:dex-fork": "node scripts/check-dex-fork.mjs",
+    "test:lp-timelock-fork": "node scripts/check-lp-timelock-fork.mjs",
+    "test:lp-fork": "node scripts/check-lp-fork.mjs",
+    "demo": "node scripts/demo.mjs"
+  },
+  "overrides": {
+    "tmp": "0.2.7"
+  },
+  "devDependencies": {
+    "@openzeppelin/contracts": "5.6.1",
+    "@safe-global/safe-deployments": "1.37.63",
+    "ethers": "6.17.0",
+    "hardhat": "3.18.0",
+    "solc": "0.8.37"
+  }
+}

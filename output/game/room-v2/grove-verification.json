@@ -1,0 +1,30 @@
+{
+  "errors": [],
+  "manualTakeover": true,
+  "discoverySaved": true,
+  "reloadDuringDefense": true,
+  "idempotentMemories": true,
+  "weatherFrozenDuringRound": true,
+  "fogLight": 73,
+  "auroraLight": 94,
+  "originalSamples": 7,
+  "sizes": [
+    {
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "width": 320,
+      "overflow": false
+    }
+  ],
+  "concurrency": {
+    "rejected": true,
+    "soulIndex": 1
+  },
+  "renderer": {
+    "drawCalls": 89,
+    "triangles": 13268
+  },
+  "performanceNote": "Headless software WebGL. No real-device FPS claim."
+}

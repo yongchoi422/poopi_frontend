@@ -1,0 +1,43 @@
+[
+  {
+    "id": 41,
+    "prompt": "Locked camera, 8 seconds. This is a photograph of a solid purple plaster ornament, not a living creature. Keep the purple ornament completely frozen and identical to the source photograph, including its blank upper surface and single horizontal black-cyan-black painted stripe. Only animate popcorn: popcorn bursts upward from the striped cup, then lands on the seat to the RIGHT of the cup. Nothing touches or crosses the ornament. No other movement, no additions to the ornament, no eyes or facial animation, no text. Hold the result for the last two seconds."
+  },
+  {
+    "id": 46,
+    "prompt": "Locked camera, 8 seconds. The red item is one solid decorative concrete ornament. Treat it exactly like an immovable painted brick, preserving its stepped upper edge, white little square and original black-white-black horizontal stripe. The red item stays absolutely frozen and identical. Only the two white marshmallows on the small barbell slowly flatten into soft pancakes, lowering the metal bar to the floor. No head or body or new markings may appear. No other motion, no human form, no text. End with flattened marshmallows."
+  },
+  {
+    "id": 47,
+    "prompt": "Locked camera, 8 seconds. A still-life of a glossy pink abstract ceramic sculpture and a fork with pasta. The ceramic sculpture is an inanimate ornament: every pink, lilac and black painted shape stays exactly frozen as photographed. The large upper-right pink area remains completely blank. Only animate the fork rotating slowly to coil the single noodle, then lowering it onto the little pasta nest. All other items are perfectly motionless. No added marks, no eyes, no faces, no human figures, no writing."
+  },
+  {
+    "id": 58,
+    "prompt": "Eight-second locked shot of the supplied miniature set. The lavender block on the left is an inanimate painted brick: its entire upper lavender area stays blank except for the ONE existing mint square. Its two black rectangles remain only on the LOWER row. Absolutely no new marks, eyes, facial movement, blinking, morphing or limbs. Freeze the brick exactly as in frame one. ONLY the metal fan blades spin; wind pushes the snow pile to the right, exposing the tiny carrot. Snow stays to the right of the fan. End with carrot exposed and the unchanged painted brick visible. No camera movement, no cuts, no people, no text."
+  },
+  {
+    "id": 70,
+    "prompt": "Eight-second locked miniature shot. Treat the pink object on the LEFT as a completely frozen painted geometric sculpture. It is NOT an animal and has no nose, mouth or snout. Keep its exact flat front surface: two horizontal black rectangular marks, a pink central stripe and the pale pixel patches above. Never add or move a single square on the sculpture. Only animate the cereal ring: it slowly rolls off the open mailbox tray onto the stone ledge, wobbles in a circle and lies flat. Keep mailbox door open and motionless. No writing, no camera motion, no people. Hold the unchanged sculpture and fallen cereal ring for final two seconds."
+  },
+  {
+    "id": 73,
+    "prompt": "Eight-second locked shot. The reddish block on the left is a motionless painted brick, not a living character. Preserve its exact horizontal marking: BLACK rectangle, pale central rectangle, BLACK rectangle. No white eye borders, pupils, blinking, new marks or shape changes. Its solid silhouette never moves. Only animate the pink cotton candy on the right: gently swell the existing candy cloud, tilt it right, and drop one small tuft into the bowl. Keep all motion on the right. No camera movement, no people, no writing, no cuts."
+  },
+  {
+    "id": 74,
+    "prompt": "Eight-second locked miniature scene. The orange sculpture on the platform is completely frozen and inanimate. Preserve its original flat orange and cream mosaic exactly. The upper orange and cream area stays blank: do NOT add upper eyes. Keep only the two existing tiny black marks near the lower middle. No blinking, facial change, limbs or movement of the sculpture. Animate only the toy train: move the ribbon wagons slowly rightward across the track, carrying the single round biscuit on the last wagon. Finish with the biscuit visible at the right edge. Fixed camera, no people, no cuts, no text."
+  },
+  {
+    "id": 77,
+    "prompt": "Eight seconds. Locked macro shot of a diner counter. The small red geometric sculpture in the middle is a FROZEN flat brick prop: preserve its low wide stepped silhouette, all original red blocks and existing black square markings. It never grows, stands up, changes shape or becomes a person. No new face, eyes, arms or legs. Animate ONLY the ketchup bottle on the left: bottle gently bends, expels one small ketchup blob toward the fries on the right, then returns upright. The red sculpture remains absolutely identical to frame one for the whole shot. No cuts, no people, no lettering."
+  },
+  {
+    "id": 80,
+    "prompt": "Eight-second locked macro shot of the bedside table. The lime green block sculpture is a FROZEN painted foam prop. Its upper green surface and cream patch stay blank, with NO new eyes or eyebrows. Preserve only the THREE existing black rectangular marks on the lower row. No new marks, blinking, expression, arms or shape change. Animate ONLY the small alarm clock on its right: it vibrates, tips from the table edge, and falls gently into the soft slipper below. Hold the clock in the slipper for the ending. Green sculpture stays perfectly unchanged. No people, camera motion or cuts."
+  },
+  {
+    "id": 74,
+    "prompt": "An eight-second miniature railway film. Use the supplied image as a frozen tableau for the entire LEFT HALF of the frame: station, orange wooden mosaic sculpture, platform and foliage all remain exactly motionless with identical painted surfaces. The ONLY moving region is the toy railway on the RIGHT HALF. The red ribbon wagons glide slowly toward the right, carrying a round biscuit on the last wagon. Gentle realistic train-wheel motion. Fixed tripod. Preserve the exact input pixels of the orange wooden mosaic object throughout. No character animation, no expression, no new objects, no cuts, no camera movement.",
+    "revision": 3
+  }
+]

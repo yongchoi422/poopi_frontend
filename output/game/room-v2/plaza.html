@@ -1,0 +1,81 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#f3f3e9"><link rel="icon" href="data:,"><title>SOULI · The Porcelain Quarter (3D Idle Sanctuary)</title>
+<script type="importmap">{"imports":{"three":"./node_modules/three/build/three.module.js","three/addons/":"./node_modules/three/examples/jsm/"}}</script>
+<style>
+*{box-sizing:border-box}html,body{overflow-x:hidden}body{margin:0;background:#f3f3ea;color:#244b50;font-family:system-ui,-apple-system,"Segoe UI",sans-serif;font-size:13px}button,a,select{-webkit-tap-highlight-color:transparent}button{font:inherit;cursor:pointer}button:focus-visible,a:focus-visible{outline:3px solid #ab874a;outline-offset:3px}button:disabled{opacity:.45;cursor:default}[hidden]{display:none!important}
+header{height:72px;padding:0 32px;display:flex;align-items:center;justify-content:space-between;gap:16px}.brand{font-family:Georgia,serif;font-size:38px;letter-spacing:-3px;text-decoration:none;color:#244b50}.brand b{font-weight:normal;color:#ba9d60}.eyebrow{font-size:9px;font-weight:600;letter-spacing:.19em;margin-left:26px;color:#728a82}.head-left{display:flex;align-items:center}.head-right{display:flex;align-items:center;gap:16px;font-size:10px;color:#73877f}.live-dot{display:inline-block;width:6px;height:6px;background:#4ea88a;border-radius:50%;margin-right:7px;box-shadow:0 0 8px #4ea88a}.head-right a{color:inherit;text-decoration:none;border-bottom:1px solid #b5c5b9;padding-bottom:2px}.head-buy-cta{background:#244b50;color:#fffdf2!important;border:1px solid #244b50!important;border-radius:999px;padding:7px 14px!important;font-weight:600;letter-spacing:.03em}
+main{padding:0 18px 24px;max-width:1600px;margin:0 auto}.world{position:relative;overflow:hidden;border-radius:19px;background:#c9d7cf;border:1px solid #c9d4c9;box-shadow:0 14px 38px #1e3f4412}.stage{width:100%;height:calc(100vh - 230px);min-height:560px;max-height:880px;touch-action:none}.stage canvas{display:block;width:100%;height:100%;cursor:grab}.stage canvas:active{cursor:grabbing}.stage:after{content:'';position:absolute;inset:0;pointer-events:none;background:radial-gradient(ellipse at 50% 45%,transparent 48%,#78998b14 100%)}
+.place{position:absolute;top:24px;left:28px;pointer-events:none;max-width:340px}.kicker{font-size:9px;letter-spacing:.2em;margin:0 0 6px;color:#638279;font-weight:600}.place h1{font:normal 27px/1.15 Georgia,serif;letter-spacing:-.6px;margin:0}.place small{display:block;margin-top:6px;color:#5d7c72;font-size:10px}.stage-pill{display:inline-flex;align-items:center;gap:8px;margin-top:10px;padding:6px 12px;border-radius:999px;background:#fffdf4eb;border:1px solid #d5ceae;color:#244b50;font-size:10px;font-weight:600;box-shadow:0 4px 14px #244b5012}.stage-pill b{color:#a87b24;font-size:11px}.stage-pill em{font-style:normal;color:#628177;font-weight:500}
+.tools{position:absolute;top:22px;right:24px;display:flex;gap:7px;flex-wrap:wrap;justify-content:flex-end}.tools button{min-height:38px;background:#f8fbefe6;border:1px solid #c4d2c0;border-radius:24px;padding:10px 14px;font-size:10px;color:#3a625b;backdrop-filter:blur(8px)}.tools button[aria-pressed=true]{background:#335c5d;color:#fffdf1;border-color:#335c5d}
+.story{position:absolute;bottom:25px;left:30px;max-width:500px;background:#fafbefed;border:1px solid #f7ffef;border-radius:3px 18px 18px 18px;padding:16px 20px 17px;box-shadow:0 7px 30px #2f50430b;pointer-events:none}.story h2{font:normal 22px/1.2 Georgia,serif;letter-spacing:-.5px;margin:0 0 5px}.story p{font-size:10px;margin:0;color:#657a70;line-height:1.45}.story .chapter{font-size:8px;letter-spacing:.17em;color:#a08c58;margin-bottom:7px;font-weight:600}.story[data-broken=true]{border-left:3px solid #9471bd}.weather{position:absolute;right:26px;bottom:27px;display:flex;gap:8px;align-items:center;color:#526f66;background:#f7faefe6;border:1px solid #bdcebe;border-radius:24px;padding:10px 15px;font-size:10px}.weather-dot{width:9px;height:9px;border-radius:50%;background:#8855bd}.weather small{font-size:8px;color:#80927c;margin-left:4px}.loading{position:absolute;inset:0;display:grid;place-content:center;text-align:center;gap:12px;background:#e7ebdf;z-index:4}.loading strong{font:normal 30px Georgia,serif}.loading span{font-size:12px;color:#6c8278}.toast{position:absolute;bottom:118px;left:50%;transform:translateX(-50%);padding:10px 18px;border-radius:12px;background:#244b50;color:#fffce9;font-size:12px;max-width:90%;z-index:5;box-shadow:0 8px 24px #1630342e}
+.crew{display:flex;gap:10px;margin:12px 2px 0;justify-content:center;flex-wrap:wrap}.resident{display:flex;align-items:center;gap:10px;flex:1;max-width:290px;border:1px solid #d6decf;border-radius:12px;background:#fafbef;padding:9px 13px;text-align:left;color:#31564f;min-width:0;transition:border-color .15s,background .15s}.resident[aria-pressed=true]{background:#e1ebdf;border-color:#5d8c7b}.portrait{width:32px;height:32px;object-fit:contain;image-rendering:pixelated;flex:none}.resident strong{display:block;font-weight:600;font-size:11px}.resident small{display:block;font-size:8px;color:#788877;margin-top:3px}
+.idle-deck{display:grid;grid-template-columns:1.25fr 1fr;gap:14px;margin-top:14px}
+.deck-card{background:#fafbef;border:1px solid #d4ddcd;border-radius:16px;padding:16px 18px;box-shadow:0 6px 20px #244b5008}
+.deck-head{display:flex;align-items:center;justify-content:space-between;gap:10px;flex-wrap:wrap;margin-bottom:12px}
+.deck-title{margin:0;font:normal 18px/1.2 Georgia,serif;color:#244b50}
+.deck-eyebrow{font-size:8px;font-weight:700;letter-spacing:.18em;color:#8e7b47;text-transform:uppercase;margin:0 0 3px}
+.deck-actions{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+.spark-badge{display:inline-flex;align-items:center;gap:6px;background:#fff8df;border:1px solid #dfd098;border-radius:999px;padding:6px 12px;font-size:11px;font-weight:700;color:#785816}
+.spark-rate{font-size:9px;font-weight:500;color:#6b8278}
+.pill-btn{min-height:32px;border-radius:999px;border:1px solid #b9cbbd;background:#f3f8f2;color:#2c5650;padding:6px 12px;font-size:10px;font-weight:600}
+.pill-btn[aria-pressed=true],.pill-btn.primary{background:#244b50;color:#fffdf2;border-color:#244b50}
+.upgrade-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px}
+.upgrade-btn{display:flex;flex-direction:column;justify-content:space-between;gap:6px;text-align:left;padding:11px 12px;border-radius:12px;border:1px solid #d5dfd0;background:#ffffff;color:#244b50;min-height:92px;transition:transform .12s,border-color .15s,background .15s}
+.upgrade-btn:not(:disabled):hover{border-color:#94b5a4;transform:translateY(-1px)}
+.upgrade-btn[data-built=true]{background:#eef6ef;border-color:#6ea38d}
+.upgrade-btn[data-affordable=true]:not([data-built=true]){border-color:#cbb06a;background:#fffdf6}
+.up-top{display:flex;align-items:center;justify-content:space-between;gap:4px;font-size:9px;color:#7a8c80;font-weight:600}
+.up-cost{color:#8c691e;font-weight:700;background:#fff5d6;padding:2px 7px;border-radius:999px;font-size:9px}
+.upgrade-btn[data-built=true] .up-cost{background:#d6ede1;color:#255c49}
+.up-name{font-weight:700;font-size:11px;color:#23494d;display:block}
+.up-desc{font-size:9px;color:#6f8278;line-height:1.35;display:block}
+.evo-tiers{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:6px;margin-bottom:12px}
+.evo-btn{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:3px;padding:9px 6px;border-radius:11px;border:1px solid #d5dfd0;background:#ffffff;color:#2a5255;text-align:center;min-height:58px}
+.evo-btn strong{font-size:10px;font-weight:700;display:block}
+.evo-btn small{font-size:8px;color:#7c8c80;display:block}
+.evo-btn[aria-pressed=true]{background:#244b50;color:#fffef4;border-color:#244b50;box-shadow:0 4px 12px #244b5026}
+.evo-btn[aria-pressed=true] small{color:#e2d49b}
+.evo-Showcase-foot{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:10px 12px;border-radius:12px;background:#f2f6ee;border:1px solid #dce5d6;flex-wrap:wrap}
+.evo-copy{flex:1;min-width:180px}
+.evo-copy strong{display:block;font-size:11px;color:#244b50;margin-bottom:2px}
+.evo-copy p{margin:0;font-size:9.5px;color:#62786e;line-height:1.4}
+.evo-ctas{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+.buy-link{display:inline-flex;align-items:center;gap:5px;padding:8px 14px;border-radius:999px;background:#ba9548;color:#fffef7;text-decoration:none;font-size:10px;font-weight:700;letter-spacing:.02em}
+.soul-link{display:inline-flex;align-items:center;padding:8px 12px;border-radius:999px;background:#ffffff;border:1px solid #c5d3c6;color:#2b5450;text-decoration:none;font-size:10px;font-weight:600}
+.footer{display:flex;justify-content:space-between;gap:12px;padding:14px 6px 0;font-size:9px;color:#819083;flex-wrap:wrap}.footer a{color:inherit;text-decoration:none}.timeline{height:2px;background:#adbdaf;position:absolute;bottom:0;left:0;width:100%;transform-origin:left;transform:scaleX(0);opacity:.65}
+@media(max-width:1080px){.idle-deck{grid-template-columns:1fr}.upgrade-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:700px){header{height:62px;padding:0 14px}.brand{font-size:32px}.eyebrow{font-size:7px;letter-spacing:.14em;margin-left:12px}.head-right{font-size:8px;gap:8px}.head-right a:not(.head-buy-cta){display:none}main{padding:0 8px 16px}.world{border-radius:15px}.stage{height:calc(100svh - 230px);min-height:550px;max-height:740px}.place{top:18px;left:16px;max-width:210px}.place h1{font-size:22px}.place small{font-size:9px}.stage-pill{padding:4px 9px;font-size:8.5px;margin-top:6px}.stage-pill em{display:none}.tools{top:auto;bottom:110px;right:12px;left:12px;justify-content:center;gap:5px}.tools button{min-height:36px;font-size:9px;padding:9px 10px}.story{bottom:18px;left:12px;right:12px;padding:13px 16px;max-width:none}.story h2{font-size:20px}.story p{font-size:9px}.story .chapter{margin-bottom:5px;font-size:7px}.weather{top:78px;bottom:auto;right:15px;padding:8px;max-width:108px;font-size:9px}.weather small{display:none}.crew{gap:6px;margin-top:9px}.resident{flex:0 0 calc(20% - 5px);padding:8px 2px;flex-direction:column;gap:5px;text-align:center;border-radius:10px}.resident strong{font-size:8px}.resident small{font-size:7px;line-height:1.25;min-height:18px}.portrait{width:29px;height:29px}.deck-card{padding:12px}.upgrade-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:6px}.upgrade-btn{padding:9px;min-height:80px}.evo-tiers{grid-template-columns:repeat(5,minmax(0,1fr));gap:4px}.evo-btn{padding:7px 2px;min-height:50px}.evo-btn strong{font-size:8.5px}.evo-btn small{font-size:7px}.footer{font-size:8px;padding:12px 3px 0}.footer span{max-width:72%}.toast{bottom:155px}}
+.controls{display:contents}
+@media(max-width:700px){.controls{position:absolute;display:flex;flex-direction:column;gap:8px;bottom:18px;left:12px;right:12px;pointer-events:none}.controls .tools{position:static;pointer-events:auto}.controls .story{position:static}.toast{top:120px;bottom:auto;width:max-content}}
+@media(prefers-reduced-motion:reduce){*{scroll-behavior:auto}}
+</style></head><body>
+<header><div class="head-left"><a href="./plaza.html" class="brand">souli<b>.</b></a><span class="eyebrow">A LITTLE WORLD, TOGETHER</span></div><div class="head-right"><span><i class="live-dot"></i>Five sample souls · 3D Idle Sanctuary</span><a href="/buy/" class="head-buy-cta">Buy SOULI →</a><a href="./miniature.html">Earlier town ↗</a></div></header>
+<main><section class="world" aria-label="The porcelain quarter"><div class="stage"></div><div class="place"><p class="kicker">01 / THE NORTH GATE</p><h1>The Porcelain Quarter.</h1><small>Tap the square to splash ink · Collect sparks to build.</small><div class="stage-pill" aria-live="polite"><b id="stage-sparks">✦ 35 Sparks</b><em id="stage-rate">+30/cycle · 0/4 built</em></div></div>
+<div class="controls"><div class="tools"><button id="camera">Whole square</button><button id="sound" aria-pressed="false">Sound off</button><button id="still" aria-pressed="false">Still</button><button id="replay">Replay</button><button id="photo">Take a photo ↗</button></div>
+<div class="story" data-broken="false"><div class="chapter" id="chapter">A LITTLE DAY / 01</div><h2 id="story-title">A quiet little watch.</h2><p id="story-detail">Five souls. One rather important gate.</p></div></div><button class="weather" id="weather" aria-label="Change demo color weather"><i class="weather-dot"></i><span id="weather-name">Violet tide</span><small>DEMO</small></button><div class="timeline"></div>
+<div class="loading"><strong>A little place is waking up.</strong><span>Building the porcelain quarter…</span></div><div class="toast" role="status" hidden></div></section>
+<div class="crew" aria-label="Follow a soul"></div>
+<section class="idle-deck" aria-label="Sanctuary upgrades and 3D soul evolution">
+ <div class="deck-card">
+  <div class="deck-head">
+   <div><p class="deck-eyebrow">IDLE DIORAMA PROGRESSION</p><h2 class="deck-title">Sanctuary Upgrades</h2></div>
+   <div class="deck-actions">
+    <span class="spark-badge" id="bank-sparks">✦ 35 Sparks</span>
+    <button type="button" class="pill-btn" id="collect-gems">Collect gems</button>
+    <button type="button" class="pill-btn" id="max-preview" aria-pressed="false">⚡ Full 3D preview</button>
+   </div>
+  </div>
+  <div class="upgrade-grid" id="upgrade-grid" role="group" aria-label="Build 3D plaza structures"></div>
+ </div>
+ <div class="deck-card">
+  <div class="deck-head">
+   <div><p class="deck-eyebrow">YOUR TOKEN · YOUR 3D CHARACTER</p><h2 class="deck-title">3D Soul Evolution Showcase</h2></div>
+   <span class="spark-rate" id="evo-badge-label">Previewing Lv.3 · Vibe</span>
+  </div>
+  <div class="evo-tiers" id="evo-tiers" role="group" aria-label="Preview 3D soul evolution levels"></div>
+  <div class="evo-Showcase-foot">
+   <div class="evo-copy"><strong id="evo-title">Lv.3 · Radiant Keeper (50,000+ SOULI)</strong><p id="evo-desc">Floating pixel satellites pulse with mint starlight around your soul.</p></div>
+   <div class="evo-ctas"><a class="buy-link" href="/buy/">Buy SOULI →</a><a class="soul-link" href="/soul/">My SOULI ↗</a></div>
+  </div>
+ </div>
+</section>
+<div class="footer"><span>Autonomous 3D idle scene · Tap plaza to splash &amp; collect · Public sample artwork · No wallet required to try</span><a href="./miniature.html">Earlier town ↗</a></div></main><script type="module" src="./plaza.mjs"></script></body></html>

@@ -1,0 +1,55 @@
+{
+  "chainId": 8453,
+  "contract": "0xb43eA104c7ec75038Ac8EcA57107Eefc8B039aFF",
+  "block": 52026975,
+  "fetchedAt": "2026-10-01T08:28:28.546Z",
+  "tokenRuntimeCodeHash": "0x9afd2c3834d86fbf79beb22fd67e02e95f616e7606250f8b7d6e1cc6ff36574c",
+  "basis": "A single inscription seed, not aggregate wallet balance. Samples are renderer examples, not guaranteed purchase outcomes. Display levels 1–5 correspond to contract levels 0–4.",
+  "levels": [
+    {
+      "displayLevel": 1,
+      "contractLevel": 0,
+      "minimum": "1",
+      "seed": "1",
+      "extra": "0",
+      "belowLevel": null,
+      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><rect x='0' y='0' width='24' height='24' fill='#FEF3B6'/><rect x='0' y='17' width='24' height='8' fill='#A27267'/><rect x='0' y='17' width='24' height='1' fill='#A27267'/><rect x='0' y='18' width='24' height='1' fill='#A27267'/><rect x='19' y='1' width='2' height='1' fill='#FCE779'/><rect x='19' y='2' width='2' height='1' fill='#FCE779'/><rect x='20' y='3' width='1' height='1' fill='#FCE779'/></svg>"
+    },
+    {
+      "displayLevel": 2,
+      "contractLevel": 1,
+      "minimum": "21000",
+      "seed": "21000",
+      "extra": "0",
+      "belowLevel": 0,
+      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><rect x='0' y='0' width='24' height='24' fill='#FEBFC5'/><rect x='0' y='17' width='24' height='8' fill='#5ED5A1'/><rect x='0' y='17' width='24' height='1' fill='#5ED5A1'/><rect x='0' y='18' width='24' height='1' fill='#5ED5A1'/><rect x='16' y='5' width='2' height='1' fill='#BE91EF'/><rect x='15' y='6' width='2' height='1' fill='#BE91EF'/><rect x='13' y='7' width='1' height='1' fill='#BE91EF'/><rect x='10' y='9' width='1' height='1' fill='#C271F9'/><rect x='13' y='9' width='1' height='1' fill='#C271F9'/><rect x='10' y='10' width='4' height='1' fill='#C271F9'/><rect x='9' y='11' width='6' height='1' fill='#C271F9'/><rect x='9' y='12' width='6' height='1' fill='#C271F9'/><rect x='10' y='13' width='4' height='1' fill='#C271F9'/><rect x='10' y='12' width='3' height='1' fill='#D6FCCE'/><rect x='10' y='12' width='1' height='1' fill='#444444'/><rect x='12' y='12' width='1' height='1' fill='#444444'/></svg>"
+    },
+    {
+      "displayLevel": 3,
+      "contractLevel": 2,
+      "minimum": "150000",
+      "seed": "150000",
+      "extra": "0",
+      "belowLevel": 1,
+      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><rect x='0' y='0' width='24' height='24' fill='#EAC4B0'/><rect x='0' y='17' width='24' height='7' fill='#EE5C75'/><rect x='4' y='2' width='1' height='1' fill='#FF976A'/><rect x='6' y='2' width='1' height='1' fill='#FF976A'/><rect x='5' y='3' width='1' height='1' fill='#FF976A'/><rect x='19' y='5' width='1' height='1' fill='#FF976A'/><rect x='21' y='5' width='1' height='1' fill='#FF976A'/><rect x='20' y='6' width='1' height='1' fill='#FF976A'/><rect x='2' y='14' width='1' height='1' fill='#FF976A'/><rect x='4' y='14' width='1' height='1' fill='#FF976A'/><rect x='3' y='15' width='1' height='1' fill='#FF976A'/><rect x='14' y='9' width='3' height='1' fill='#BBB6C2'/><rect x='8' y='10' width='3' height='1' fill='#BBB6C2'/><rect x='13' y='10' width='5' height='1' fill='#BBB6C2'/><rect x='7' y='11' width='11' height='1' fill='#BBB6C2'/><rect x='7' y='12' width='11' height='1' fill='#BBB6C2'/><rect x='7' y='13' width='5' height='1' fill='#BBB6C2'/><rect x='14' y='13' width='3' height='1' fill='#BBB6C2'/><rect x='8' y='14' width='3' height='1' fill='#BBB6C2'/><rect x='3' y='6' width='1' height='1' fill='#FEF4BA'/><rect x='11' y='9' width='4' height='1' fill='#FEF4BA'/><rect x='11' y='10' width='4' height='1' fill='#FEF4BA'/><rect x='9' y='11' width='2' height='1' fill='#444444'/><rect x='13' y='11' width='2' height='1' fill='#444444'/></svg>"
+    },
+    {
+      "displayLevel": 4,
+      "contractLevel": 3,
+      "minimum": "500000",
+      "seed": "500000",
+      "extra": "0",
+      "belowLevel": 2,
+      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><rect x='0' y='0' width='24' height='24' fill='#FEBFC5'/><rect x='0' y='17' width='24' height='8' fill='#A4DE80'/><rect x='0' y='17' width='24' height='1' fill='#A4DE80'/><rect x='0' y='18' width='24' height='1' fill='#A4DE80'/><rect x='4' y='1' width='2' height='1' fill='#FF976A'/><rect x='18' y='1' width='2' height='1' fill='#FF976A'/><rect x='3' y='2' width='3' height='1' fill='#FF976A'/><rect x='7' y='2' width='1' height='1' fill='#FF976A'/><rect x='16' y='2' width='1' height='1' fill='#FF976A'/><rect x='18' y='2' width='3' height='1' fill='#FF976A'/><rect x='2' y='3' width='2' height='1' fill='#FF976A'/><rect x='20' y='3' width='2' height='1' fill='#FF976A'/><rect x='2' y='4' width='1' height='1' fill='#FF976A'/><rect x='21' y='4' width='1' height='1' fill='#FF976A'/><rect x='14' y='4' width='3' height='1' fill='#B29777'/><rect x='14' y='5' width='3' height='1' fill='#B29777'/><rect x='8' y='6' width='3' height='1' fill='#B29777'/><rect x='13' y='6' width='1' height='1' fill='#B29777'/><rect x='15' y='6' width='2' height='1' fill='#B29777'/><rect x='8' y='7' width='3' height='1' fill='#B29777'/><rect x='15' y='7' width='2' height='1' fill='#B29777'/><rect x='9' y='8' width='2' height='1' fill='#B29777'/><rect x='15' y='8' width='2' height='1' fill='#B29777'/><rect x='9' y='9' width='8' height='1' fill='#B29777'/><rect x='7' y='10' width='11' height='1' fill='#B29777'/><rect x='4' y='11' width='15' height='1' fill='#B29777'/><rect x='6' y='12' width='13' height='1' fill='#B29777'/><rect x='7' y='13' width='12' height='1' fill='#B29777'/><rect x='6' y='14' width='12' height='1' fill='#B29777'/><rect x='8' y='15' width='9' height='1' fill='#B29777'/><rect x='19' y='1' width='1' height='1' fill='#A6FAB6'/><rect x='4' y='3' width='1' height='1' fill='#A6FAB6'/><rect x='12' y='5' width='1' height='1' fill='#A6FAB6'/><rect x='12' y='6' width='1' height='1' fill='#A6FAB6'/><rect x='13' y='7' width='1' height='1' fill='#A6FAB6'/><rect x='16' y='9' width='1' height='1' fill='#A6FAB6'/><rect x='13' y='10' width='1' height='1' fill='#A6FAB6'/><rect x='10' y='11' width='1' height='1' fill='#A6FAB6'/><rect x='13' y='11' width='1' height='1' fill='#A6FAB6'/><rect x='20' y='11' width='1' height='1' fill='#A6FAB6'/><rect x='9' y='12' width='1' height='1' fill='#A6FAB6'/><rect x='12' y='12' width='1' height='1' fill='#A6FAB6'/><rect x='9' y='13' width='1' height='1' fill='#A6FAB6'/><rect x='12' y='13' width='1' height='1' fill='#A6FAB6'/><rect x='10' y='14' width='1' height='1' fill='#A6FAB6'/><rect x='13' y='14' width='1' height='1' fill='#A6FAB6'/><rect x='10' y='15' width='1' height='1' fill='#A6FAB6'/><rect x='13' y='15' width='1' height='1' fill='#A6FAB6'/><rect x='11' y='11' width='1' height='1' fill='#444444'/><rect x='14' y='11' width='1' height='1' fill='#444444'/><rect x='10' y='13' width='3' height='1' fill='#444444'/></svg>"
+    },
+    {
+      "displayLevel": 5,
+      "contractLevel": 4,
+      "minimum": "2500000",
+      "seed": "2500021",
+      "extra": "0",
+      "belowLevel": 3,
+      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><rect x='0' y='0' width='24' height='24' fill='#DCDCDC'/><rect x='0' y='17' width='24' height='8' fill='#F9C637'/><rect x='0' y='17' width='24' height='1' fill='#F9C637'/><rect x='0' y='18' width='24' height='1' fill='#F9C637'/><rect x='14' y='1' width='1' height='1' fill='#FFE298'/><rect x='3' y='6' width='1' height='1' fill='#FFE298'/><rect x='1' y='7' width='2' height='1' fill='#FFE298'/><rect x='1' y='8' width='2' height='1' fill='#FFE298'/><rect x='3' y='15' width='1' height='1' fill='#FFE298'/><rect x='20' y='15' width='1' height='1' fill='#FFE298'/><rect x='21' y='16' width='2' height='1' fill='#FFE298'/><rect x='21' y='17' width='2' height='1' fill='#FFE298'/><rect x='18' y='18' width='1' height='1' fill='#FFE298'/><rect x='7' y='1' width='2' height='1' fill='#CEBFFB'/><rect x='17' y='1' width='2' height='1' fill='#CEBFFB'/><rect x='5' y='2' width='4' height='1' fill='#CEBFFB'/><rect x='16' y='2' width='4' height='1' fill='#CEBFFB'/><rect x='4' y='3' width='6' height='1' fill='#CEBFFB'/><rect x='16' y='3' width='2' height='1' fill='#CEBFFB'/><rect x='4' y='4' width='6' height='1' fill='#CEBFFB'/><rect x='15' y='4' width='4' height='1' fill='#CEBFFB'/><rect x='4' y='5' width='6' height='1' fill='#CEBFFB'/><rect x='15' y='5' width='6' height='1' fill='#CEBFFB'/><rect x='5' y='6' width='15' height='1' fill='#CEBFFB'/><rect x='6' y='7' width='13' height='1' fill='#CEBFFB'/><rect x='5' y='8' width='16' height='1' fill='#CEBFFB'/><rect x='4' y='9' width='16' height='1' fill='#CEBFFB'/><rect x='4' y='10' width='17' height='1' fill='#CEBFFB'/><rect x='4' y='11' width='17' height='1' fill='#CEBFFB'/><rect x='4' y='12' width='17' height='1' fill='#CEBFFB'/><rect x='4' y='13' width='17' height='1' fill='#CEBFFB'/><rect x='4' y='14' width='17' height='1' fill='#CEBFFB'/><rect x='4' y='15' width='18' height='1' fill='#CEBFFB'/><rect x='5' y='16' width='18' height='1' fill='#CEBFFB'/><rect x='6' y='17' width='15' height='1' fill='#CEBFFB'/><rect x='6' y='18' width='3' height='1' fill='#CEBFFB'/><rect x='10' y='18' width='3' height='1' fill='#CEBFFB'/><rect x='14' y='18' width='3' height='1' fill='#CEBFFB'/><rect x='18' y='18' width='3' height='1' fill='#CEBFFB'/><rect x='23' y='6' width='1' height='1' fill='#E3DBF9'/><rect x='9' y='9' width='3' height='1' fill='#E3DBF9'/><rect x='9' y='10' width='3' height='1' fill='#E3DBF9'/><rect x='21' y='10' width='1' height='1' fill='#E3DBF9'/><rect x='1' y='11' width='1' height='1' fill='#E3DBF9'/><rect x='13' y='11' width='3' height='1' fill='#E3DBF9'/><rect x='20' y='11' width='1' height='1' fill='#E3DBF9'/><rect x='2' y='12' width='1' height='1' fill='#E3DBF9'/><rect x='8' y='12' width='1' height='1' fill='#E3DBF9'/><rect x='10' y='12' width='2' height='1' fill='#E3DBF9'/><rect x='13' y='12' width='3' height='1' fill='#E3DBF9'/><rect x='22' y='13' width='1' height='1' fill='#E3DBF9'/><rect x='11' y='14' width='3' height='1' fill='#E3DBF9'/><rect x='19' y='15' width='1' height='1' fill='#E3DBF9'/><rect x='9' y='10' width='1' height='1' fill='#444444'/><rect x='15' y='10' width='1' height='1' fill='#444444'/><rect x='8' y='11' width='2' height='1' fill='#444444'/><rect x='14' y='11' width='2' height='1' fill='#444444'/><rect x='10' y='13' width='1' height='1' fill='#444444'/><rect x='13' y='13' width='1' height='1' fill='#444444'/><rect x='11' y='14' width='2' height='1' fill='#444444'/></svg>"
+    }
+  ]
+}

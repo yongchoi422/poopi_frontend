@@ -1,0 +1,62 @@
+{
+  "errors": [],
+  "crew": 5,
+  "worldArea": 600,
+  "automaticDefense": true,
+  "distinctRolesAffectOutcome": true,
+  "cameraZoomFollowPan": true,
+  "gateBreachAndRepair": true,
+  "roundSurvivesReload": true,
+  "weather": "demo only",
+  "localSaveConflictProtected": true,
+  "reducedMotion": true,
+  "result": {
+    "homeClean": 100,
+    "clean": 91.7,
+    "breaches": 1,
+    "repairs": 1,
+    "turned": 18,
+    "arrived": 12,
+    "wandered": 0,
+    "knockbacks": 82,
+    "crew": [
+      {
+        "id": 0,
+        "contribution": 41
+      },
+      {
+        "id": 1,
+        "contribution": 41
+      },
+      {
+        "id": 2,
+        "contribution": 272
+      },
+      {
+        "id": 3,
+        "contribution": 271
+      },
+      {
+        "id": 4,
+        "contribution": 161
+      }
+    ],
+    "outcome": "restored"
+  },
+  "mobile": [
+    {
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "width": 320,
+      "overflow": false
+    }
+  ],
+  "renderer": {
+    "drawCalls": 99,
+    "triangles": 47134,
+    "creatures": 16
+  },
+  "note": "Software WebGL, no physical-device FPS claim."
+}

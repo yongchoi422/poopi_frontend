@@ -1,0 +1,41 @@
+{
+  "checkedAt": "2026-10-04T06:38:20.586Z",
+  "seen": [
+    {
+      "activity": "rest",
+      "activeSeconds": 1.1916000000000015,
+      "wallSeconds": 1.02,
+      "bounds": {
+        "x": 116.49839708896745,
+        "y": 254.7920105102218,
+        "width": 131.3116477077009,
+        "height": 100.95438592951766
+      }
+    },
+    {
+      "activity": "window",
+      "activeSeconds": 33.23329999999963,
+      "wallSeconds": 33.075,
+      "bounds": {
+        "x": 98.11241125402451,
+        "y": 204.67825802053545,
+        "width": 131.72479825131222,
+        "height": 109.80469098907878
+      }
+    },
+    {
+      "activity": "cushion",
+      "activeSeconds": 60.200000000003875,
+      "wallSeconds": 60.028,
+      "bounds": {
+        "x": 148.24774173746587,
+        "y": 214.83496228310412,
+        "width": 142.43546867092962,
+        "height": 118.81280623345424
+      }
+    }
+  ],
+  "staleCapture": "AbortError",
+  "contextRecovery": "canvas2d",
+  "fallbackPNGBytes": 58178
+}

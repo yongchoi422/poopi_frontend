@@ -1,0 +1,32 @@
+{
+  "observedOn": "2026-09-30",
+  "chainId": 8453,
+  "rpc": "https://base-rpc.publicnode.com",
+  "block": 51979553,
+  "blockTimestamp": "2026-09-30T06:07:33.000Z",
+  "token": "0xb43eA104c7ec75038Ac8EcA57107Eefc8B039aFF",
+  "calls": {
+    "totalSupply": "210000000000000000",
+    "decimals": "9",
+    "pool": "0xA159D241eC79b989cBD69D2917e5951E5F3A49c8",
+    "owner": "0xA159D241eC79b989cBD69D2917e5951E5F3A49c8",
+    "burnCount": "0",
+    "holdersCount": "1149",
+    "inscriptionsTotalCount": "0",
+    "dynamicInscriptionTotalCount": "1149"
+  },
+  "poolAddressCodeAtBlock": "0x",
+  "dexscreener": {
+    "url": "https://api.dexscreener.com/token-pairs/v1/base/0xb43eA104c7ec75038Ac8EcA57107Eefc8B039aFF",
+    "observedOn": "2026-09-30",
+    "pairs": [],
+    "limitation": "No pairs returned by this provider at observation time; this is not proof that no market exists anywhere."
+  },
+  "contractSource": {
+    "repository": "https://github.com/yongchoi422/erc-20i-souli-smart-contract",
+    "commit": "e8485db42b0aea997e7b30ce5f8b3aa352d56cf4",
+    "deployedBytecodeMatchVerified": false
+  },
+  "readOnly": true
+}
+

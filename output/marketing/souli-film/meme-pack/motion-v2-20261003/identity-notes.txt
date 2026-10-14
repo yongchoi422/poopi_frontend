@@ -1,0 +1,80 @@
+01|orange thick slab with a broad blank upper orange area, lilac left and bottom squares, and two black side squares
+02|white and pale ice-blue stepped block with its original offset black squares, pale blue rectangles and fabric sweatband
+03|mint-green fuzzy stepped sculpture with a curled upper-left tip and pink-and-black checker-like horizontal inlay low on its front; all the green area above stays blank
+04|copper stepped circular outline with two upper projections, a large mint central patch and original small black T-shaped marks beneath it
+05|lilac fuzzy block with original pink patches and offset black square inlay, with a thick irregular stepped perimeter
+06|yellow stepped block with two original black rectangles and one long light-blue vertical stripe; the remaining yellow surface is blank
+07|white fuzzy rounded stepped block with a large pink rectangular patch and three original offset black square marks; no different graphic on the back
+08|yellow stepped wide sculpture with pink squares, black crossed horizontal markings and one small lower black rectangle
+09|black and cream stepped block with its original cream square inlays
+10|purple stepped slab with a white vertical pixel patch and small original black squares; the upper purple area remains blank
+11|salmon pink flat stepped slab with lilac horizontal inlays and existing small dark squares
+12|red flame-shaped block with a cream central patch and its original black rectangular marks
+13|yellow stepped block with its original black-pink-black horizontal inlay and a single blank upper projection
+14|brown low wide block with its cream vertical inset and two tall square projections
+15|peach tall curling stepped sculpture with mint patch and original small black rectangular inlays
+16|peach rounded block with its original pale blue and black horizontal stripe and offset small square patches
+17|small green stepped block with original dark square markings and a flat top projection
+18|purple boat-shaped stepped slab with its original pale squares and dark marks fixed low on the front
+19|brown flame-shaped sculpture with pink-and-black flat horizontal inlays low on its face; upper brown area blank
+20|olive mossy stepped block with cream patch, black rectangle and irregular upper curled projection
+21|small brown rectangular block with its original single dark square bordered by mint color
+22|yellow stepped rounded block with original tiny dark inlays and pale blue squares
+23|cyan-blue stepped slab with two offset small black rectangular marks and pink accent square
+24|green broad stepped disk with gray central patch and black geometric inlays fixed in place
+25|orange narrow sculpture with two tall square prongs and a black-cream-black horizontal inset low in front
+26|purple stepped figure with original cream and yellow square mosaic inlays, keeping all remaining purple surfaces blank
+27|wide coral irregular slab with its original purple and blue blocks and low black rectangles
+28|mint-green round stepped sculpture with original dark slanted and horizontal graphic inlays
+29|brown tall thin flat sculpture with cream vertical inset and original black patches
+30|pink low long stepped shape with green square inlays and dark rectangles, its entire silhouette preserved
+31|pink tall stepped slab with one curled projection, a pale patch and one existing dark square
+32|cream wide stepped sculpture with gold and gray mosaic inlays and original small dark rectangular marks
+33|cyan-blue thick rectangular outline with protruding top squares and dark blue and pale inset rectangles
+34|white stepped block with original pale pink areas and two dark vertical rectangles
+35|lilac wide block with a flat extended horizontal top, original peach squares and black rectangular inlays
+36|pale mint translucent stepped sculpture with original dark rectangular inlays and long upper-left projection
+37|gray irregular thick slab with an upper-right square projection and a single black-mint-black horizontal inlay low on front; every other gray area blank
+38|pale green low stepped slab with a long right projection and purple and dark square inset on the left
+39|sky-blue tall curling block with its original gray and black horizontal rectangular inlays near the bottom
+40|wide peach square slab with mint central mosaic and dark angular markings, all front patches fixed in place
+41|purple plaster slab with two square top prongs and ONLY its original black-cyan-black horizontal inlay low on front; entire upper purple surface blank
+42|green irregular enamel slab with its original pale green square patches and tiny black square marks
+43|salmon stepped slab with a tall right prong, mint square patches and original small dark inlays
+44|teal triangular stepped sculpture with pale mint diamond-like mosaic and tiny original black marks
+45|dark charcoal felt slab with two upper square prongs and a single muted horizontal stripe low on its front; all other surfaces blank
+46|red concrete stepped slab with its original small white square and black-white-black horizontal stripe; the upper red area blank
+47|low wide glossy pink ceramic sculpture with lilac square patches and original black marks low on front; large upper-right pink area remains blank
+48|charcoal wide stepped sculpture with its original cyan stripe and gray rectangular patches, upper two prongs unchanged
+49|small yellow block with its existing pink side patch and black square marks, unchanged stepped outline
+50|purple round stepped sculpture with pale lilac vertical center inset and original small black rectangles
+51|yellow wide stepped block with a narrow upper-left projection, light-blue square inlays and original black markings
+52|dark red stepped slab with pale mint horizontal stripe inlays and a small original black square, all stripes permanently fixed
+53|white stepped sculpture with pink areas and original black offset square marks, flat front unchanged
+54|salmon pink geometric slab with a long right projection, white square inlays and small original black rectangular marks
+55|lilac tall curled stepped sculpture with original peach and black square inlays low in front; upper lilac portion blank
+56|purple wide stepped shape with blue cross-shaped mosaic and original small dark patches
+57|yellow stepped rectangle with a pink lower-left patch and original black stripe, upper yellow area blank
+58|lavender tall block with only ONE mint square high on its front and two black rectangles on the LOWER row; remaining upper lavender area blank
+59|purple wide stepped slab with yellow square mosaic inlays and original dark patches; no additional facial features
+60|light green irregular disk with cream center patch and original small black geometrical marks
+61|purple stepped slab with a tall right projection, cream square patch and a single dark rectangle near the base; upper purple portion blank
+62|translucent turquoise low angular sculpture with a long horizontal right projection, pale inset and dark square patch
+63|yellow irregular low sculpture with white and black angled rectangular mosaic, all patches fixed to the surface
+64|orange broad stepped block with gray horizontal patches and original black angular marks, preserving the two top prongs
+65|white stepped geometric slab with a long right projection and a black-white-black horizontal inset low on front; upper white area blank
+66|pink squat stepped disk with a pale top patch and one original black vertical rectangle centered low on front
+67|cyan asymmetric curled sculpture with a large pink central mosaic and existing dark pixel inlays
+68|blue rounded stepped slab with cream patches and original dark cross-like rectangular marks, unchanged blue outline
+69|orange low stepped slab with a single tall projection and one original black horizontal rectangular inlay near the base; upper orange area blank
+70|pink squared sculpture with two black horizontal rectangular marks separated by a pink stripe and pale pixel patches above; no nose or snout
+71|lavender asymmetrical wide sculpture with mint square patches and original dark rectangular marks fixed low on front
+72|yellow irregular wide slab with two prongs, pale square patches and original dark angular marks
+73|rust-red squat stepped block with exactly a black-pale-black horizontal inlay; no pupils or white borders, remaining rust-red surface blank
+74|orange stepped triangular sculpture with cream square patches and ONLY the two existing tiny black marks near the lower middle; upper orange and cream area blank
+75|copper tall curled stepped slab with cream and black horizontal inlays low on front; upper curled portion stays blank
+76|lilac triangular stepped sculpture with original pink patches and black angular markings fixed low on front
+77|low wide red stepped brick with exactly the original dark square markings; it never stands taller or grows a separate head
+78|green tall angled sculpture with its original pink square and dark vertical rectangular inlays, upper green portion blank
+79|long low gray rectangular sculpture with original yellow and black checker-like horizontal inlay, entire silhouette preserved
+80|green tall flame-like stepped slab with pale squares and ONLY the three existing black rectangles along the LOWER face; all upper green areas blank

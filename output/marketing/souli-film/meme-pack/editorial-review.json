@@ -1,0 +1,587 @@
+{
+  "method": "Full-file FFmpeg decode of all 80. 16-frame visual checks for 12 replacements and 60 additions; six-frame checks retained for eight earlier accepted clips. Sampled review does not guarantee frame-perfect SVG identity, seamless looping or audience response.",
+  "identity_replaced_ids": [
+    "01",
+    "02",
+    "04",
+    "05",
+    "06",
+    "07",
+    "10",
+    "13",
+    "16",
+    "17",
+    "18",
+    "19"
+  ],
+  "hero_shortlist": [
+    "01",
+    "06",
+    "16",
+    "21",
+    "28",
+    "37"
+  ],
+  "episodes": [
+    {
+      "id": "01",
+      "selected_revision": "revisions/static-art/episode-01-master-720p.mp4",
+      "observed": "커피가 머리 위로 쏟아지고 한 방울씩 흘러내린다. 캐릭터는 끝까지 동일한 블록 형태를 유지한다.",
+      "note": "16개 시점의 프레임을 비교해 눈에 띄는 얼굴 교체·인간형 팔다리 추가 여부를 검수했다. 생성 영상의 소품·질감·가려진 부분은 원화와 차이가 있을 수 있다.",
+      "hero_eligible": true
+    },
+    {
+      "id": "02",
+      "selected_revision": "revisions/identity-final/episode-02-master-720p.mp4",
+      "observed": "벨트 위에서 제자리 운동을 하고 조금 뒤로 밀린다. 원래 픽셀 무늬가 유지된다.",
+      "note": "16개 시점의 프레임을 비교해 눈에 띄는 얼굴 교체·인간형 팔다리 추가 여부를 검수했다. 생성 영상의 소품·질감·가려진 부분은 원화와 차이가 있을 수 있다.",
+      "hero_eligible": false
+    },
+    {
+      "id": "03",
+      "selected_revision": 2,
+      "observed": "풀잎이 휴대전화를 쓰러뜨리고 소울은 웃는 채 남는다.",
+      "note": "v2에서 얼굴과 실루엣이 유지되고 풀의 개입이 명확해졌다.",
+      "hero_eligible": false
+    },
+    {
+      "id": "04",
+      "selected_revision": "revisions/static-art/episode-04-master-720p.mp4",
+      "observed": "레드카펫이 혼자 펼쳐졌다가 다시 말린다. 소울은 같은 표정으로 서 있다.",
+      "note": "16개 시점의 프레임을 비교해 눈에 띄는 얼굴 교체·인간형 팔다리 추가 여부를 검수했다. 생성 영상의 소품·질감·가려진 부분은 원화와 차이가 있을 수 있다.",
+      "hero_eligible": false
+    },
+    {
+      "id": "05",
+      "selected_revision": "revisions/static-art/episode-05-master-720p.mp4",
+      "observed": "냉장고 문이 열리고 닫히지만 소울은 제자리에 남는다.",
+      "note": "16개 시점의 프레임을 비교해 눈에 띄는 얼굴 교체·인간형 팔다리 추가 여부를 검수했다. 생성 영상의 소품·질감·가려진 부분은 원화와 차이가 있을 수 있다.",
+      "hero_eligible": false
+    },
+    {
+      "id": "06",
+      "selected_revision": "revisions/identity-final/episode-06-master-720p.mp4",
+      "observed": "토스트가 튀어나오자 작은 소울이 통째로 한 번 뛴다.",
+      "note": "16개 시점의 프레임을 비교해 눈에 띄는 얼굴 교체·인간형 팔다리 추가 여부를 검수했다. 생성 영상의 소품·질감·가려진 부분은 원화와 차이가 있을 수 있다.",
+      "hero_eligible": true
+    },
+    {
+      "id": "07",
+      "selected_revision": "revisions/identity-final/episode-07-master-720p.mp4",
+      "observed": "소울은 그대로인데 옆 아이스크림만 녹아내린다.",
+      "note": "16개 시점의 프레임을 비교해 눈에 띄는 얼굴 교체·인간형 팔다리 추가 여부를 검수했다. 생성 영상의 소품·질감·가려진 부분은 원화와 차이가 있을 수 있다.",
+      "hero_eligible": false
+    },
+    {
+      "id": "08",
+      "selected_revision": 2,
+      "observed": "좌우로 피하는 금빛 소울 위로 작은 먹구름이 따라온다.",
+      "note": "v2에서 긴 토끼 귀로 바뀌던 문제가 개선되어 원래 금빛 실루엣과 얼굴이 유지된다.",
+      "hero_eligible": false
+    },
+    {
+      "id": "09",
+      "selected_revision": 2,
+      "observed": "카메라가 올라가며 커다란 카트 안 완두콩 한 알을 보여준다.",
+      "note": "v2에서 소울이 별도 머리·몸을 가진 사람 형태로 변하던 문제를 해결했다. 동작은 카메라 중심이다.",
+      "hero_eligible": false
+    },
+    {
+      "id": "10",
+      "selected_revision": "revisions/static-art/episode-10-master-720p.mp4",
+      "observed": "소울을 태운 사무용 의자가 회의실 밖으로 굴러 나간다.",
+      "note": "16개 시점의 프레임을 비교해 눈에 띄는 얼굴 교체·인간형 팔다리 추가 여부를 검수했다. 생성 영상의 소품·질감·가려진 부분은 원화와 차이가 있을 수 있다.",
+      "hero_eligible": false
+    },
+    {
+      "id": "11",
+      "selected_revision": 2,
+      "observed": "나초가 살사에 기울고 소울이 곁에서 함께 기울어진다.",
+      "note": "v2에서 원래 픽셀 얼굴은 유지된다. 소스에 끌려가는 계획된 핵심 반전은 충분히 구현되지 않았다.",
+      "hero_eligible": false
+    },
+    {
+      "id": "12",
+      "selected_revision": 2,
+      "observed": "작은 선풍기는 서버 대신 소울 머리의 종이만 날려버린다.",
+      "note": "v2에서 원래 얼굴 유지와 종이 낙하 반전이 모두 읽힌다.",
+      "hero_eligible": false
+    },
+    {
+      "id": "13",
+      "selected_revision": "revisions/identity-final/episode-13-master-720p.mp4",
+      "observed": "우주에서 감자칩을 따라 소울이 둥둥 떠간다.",
+      "note": "16개 시점의 프레임을 비교해 눈에 띄는 얼굴 교체·인간형 팔다리 추가 여부를 검수했다. 생성 영상의 소품·질감·가려진 부분은 원화와 차이가 있을 수 있다.",
+      "hero_eligible": false
+    },
+    {
+      "id": "14",
+      "selected_revision": 1,
+      "observed": "엘리베이터 앞에서 조급하게 떨다가 뒤늦게 들어간다.",
+      "note": "캐릭터가 비교적 유지된다. 기다림에 관한 일상 반응용이다.",
+      "hero_eligible": false
+    },
+    {
+      "id": "15",
+      "selected_revision": 1,
+      "observed": "스카프가 날아와 눈 위 이마에 감긴다.",
+      "note": "얼굴·모양은 유지되지만 스카프가 눈을 완전히 가리는 반전은 구현되지 않았다.",
+      "hero_eligible": false
+    },
+    {
+      "id": "16",
+      "selected_revision": "revisions/identity-final/episode-16-master-720p.mp4",
+      "observed": "같은 얼굴의 소울이 소파 쿠션 사이로 천천히 가라앉는다.",
+      "note": "16개 시점의 프레임을 비교해 눈에 띄는 얼굴 교체·인간형 팔다리 추가 여부를 검수했다. 생성 영상의 소품·질감·가려진 부분은 원화와 차이가 있을 수 있다.",
+      "hero_eligible": true
+    },
+    {
+      "id": "17",
+      "selected_revision": "revisions/identity-final/episode-17-master-720p.mp4",
+      "observed": "풍선이 소울을 살짝 들어 올렸다가 내려놓는다.",
+      "note": "16개 시점의 프레임을 비교해 눈에 띄는 얼굴 교체·인간형 팔다리 추가 여부를 검수했다. 생성 영상의 소품·질감·가려진 부분은 원화와 차이가 있을 수 있다.",
+      "hero_eligible": false
+    },
+    {
+      "id": "18",
+      "selected_revision": "revisions/identity-final/episode-18-master-720p.mp4",
+      "observed": "종이배가 거품 위에서 흔들리고 고무 오리가 지나간다.",
+      "note": "16개 시점의 프레임을 비교해 눈에 띄는 얼굴 교체·인간형 팔다리 추가 여부를 검수했다. 생성 영상의 소품·질감·가려진 부분은 원화와 차이가 있을 수 있다.",
+      "hero_eligible": false
+    },
+    {
+      "id": "19",
+      "selected_revision": "revisions/new-round2/episode-19-master-720p.mp4",
+      "observed": "은색 뚜껑이 올라가 감자튀김을 드러낸 뒤 다시 내려온다. 기존 얼굴 무늬가 유지되며, 가려져 있던 아래쪽 받침은 생성 해석이다.",
+      "note": "16개 시점의 프레임을 비교해 눈에 띄는 얼굴 교체·인간형 팔다리 추가 여부를 검수했다. 생성 영상의 소품·질감·가려진 부분은 원화와 차이가 있을 수 있다. 뚜껑 뒤에 가려졌던 받침 부분은 생성 해석이며 얼굴 무늬는 유지된다.",
+      "hero_eligible": false
+    },
+    {
+      "id": "20",
+      "selected_revision": 1,
+      "observed": "명상하던 소울이 휴대전화 쪽으로 움직여 정돈된 모래에 자국을 낸다.",
+      "note": "원래 픽셀 그래픽과 조형이 잘 유지된다. 알림에 무너지는 집중을 표현한다.",
+      "hero_eligible": false
+    },
+    {
+      "id": "21",
+      "selected_revision": "revisions/static-art/episode-21-master-720p.mp4",
+      "observed": "커다란 양말이 소울 위로 내려앉아 얼굴만 조금 보인다.",
+      "note": "16개 시점의 프레임을 비교해 눈에 띄는 얼굴 교체·인간형 팔다리 추가 여부를 검수했다. 생성 영상의 소품·질감·가려진 부분은 원화와 차이가 있을 수 있다.",
+      "hero_eligible": true
+    },
+    {
+      "id": "22",
+      "selected_revision": "revisions/static-art/episode-22-master-720p.mp4",
+      "observed": "과자 봉지는 끝내 걸려 있고, 부스러기 하나만 떨어진다.",
+      "note": "16개 시점의 프레임을 비교해 눈에 띄는 얼굴 교체·인간형 팔다리 추가 여부를 검수했다. 생성 영상의 소품·질감·가려진 부분은 원화와 차이가 있을 수 있다.",
+      "hero_eligible": false
+    },
+    {
+      "id": "23",
+      "selected_revision": "revisions/static-art/episode-23-master-720p.mp4",
+      "observed": "프린터의 종이가 끝없이 말려 나오며 책상과 소울 앞을 채운다.",
+      "note": "16개 시점의 프레임을 비교해 눈에 띄는 얼굴 교체·인간형 팔다리 추가 여부를 검수했다. 생성 영상의 소품·질감·가려진 부분은 원화와 차이가 있을 수 있다.",
+      "hero_eligible": false
+    },
+    {
+      "id": "24",
+      "selected_revision": "revisions/static-art/episode-24-master-720p.mp4",
+      "observed": "접시를 탄 소울 앞으로 엄청 큰 접시와 작은 밥알이 지나간다.",
+      "note": "16개 시점의 프레임을 비교해 눈에 띄는 얼굴 교체·인간형 팔다리 추가 여부를 검수했다. 생성 영상의 소품·질감·가려진 부분은 원화와 차이가 있을 수 있다.",
+      "hero_eligible": false
+    },
+    {
+      "id": "25",
+      "selected_revision": "revisions/static-art/episode-25-master-720p.mp4",
+      "observed": "작은 공을 보내자 한참 뒤 큰 핀 하나가 넘어진다.",
+      "note": "16개 시점의 프레임을 비교해 눈에 띄는 얼굴 교체·인간형 팔다리 추가 여부를 검수했다. 생성 영상의 소품·질감·가려진 부분은 원화와 차이가 있을 수 있다.",
+      "hero_eligible": false
+    },
+    {
+      "id": "26",
+      "selected_revision": "revisions/new-round2/episode-26-master-720p.mp4",
+      "observed": "과한 연기가 DJ 데스크를 덮었다가 걷힌다. 보라색 픽셀 무늬가 유지된다.",
+      "note": "16개 시점의 프레임을 비교해 눈에 띄는 얼굴 교체·인간형 팔다리 추가 여부를 검수했다. 생성 영상의 소품·질감·가려진 부분은 원화와 차이가 있을 수 있다.",
+      "hero_eligible": false
+    },
+    {
+      "id": "27",
+      "selected_revision": "revisions/new-round2/episode-27-master-720p.mp4",
+      "observed": "웅장한 전시대의 천이 벗겨지자 마카로니 하나가 나온다.",
+      "note": "16개 시점의 프레임을 비교해 눈에 띄는 얼굴 교체·인간형 팔다리 추가 여부를 검수했다. 생성 영상의 소품·질감·가려진 부분은 원화와 차이가 있을 수 있다.",
+      "hero_eligible": false
+    },
+    {
+      "id": "28",
+      "selected_revision": "revisions/new-round2/episode-28-master-720p.mp4",
+      "observed": "종이 레이싱카가 조금 움직이다 바퀴 하나가 빠지고 그대로 멈춘다.",
+      "note": "16개 시점의 프레임을 비교해 눈에 띄는 얼굴 교체·인간형 팔다리 추가 여부를 검수했다. 생성 영상의 소품·질감·가려진 부분은 원화와 차이가 있을 수 있다.",
+      "hero_eligible": true
+    },
+    {
+      "id": "29",
+      "selected_revision": "revisions/new-round2/episode-29-master-720p.mp4",
+      "observed": "잔뜩 기대하고 들어 올린 낚싯줄 끝에는 해초 한 가닥만 있다.",
+      "note": "16개 시점의 프레임을 비교해 눈에 띄는 얼굴 교체·인간형 팔다리 추가 여부를 검수했다. 생성 영상의 소품·질감·가려진 부분은 원화와 차이가 있을 수 있다.",
+      "hero_eligible": false
+    },
+    {
+      "id": "30",
+      "selected_revision": "revisions/new-round2/episode-30-master-720p.mp4",
+      "observed": "멋진 풍경 앞에서 텐트가 바람 빠지듯 납작해진다.",
+      "note": "16개 시점의 프레임을 비교해 눈에 띄는 얼굴 교체·인간형 팔다리 추가 여부를 검수했다. 생성 영상의 소품·질감·가려진 부분은 원화와 차이가 있을 수 있다.",
+      "hero_eligible": false
+    },
+    {
+      "id": "31",
+      "selected_revision": "revisions/new-round3/episode-31-master-720p.mp4",
+      "observed": "수하물 벨트로 칫솔 한 개만 지나간다. 분홍 소울은 같은 얼굴로 기다린다.",
+      "note": "16개 시점의 프레임을 비교해 눈에 띄는 얼굴 교체·인간형 팔다리 추가 여부를 검수했다. 생성 영상의 소품·질감·가려진 부분은 원화와 차이가 있을 수 있다.",
+      "hero_eligible": false
+    },
+    {
+      "id": "32",
+      "selected_revision": "revisions/new-round2/episode-32-master-720p.mp4",
+      "observed": "왕관이 소울 앞까지 내려와 얼굴을 가린다. 왕관의 크기를 강조하는 연출이다.",
+      "note": "16개 시점의 프레임을 비교해 눈에 띄는 얼굴 교체·인간형 팔다리 추가 여부를 검수했다. 생성 영상의 소품·질감·가려진 부분은 원화와 차이가 있을 수 있다.",
+      "hero_eligible": false
+    },
+    {
+      "id": "33",
+      "selected_revision": "revisions/new-round2/episode-33-master-720p.mp4",
+      "observed": "비를 피하려고 펼쳐진 우산이 뒤집힌 채 남는다.",
+      "note": "16개 시점의 프레임을 비교해 눈에 띄는 얼굴 교체·인간형 팔다리 추가 여부를 검수했다. 생성 영상의 소품·질감·가려진 부분은 원화와 차이가 있을 수 있다.",
+      "hero_eligible": false
+    },
+    {
+      "id": "34",
+      "selected_revision": "revisions/new-round2/episode-34-master-720p.mp4",
+      "observed": "블루베리 하나가 굴러 떨어지자 팬케이크 탑이 주저앉는다. 음식의 움직임은 과장된 슬랩스틱이다.",
+      "note": "16개 시점의 프레임을 비교해 눈에 띄는 얼굴 교체·인간형 팔다리 추가 여부를 검수했다. 생성 영상의 소품·질감·가려진 부분은 원화와 차이가 있을 수 있다.",
+      "hero_eligible": false
+    },
+    {
+      "id": "35",
+      "selected_revision": "revisions/new-round2/episode-35-master-720p.mp4",
+      "observed": "체스 말 하나가 가장자리에서 넘어지지만 소울은 무표정하게 남는다.",
+      "note": "16개 시점의 프레임을 비교해 눈에 띄는 얼굴 교체·인간형 팔다리 추가 여부를 검수했다. 생성 영상의 소품·질감·가려진 부분은 원화와 차이가 있을 수 있다.",
+      "hero_eligible": false
+    },
+    {
+      "id": "36",
+      "selected_revision": "revisions/new-round3/episode-36-master-720p.mp4",
+      "observed": "파도가 공들인 모래성을 무너뜨리고 작은 깃발만 남긴다.",
+      "note": "16개 시점의 프레임을 비교해 눈에 띄는 얼굴 교체·인간형 팔다리 추가 여부를 검수했다. 생성 영상의 소품·질감·가려진 부분은 원화와 차이가 있을 수 있다.",
+      "hero_eligible": false
+    },
+    {
+      "id": "37",
+      "selected_revision": "revisions/new-round3/episode-37-master-720p.mp4",
+      "observed": "로봇청소기를 탄 소울이 양말을 만나 멈칫하고 방향을 돌린다.",
+      "note": "16개 시점의 프레임을 비교해 눈에 띄는 얼굴 교체·인간형 팔다리 추가 여부를 검수했다. 생성 영상의 소품·질감·가려진 부분은 원화와 차이가 있을 수 있다.",
+      "hero_eligible": true
+    },
+    {
+      "id": "38",
+      "selected_revision": "revisions/new-round3/episode-38-master-720p.mp4",
+      "observed": "책장이 넘어오며 소울 위에 작은 종이 텐트처럼 덮인다.",
+      "note": "16개 시점의 프레임을 비교해 눈에 띄는 얼굴 교체·인간형 팔다리 추가 여부를 검수했다. 생성 영상의 소품·질감·가려진 부분은 원화와 차이가 있을 수 있다.",
+      "hero_eligible": false
+    },
+    {
+      "id": "39",
+      "selected_revision": "revisions/new-round3/episode-39-master-720p.mp4",
+      "observed": "정상에 꽂은 깃발 천만 바람에 날아가고 막대가 남는다.",
+      "note": "16개 시점의 프레임을 비교해 눈에 띄는 얼굴 교체·인간형 팔다리 추가 여부를 검수했다. 생성 영상의 소품·질감·가려진 부분은 원화와 차이가 있을 수 있다.",
+      "hero_eligible": false
+    },
+    {
+      "id": "40",
+      "selected_revision": "revisions/new-round3/episode-40-master-720p.mp4",
+      "observed": "새싹이 과하게 자라 큰 잎이 소울의 모자처럼 머리를 덮는다.",
+      "note": "16개 시점의 프레임을 비교해 눈에 띄는 얼굴 교체·인간형 팔다리 추가 여부를 검수했다. 생성 영상의 소품·질감·가려진 부분은 원화와 차이가 있을 수 있다.",
+      "hero_eligible": false
+    },
+    {
+      "id": "41",
+      "selected_revision": "revisions/batch3-repair/episode-41-master-720p.mp4",
+      "observed": "팝콘이 옆으로 분출하고 흩어진다. 보라색 조형물에 눈이 추가되던 첫 버전을 교체했고, 원래 가로 무늬가 유지된다.",
+      "note": "16개 시점의 프레임을 비교해 눈에 띄는 얼굴 교체·인간형 팔다리 추가 여부를 검수했다. 생성 영상의 소품·질감·가려진 부분은 원화와 차이가 있을 수 있다.",
+      "hero_eligible": false
+    },
+    {
+      "id": "42",
+      "selected_revision": "revisions/batch3-first/episode-42-master-720p.mp4",
+      "observed": "대형 탁구공이 세 번 튀고 멈춘다. 초록 조형물의 비대칭 픽셀 무늬가 유지된다.",
+      "note": "16개 시점의 프레임을 비교해 눈에 띄는 얼굴 교체·인간형 팔다리 추가 여부를 검수했다. 생성 영상의 소품·질감·가려진 부분은 원화와 차이가 있을 수 있다.",
+      "hero_eligible": false
+    },
+    {
+      "id": "43",
+      "selected_revision": "revisions/batch3-first/episode-43-master-720p.mp4",
+      "observed": "사진 배경지가 출렁이며 벽돌 무늬를 드러낸다. 캐릭터는 원래 얼굴과 형태를 유지한다.",
+      "note": "16개 시점의 프레임을 비교해 눈에 띄는 얼굴 교체·인간형 팔다리 추가 여부를 검수했다. 생성 영상의 소품·질감·가려진 부분은 원화와 차이가 있을 수 있다.",
+      "hero_eligible": false
+    },
+    {
+      "id": "44",
+      "selected_revision": "revisions/batch3-first/episode-44-master-720p.mp4",
+      "observed": "바퀴 달린 거대한 운동화가 먼저 떠나고 소울만 출발선에 남는다. 원래 무늬가 유지된다.",
+      "note": "16개 시점의 프레임을 비교해 눈에 띄는 얼굴 교체·인간형 팔다리 추가 여부를 검수했다. 생성 영상의 소품·질감·가려진 부분은 원화와 차이가 있을 수 있다.",
+      "hero_eligible": false
+    },
+    {
+      "id": "45",
+      "selected_revision": "revisions/batch3-first/episode-45-master-720p.mp4",
+      "observed": "마술 모자의 당근이 솟았다가 옆으로 쓰러진다. 검은 펠트 조형물의 얼굴 띠가 유지된다.",
+      "note": "16개 시점의 프레임을 비교해 눈에 띄는 얼굴 교체·인간형 팔다리 추가 여부를 검수했다. 생성 영상의 소품·질감·가려진 부분은 원화와 차이가 있을 수 있다.",
+      "hero_eligible": false
+    },
+    {
+      "id": "46",
+      "selected_revision": "revisions/batch3-repair/episode-46-master-720p.mp4",
+      "observed": "마시멜로 바벨이 납작해진다. 첫 버전의 사람형 머리를 없앤 교체본에서 원래 빨간 실루엣이 유지된다.",
+      "note": "16개 시점의 프레임을 비교해 눈에 띄는 얼굴 교체·인간형 팔다리 추가 여부를 검수했다. 생성 영상의 소품·질감·가려진 부분은 원화와 차이가 있을 수 있다.",
+      "hero_eligible": false
+    },
+    {
+      "id": "47",
+      "selected_revision": "revisions/batch3-repair/episode-47-master-720p.mp4",
+      "observed": "포크가 파스타를 말아 내려놓는다. 조형물에 눈이 생기던 첫 버전을 교체했다. 마지막에 화면 위쪽으로 포크를 잡는 손 일부가 보이지만 소울은 변하지 않는다.",
+      "note": "16개 시점의 프레임을 비교해 눈에 띄는 얼굴 교체·인간형 팔다리 추가 여부를 검수했다. 생성 영상의 소품·질감·가려진 부분은 원화와 차이가 있을 수 있다.",
+      "hero_eligible": false
+    },
+    {
+      "id": "48",
+      "selected_revision": "revisions/batch3-first/episode-48-master-720p.mp4",
+      "observed": "회전초가 커지며 소울 앞을 지나간다. 잠깐 가려진 뒤에도 원래 형태와 무늬가 유지된다.",
+      "note": "16개 시점의 프레임을 비교해 눈에 띄는 얼굴 교체·인간형 팔다리 추가 여부를 검수했다. 생성 영상의 소품·질감·가려진 부분은 원화와 차이가 있을 수 있다.",
+      "hero_eligible": false
+    },
+    {
+      "id": "49",
+      "selected_revision": "revisions/batch3-timing/episode-49-master-720p.mp4",
+      "observed": "잠망경 위 고무 오리가 내려왔다 올라간다. 6.75초 이후 마지막 정상 프레임을 유지하여 끝의 얼굴 변형을 제외했다. 8초 192프레임 편집본 검수.",
+      "note": "16개 시점의 프레임을 비교해 눈에 띄는 얼굴 교체·인간형 팔다리 추가 여부를 검수했다. 생성 영상의 소품·질감·가려진 부분은 원화와 차이가 있을 수 있다.",
+      "hero_eligible": false
+    },
+    {
+      "id": "50",
+      "selected_revision": "revisions/batch3-first/episode-50-master-720p.mp4",
+      "observed": "빵 반죽이 부풀며 밀대를 떨어뜨린다. 보라색 조형물의 픽셀 무늬가 유지된다.",
+      "note": "16개 시점의 프레임을 비교해 눈에 띄는 얼굴 교체·인간형 팔다리 추가 여부를 검수했다. 생성 영상의 소품·질감·가려진 부분은 원화와 차이가 있을 수 있다.",
+      "hero_eligible": false
+    },
+    {
+      "id": "51",
+      "selected_revision": "revisions/batch3-first/episode-51-master-720p.mp4",
+      "observed": "골프공이 루프를 돌아 소울 앞으로 다시 돌아온다. 노란 소울의 원래 형태와 무늬가 유지된다.",
+      "note": "16개 시점의 프레임을 비교해 눈에 띄는 얼굴 교체·인간형 팔다리 추가 여부를 검수했다. 생성 영상의 소품·질감·가려진 부분은 원화와 차이가 있을 수 있다.",
+      "hero_eligible": false
+    },
+    {
+      "id": "52",
+      "selected_revision": "revisions/batch3-first/episode-52-master-720p.mp4",
+      "observed": "큰 빨간 젤리가 흔들리다가 멈춘다. 옆의 붉은 조형물은 끝까지 같은 무늬를 유지한다.",
+      "note": "16개 시점의 프레임을 비교해 눈에 띄는 얼굴 교체·인간형 팔다리 추가 여부를 검수했다. 생성 영상의 소품·질감·가려진 부분은 원화와 차이가 있을 수 있다.",
+      "hero_eligible": false
+    },
+    {
+      "id": "53",
+      "selected_revision": "revisions/batch3-first/episode-53-master-720p.mp4",
+      "observed": "집게가 빈 곳을 집었다가 빈 채로 올라간다. 흰 조형물은 바뀌지 않는다.",
+      "note": "16개 시점의 프레임을 비교해 눈에 띄는 얼굴 교체·인간형 팔다리 추가 여부를 검수했다. 생성 영상의 소품·질감·가려진 부분은 원화와 차이가 있을 수 있다.",
+      "hero_eligible": false
+    },
+    {
+      "id": "54",
+      "selected_revision": "revisions/batch3-first/episode-54-master-720p.mp4",
+      "observed": "트라이앵글을 한 번 두드리자 금빛 종이가 쏟아진다. 분홍 조형물의 형태와 무늬가 유지된다.",
+      "note": "16개 시점의 프레임을 비교해 눈에 띄는 얼굴 교체·인간형 팔다리 추가 여부를 검수했다. 생성 영상의 소품·질감·가려진 부분은 원화와 차이가 있을 수 있다.",
+      "hero_eligible": false
+    },
+    {
+      "id": "55",
+      "selected_revision": "revisions/batch3-first/episode-55-master-720p.mp4",
+      "observed": "호출 벨을 누르면 더 작은 벨이 옆으로 들어온다. 소울의 긴 비대칭 실루엣이 유지된다.",
+      "note": "16개 시점의 프레임을 비교해 눈에 띄는 얼굴 교체·인간형 팔다리 추가 여부를 검수했다. 생성 영상의 소품·질감·가려진 부분은 원화와 차이가 있을 수 있다.",
+      "hero_eligible": false
+    },
+    {
+      "id": "56",
+      "selected_revision": "revisions/batch3-first/episode-56-master-720p.mp4",
+      "observed": "해먹이 꼬이고 흔들렸다 풀린다. 보라색 소울은 판자와 함께 기울며 원래 형태와 픽셀 무늬를 유지한다.",
+      "note": "16개 시점의 프레임을 비교해 눈에 띄는 얼굴 교체·인간형 팔다리 추가 여부를 검수했다. 생성 영상의 소품·질감·가려진 부분은 원화와 차이가 있을 수 있다.",
+      "hero_eligible": false
+    },
+    {
+      "id": "57",
+      "selected_revision": "revisions/batch3-first/episode-57-master-720p.mp4",
+      "observed": "쿠키 한 개를 보관한 거대한 금고 문이 닫힌다. 노란 소울의 무늬가 유지된다.",
+      "note": "16개 시점의 프레임을 비교해 눈에 띄는 얼굴 교체·인간형 팔다리 추가 여부를 검수했다. 생성 영상의 소품·질감·가려진 부분은 원화와 차이가 있을 수 있다.",
+      "hero_eligible": false
+    },
+    {
+      "id": "58",
+      "selected_revision": "revisions/batch3-repair/episode-58-master-720p.mp4",
+      "observed": "선풍기가 눈을 밀어 당근을 드러낸다. 위의 민트색 사각형과 아래 검정 사각형만 유지되고 새 눈이 생기지 않는다.",
+      "note": "16개 시점의 프레임을 비교해 눈에 띄는 얼굴 교체·인간형 팔다리 추가 여부를 검수했다. 생성 영상의 소품·질감·가려진 부분은 원화와 차이가 있을 수 있다.",
+      "hero_eligible": false
+    },
+    {
+      "id": "59",
+      "selected_revision": "revisions/batch3-first/episode-59-master-720p.mp4",
+      "observed": "거대한 대포가 색종이 한 장만 발사한다. 보라색의 비대칭 도형 무늬가 끝까지 유지된다.",
+      "note": "16개 시점의 프레임을 비교해 눈에 띄는 얼굴 교체·인간형 팔다리 추가 여부를 검수했다. 생성 영상의 소품·질감·가려진 부분은 원화와 차이가 있을 수 있다.",
+      "hero_eligible": false
+    },
+    {
+      "id": "60",
+      "selected_revision": "revisions/batch3-first/episode-60-master-720p.mp4",
+      "observed": "도미노가 역으로 일어났다가 다시 쓰러져 쿠션에서 멈춘다. 소울이 통째로 기울지만 외곽과 얼굴 무늬가 유지된다.",
+      "note": "16개 시점의 프레임을 비교해 눈에 띄는 얼굴 교체·인간형 팔다리 추가 여부를 검수했다. 생성 영상의 소품·질감·가려진 부분은 원화와 차이가 있을 수 있다.",
+      "hero_eligible": false
+    },
+    {
+      "id": "61",
+      "selected_revision": "revisions/batch3-first/episode-61-master-720p.mp4",
+      "observed": "치즈가 길게 늘어나다 끊어져 접시에 동그랗게 쌓인다. 보라색 소울의 픽셀은 고정되어 있다.",
+      "note": "16개 시점의 프레임을 비교해 눈에 띄는 얼굴 교체·인간형 팔다리 추가 여부를 검수했다. 생성 영상의 소품·질감·가려진 부분은 원화와 차이가 있을 수 있다.",
+      "hero_eligible": false
+    },
+    {
+      "id": "62",
+      "selected_revision": "revisions/batch3-first/episode-62-master-720p.mp4",
+      "observed": "스프링 키가 위로 솟았다 옆으로 쓰러진다. 투명 민트 소울의 형태가 유지된다.",
+      "note": "16개 시점의 프레임을 비교해 눈에 띄는 얼굴 교체·인간형 팔다리 추가 여부를 검수했다. 생성 영상의 소품·질감·가려진 부분은 원화와 차이가 있을 수 있다.",
+      "hero_eligible": false
+    },
+    {
+      "id": "63",
+      "selected_revision": "revisions/batch3-first/episode-63-master-720p.mp4",
+      "observed": "빈 두루마리가 말렸다가 길게 펼쳐진다. 노란 비대칭 소울 무늬가 유지된다.",
+      "note": "16개 시점의 프레임을 비교해 눈에 띄는 얼굴 교체·인간형 팔다리 추가 여부를 검수했다. 생성 영상의 소품·질감·가려진 부분은 원화와 차이가 있을 수 있다.",
+      "hero_eligible": false
+    },
+    {
+      "id": "64",
+      "selected_revision": "revisions/batch3-first/episode-64-master-720p.mp4",
+      "observed": "풍선껌이 부풀었다가 힘없이 줄어든다. 잠깐 일부를 가리지만 소울의 외곽과 픽셀 무늬는 유지된다.",
+      "note": "16개 시점의 프레임을 비교해 눈에 띄는 얼굴 교체·인간형 팔다리 추가 여부를 검수했다. 생성 영상의 소품·질감·가려진 부분은 원화와 차이가 있을 수 있다.",
+      "hero_eligible": false
+    },
+    {
+      "id": "65",
+      "selected_revision": "revisions/batch3-first/episode-65-master-720p.mp4",
+      "observed": "달 위에서 샌드위치가 무중력으로 떠오르고 돌다가 바구니 위로 내려온다. 흰 소울과 가로 무늬가 유지된다.",
+      "note": "16개 시점의 프레임을 비교해 눈에 띄는 얼굴 교체·인간형 팔다리 추가 여부를 검수했다. 생성 영상의 소품·질감·가려진 부분은 원화와 차이가 있을 수 있다.",
+      "hero_eligible": false
+    },
+    {
+      "id": "66",
+      "selected_revision": "revisions/batch3-first/episode-66-master-720p.mp4",
+      "observed": "거대한 연필이 일어나 흔들리다 지우개 쪽으로 눕는다. 분홍 소울과 검정 세로 사각형이 유지된다.",
+      "note": "16개 시점의 프레임을 비교해 눈에 띄는 얼굴 교체·인간형 팔다리 추가 여부를 검수했다. 생성 영상의 소품·질감·가려진 부분은 원화와 차이가 있을 수 있다.",
+      "hero_eligible": false
+    },
+    {
+      "id": "67",
+      "selected_revision": "revisions/batch3-first/episode-67-master-720p.mp4",
+      "observed": "교통콘이 길게 늘어났다 다시 작아진다. 민트·분홍 소울의 비대칭 실루엣이 유지된다.",
+      "note": "16개 시점의 프레임을 비교해 눈에 띄는 얼굴 교체·인간형 팔다리 추가 여부를 검수했다. 생성 영상의 소품·질감·가려진 부분은 원화와 차이가 있을 수 있다.",
+      "hero_eligible": false
+    },
+    {
+      "id": "68",
+      "selected_revision": "revisions/batch3-first/episode-68-master-720p.mp4",
+      "observed": "공룡 발자국 도장이 푸딩을 눌러 발자국을 남긴다. 소울의 외곽과 표정은 유지되며 끝부분의 한 작은 패치 색은 살짝 변한다.",
+      "note": "16개 시점의 프레임을 비교해 눈에 띄는 얼굴 교체·인간형 팔다리 추가 여부를 검수했다. 생성 영상의 소품·질감·가려진 부분은 원화와 차이가 있을 수 있다.",
+      "hero_eligible": false
+    },
+    {
+      "id": "69",
+      "selected_revision": "revisions/batch3-first/episode-69-master-720p.mp4",
+      "observed": "튜브가 거대하게 부풀어 소울 주변을 돌다가 밖으로 굴러간다. 주황 소울과 가로 검정 무늬가 유지된다.",
+      "note": "16개 시점의 프레임을 비교해 눈에 띄는 얼굴 교체·인간형 팔다리 추가 여부를 검수했다. 생성 영상의 소품·질감·가려진 부분은 원화와 차이가 있을 수 있다.",
+      "hero_eligible": false
+    },
+    {
+      "id": "70",
+      "selected_revision": "revisions/batch3-repair/episode-70-master-720p.mp4",
+      "observed": "우편함에서 시리얼 한 개가 굴러나와 넘어진다. 가로 눈 무늬와 분홍색 면이 유지되며 코가 생기지 않는다.",
+      "note": "16개 시점의 프레임을 비교해 눈에 띄는 얼굴 교체·인간형 팔다리 추가 여부를 검수했다. 생성 영상의 소품·질감·가려진 부분은 원화와 차이가 있을 수 있다.",
+      "hero_eligible": false
+    },
+    {
+      "id": "71",
+      "selected_revision": "revisions/batch3-first/episode-71-master-720p.mp4",
+      "observed": "사막 분수에서 물 몇 방울만 떨어지고 멈춘다. 보라색 소울은 끝까지 같은 형태다.",
+      "note": "16개 시점의 프레임을 비교해 눈에 띄는 얼굴 교체·인간형 팔다리 추가 여부를 검수했다. 생성 영상의 소품·질감·가려진 부분은 원화와 차이가 있을 수 있다.",
+      "hero_eligible": false
+    },
+    {
+      "id": "72",
+      "selected_revision": "revisions/batch3-first/episode-72-master-720p.mp4",
+      "observed": "거대한 도장이 작은 스마일만 남긴다. 노란 소울의 픽셀 표정과 실루엣 유지.",
+      "note": "16개 시점의 프레임을 비교해 눈에 띄는 얼굴 교체·인간형 팔다리 추가 여부를 검수했다. 생성 영상의 소품·질감·가려진 부분은 원화와 차이가 있을 수 있다.",
+      "hero_eligible": false
+    },
+    {
+      "id": "73",
+      "selected_revision": "revisions/batch3-repair/episode-73-master-720p.mp4",
+      "observed": "솜사탕이 커졌다 기울며 작은 조각을 떨어뜨린다. 검정-밝은색-검정 가로 무늬 그대로 유지.",
+      "note": "16개 시점의 프레임을 비교해 눈에 띄는 얼굴 교체·인간형 팔다리 추가 여부를 검수했다. 생성 영상의 소품·질감·가려진 부분은 원화와 차이가 있을 수 있다.",
+      "hero_eligible": false
+    },
+    {
+      "id": "74",
+      "selected_revision": "revisions/batch3-repair3/episode-74-master-720p.mp4",
+      "observed": "긴 리본 열차가 쿠키들을 운반한다. 세 번째 생성본에서 주황 소울의 빈 윗부분과 아래 검정 두 사각형이 끝까지 유지된다. 기획의 쿠키 한 개보다 여러 개가 생성되어 과한 배송 농담으로 사용한다.",
+      "note": "16개 시점의 프레임을 비교해 눈에 띄는 얼굴 교체·인간형 팔다리 추가 여부를 검수했다. 생성 영상의 소품·질감·가려진 부분은 원화와 차이가 있을 수 있다.",
+      "hero_eligible": false
+    },
+    {
+      "id": "75",
+      "selected_revision": "revisions/batch3-first/episode-75-master-720p.mp4",
+      "observed": "거대한 주사위가 구르지만 결국 1만 나온다. 구리색 긴 소울의 가로 무늬가 유지된다.",
+      "note": "16개 시점의 프레임을 비교해 눈에 띄는 얼굴 교체·인간형 팔다리 추가 여부를 검수했다. 생성 영상의 소품·질감·가려진 부분은 원화와 차이가 있을 수 있다.",
+      "hero_eligible": false
+    },
+    {
+      "id": "76",
+      "selected_revision": "revisions/batch3-first/episode-76-master-720p.mp4",
+      "observed": "요가매트가 펼쳐졌다 스스로 다시 말린다. 보라색 소울의 졸린 무늬가 유지된다.",
+      "note": "16개 시점의 프레임을 비교해 눈에 띄는 얼굴 교체·인간형 팔다리 추가 여부를 검수했다. 생성 영상의 소품·질감·가려진 부분은 원화와 차이가 있을 수 있다.",
+      "hero_eligible": false
+    },
+    {
+      "id": "77",
+      "selected_revision": "revisions/batch3-repair/episode-77-master-720p.mp4",
+      "observed": "케첩 병이 한 방울을 멀리 있는 감자튀김에 쏜다. 낮고 넓은 빨간 소울 형태와 검정 무늬가 유지된다.",
+      "note": "16개 시점의 프레임을 비교해 눈에 띄는 얼굴 교체·인간형 팔다리 추가 여부를 검수했다. 생성 영상의 소품·질감·가려진 부분은 원화와 차이가 있을 수 있다.",
+      "hero_eligible": false
+    },
+    {
+      "id": "78",
+      "selected_revision": "revisions/batch3-first/episode-78-master-720p.mp4",
+      "observed": "청소기가 큰 먼지뭉치를 빨아들이고 작은 구슬만 남는다. 초록 소울과 세로 패턴 유지.",
+      "note": "16개 시점의 프레임을 비교해 눈에 띄는 얼굴 교체·인간형 팔다리 추가 여부를 검수했다. 생성 영상의 소품·질감·가려진 부분은 원화와 차이가 있을 수 있다.",
+      "hero_eligible": false
+    },
+    {
+      "id": "79",
+      "selected_revision": "revisions/batch3-first/episode-79-master-720p.mp4",
+      "observed": "작은 고무 오리들 뒤로 거대한 오리가 지나간다. 긴 회색 소울이 바위 위에서 같은 무늬 유지.",
+      "note": "16개 시점의 프레임을 비교해 눈에 띄는 얼굴 교체·인간형 팔다리 추가 여부를 검수했다. 생성 영상의 소품·질감·가려진 부분은 원화와 차이가 있을 수 있다.",
+      "hero_eligible": false
+    },
+    {
+      "id": "80",
+      "selected_revision": "revisions/batch3-repair/episode-80-master-720p.mp4",
+      "observed": "알람시계가 떨리다가 슬리퍼 안으로 떨어진다. 초록 소울의 위쪽은 빈 상태이며 아래 세 검정 사각형이 유지된다.",
+      "note": "16개 시점의 프레임을 비교해 눈에 띄는 얼굴 교체·인간형 팔다리 추가 여부를 검수했다. 생성 영상의 소품·질감·가려진 부분은 원화와 차이가 있을 수 있다.",
+      "hero_eligible": false
+    }
+  ]
+}

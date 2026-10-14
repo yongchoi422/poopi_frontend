@@ -1,0 +1,202 @@
+[
+  {
+    "id": "81",
+    "status": "retry",
+    "reason": "새 머리와 얼굴이 생기고 하단 형태가 변함."
+  },
+  {
+    "id": "82",
+    "status": "retry",
+    "reason": "별도 팔다리가 있는 다른 캐릭터로 변형됨."
+  },
+  {
+    "id": "83",
+    "status": "pass",
+    "reason": "스펀지를 밀고 반동으로 몸 전체를 기울임. 소울 표식과 스펀지·접시 유지."
+  },
+  {
+    "id": 84,
+    "status": "pass",
+    "reason": "Startled hop beside stable door and wedge; stepped outline and marks retained."
+  },
+  {
+    "id": 85,
+    "status": "retry",
+    "reason": "New eyebrows and mouth; becomes symmetric face/body unlike original asymmetric blank blue body."
+  },
+  {
+    "id": 86,
+    "status": "retry",
+    "reason": "Eyes mouth tongue and limbs appear/change on croissant."
+  },
+  {
+    "id": 87,
+    "status": "pass",
+    "reason": "Whole-body scoot and hop; striped sock and basket stay intact; no extra limbs."
+  },
+  {
+    "id": 88,
+    "status": "pass",
+    "reason": "Rigid pink sculpture tilts; one intact paperclip lifts toward same horseshoe magnet and settles."
+  },
+  {
+    "id": 89,
+    "status": "retry",
+    "reason": "Band moves from in front to behind body without clear clearance; keep body entirely behind band."
+  },
+  {
+    "id": 90,
+    "status": "retry",
+    "reason": "New detached right foot appears; body grows two legs unlike one tab of reference."
+  },
+  {
+    "id": 91,
+    "status": "retry",
+    "reason": "Becomes generic upright humanoid with arms legs and new face; original horizontal silhouette lost."
+  },
+  {
+    "id": 92,
+    "status": "retry",
+    "reason": "Thin red leg grows from right/bottom during massage movement."
+  },
+  {
+    "id": 93,
+    "status": "retry",
+    "reason": "New robot head, arms, legs; entire silhouette transforms at 1.25s."
+  },
+  {
+    "id": 94,
+    "status": "retry",
+    "reason": "Transforms into upright sad humanoid at 5.75s; gray fixed top blocks disappear."
+  },
+  {
+    "id": 95,
+    "status": "retry",
+    "reason": "Turns into cat-like humanoid with new face and tail; original orange cap is lost."
+  },
+  {
+    "id": 96,
+    "status": "retry",
+    "reason": "New yellow foot grows during landing beside pager."
+  },
+  {
+    "id": 97,
+    "status": "retry",
+    "reason": "Extra black square appears on blank yellow upper-right at 0.75–2.5s."
+  },
+  {
+    "id": 98,
+    "status": "retry",
+    "reason": "New black pupils form inside white vertical face blocks."
+  },
+  {
+    "id": 99,
+    "status": "pass",
+    "reason": "Mint silhouette and face marks retained during nudge/recoil beside same stationary book."
+  },
+  {
+    "id": 100,
+    "status": "retry",
+    "reason": "Lower outline grows two feet/notch during jumping; original flat base lost."
+  },
+  {
+    "id": 118,
+    "status": "retry",
+    "reason": "Flow generation failed; no video produced. Benign eraser stationery scene to re-submit with clearer wording."
+  },
+  {
+    "id": 101,
+    "status": "retry",
+    "reason": "New white eyes appear on blank orange upper surface at 1.25s; face repeatedly changes."
+  },
+  {
+    "id": 102,
+    "status": "retry",
+    "reason": "Flat pink outline becomes upright pink robot with arms legs and new mouth."
+  },
+  {
+    "id": 103,
+    "status": "retry",
+    "reason": "New second face appears in blank brown right lobe."
+  },
+  {
+    "id": 104,
+    "status": "retry",
+    "reason": "Black plus marks change shape; original small mouth becomes long horizontal line."
+  },
+  {
+    "id": 105,
+    "status": "retry",
+    "reason": "Orange abstract block turns into detailed gray-haired human figure; hex key also bends."
+  },
+  {
+    "id": 106,
+    "status": "retry",
+    "reason": "Wide double-lobed purple shape transforms into upright robot with limbs."
+  },
+  {
+    "id": 107,
+    "status": "retry",
+    "reason": "Tan wide sculpture abruptly changes to black rectangular robot-like shape at 4.5s."
+  },
+  {
+    "id": 108,
+    "status": "pass",
+    "reason": "Original blue outline and pink-black marks maintained during bounce/tilt; door panels remain behind character."
+  },
+  {
+    "id": 109,
+    "status": "retry",
+    "reason": "Mint square extrudes into nose and new face dots appear; black strip changes."
+  },
+  {
+    "id": 110,
+    "status": "retry",
+    "reason": "Blank cream top develops eyes and smiling mouth almost immediately."
+  },
+  {
+    "id": 111,
+    "status": "pass",
+    "reason": "Rigid orange silhouette leans against and recoils from intact black bulb; horn stays coherent."
+  },
+  {
+    "id": 112,
+    "status": "pass",
+    "reason": "Lavender patterned silhouette retains markings during bounce/tilt; striped wooden top stays intact."
+  },
+  {
+    "id": 113,
+    "status": "pass",
+    "reason": "Brown block silhouette and markings stable through bounce; single envelope, scale and dial remain coherent."
+  },
+  {
+    "id": 114,
+    "status": "retry",
+    "reason": "Additional black blocks appear inside pink stripes, resembling extra eyes."
+  },
+  {
+    "id": 115,
+    "status": "retry",
+    "reason": "Human hand appears beside mister despite absent in reference."
+  },
+  {
+    "id": 116,
+    "status": "retry",
+    "reason": "Second hanging strap appears around 3–5s then disappears; character otherwise stable."
+  },
+  {
+    "id": 117,
+    "status": "retry",
+    "reason": "At 6.25s original asymmetric red outline becomes round symmetrical body with new white eyes and two feet."
+  },
+  {
+    "id": 119,
+    "status": "pass",
+    "reason": "Pink mint stepped outline retains fixed markings and two upper tabs during small bounce/tilt; single doughnut and holder stable."
+  },
+  {
+    "id": 120,
+    "status": "retry",
+    "reason": "New humanoid limbs and face appear at 1s; original peach pink silhouette lost."
+  }
+]

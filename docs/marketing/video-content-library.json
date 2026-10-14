@@ -1,0 +1,171 @@
+{
+  "version": 4,
+  "prepared_on": "2026-10-02",
+  "timezone": "Asia/Seoul",
+  "account": "Souli_ERC20i",
+  "status": "preparation_only_not_published_or_scheduled",
+  "publishing_enabled": false,
+  "recurring_execution_configured": false,
+  "positioning": "Little souls. Big feelings. Built on Base.",
+  "market_asset": "ETH",
+  "ecosystem": "Base",
+  "asset_directory": "output/marketing/souli-film",
+  "flow_project": "https://flow.google.com/u/1/project/49b5e53b-52c0-4285-b013-697c0e151243",
+  "generation": {
+    "keyframe": "keyframe-v2.png",
+    "tool": "Google Flow",
+    "model_selected_in_ui": "Omni 1.1 Flash",
+    "aspect_ratio": "16:9",
+    "resolution": "1280x720",
+    "fps": 24,
+    "delivery_audio": "none",
+    "art_note": "AI cinematic interpretations of original SOULI characters. Not pixel-identical SVG reproductions and not game recordings.",
+    "review": "All delivered MP4 files decoded completely; six-frame sheets inspected for hero, ETH-up and ETH-down. Promotional clips are not certified seamless loops."
+  },
+  "sources_to_check_at_publication": {
+    "eth_market": "https://api.exchange.coinbase.com/products/ETH-USD",
+    "market_code": "server/market.mjs",
+    "game_weather_rules": "src/lighthouse/market-world.mjs",
+    "base_official": "https://www.base.org/",
+    "base_status": "https://status.base.org/",
+    "base_news": "Follow the specific primary announcement linked from official Base channels and check its publication date. Do not reuse an old event as current news."
+  },
+  "selection_rules": [
+    "No publishing or scheduling while the owner's preparation-only instruction is in effect.",
+    "SOULI user-impacting incidents take precedence over all promotional posts. Check both official network status and actual SOULI impact.",
+    "Next priority: verified SOULI product news, then relevant Base community news, then ETH mood, then evergreen GM.",
+    "Check ETH direction, data timestamp and observation period immediately before using a market-direction caption. Reuse the game's 15-minute maximum data age as a conservative operational rule; stale or missing data means no direction claim.",
+    "ETH direction and Base news are independent signals. Never infer a partnership, endorsement or price effect from a Base announcement.",
+    "Use the down-market animation for ordinary market emotion; never use it to joke about an exploit, outage or real losses.",
+    "A SOULI-relevant outage pauses celebratory and purchase CTA posts. State observed impact, timestamp, source and next action; do not promise an unverified recovery time.",
+    "Record a recovery only after official status and relevant SOULI functions have both been checked.",
+    "Keep news/date/price text out of reusable video pixels. Add timely information in the post caption only after verification.",
+    "Use real gameplay footage for product claims. Generated clips are promotional animation. Mark local development footage WIP.",
+    "Use one simple next action where useful. Do not add a buy CTA to every mood post.",
+    "No fixed price promises, fake users, fake affiliations, invented milestones or duplicate mass replies."
+  ],
+  "cadence_proposal": {
+    "initial_test_weeks": 2,
+    "original_posts_per_week": 4,
+    "mix": {
+      "character_and_emotion": 2,
+      "real_development": 1,
+      "base_or_community": 1
+    },
+    "normal_daily_maximum": 1,
+    "exception": "Necessary service notices are separate from promotional cadence.",
+    "rule": "Relevant verified events replace a planned slot. These are recommendations, not a registered schedule."
+  },
+  "assets": [
+    {
+      "id": "hero",
+      "file": "souli-hero-web.mp4",
+      "poster": "souli-hero-poster.jpg",
+      "master": "souli-hero-master-720p.mp4",
+      "seconds": 8,
+      "bytes": 1435348,
+      "status": "file_ready_not_deployed",
+      "use": "Homepage main banner, approved blue courtyard art direction.",
+      "implementation_notes": "Muted autoplay with playsinline, loop and a poster. Respect reduced motion and retain readable text/CTA outside faces. Avoid aggressive mobile crops. Test the actual page before release.",
+      "1080p_file": "souli-hero-1080p.mp4",
+      "1080p_note": "Local Lanczos upscale of the downloaded 720p master; Flow 1080p export did not save successfully."
+    },
+    {
+      "id": "gm",
+      "file": "promo-gm.mp4",
+      "seconds": 4,
+      "bytes": 808691,
+      "status": "superseded_by_20_little_disasters_pack_do_not_select",
+      "origin": "First four seconds of the hero, locally edited; not a separate Flow generation.",
+      "caps": [
+        "gm fren. little soul, big day.",
+        "smol soul. big feelings.",
+        "charts can wait a sec, fren.",
+        "a little world. a few good frens."
+      ],
+      "use_condition": "Evergreen character mood; inspect current context before publishing."
+    },
+    {
+      "id": "eth_up",
+      "file": "promo-eth-up.mp4",
+      "poster": "promo-eth-up-poster.jpg",
+      "master": "promo-eth-up-master-720p.mp4",
+      "seconds": 4,
+      "bytes": 903251,
+      "status": "superseded_by_20_little_disasters_pack_do_not_select",
+      "caps": [
+        "eth is up. so is the mood, fren.",
+        "eth green. tiny happy hop.",
+        "smol soul. green-day energy."
+      ],
+      "use_condition": "Fresh verified ETH appreciation over the stated internal observation period, without a conflicting user-impacting incident. No claim of future appreciation."
+    },
+    {
+      "id": "eth_down",
+      "file": "promo-eth-down.mp4",
+      "poster": "promo-eth-down-poster.jpg",
+      "master": "promo-eth-down-master-720p.mp4",
+      "seconds": 4,
+      "bytes": 786694,
+      "status": "superseded_by_20_little_disasters_pack_do_not_select",
+      "caps": [
+        "rough weather. good company, fren.",
+        "red day. same little frens.",
+        "a little rain. a little company."
+      ],
+      "use_condition": "Ordinary ETH down-day mood. Not an incident notice, investment instruction or literal demonstration of the current game's weather rules."
+    }
+  ],
+  "future_storyboards_not_generated": [],
+  "notice_template_not_ready_to_publish": {
+    "text": "Service update — [UTC time].\n[Observed SOULI impact, or explicitly unconfirmed].\n[What users should do now].\nOfficial source: [verified incident URL].\nNext update: [a time we can actually meet, or when new information is available].",
+    "rule": "Fill all placeholders using current observations. Do not publish the template or guess affected components."
+  },
+  "metrics_after_launch": [
+    "Confirmed post URL and time",
+    "Views and shares exposed by the platform",
+    "Relevant replies and voluntary reuse of the clip",
+    "Profile/site visits if measurable",
+    "Verified gameplay entry or sale conversion when that public flow exists"
+  ],
+  "publication_log": [],
+  "meme_pack": {
+    "plan": "output/marketing/souli-film/meme-pack/episodes.json",
+    "catalog": "output/marketing/souli-film/meme-pack/index.html",
+    "flow_project": "https://flow.google.com/u/1/project/c27fba60-0bce-4be2-910a-ad75cf1acddb",
+    "status": "80_videos_prepared_reviewed_not_published",
+    "clips": 80,
+    "priority_shortlist": [
+      "06",
+      "16",
+      "19",
+      "20"
+    ],
+    "editorial_review": "output/marketing/souli-film/meme-pack/editorial-review.json",
+    "hero_shortlist": [
+      "01",
+      "06",
+      "16",
+      "21",
+      "28",
+      "37"
+    ],
+    "identity_replaced_ids": [
+      "01",
+      "02",
+      "04",
+      "05",
+      "06",
+      "07",
+      "10",
+      "13",
+      "16",
+      "17",
+      "18",
+      "19"
+    ],
+    "website_manifest": "output/marketing/souli-film/meme-pack/website-media-manifest.json",
+    "website_handoff": "output/marketing/souli-film/meme-pack/website-handoff.txt",
+    "drive_folder": "https://drive.google.com/drive/folders/1PFx3kre_rFMnmxNmTPYDVZhHKVNu3KND"
+  }
+}

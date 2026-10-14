@@ -1,0 +1,72 @@
+{
+  "schema": 1,
+  "chainId": 8453,
+  "checkedAt": "2026-10-04T05:18:52.743Z",
+  "block": 52150891,
+  "sale": "0x9B3b5BFbc22821416e390E10e0a30C1AC1960B68",
+  "controller": "0xc177F10Da4c62FBbef8182e82EE09F7Db79769dA",
+  "token": "0xb43eA104c7ec75038Ac8EcA57107Eefc8B039aFF",
+  "operators": [
+    "0x4a4AA86208EcFdBACBaD551dF7baf5D3C84425BB",
+    "0x3cDF38407cE65966055aDDF8bfC5B17eF00397e1",
+    "0x9Bf15CD7Cc82655fAe3803663Ba1c6D5ED07D607"
+  ],
+  "runtimeCodeHash": "0x47b723194326895edd71978a04ea7666a9ece28bd0562aa5fd85553170359b1e",
+  "termsHash": "0xe44473908cc3fce7d26ca0f93c22e9dd7731704d790b08e3003b7096d7cd7c1a",
+  "terms": {
+    "version": 2,
+    "chainId": 8453,
+    "token": "0xb43eA104c7ec75038Ac8EcA57107Eefc8B039aFF",
+    "treasury": "0xc177F10Da4c62FBbef8182e82EE09F7Db79769dA",
+    "unitPriceWei": "26666033792798",
+    "saleCap": "4200000",
+    "walletCap": "4200000",
+    "startsAt": "1791033581",
+    "endsAt": "0",
+    "immediateDelivery": true,
+    "automaticLiquidity": false,
+    "refundable": false,
+    "endPolicy": "sellout",
+    "useOfProceeds": {
+      "lpBps": 5000,
+      "operationsBps": 5000,
+      "enforcedOnChain": false
+    }
+  },
+  "unitPriceEth": "0.000026666033792798",
+  "paused": true,
+  "sold": "1",
+  "purchaseEth": "0.000026666033792798",
+  "saleEth": "0.0",
+  "controllerEth": "0.0",
+  "collectedEth": "0.000026666033792798",
+  "available": "0",
+  "remainingToFund": "4199999",
+  "sourceVerification": "Sourcify exact creation and runtime match",
+  "commercialCheckoutOpen": false,
+  "independentAuditPublished": false,
+  "lpCreated": false,
+  "lpLocked": false,
+  "receipts": [
+    {
+      "label": "1 SOULI purchased",
+      "hash": "0x233e7dec959f238a6a983e311d49f8b3a95adfbccae019dffa505ec5e967b3e1",
+      "block": 52124010
+    },
+    {
+      "label": "Sale paused",
+      "hash": "0x748e12bce1a2103e8aacd80222b1688c998494ca0eedea4e91487810d0175409",
+      "block": 52124143
+    },
+    {
+      "label": "41 unsold SOULI returned",
+      "hash": "0x26ff3a58868c80a3b99e0885e0b719a18589a892b3304cbc1c7693cd124dae11",
+      "block": 52124229
+    },
+    {
+      "label": "Purchase ETH collected",
+      "hash": "0xf48d79c3e059312b476870145069cf8fc9cc4d04979b5fee2f4a41f104be9d20",
+      "block": 52124289
+    }
+  ]
+}

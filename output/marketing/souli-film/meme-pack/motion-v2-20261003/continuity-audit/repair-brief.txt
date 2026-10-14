@@ -1,0 +1,120 @@
+SOULI / 소품·배경 연속성 재검수 / 2026-10-03
+
+80편: 재제작 권고 17 / 추가 확인 3 / 샘플상 중대 오류 미발견 60
+재제작·추가 확인 20편은 게시 보류 권고. 영상 파일은 수정하지 않았으며 재생성은 아직 시작하지 않았음.
+
+재제작 공통 기준
+- 승인된 기존 이미지를 그대로 사용한다.
+- 시작 전에 주요 소품의 수·색·형태·연결 구조를 목록으로 고정한다.
+- 한 장면에서 주요 사건은 하나, 소울의 반응은 짧은 이동·기울기·홉으로 표현한다.
+- 화면 밖 이동·가림 없이 물체가 사라지거나 새로 생기지 않게 한다.
+- 떨어진 물체와 잔여물은 이후 프레임에도 남긴다.
+- 실제 원인→이동→접촉→결과를 한 화면에서 이어 보여준다.
+- 소울 모양, 표면 무늬, 소품의 부품 수, 배경 배치 유지. 새 얼굴·팔다리·손 금지.
+- 조용히 끝내기. 마지막 프레임을 처음과 억지로 같게 만들기 위한 순간 리셋 금지.
+- 재생성 후 원본과 시작·중간·끝 및 사건 전후를 비교한다. 의심 구간은 프레임 단위로 재검토한다.
+- 고정 카메라에서도 해결되지 않으면 이동 거리와 소품 상호작용부터 줄인다. 프롬프트만으로 완전한 일관성을 보장할 수는 없다.
+
+#05 차트 안 보는 냉장고 | 재제작 권고 | P1 | 3.50–3.75초
+관찰: 바닥에 떨어진 당근 조각이 3.50초에는 있으나 3.625초부터 사라짐. 가림이나 화면 밖 이동이 없음.
+수정: 당근 한 조각만 낙하시키고 착지 후 끝까지 같은 자리에서 유지.
+영상: https://drive.google.com/file/d/1MwcUJbxefmDdeF6k-BWf9l-ei6WMzf8L/view?usp=drivesdk
+
+#25 확신은 큰데 볼은 작음 | 재제작 권고 | P1 | 1.50–1.75초
+관찰: 공 하나가 1.50–1.75초 소울 양옆의 두 공으로 늘어남. 오른쪽 원래 공이 남은 상태에서 왼쪽 공이 별도로 생김.
+수정: 흰 공은 정확히 하나. 소울 오른쪽 공이 한 경로로 굴러 핀에 닿고 분신·새 공 금지.
+영상: https://drive.google.com/file/d/1tciNeLSOO9waMKZ0b6_n2SFu_Shf-MiM/view?usp=drivesdk
+
+#28 준비는 완벽했는데 | 재제작 권고 | P1 | 5.375–7.0초
+관찰: 왼쪽에서 탈락해 누워 있던 바퀴가 5.5초 저절로 튀어 차를 넘어감. 6.5초에는 오른쪽 기존 바퀴와 겹친 뒤 7초 하나로 줄어 기존 장착 바퀴가 없어짐.
+수정: 왼쪽 바퀴 하나만 빠져 굴러 정지. 나머지 바퀴는 축에 고정, 떨어진 바퀴는 끝까지 보존.
+영상: https://drive.google.com/file/d/1iR2lqXZ8w1VCaO5YrCTQOUjQ-bbL_mAv/view?usp=drivesdk
+
+#33 준비성 만렙 | 재제작 권고 | P1 | 1.375–2.75초
+관찰: 1.375–2.50초 접힌 우산이 그대로 있는데 위에 펼쳐진 우산이 추가됨. 2.75초 원래 접힌 우산이 사라져 한 개가 됨.
+수정: 원래 우산 하나의 천과 살만 연속적으로 펼치기. 접힌 우산과 펼친 우산을 동시에 만들지 않기.
+영상: https://drive.google.com/file/d/1IV9M-3I6cyQHVRrec2_JjpzvhOoBNR41/view?usp=drivesdk
+
+#34 완벽한 균형 | 재제작 권고 | P1 | 3.625–4.0초
+관찰: 3.625–3.875초 팬케이크가 떨어져 나가지 않았는데 층수·높이가 급감. 앞서 떨어진 블루베리와 별개로 꼭대기에 새 블루베리가 생김.
+수정: 팬케이크 층수·순서 유지. 탑은 흔들리기만 하고 블루베리 하나만 굴러 떨어져 접시에 남기기.
+영상: https://drive.google.com/file/d/1iWqvpyjbp6ovES0mswZ1E6PRf53XVSWI/view?usp=drivesdk
+
+#50 반죽의 복수 | 재제작 권고 | P1 | 1.25–1.75;3.25–4.0초
+관찰: 밀대와 오른쪽 그릇의 형상이 겹쳐 합쳐짐. 1.375초 밀대 표면에 그릇의 파란 테두리가 걸쳐 보이고 1.5초 그릇·밀가루가 없어졌다 후반 복귀함.
+수정: 밀대와 그릇을 별개 강체로 고정. 그릇은 한 위치에 계속 남고 밀대는 그 앞을 지나가되 재질·외형 혼합 금지.
+영상: https://drive.google.com/file/d/1dmnoLYNcINRIjlF7A19SQhuK_-PNKBQs/view?usp=drivesdk
+
+#66 대왕 연필 회의 | 재제작 권고 | P1 | 2.125–2.50초
+관찰: 노란 연필의 길이가 급격히 줄고 오른쪽 지우개가 연필심으로 바뀜. 초록 연필은 뒤에서 드러난 것일 수 있어 추가 생성 오류로 세지 않음.
+수정: 노란 연필의 길이와 연필심·지우개 방향을 고정. 짧게 굴렀다가 멈추는 동작 하나만 사용.
+영상: https://drive.google.com/file/d/1W7ZXPlV_QyhGdcM9mWgmaFRGEkhT3HCI/view?usp=drivesdk
+
+#74 기차 한 칸 | 재제작 권고 | P1 | 1.875–2.00초
+관찰: 빨간 객차 열이 갑자기 평평한 화물칸으로 바뀌며, 둥근 구멍무늬 비스킷이 초코칩 쿠키로 변하고 다른 쿠키도 생김.
+수정: 원본의 빨간 객차·연결 순서·비스킷 한 개를 그대로 유지. 기차 전체가 짧게 한 방향으로 이동하는 동작만 사용.
+영상: https://drive.google.com/file/d/1vV4SunfyOHFyK4ficVBEJjnQgCTxPDNU/view?usp=drivesdk
+
+#79 낚싯대 없는 오리 연못 | 재제작 권고 | P1 | 3.625–3.75초
+관찰: 화면 중앙 부근으로 이동한 큰 오리가 3.625초에는 선명하지만 3.75초에는 가림이나 화면 밖 이동 없이 사라짐. 앞서 작은 오리들의 오른쪽 퇴장은 정상 이동으로 구분.
+수정: 원본 큰 오리 한 마리와 작은 오리 두 마리만 유지. 한 방향으로 천천히 이동하고 프레임 경계를 통과해야만 화면에서 사라지게 함.
+영상: https://drive.google.com/file/d/17RNbcLLMppFaS7DrpL3pJlllT1eLdgMk/view?usp=drivesdk
+
+#80 침대 알람 파업 | 재제작 권고 | P1 | 6.50–6.625초
+관찰: 슬리퍼에 떨어져 있던 시계가 컷처럼 갑자기 탁자 위로 돌아오고 베개와 탁자 구도가 동시에 재배치됨.
+수정: 시계가 슬리퍼에 착지하면 끝까지 남김. 소울은 기존 탁자 위에서 고개 대신 몸만 살짝 기울이고 배경·베개 배치를 유지.
+영상: https://drive.google.com/file/d/1BNU_WgITxQpE96FKWWUJNqYskWmpeEkI/view?usp=drivesdk
+
+#07 침착한 척 녹아내리는 아이스크림 | 재제작 권고 | P2 | 4.625–5.25초
+관찰: 4.625초 소울 위 화면 밖에서 새 분홍 방울이 등장해 의자에 떨어짐. 오른쪽 콘에서 이어지는 낙하 경로가 없어서 소품 위치·원인 연결이 끊김.
+수정: 콘에서 분리되는 방울 하나의 출발·낙하·착지를 한 경로로 보여주고 공중에서 새 방울 생성 금지.
+영상: https://drive.google.com/file/d/1romNTLSvsRqLKmF-EZy7AntO3YWBwogL/view?usp=drivesdk
+
+#31 짐은 가볍게 | 재제작 권고 | P2 | 3.875–4.125초
+관찰: 칫솔이 거의 같은 방향으로 놓여 있는데 3.875–4.125초 솔 머리가 왼쪽 끝에서 오른쪽 끝으로 바뀜. 몸 옆 흰 부분은 바닥 반사로 보이며 별도 복제로 세지 않음.
+수정: 칫솔의 솔·목·손잡이를 하나의 고정 구조로 유지. 벨트 이동 중 끝부분 교체 금지.
+영상: https://drive.google.com/file/d/1E9eLrCXYrBJuS932ZltcFuYSjxgqiSEj/view?usp=drivesdk
+
+#36 다 지었는데 밀려옴 | 재제작 권고 | P2 | 2.75–3.125초
+관찰: 2.75–3.00초 상단에 원본에 없는 살색 둥근 물체가 잠깐 들어왔다 사라짐. 손끝처럼 보이나 정체는 확정하지 않음. 모래성 붕괴 자체는 이어짐.
+수정: 화면 상단의 불필요한 물체 없는 버전으로 수정. 안전한 크롭이 가능하면 캐릭터 상단 잘림 여부까지 확인 후 적용.
+영상: https://drive.google.com/file/d/1g6hqvyXlMTk4CuuDrjf8T2CrZHZ7TRWY/view?usp=drivesdk
+
+#55 벨 하나의 무게 | 재제작 권고 | P2 | 2.375–2.625초
+관찰: 작은 벨의 오른쪽 진입은 프롬프트에 맞음. 다만 2.50초 오른쪽 받침 옆에 살색 손끝 같은 물체가 나타남. 벨 복제로 분류하지 않고 불필요한 외부 물체로 보류.
+수정: 작은 벨만 오른쪽에서 굴러 들어오게 하고 사람 손·살색 물체를 제거.
+영상: https://drive.google.com/file/d/1UdUNoIe9_Ofh4P-CjhqOzZv4nYBjZ2sZ/view?usp=drivesdk
+
+#60 도미노의 휴식 | 재제작 권고 | P2 | 1.00–2.25초
+관찰: 왼쪽으로 기운 도미노들이 별도 힘 없이 다시 일어선 뒤 반대 방향으로 쓰러짐. 후반 오른쪽 도미노는 카메라 이동으로 드러나는 것이므로 추가 생성 오류로 세지 않음.
+수정: 도미노 열을 쿠션 방향으로 한 번만 연속 전도. 역재생처럼 재기립하거나 반대로 쓰러지지 않게 하고 카메라 고정.
+영상: https://drive.google.com/file/d/1kaxA_Xp6TaLOGr9olhm5cyw-ODhBv0im/view?usp=drivesdk
+
+#73 구름 솜사탕 | 재제작 권고 | P2 | 1.25–1.75초
+관찰: 솜사탕 조각이 떨어지는 순간 조각에 새 막대가 생기고 상단에도 별도 막대가 나타남. 떨어진 조각의 막대는 착지 전후 사라짐.
+수정: 원래 큰 솜사탕과 막대 한 개를 유지. 막대 없는 작은 솜 조각 하나만 분리되어 떨어지고 착지 후 남게 함.
+영상: https://drive.google.com/file/d/1Pr8Hl6YyXcX2zmzXfOmBzi09bHxb3xkR/view?usp=drivesdk
+
+#77 케첩 로켓 | 재제작 권고 | P2 | 2.125–2.625;3.25–3.50초
+관찰: 케첩이 원래 노즐이 아닌 병 옆에서 튀어나옴. 착지한 케첩 흔적도 점점 줄어 없어져 보이나 일부 가림이 있어 잔여물 소실은 부가 의심으로 기록.
+수정: 기존 노즐에서 방울 하나가 분리되어 착지하는 경로를 보여줌. 착지 흔적을 끝까지 남기고 소울이 가리지 않는 위치에 배치.
+영상: https://drive.google.com/file/d/1NfldgEt5nwxyt2uf52JJ5SZ0aQTiVWPy/view?usp=drivesdk
+
+#46 마시멜로 역도 | 추가 확인 | P2 | 3.125–4.5초
+관찰: 눌린 마시멜로 끝에 검은 축 구멍이 생겨 휴지 롤처럼 읽힐 여지가 있음. 두 중량과 막대는 유지돼 다른 물체로 교체됐다고 단정하지 않음.
+수정: 마시멜로의 막힌 끝과 음식 질감을 유지하고 구멍·종이 롤 모양을 만들지 않기.
+영상: https://drive.google.com/file/d/1EGYMdHGGLQZ3clJeW2DEBEWnVgWDzd5x/view?usp=drivesdk
+
+#63 스크롤 없는 두루마리 | 추가 확인 | P2 | 0.875–1.50초
+관찰: 종이 중간에 독립된 원통처럼 보이는 말림이 생겨 아래쪽 말림과 합쳐짐. 종이 접힘 파동일 수도 있어 물체 복제로 단정하지 않지만 구조가 혼란스러워 추가 확인 필요.
+수정: 원래 두루마리 축 하나와 한 장의 종이만 유지. 가운데 새 원통 대신 종이 끝부분이 짧게 흔들리는 동작으로 단순화.
+영상: https://drive.google.com/file/d/1fH36e_i8MlEREZSimbXbHh1unBqwv90F/view?usp=drivesdk
+
+#67 경비 콘의 위엄 | 추가 확인 | P2 | 3.25–3.50;5.00–5.50초
+관찰: 콘이 늘어났다 줄어드는 것은 기획된 연출. 다만 신축 중간의 검은 링이 합쳐져 없어졌다가 축소 때 다시 생겨 조립 구조가 바뀌어 보임.
+수정: 신축 개그는 유지하되 고정된 두 단과 검은 연결 링이 끝까지 남도록 설계하거나 크기 변화 대신 기울기 반응으로 변경.
+영상: https://drive.google.com/file/d/1gR1q0C30lINWxXQfGFOzrw3mXJbbW84i/view?usp=drivesdk
+
+검수 범위와 한계
+16 sampled timestamps per selected clip (0,0.5,...,7,7.95); 26 suspect clips compared to approved source images and 15 additional timestamps each, with some overlap. Dense event intervals usually 0.125–0.5 seconds. Source SHA-256 verified for all 80 selected files.
+Sampled visual review, not every frame and not a zero-defect guarantee. clear_sampled means no material issue found at inspected timestamps. Intentional effects, continuous occlusion and offscreen exits are distinguished from unexplained disappearance.

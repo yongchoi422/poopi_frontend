@@ -8,10 +8,16 @@ pnpm-debug.log*
 lerna-debug.log*
 
 node_modules
+server/data/
+.env
+.env.*
+!.env.example
 .DS_Store
 dist
 dist-ssr
 coverage
+contracts/artifacts/
+contracts/cache/
 *.local
 
 /cypress/videos/
@@ -26,3 +32,40 @@ coverage
 *.njsproj
 *.sln
 *.sw?
+
+# Local operations, generated review bundles and document exports.
+# Game prototypes under output/game are source and intentionally versioned.
+/output/review/
+/output/pdf/
+/output/marketing/x-ops/
+
+# Film production masters, contact sheets and archives stay in the media library.
+# Shipped clips/posters live in public/media; retain film scripts and manifests.
+/output/marketing/souli-film/**/*.mp4
+/output/marketing/souli-film/**/*.jpg
+/output/marketing/souli-film/**/*.png
+/output/marketing/souli-film/**/*.zip
+/output/marketing/souli-film/**/*.before
+/output/marketing/souli-film/**/*.before-send
+# Captured third-party account page, not project source.
+/output/marketing/souli-film/meme-pack/motion-v2-20261003/continuity-audit/drive-review.html
+__pycache__/
+*.pyc
+
+# Retain reproducible local workbenches and public deployment receipts only.
+/tmp/*
+!/tmp/commercial-v2/
+!/tmp/mainnet-pilot/
+!/tmp/checkout-review/
+!/tmp/game-teaser/
+!/tmp/soul-review/
+/tmp/**/*.zip
+
+# Never version local signing keys, cloud credentials or database files.
+*.pem
+*.key
+*.pfx
+*.p12
+*.sqlite
+*.sqlite3
+*.db

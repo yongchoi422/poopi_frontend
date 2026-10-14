@@ -1,0 +1,266 @@
+{
+  "checks": [
+    {
+      "name": "All seven originals retain visible front pixels and colors"
+    },
+    {
+      "name": "Wallet fixture selection, clearing states, and racing decode"
+    },
+    {
+      "name": "Unsupported active markup and oversized input rejected without requests"
+    },
+    {
+      "name": "Safe vector artwork displays its original 2D form"
+    },
+    {
+      "name": "Twenty swaps return to the same GPU resource counts",
+      "before": {
+        "geometries": 69,
+        "textures": 5,
+        "programs": 8
+      },
+      "after": {
+        "geometries": 69,
+        "textures": 5,
+        "programs": 8
+      }
+    },
+    {
+      "name": "Original dialog and actual PNG download; samples and fixtures labelled, no address",
+      "photo": {
+        "width": 1440,
+        "height": 1000
+      },
+      "footer": [
+        "SOULI",
+        "LITTLE DAYLIGHT · SAMPLE SOUL",
+        "SOULI",
+        "LITTLE DAYLIGHT · WALLET FIXTURE · PREVIEW ONLY"
+      ]
+    },
+    {
+      "name": "320/390/1440 layouts and readable level-one dot"
+    },
+    {
+      "name": "Still, OS reduced motion, and simulated document visibility stop the loop"
+    },
+    {
+      "name": "All three activity locations remain inside the 320px camera",
+      "poses": [
+        {
+          "seconds": 0,
+          "bounds": {
+            "x": 81.49839708896744,
+            "y": 256.7134111522713,
+            "width": 131.31164770770087,
+            "height": 100.95438592951768
+          }
+        },
+        {
+          "seconds": 35,
+          "bounds": {
+            "x": 63.112411254024536,
+            "y": 206.41190904365783,
+            "width": 131.72479825131222,
+            "height": 109.80469098907878
+          }
+        },
+        {
+          "seconds": 60,
+          "bounds": {
+            "x": 113.24774173746587,
+            "y": 214.85258378671446,
+            "width": 142.43546867092962,
+            "height": 118.81280623345415
+          }
+        }
+      ]
+    },
+    {
+      "name": "Failed model generation falls back to 2D and still captures",
+      "mode": "original2d",
+      "bytes": 340674
+    },
+    {
+      "name": "Repeated create/dispose removes canvases, releases geometry, and destroys the WebGL contexts",
+      "disposal": [
+        {
+          "canvases": 0,
+          "resources": {
+            "geometries": 0,
+            "textures": 1,
+            "programs": 1
+          },
+          "contextLost": true
+        },
+        {
+          "canvases": 0,
+          "resources": {
+            "geometries": 0,
+            "textures": 1,
+            "programs": 1
+          },
+          "contextLost": true
+        },
+        {
+          "canvases": 0,
+          "resources": {
+            "geometries": 0,
+            "textures": 1,
+            "programs": 1
+          },
+          "contextLost": true
+        }
+      ]
+    },
+    {
+      "name": "Unavailable WebGL uses original 2D and saves a PNG",
+      "fallbackBytes": 58178
+    },
+    {
+      "name": "No page errors or external network calls"
+    }
+  ],
+  "fidelity": [
+    {
+      "sample": "Gm fren",
+      "pixels": 216,
+      "bounds": {
+        "x": 511.8077927732604,
+        "y": 347.5619083474992,
+        "width": 176.74666436559892,
+        "height": 135.8855156995578
+      }
+    },
+    {
+      "sample": "Sir HODL",
+      "pixels": 59,
+      "bounds": {
+        "x": 512.5514297381729,
+        "y": 344.3938518176403,
+        "width": 175.1126467623568,
+        "height": 139.09597693062466
+      }
+    },
+    {
+      "sample": "Tiny legend",
+      "pixels": 25,
+      "bounds": {
+        "x": 513.081365967022,
+        "y": 332.4588486754609,
+        "width": 172.85274752767134,
+        "height": 151.63405477545263
+      }
+    },
+    {
+      "sample": "Cozy degen",
+      "pixels": 24,
+      "bounds": {
+        "x": 513.9847390325684,
+        "y": 344.3514741850387,
+        "width": 172.26502327566493,
+        "height": 139.62874199609843
+      }
+    },
+    {
+      "sample": "Grass toucher",
+      "pixels": 61,
+      "bounds": {
+        "x": 512.5514297381729,
+        "y": 336.56550155822123,
+        "width": 175.0757745123035,
+        "height": 146.92432719004375
+      }
+    },
+    {
+      "sample": "Lil moon",
+      "pixels": 33,
+      "bounds": {
+        "x": 513.7274783899846,
+        "y": 329.1046853941565,
+        "width": 172.67024564491828,
+        "height": 154.7875125297985
+      }
+    },
+    {
+      "sample": "Little dot",
+      "pixels": 5,
+      "bounds": {
+        "x": 557.3317255707327,
+        "y": 344.3535187082737,
+        "width": 85.69879884905538,
+        "height": 128.00680943691634
+      }
+    }
+  ],
+  "responsive": [
+    {
+      "width": 320,
+      "canvasWidth": 298,
+      "soulBounds": {
+        "x": 115.31981401486574,
+        "y": 254.3297795769475,
+        "width": 63.6688139141513,
+        "height": 95.10100303900691
+      }
+    },
+    {
+      "width": 390,
+      "canvasWidth": 368,
+      "soulBounds": {
+        "x": 150.31981401486576,
+        "y": 254.3297795769475,
+        "width": 63.668813914151315,
+        "height": 95.10100303900691
+      }
+    },
+    {
+      "width": 1440,
+      "canvasWidth": 1198,
+      "soulBounds": {
+        "x": 557.3317255707327,
+        "y": 344.3535187082737,
+        "width": 85.69879884905538,
+        "height": 128.00680943691634
+      }
+    }
+  ],
+  "engine": {
+    "status": "sample",
+    "isFixture": false,
+    "selectedIndex": 0,
+    "count": 1,
+    "total": 1,
+    "source": "Sample soul",
+    "mode": "volume",
+    "still": false,
+    "paused": true,
+    "close": false,
+    "disposed": false,
+    "engine": "webgl",
+    "renderCount": 132,
+    "modelError": null,
+    "width": 1198,
+    "height": 650,
+    "soulBounds": {
+      "x": 511.8077927732604,
+      "y": 346.96155629648274,
+      "width": 176.74666436559892,
+      "height": 135.88551569955786
+    },
+    "contextLost": false,
+    "resources": {
+      "geometries": 69,
+      "textures": 5,
+      "programs": 8
+    },
+    "drawCalls": 69,
+    "triangles": 13389,
+    "activeSeconds": 0.2500740000000006,
+    "behavior": "rest",
+    "hidden": false,
+    "downloadUrls": 1
+  },
+  "environment": "Desktop Chrome, headless ANGLE/SwiftShader. No physical mobile FPS benchmark.",
+  "checkedAt": "2026-10-04T06:36:31.025Z"
+}

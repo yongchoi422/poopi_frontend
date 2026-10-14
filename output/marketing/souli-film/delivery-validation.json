@@ -1,0 +1,102 @@
+[
+  {
+    "file": "promo-eth-down.mp4",
+    "source": "promo-eth-down-master-720p.mp4",
+    "metadata": {
+      "ffmpeg_version": "7.1-essentials_build-www.gyan.dev built with gcc 14.2.0 (Rev1, Built by MSYS2 project)",
+      "codec": "h264",
+      "pix_fmt": "yuv420p(progressive)",
+      "fps": 24.0,
+      "source_size": [
+        1280,
+        720
+      ],
+      "size": [
+        1280,
+        720
+      ],
+      "rotate": 0,
+      "duration": 4.0
+    },
+    "bytes": 786694,
+    "sha256": "926fd215241d4f1a6d24fb2da2fcdfd887f7a579193338ef846df5e98963bf11",
+    "full_decode_passed": true,
+    "sampled_first_last_mae_0_255": 12.725,
+    "sampled_first_mid_mae_0_255": 8.06,
+    "loop_note": "Endpoint metric is a diagnostic; visual motion and seam inspection are required."
+  },
+  {
+    "file": "promo-eth-up.mp4",
+    "source": "promo-eth-up-master-720p.mp4",
+    "metadata": {
+      "ffmpeg_version": "7.1-essentials_build-www.gyan.dev built with gcc 14.2.0 (Rev1, Built by MSYS2 project)",
+      "codec": "h264",
+      "pix_fmt": "yuv420p(progressive)",
+      "fps": 24.0,
+      "source_size": [
+        1280,
+        720
+      ],
+      "size": [
+        1280,
+        720
+      ],
+      "rotate": 0,
+      "duration": 4.0
+    },
+    "bytes": 903251,
+    "sha256": "6e7efe5c704f76a0385f54662ded407693a9412e7f9cf44a01a7b34d3ca980b8",
+    "full_decode_passed": true,
+    "sampled_first_last_mae_0_255": 6.027,
+    "sampled_first_mid_mae_0_255": 22.607,
+    "loop_note": "Endpoint metric is a diagnostic; visual motion and seam inspection are required."
+  },
+  {
+    "file": "souli-hero-web.mp4",
+    "source": "souli-hero-master-720p.mp4",
+    "metadata": {
+      "ffmpeg_version": "7.1-essentials_build-www.gyan.dev built with gcc 14.2.0 (Rev1, Built by MSYS2 project)",
+      "codec": "h264",
+      "pix_fmt": "yuv420p(progressive)",
+      "fps": 24.0,
+      "source_size": [
+        1280,
+        720
+      ],
+      "size": [
+        1280,
+        720
+      ],
+      "rotate": 0,
+      "duration": 8.0
+    },
+    "bytes": 1435348,
+    "sha256": "c014e8d8b9f186ef66c0016bcaaaec38bbf211bd056ede94a05034210d7664f3",
+    "full_decode_passed": true,
+    "sampled_first_last_mae_0_255": 3.378,
+    "sampled_first_mid_mae_0_255": 16.388,
+    "loop_note": "Endpoint metric is a diagnostic; visual motion and seam inspection are required."
+  },
+  {
+    "file": "promo-gm.mp4",
+    "metadata": {
+      "ffmpeg_version": "7.1-essentials_build-www.gyan.dev built with gcc 14.2.0 (Rev1, Built by MSYS2 project)",
+      "codec": "h264",
+      "pix_fmt": "yuv420p(progressive)",
+      "fps": 24.0,
+      "source_size": [
+        1280,
+        720
+      ],
+      "size": [
+        1280,
+        720
+      ],
+      "rotate": 0,
+      "duration": 4.0
+    },
+    "bytes": 808691,
+    "full_decode_passed": true,
+    "note": "Four-second GM cut from the approved hero; not separately generated or advertised as a seamless loop."
+  }
+]

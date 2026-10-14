@@ -1,0 +1,14 @@
+{
+  "episodes": [
+    {
+      "id": "05",
+      "reference": "episode-05-keyframe.png",
+      "prompt": "Use the supplied photo as the exact first frame. 8 seconds, locked camera, one continuous shot. Animate the lavender felt sculpture beside the refrigerator as a single rigid piece of artwork: rock it gently clockwise about its bottom edge by 8 degrees, return upright, then rock the other way. Repeat this small pendulum motion twice. Its two ear-like top tabs, short bottom tabs, asymmetric sides, original black square and pink square patches, and the blank lavender right side remain absolutely unchanged. The original front side stays aimed toward the camera throughout; zero turning in depth. All visible vegetables remain upright in the fridge rack. The open door, phone, containers and background stay stationary. Photoreal miniature texture, soft light. Rigid-body stop motion only, the surface artwork is frozen throughout."
+    },
+    {
+      "id": "77",
+      "reference": "episode-77-keyframe.png",
+      "prompt": "Animate this exact miniature product photograph for 8 seconds in a single locked-camera shot. The small red asymmetric sculpture remains rigid and moves as one solid object: scoot it right 2 centimeters, pause, scoot it left 2 centimeters, pause, then tilt it 5 degrees and return. Preserve the precise stepped outline from the photo: taller raised red block on the LEFT, main red rectangular body to its right, and the small dark gray protruding tab on the far RIGHT. The original black square and two pale pink square patches are fixed in place. Maintain exact silhouette and constant height. No turning in depth, only tiny 2D translation and tilt. The ketchup bottle stays fully stationary on the LEFT with its white collar and red nozzle unchanged. All table props stay in place. Gentle lifelike miniature stop-motion with attached contact shadow."
+    }
+  ]
+}

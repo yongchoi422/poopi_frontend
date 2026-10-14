@@ -1,0 +1,157 @@
+[
+  {
+    "id": 81,
+    "status": "pass",
+    "reason": "Rigid slide and tilt with blank upper block and original stripe maintained. Apple and scale intact."
+  },
+  {
+    "id": 93,
+    "status": "retry",
+    "reason": "Right protruding bar lengthens substantially. Prompt wording longer bar to be removed."
+  },
+  {
+    "id": 115,
+    "status": "pass",
+    "reason": "Rigid mint silhouette and inlays retained, mist flows from same stationary nozzle; no human hand, plant and bottle intact."
+  },
+  {
+    "id": 82,
+    "status": "pass",
+    "reason": "Green tile follows same single sheet, tilts; no new face or limbs. Copier and paper continuous."
+  },
+  {
+    "id": 85,
+    "status": "pass",
+    "reason": "Whole blue ceramic piece rocks to pendulum rhythm with blank upper face and original marks intact."
+  },
+  {
+    "id": 86,
+    "status": "pass",
+    "reason": "Peach shape slides up and down intact croissant with unchanged inlays, no added limbs."
+  },
+  {
+    "id": 89,
+    "status": "pass",
+    "reason": "Band remains continuous in front of purple tile with two fixed posts; no passing through body."
+  },
+  {
+    "id": 90,
+    "status": "pass",
+    "reason": "Original single bottom-left tab retained while whole red mint tile rocks; parcel intact."
+  },
+  {
+    "id": 91,
+    "status": "pass",
+    "reason": "Wide green shape and marks retained, paper remains clipped; inspect brief perspective swing at 5.0–5.6s more densely. Dense 24-fps event sampling confirmed continuous rigid perspective motion, no object replacement.",
+    "dense_review": true
+  },
+  {
+    "id": 92,
+    "status": "pass",
+    "reason": "Single red S-shaped slab tilts/vibrates on chair; no grown legs, chair and cup intact."
+  },
+  {
+    "id": 94,
+    "status": "pass",
+    "reason": "Wide blue silhouette and fixed gray blocks stay attached during tilts; bubbles rise behind glass."
+  },
+  {
+    "id": 95,
+    "status": "pass",
+    "reason": "Peach silhouette, orange fixed cap and printed marks retained through pose; empty gold frame stable."
+  },
+  {
+    "id": 96,
+    "status": "pass",
+    "reason": "Yellow flame remains one slab on same pager during shiver and tilt; no new bottom appendage."
+  },
+  {
+    "id": 97,
+    "status": "pass",
+    "reason": "Upper-right yellow area stays blank, two side blocks remain; tile and toothbrush separate and coherent."
+  },
+  {
+    "id": 98,
+    "status": "pass",
+    "reason": "Printed black blocks and pale vertical inlays stay fixed, peg and tent intact."
+  },
+  {
+    "id": 100,
+    "status": "pass",
+    "reason": "Pink flat base retained during lean/slide; one balloon, continuous single tether and weight."
+  },
+  {
+    "id": 101,
+    "status": "pass",
+    "reason": "Orange upper area blank, lower stripe stable; inspect 5.0–5.75s perspective swing and door panels. Dense 24-fps event sampling confirmed continuous rigid perspective motion, no object replacement.",
+    "dense_review": true
+  },
+  {
+    "id": 102,
+    "status": "retry",
+    "reason": "Starts as different rounded bowl silhouette with gray pyramid and new spring. Original stepped outline replaced."
+  },
+  {
+    "id": 103,
+    "status": "pass",
+    "reason": "Tan lobes and left inlays retained, right lobe blank; inspect turn 5.2–6.2s densely. Dense 24-fps event sampling confirmed continuous rigid perspective motion, no object replacement.",
+    "dense_review": true
+  },
+  {
+    "id": 104,
+    "status": "pass",
+    "reason": "Two plus marks and tiny mouth square stay fixed; pea and tray intact through lean and brief turn."
+  },
+  {
+    "id": 105,
+    "status": "pass",
+    "reason": "Orange tile remains abstract blank-faced slab, gray blocks fixed; steel hex key never bends."
+  },
+  {
+    "id": 106,
+    "status": "pass",
+    "reason": "Both purple lobes remain joined with fixed central pink blocks, slides and tilts beside same soap and dish."
+  },
+  {
+    "id": 107,
+    "status": "pass",
+    "reason": "Tan tile and printed stripe retained; token rocks on edge above tile. Check 2–3s token contact densely. Dense 24-fps event sampling confirmed continuous rigid perspective motion, no object replacement.",
+    "dense_review": true
+  },
+  {
+    "id": 109,
+    "status": "pass",
+    "reason": "Purple two-tab silhouette and stripe fixed, same brush drops water; jar remains intact."
+  },
+  {
+    "id": 110,
+    "status": "pass",
+    "reason": "Yellow original three bottom prongs and blank pale front retained; neck pillow remains unchanged."
+  },
+  {
+    "id": 114,
+    "status": "pass",
+    "reason": "Purple tile and pink side tabs retained; chalk and ball remain. Check yaw rotations 0.6–1.4 and 6.2–7s. Dense 24-fps event sampling confirmed continuous rigid perspective motion, no object replacement.",
+    "dense_review": true
+  },
+  {
+    "id": 116,
+    "status": "pass",
+    "reason": "Mint stepped silhouette and all face inlays retained while whole tile rocks on seat. Single yellow strap and bus remain."
+  },
+  {
+    "id": 117,
+    "status": "pass",
+    "reason": "Red stepped tile performs lively rigid tilt with original black stripe; both headphone cups and band intact."
+  },
+  {
+    "id": 118,
+    "status": "retry",
+    "reason": "Unwanted animated dimension lines and numbers appear during first second."
+  },
+  {
+    "id": 120,
+    "status": "pass",
+    "reason": "Pink flame silhouette and X inlays fixed; same paper cup rocks on rim and returns without disappearing."
+  }
+]

@@ -1,0 +1,14 @@
+{
+  "status": "completed",
+  "approved_images_reused": 80,
+  "new_selected_videos": 80,
+  "drive_files_verified": 80,
+  "all_selected_files_fully_decoded": true,
+  "total_video_bytes": 164728407,
+  "bundle": "C:\\Users\\yongc\\Documents\\GitHub\\souli\\output\\marketing\\souli-film\\meme-pack\\motion-v2-20261003\\souli-motion-v2-80-clips.zip",
+  "bundle_bytes": 178707480,
+  "review_method": "Visual comparison at 16 timestamps per candidate; rejected identity changes regenerated; selected files fully decoded with FFmpeg.",
+  "review_limit": "This is sampled visual review, not a guarantee of pixel-identical geometry. Minor generated prop, texture, and previously occluded-area differences can remain.",
+  "drive_folder": "https://drive.google.com/drive/folders/1zeTkihPmdrMOS7067d7vDbQzZWuO207F",
+  "published": false
+}

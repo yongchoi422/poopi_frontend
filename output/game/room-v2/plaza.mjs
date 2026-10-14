@@ -1,0 +1,34 @@
+import {prepareOriginal} from './grove-originals.mjs';
+import {CREW} from './miniature-rules.mjs';
+import {makeStory,sampleStory,CYCLE} from './plaza-timeline.mjs';
+import {createPlazaWorld} from './plaza-world.mjs';
+import {createPlazaAudio} from './plaza-audio.mjs';
+const $=s=>document.querySelector(s),set=(s,v)=>{if($(s).textContent!==v)$(s).textContent=v;};
+const samples=await fetch('./soul-samples.json').then(r=>r.json()),originals=samples.map(prepareOriginal);
+let world;try{world=createPlazaWorld($('.stage'),originals);}catch(error){$('.loading strong').textContent='This little world needs WebGL.';$('.loading span').textContent='Try a browser with hardware acceleration enabled.';throw error;}
+const audio=createPlazaAudio(),media=matchMedia('(prefers-reduced-motion: reduce)');let userStill=false,paused=false,elapsed=0,weather='violet',run=makeStory(weather),last=null,raf=0,lastDraw=0,selected=-1,stats={},toastTimer,cycleNumber=0,disposed=false;
+const urls=new Set(),effectiveStill=()=>userStill||media.matches;
+function toast(message){set('.toast',message);$('.toast').hidden=false;clearTimeout(toastTimer);toastTimer=setTimeout(()=>$('.toast').hidden=true,3000);}
+function draw(force=false){const data=sampleStory(run,elapsed);stats=world.draw(data,elapsed,effectiveStill(),weather,force);audio.update(data);set('#story-title',selected>=0?CREW[selected].name:data.chapter);set('#story-detail',selected>=0?data.crew[selected].action:data.detail);set('#chapter',`${data.phase==='rest'?'A LITTLE PEACE':data.gate.broken?'ALL HANDS ON DECK':'A LITTLE DAY'} / ${String(cycleNumber+1).padStart(2,'0')}`);$('.story').dataset.broken=String(data.gate.broken);$('.timeline').style.transform=`scaleX(${(elapsed%CYCLE)/CYCLE})`;return data;}
+function frame(now){raf=0;if(disposed||document.hidden||paused)return;if(last!==null)elapsed+=Math.min((now-last)/1000,.25);last=now;const cycle=Math.floor(elapsed/CYCLE);if(cycle!==cycleNumber){cycleNumber=cycle;weather=weather==='violet'?'coral':'violet';run=makeStory(weather);updateWeather();}if(now-lastDraw>=1000/30){draw();lastDraw=now;}raf=requestAnimationFrame(frame);}
+function start(){last=null;if(!document.hidden&&!paused&&!disposed&&!raf)raf=requestAnimationFrame(frame);}
+function stop(){cancelAnimationFrame(raf);raf=0;last=null;}
+function updateWeather(){set('#weather-name',weather==='violet'?'Violet tide':'Coral shower');$('.weather-dot').style.background=weather==='violet'?'#8855bd':'#dd6c8c';}
+function restart(next=weather){weather=next;run=makeStory(weather);elapsed=0;cycleNumber=0;last=null;updateWeather();draw(true);}
+CREW.forEach(a=>{const b=document.createElement('button');b.type='button';b.className='resident';b.dataset.resident=a.id;b.setAttribute('aria-pressed','false');b.setAttribute('aria-label',`Follow ${a.name}, ${a.role}`);const img=new Image();img.className='portrait';img.alt='';// These are repository-owned public sample SVGs, never arbitrary user input.
+ img.src='data:image/svg+xml;charset=utf-8,'+encodeURIComponent(originals[a.sample].markup);const copy=document.createElement('span'),name=document.createElement('strong'),role=document.createElement('small');name.textContent=a.name;role.textContent=a.role;copy.append(name,role);b.append(img,copy);b.onclick=()=>{selected=selected===a.id?-1:a.id;world.follow(selected);document.querySelectorAll('.resident').forEach(btn=>btn.setAttribute('aria-pressed',String(+btn.dataset.resident===selected)));draw(true);};$('.crew').append(b);});
+$('#camera').onclick=()=>{world.toggleOverview();selected=-1;set('#camera',world.getStats().overview?'Whole square':'Gate view');document.querySelectorAll('.resident').forEach(b=>b.setAttribute('aria-pressed','false'));draw(true);};
+$('#still').onclick=()=>{userStill=!userStill;$('#still').setAttribute('aria-pressed',String(effectiveStill()));draw(true);};
+$('#sound').onclick=async()=>{try{const enabled=await audio.toggle();set('#sound',enabled?'Sound on':'Sound off');$('#sound').setAttribute('aria-pressed',String(enabled));}catch{toast('Sound is unavailable in this browser.');}};
+$('#replay').onclick=()=>restart();$('#weather').onclick=()=>{restart(weather==='violet'?'coral':'violet');toast('A new color, a new little story. Demo weather.');};
+async function capture(){draw(true);const canvas=document.createElement('canvas'),source=world.renderer.domElement,scale=Math.min(1600/source.width,1528/source.height);canvas.width=Math.round(source.width*scale);canvas.height=Math.round(source.height*scale)+72;const ctx=canvas.getContext('2d');ctx.drawImage(source,0,0,canvas.width,canvas.height-72);ctx.fillStyle='#f3f3e9';ctx.fillRect(0,canvas.height-72,canvas.width,72);ctx.fillStyle='#244b50';ctx.font='30px Georgia';ctx.fillText('souli.',40,canvas.height-26);ctx.textAlign='right';ctx.font='12px system-ui';ctx.fillText('THE PORCELAIN QUARTER · FIVE SAMPLE SOULS',canvas.width-42,canvas.height-30);return new Promise((resolve,reject)=>canvas.toBlob(b=>b?resolve(b):reject(Error('Could not capture this scene.')),'image/png'));}
+$('#photo').onclick=async()=>{try{const blob=await capture(),url=URL.createObjectURL(blob);urls.add(url);const a=document.createElement('a');a.href=url;a.download='souli-porcelain-quarter.png';a.click();setTimeout(()=>{URL.revokeObjectURL(url);urls.delete(url);},15000);toast('A little moment, saved.');}catch(e){toast(e.message);}};
+const visibility=()=>{if(document.hidden)stop();else start();void audio.hidden(document.hidden);};document.addEventListener('visibilitychange',visibility);
+const motion=()=>{$('#still').setAttribute('aria-pressed',String(effectiveStill()));draw(true);};media.addEventListener('change',motion);
+world.renderer.domElement.addEventListener('webglcontextlost',e=>{e.preventDefault();stop();$('.loading').hidden=false;$('.loading strong').textContent='The world needs a moment.';$('.loading span').textContent='Reload this preview to return to the square.';});
+function dispose(){if(disposed)return;disposed=true;stop();clearTimeout(toastTimer);document.removeEventListener('visibilitychange',visibility);media.removeEventListener('change',motion);for(const url of urls)URL.revokeObjectURL(url);urls.clear();void audio.dispose();world.dispose();}
+window.addEventListener('pagehide',dispose,{once:true});
+// Local production-review controls: the actual autonomous timeline is sampled,
+// never replaced with fabricated victory states when a reviewer seeks.
+window.plazaLab={getStats:()=>structuredClone({...stats,elapsed,weather,reduced:effectiveStill(),paused,audio:audio.enabled}),getResult:()=>structuredClone(run.result),seek(seconds){elapsed=Math.max(0,Math.min(CYCLE-.001,seconds));last=null;draw(true);},pause(){paused=true;stop();},resume(){paused=false;start();},capture,restart,dispose,world};
+motion();$('.loading').hidden=true;draw(true);window.plazaReady=true;start();

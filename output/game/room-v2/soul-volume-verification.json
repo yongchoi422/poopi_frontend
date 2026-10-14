@@ -1,0 +1,105 @@
+{
+  "status": "passed",
+  "checks": {
+    "ring": {
+      "loops": 2,
+      "holes": 1,
+      "area": 8
+    },
+    "diagonalComponents": 2,
+    "samples": [
+      {
+        "name": "Gm fren",
+        "pixels": 216,
+        "frontPixels": 216,
+        "pixelsExact": true,
+        "areaExact": true,
+        "finite": true,
+        "components": 11
+      },
+      {
+        "name": "Sir HODL",
+        "pixels": 59,
+        "frontPixels": 59,
+        "pixelsExact": true,
+        "areaExact": true,
+        "finite": true,
+        "components": 5
+      },
+      {
+        "name": "Tiny legend",
+        "pixels": 25,
+        "frontPixels": 25,
+        "pixelsExact": true,
+        "areaExact": true,
+        "finite": true,
+        "components": 3
+      },
+      {
+        "name": "Cozy degen",
+        "pixels": 24,
+        "frontPixels": 24,
+        "pixelsExact": true,
+        "areaExact": true,
+        "finite": true,
+        "components": 3
+      },
+      {
+        "name": "Grass toucher",
+        "pixels": 61,
+        "frontPixels": 61,
+        "pixelsExact": true,
+        "areaExact": true,
+        "finite": true,
+        "components": 5
+      },
+      {
+        "name": "Lil moon",
+        "pixels": 33,
+        "frontPixels": 33,
+        "pixelsExact": true,
+        "areaExact": true,
+        "finite": true,
+        "components": 4
+      },
+      {
+        "name": "Little dot",
+        "pixels": 5,
+        "frontPixels": 5,
+        "pixelsExact": true,
+        "areaExact": true,
+        "finite": true,
+        "components": 1
+      }
+    ]
+  },
+  "configured": {
+    "mode": "volume",
+    "depth": 6,
+    "roundness": 0.24,
+    "angle": 55
+  },
+  "mobile": [
+    {
+      "width": 390,
+      "scroll": 390,
+      "controls": true
+    },
+    {
+      "width": 320,
+      "scroll": 320,
+      "controls": true
+    }
+  ],
+  "export": {
+    "bytes": 210152,
+    "meshes": 12,
+    "triangles": 1924,
+    "bounds": [
+      1.624583383401235,
+      1.1870832443671921,
+      0.31266667445500695
+    ]
+  },
+  "errors": []
+}

@@ -1,0 +1,22 @@
+{
+  "enabled": true,
+  "mode": "live",
+  "chainId": 8453,
+  "address": "0x83bcB8Ba9b7518CDEc32f2eE0e684f1d7b4ffB01",
+  "runtimeCodeHash": "0x0fdf3a92ef8d9175a29c7041caa5466edec37b177a3fd80b25d6058f06eff09d",
+  "terms": {
+    "version": 1,
+    "chainId": 8453,
+    "token": "0xb43eA104c7ec75038Ac8EcA57107Eefc8B039aFF",
+    "treasury": "0xD643520BfEb76e59250d56Df8B196F9c751Bc252",
+    "unitPriceWei": "26684264049332",
+    "saleCap": "42",
+    "walletCap": "10",
+    "startsAt": "1791005767",
+    "endsAt": "1791610567",
+    "immediateDelivery": true,
+    "automaticLiquidity": false,
+    "refundable": false
+  },
+  "termsHash": "0x399da7420e0268fa14fdb881f1a794ff2bb8cfb7a79663f61890fc6f085abd06"
+}

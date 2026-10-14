@@ -1,0 +1,836 @@
+{
+  "root_folder": "https://drive.google.com/drive/folders/1PFx3kre_rFMnmxNmTPYDVZhHKVNu3KND",
+  "verified_by": "Drive metadata readback; file name, MIME type, byte size and parent folder. Local SHA256 retained separately; connector does not return remote checksum.",
+  "videos": [
+    {
+      "episode": "01",
+      "file_id": "1f6fIhRxqHByO2Dv5Mv_hl0J3x6L1fs0P",
+      "name": "souli-01.mp4",
+      "url": "https://drive.google.com/file/d/1f6fIhRxqHByO2Dv5Mv_hl0J3x6L1fs0P/view?usp=drivesdk",
+      "bytes": 1605012,
+      "parent_ids": [
+        "18LXEDEV9V5u_quFkZe_fsFPb2iFGRkCE"
+      ]
+    },
+    {
+      "episode": "02",
+      "file_id": "1cRvfceiRJgzIkyyR6nkNPw839LmLdhcT",
+      "name": "souli-02.mp4",
+      "url": "https://drive.google.com/file/d/1cRvfceiRJgzIkyyR6nkNPw839LmLdhcT/view?usp=drivesdk",
+      "bytes": 1974779,
+      "parent_ids": [
+        "18LXEDEV9V5u_quFkZe_fsFPb2iFGRkCE"
+      ]
+    },
+    {
+      "episode": "03",
+      "file_id": "1byp9evqy92LguZ_fwad9FtP0KGYTksef",
+      "name": "souli-03.mp4",
+      "url": "https://drive.google.com/file/d/1byp9evqy92LguZ_fwad9FtP0KGYTksef/view?usp=drivesdk",
+      "bytes": 1950217,
+      "parent_ids": [
+        "18LXEDEV9V5u_quFkZe_fsFPb2iFGRkCE"
+      ]
+    },
+    {
+      "episode": "04",
+      "file_id": "1K_iig20HhGFvJWXs7sr6QKDfpHWRxupd",
+      "name": "souli-04.mp4",
+      "url": "https://drive.google.com/file/d/1K_iig20HhGFvJWXs7sr6QKDfpHWRxupd/view?usp=drivesdk",
+      "bytes": 1511391,
+      "parent_ids": [
+        "18LXEDEV9V5u_quFkZe_fsFPb2iFGRkCE"
+      ]
+    },
+    {
+      "episode": "05",
+      "file_id": "17mhkxx38VIQGotN9eMDbc-GbucujFblS",
+      "name": "souli-05.mp4",
+      "url": "https://drive.google.com/file/d/17mhkxx38VIQGotN9eMDbc-GbucujFblS/view?usp=drivesdk",
+      "bytes": 2003943,
+      "parent_ids": [
+        "18LXEDEV9V5u_quFkZe_fsFPb2iFGRkCE"
+      ]
+    },
+    {
+      "episode": "06",
+      "file_id": "151MsH3OLCId-URJam97P1GgyKMQxMcJS",
+      "name": "souli-06.mp4",
+      "url": "https://drive.google.com/file/d/151MsH3OLCId-URJam97P1GgyKMQxMcJS/view?usp=drivesdk",
+      "bytes": 1426476,
+      "parent_ids": [
+        "18LXEDEV9V5u_quFkZe_fsFPb2iFGRkCE"
+      ]
+    },
+    {
+      "episode": "07",
+      "file_id": "1SgICdxCFzEt3P5ivcUdvui7y8xo2snG2",
+      "name": "souli-07.mp4",
+      "url": "https://drive.google.com/file/d/1SgICdxCFzEt3P5ivcUdvui7y8xo2snG2/view?usp=drivesdk",
+      "bytes": 2823892,
+      "parent_ids": [
+        "18LXEDEV9V5u_quFkZe_fsFPb2iFGRkCE"
+      ]
+    },
+    {
+      "episode": "08",
+      "file_id": "1VKUckyGhz01oL4P_rqKM5_3RNXCHlWY2",
+      "name": "souli-08.mp4",
+      "url": "https://drive.google.com/file/d/1VKUckyGhz01oL4P_rqKM5_3RNXCHlWY2/view?usp=drivesdk",
+      "bytes": 1592493,
+      "parent_ids": [
+        "18LXEDEV9V5u_quFkZe_fsFPb2iFGRkCE"
+      ]
+    },
+    {
+      "episode": "09",
+      "file_id": "1cu_herKCTPEdGCco4LCejRccAm9ch8kx",
+      "name": "souli-09.mp4",
+      "url": "https://drive.google.com/file/d/1cu_herKCTPEdGCco4LCejRccAm9ch8kx/view?usp=drivesdk",
+      "bytes": 2759679,
+      "parent_ids": [
+        "18LXEDEV9V5u_quFkZe_fsFPb2iFGRkCE"
+      ]
+    },
+    {
+      "episode": "10",
+      "file_id": "1NZ3Zw7YjRyGnXDMpxsIycZkY9TJEFnaZ",
+      "name": "souli-10.mp4",
+      "url": "https://drive.google.com/file/d/1NZ3Zw7YjRyGnXDMpxsIycZkY9TJEFnaZ/view?usp=drivesdk",
+      "bytes": 1933386,
+      "parent_ids": [
+        "18LXEDEV9V5u_quFkZe_fsFPb2iFGRkCE"
+      ]
+    },
+    {
+      "episode": "11",
+      "file_id": "1xKhfzMfxTSPGyVta5UR0ooMAxeGbG0Mj",
+      "name": "souli-11.mp4",
+      "url": "https://drive.google.com/file/d/1xKhfzMfxTSPGyVta5UR0ooMAxeGbG0Mj/view?usp=drivesdk",
+      "bytes": 2076779,
+      "parent_ids": [
+        "18LXEDEV9V5u_quFkZe_fsFPb2iFGRkCE"
+      ]
+    },
+    {
+      "episode": "12",
+      "file_id": "1FEGQuaOf-hUrCAAORbcTfrkvmpmzE_VK",
+      "name": "souli-12.mp4",
+      "url": "https://drive.google.com/file/d/1FEGQuaOf-hUrCAAORbcTfrkvmpmzE_VK/view?usp=drivesdk",
+      "bytes": 1703520,
+      "parent_ids": [
+        "18LXEDEV9V5u_quFkZe_fsFPb2iFGRkCE"
+      ]
+    },
+    {
+      "episode": "13",
+      "file_id": "18lI9n6bqbxFKcr-ph9RxXAX6MiBIxiLc",
+      "name": "souli-13.mp4",
+      "url": "https://drive.google.com/file/d/18lI9n6bqbxFKcr-ph9RxXAX6MiBIxiLc/view?usp=drivesdk",
+      "bytes": 1473927,
+      "parent_ids": [
+        "18LXEDEV9V5u_quFkZe_fsFPb2iFGRkCE"
+      ]
+    },
+    {
+      "episode": "14",
+      "file_id": "1dRt4zAnSdeeKU8yeM3SUDcST9L0kWvO9",
+      "name": "souli-14.mp4",
+      "url": "https://drive.google.com/file/d/1dRt4zAnSdeeKU8yeM3SUDcST9L0kWvO9/view?usp=drivesdk",
+      "bytes": 1803136,
+      "parent_ids": [
+        "18LXEDEV9V5u_quFkZe_fsFPb2iFGRkCE"
+      ]
+    },
+    {
+      "episode": "15",
+      "file_id": "1nS3KOHB_sNXHVO09FeVYVX-gJm8vhMVb",
+      "name": "souli-15.mp4",
+      "url": "https://drive.google.com/file/d/1nS3KOHB_sNXHVO09FeVYVX-gJm8vhMVb/view?usp=drivesdk",
+      "bytes": 1870967,
+      "parent_ids": [
+        "18LXEDEV9V5u_quFkZe_fsFPb2iFGRkCE"
+      ]
+    },
+    {
+      "episode": "16",
+      "file_id": "1Dqt6HJoHWdqD5q_2vJtAKMkxnJmEUQAC",
+      "name": "souli-16.mp4",
+      "url": "https://drive.google.com/file/d/1Dqt6HJoHWdqD5q_2vJtAKMkxnJmEUQAC/view?usp=drivesdk",
+      "bytes": 2078804,
+      "parent_ids": [
+        "18LXEDEV9V5u_quFkZe_fsFPb2iFGRkCE"
+      ]
+    },
+    {
+      "episode": "17",
+      "file_id": "1fnIej9Gkm9SyXkbCGAybW1i6jrDzeWmF",
+      "name": "souli-17.mp4",
+      "url": "https://drive.google.com/file/d/1fnIej9Gkm9SyXkbCGAybW1i6jrDzeWmF/view?usp=drivesdk",
+      "bytes": 1815545,
+      "parent_ids": [
+        "18LXEDEV9V5u_quFkZe_fsFPb2iFGRkCE"
+      ]
+    },
+    {
+      "episode": "18",
+      "file_id": "1jqlfzFefKzjbP8dSrhU6yoIrr_FA_-K4",
+      "name": "souli-18.mp4",
+      "url": "https://drive.google.com/file/d/1jqlfzFefKzjbP8dSrhU6yoIrr_FA_-K4/view?usp=drivesdk",
+      "bytes": 2777809,
+      "parent_ids": [
+        "18LXEDEV9V5u_quFkZe_fsFPb2iFGRkCE"
+      ]
+    },
+    {
+      "episode": "19",
+      "file_id": "1IGZ_pGnicWK1HamJrxLwqpFh5AAMf002",
+      "name": "souli-19.mp4",
+      "url": "https://drive.google.com/file/d/1IGZ_pGnicWK1HamJrxLwqpFh5AAMf002/view?usp=drivesdk",
+      "bytes": 2203529,
+      "parent_ids": [
+        "18LXEDEV9V5u_quFkZe_fsFPb2iFGRkCE"
+      ]
+    },
+    {
+      "episode": "20",
+      "file_id": "1jiTM8LvQFDXaLMC1Xex0cXDne-CD7TGT",
+      "name": "souli-20.mp4",
+      "url": "https://drive.google.com/file/d/1jiTM8LvQFDXaLMC1Xex0cXDne-CD7TGT/view?usp=drivesdk",
+      "bytes": 2791953,
+      "parent_ids": [
+        "18LXEDEV9V5u_quFkZe_fsFPb2iFGRkCE"
+      ]
+    },
+    {
+      "episode": "21",
+      "file_id": "1HAn-DclOqRiW_FOWM5nb0jyjjCtXw-7C",
+      "name": "souli-21.mp4",
+      "url": "https://drive.google.com/file/d/1HAn-DclOqRiW_FOWM5nb0jyjjCtXw-7C/view?usp=drivesdk",
+      "bytes": 1801026,
+      "parent_ids": [
+        "18LXEDEV9V5u_quFkZe_fsFPb2iFGRkCE"
+      ]
+    },
+    {
+      "episode": "22",
+      "file_id": "1PER3WoBI5gdZM12pnpY-jnPF4bCZva36",
+      "name": "souli-22.mp4",
+      "url": "https://drive.google.com/file/d/1PER3WoBI5gdZM12pnpY-jnPF4bCZva36/view?usp=drivesdk",
+      "bytes": 1428423,
+      "parent_ids": [
+        "18LXEDEV9V5u_quFkZe_fsFPb2iFGRkCE"
+      ]
+    },
+    {
+      "episode": "23",
+      "file_id": "1y67Iqqs05VPJ-IRq8QT7tPcRw7xfwlFn",
+      "name": "souli-23.mp4",
+      "url": "https://drive.google.com/file/d/1y67Iqqs05VPJ-IRq8QT7tPcRw7xfwlFn/view?usp=drivesdk",
+      "bytes": 1670037,
+      "parent_ids": [
+        "18LXEDEV9V5u_quFkZe_fsFPb2iFGRkCE"
+      ]
+    },
+    {
+      "episode": "24",
+      "file_id": "1TjBtAyyFRtyY_2UAJZxO2OEojc6ZCWTV",
+      "name": "souli-24.mp4",
+      "url": "https://drive.google.com/file/d/1TjBtAyyFRtyY_2UAJZxO2OEojc6ZCWTV/view?usp=drivesdk",
+      "bytes": 2427191,
+      "parent_ids": [
+        "18LXEDEV9V5u_quFkZe_fsFPb2iFGRkCE"
+      ]
+    },
+    {
+      "episode": "25",
+      "file_id": "18CxmSaUvy1U564M0YStLYNdbhXDTIktP",
+      "name": "souli-25.mp4",
+      "url": "https://drive.google.com/file/d/18CxmSaUvy1U564M0YStLYNdbhXDTIktP/view?usp=drivesdk",
+      "bytes": 1178598,
+      "parent_ids": [
+        "18LXEDEV9V5u_quFkZe_fsFPb2iFGRkCE"
+      ]
+    },
+    {
+      "episode": "26",
+      "file_id": "1GmFKVj22o-HHRO17aVcMlhXoqdrzNaSk",
+      "name": "souli-26.mp4",
+      "url": "https://drive.google.com/file/d/1GmFKVj22o-HHRO17aVcMlhXoqdrzNaSk/view?usp=drivesdk",
+      "bytes": 2760433,
+      "parent_ids": [
+        "18LXEDEV9V5u_quFkZe_fsFPb2iFGRkCE"
+      ]
+    },
+    {
+      "episode": "27",
+      "file_id": "1OHwqzlOdrjrFK7ddvk_KAVLaj0xYEnBy",
+      "name": "souli-27.mp4",
+      "url": "https://drive.google.com/file/d/1OHwqzlOdrjrFK7ddvk_KAVLaj0xYEnBy/view?usp=drivesdk",
+      "bytes": 976907,
+      "parent_ids": [
+        "18LXEDEV9V5u_quFkZe_fsFPb2iFGRkCE"
+      ]
+    },
+    {
+      "episode": "28",
+      "file_id": "18t-RwPKQBOtkDJvM4B37NzetQygh3hSw",
+      "name": "souli-28.mp4",
+      "url": "https://drive.google.com/file/d/18t-RwPKQBOtkDJvM4B37NzetQygh3hSw/view?usp=drivesdk",
+      "bytes": 1720556,
+      "parent_ids": [
+        "18LXEDEV9V5u_quFkZe_fsFPb2iFGRkCE"
+      ]
+    },
+    {
+      "episode": "29",
+      "file_id": "1nGomv09QVgnilROp6qteF5Yvy_KrAVTe",
+      "name": "souli-29.mp4",
+      "url": "https://drive.google.com/file/d/1nGomv09QVgnilROp6qteF5Yvy_KrAVTe/view?usp=drivesdk",
+      "bytes": 2196231,
+      "parent_ids": [
+        "18LXEDEV9V5u_quFkZe_fsFPb2iFGRkCE"
+      ]
+    },
+    {
+      "episode": "30",
+      "file_id": "1EXoAJ9hMXgw9pVXt5pphOknH0qiS7ELm",
+      "name": "souli-30.mp4",
+      "url": "https://drive.google.com/file/d/1EXoAJ9hMXgw9pVXt5pphOknH0qiS7ELm/view?usp=drivesdk",
+      "bytes": 2184809,
+      "parent_ids": [
+        "18LXEDEV9V5u_quFkZe_fsFPb2iFGRkCE"
+      ]
+    },
+    {
+      "episode": "31",
+      "file_id": "183xgnxWbo1KbzHaFQcvPrPZZuwTR-LUZ",
+      "name": "souli-31.mp4",
+      "url": "https://drive.google.com/file/d/183xgnxWbo1KbzHaFQcvPrPZZuwTR-LUZ/view?usp=drivesdk",
+      "bytes": 1643810,
+      "parent_ids": [
+        "18LXEDEV9V5u_quFkZe_fsFPb2iFGRkCE"
+      ]
+    },
+    {
+      "episode": "32",
+      "file_id": "1ZO-3-jvLsk1NiQSR3Mtds2r5IsuYwG1j",
+      "name": "souli-32.mp4",
+      "url": "https://drive.google.com/file/d/1ZO-3-jvLsk1NiQSR3Mtds2r5IsuYwG1j/view?usp=drivesdk",
+      "bytes": 1575490,
+      "parent_ids": [
+        "18LXEDEV9V5u_quFkZe_fsFPb2iFGRkCE"
+      ]
+    },
+    {
+      "episode": "33",
+      "file_id": "1J4iRb4C3qwczfR-6LfPznmanTzv_qo7g",
+      "name": "souli-33.mp4",
+      "url": "https://drive.google.com/file/d/1J4iRb4C3qwczfR-6LfPznmanTzv_qo7g/view?usp=drivesdk",
+      "bytes": 2494067,
+      "parent_ids": [
+        "18LXEDEV9V5u_quFkZe_fsFPb2iFGRkCE"
+      ]
+    },
+    {
+      "episode": "34",
+      "file_id": "1sgNWwO8N-luVJQbegoxDhtYvko4_AVZa",
+      "name": "souli-34.mp4",
+      "url": "https://drive.google.com/file/d/1sgNWwO8N-luVJQbegoxDhtYvko4_AVZa/view?usp=drivesdk",
+      "bytes": 1585073,
+      "parent_ids": [
+        "18LXEDEV9V5u_quFkZe_fsFPb2iFGRkCE"
+      ]
+    },
+    {
+      "episode": "35",
+      "file_id": "118YoUyZ4s_yOUUDyr3mxlvZ1Kj5rtdNJ",
+      "name": "souli-35.mp4",
+      "url": "https://drive.google.com/file/d/118YoUyZ4s_yOUUDyr3mxlvZ1Kj5rtdNJ/view?usp=drivesdk",
+      "bytes": 1035978,
+      "parent_ids": [
+        "18LXEDEV9V5u_quFkZe_fsFPb2iFGRkCE"
+      ]
+    },
+    {
+      "episode": "36",
+      "file_id": "1KY-LyPLWuRW342Kpwx0xANHfcDAm7GpK",
+      "name": "souli-36.mp4",
+      "url": "https://drive.google.com/file/d/1KY-LyPLWuRW342Kpwx0xANHfcDAm7GpK/view?usp=drivesdk",
+      "bytes": 2285383,
+      "parent_ids": [
+        "18LXEDEV9V5u_quFkZe_fsFPb2iFGRkCE"
+      ]
+    },
+    {
+      "episode": "37",
+      "file_id": "109wHHjHcBhLnBXD99SuCxlXvXeBg-4v2",
+      "name": "souli-37.mp4",
+      "url": "https://drive.google.com/file/d/109wHHjHcBhLnBXD99SuCxlXvXeBg-4v2/view?usp=drivesdk",
+      "bytes": 1487948,
+      "parent_ids": [
+        "18LXEDEV9V5u_quFkZe_fsFPb2iFGRkCE"
+      ]
+    },
+    {
+      "episode": "38",
+      "file_id": "1e6SplRmIskZ9J54y7DUHc_vMkaGWYUkl",
+      "name": "souli-38.mp4",
+      "url": "https://drive.google.com/file/d/1e6SplRmIskZ9J54y7DUHc_vMkaGWYUkl/view?usp=drivesdk",
+      "bytes": 1456578,
+      "parent_ids": [
+        "18LXEDEV9V5u_quFkZe_fsFPb2iFGRkCE"
+      ]
+    },
+    {
+      "episode": "39",
+      "file_id": "1nf5j3i9qevrIsEXUi5pKdR-IYPN9cam7",
+      "name": "souli-39.mp4",
+      "url": "https://drive.google.com/file/d/1nf5j3i9qevrIsEXUi5pKdR-IYPN9cam7/view?usp=drivesdk",
+      "bytes": 1518195,
+      "parent_ids": [
+        "18LXEDEV9V5u_quFkZe_fsFPb2iFGRkCE"
+      ]
+    },
+    {
+      "episode": "40",
+      "file_id": "1-RysbBVS3y5whksLdzsjW8B4y8mh-IQK",
+      "name": "souli-40.mp4",
+      "url": "https://drive.google.com/file/d/1-RysbBVS3y5whksLdzsjW8B4y8mh-IQK/view?usp=drivesdk",
+      "bytes": 2421993,
+      "parent_ids": [
+        "18LXEDEV9V5u_quFkZe_fsFPb2iFGRkCE"
+      ]
+    },
+    {
+      "episode": "41",
+      "file_id": "1hfYLDMum5Om690UIj3yz0n0kKmWabrum",
+      "name": "souli-41.mp4",
+      "url": "https://drive.google.com/file/d/1hfYLDMum5Om690UIj3yz0n0kKmWabrum/view?usp=drivesdk",
+      "bytes": 2065932,
+      "parent_ids": [
+        "18LXEDEV9V5u_quFkZe_fsFPb2iFGRkCE"
+      ]
+    },
+    {
+      "episode": "42",
+      "file_id": "1S7DqN3UHVNCMgQFYM350b8oglwmY2VLn",
+      "name": "souli-42.mp4",
+      "url": "https://drive.google.com/file/d/1S7DqN3UHVNCMgQFYM350b8oglwmY2VLn/view?usp=drivesdk",
+      "bytes": 1260146,
+      "parent_ids": [
+        "18LXEDEV9V5u_quFkZe_fsFPb2iFGRkCE"
+      ]
+    },
+    {
+      "episode": "43",
+      "file_id": "1ORBlzj35R3B1xRZ8f84enjaWmDRwSEtP",
+      "name": "souli-43.mp4",
+      "url": "https://drive.google.com/file/d/1ORBlzj35R3B1xRZ8f84enjaWmDRwSEtP/view?usp=drivesdk",
+      "bytes": 1601981,
+      "parent_ids": [
+        "18LXEDEV9V5u_quFkZe_fsFPb2iFGRkCE"
+      ]
+    },
+    {
+      "episode": "44",
+      "file_id": "1NDeereokpbW_67zOoxJelq_3I0-uqePb",
+      "name": "souli-44.mp4",
+      "url": "https://drive.google.com/file/d/1NDeereokpbW_67zOoxJelq_3I0-uqePb/view?usp=drivesdk",
+      "bytes": 1855406,
+      "parent_ids": [
+        "18LXEDEV9V5u_quFkZe_fsFPb2iFGRkCE"
+      ]
+    },
+    {
+      "episode": "45",
+      "file_id": "1Nq0AngP7Yo71KacsGGTvF3NGS3PjD0mL",
+      "name": "souli-45.mp4",
+      "url": "https://drive.google.com/file/d/1Nq0AngP7Yo71KacsGGTvF3NGS3PjD0mL/view?usp=drivesdk",
+      "bytes": 1663392,
+      "parent_ids": [
+        "18LXEDEV9V5u_quFkZe_fsFPb2iFGRkCE"
+      ]
+    },
+    {
+      "episode": "46",
+      "file_id": "1SJEZBkWnOoB2WQ0tCmstBzpCEnF-O2ml",
+      "name": "souli-46.mp4",
+      "url": "https://drive.google.com/file/d/1SJEZBkWnOoB2WQ0tCmstBzpCEnF-O2ml/view?usp=drivesdk",
+      "bytes": 1320519,
+      "parent_ids": [
+        "18LXEDEV9V5u_quFkZe_fsFPb2iFGRkCE"
+      ]
+    },
+    {
+      "episode": "47",
+      "file_id": "1RkmW3fI-qOswg481AUbQr-nM6zF4ym-e",
+      "name": "souli-47.mp4",
+      "url": "https://drive.google.com/file/d/1RkmW3fI-qOswg481AUbQr-nM6zF4ym-e/view?usp=drivesdk",
+      "bytes": 1678522,
+      "parent_ids": [
+        "18LXEDEV9V5u_quFkZe_fsFPb2iFGRkCE"
+      ]
+    },
+    {
+      "episode": "48",
+      "file_id": "1uT33ZkvwayvL1CPMh-q6Be7tTnAsx4UQ",
+      "name": "souli-48.mp4",
+      "url": "https://drive.google.com/file/d/1uT33ZkvwayvL1CPMh-q6Be7tTnAsx4UQ/view?usp=drivesdk",
+      "bytes": 2730502,
+      "parent_ids": [
+        "18LXEDEV9V5u_quFkZe_fsFPb2iFGRkCE"
+      ]
+    },
+    {
+      "episode": "49",
+      "file_id": "1cS_nQ-cbi1eJVcJ6oN0ehvPtoO_9mz_F",
+      "name": "souli-49.mp4",
+      "url": "https://drive.google.com/file/d/1cS_nQ-cbi1eJVcJ6oN0ehvPtoO_9mz_F/view?usp=drivesdk",
+      "bytes": 1813620,
+      "parent_ids": [
+        "18LXEDEV9V5u_quFkZe_fsFPb2iFGRkCE"
+      ]
+    },
+    {
+      "episode": "50",
+      "file_id": "1ORWNs8f6R123lfCGNfPCQSn-BbUjOVDX",
+      "name": "souli-50.mp4",
+      "url": "https://drive.google.com/file/d/1ORWNs8f6R123lfCGNfPCQSn-BbUjOVDX/view?usp=drivesdk",
+      "bytes": 1601244,
+      "parent_ids": [
+        "18LXEDEV9V5u_quFkZe_fsFPb2iFGRkCE"
+      ]
+    },
+    {
+      "episode": "51",
+      "file_id": "1Ts2xg4-NP3iaq92kfL18tyXXB1KZ4BIw",
+      "name": "souli-51.mp4",
+      "url": "https://drive.google.com/file/d/1Ts2xg4-NP3iaq92kfL18tyXXB1KZ4BIw/view?usp=drivesdk",
+      "bytes": 1449046,
+      "parent_ids": [
+        "18LXEDEV9V5u_quFkZe_fsFPb2iFGRkCE"
+      ]
+    },
+    {
+      "episode": "52",
+      "file_id": "1hhmsK0L38Loq9jO0D9p4K9Km22DbS8vb",
+      "name": "souli-52.mp4",
+      "url": "https://drive.google.com/file/d/1hhmsK0L38Loq9jO0D9p4K9Km22DbS8vb/view?usp=drivesdk",
+      "bytes": 2120599,
+      "parent_ids": [
+        "18LXEDEV9V5u_quFkZe_fsFPb2iFGRkCE"
+      ]
+    },
+    {
+      "episode": "53",
+      "file_id": "1U5LsKVOG_kmCi3Sh3C2XfbLKvAJQTTvB",
+      "name": "souli-53.mp4",
+      "url": "https://drive.google.com/file/d/1U5LsKVOG_kmCi3Sh3C2XfbLKvAJQTTvB/view?usp=drivesdk",
+      "bytes": 1470046,
+      "parent_ids": [
+        "18LXEDEV9V5u_quFkZe_fsFPb2iFGRkCE"
+      ]
+    },
+    {
+      "episode": "54",
+      "file_id": "1ranx-62pvId9mhn_ISXAaRMyIXzzj0sW",
+      "name": "souli-54.mp4",
+      "url": "https://drive.google.com/file/d/1ranx-62pvId9mhn_ISXAaRMyIXzzj0sW/view?usp=drivesdk",
+      "bytes": 3098096,
+      "parent_ids": [
+        "18LXEDEV9V5u_quFkZe_fsFPb2iFGRkCE"
+      ]
+    },
+    {
+      "episode": "55",
+      "file_id": "1e_EKTK3jyc8uzp8r32HNVWARIwpQkorx",
+      "name": "souli-55.mp4",
+      "url": "https://drive.google.com/file/d/1e_EKTK3jyc8uzp8r32HNVWARIwpQkorx/view?usp=drivesdk",
+      "bytes": 1238219,
+      "parent_ids": [
+        "18LXEDEV9V5u_quFkZe_fsFPb2iFGRkCE"
+      ]
+    },
+    {
+      "episode": "56",
+      "file_id": "1-xhSX390Ihb_97A9aeG-NIQH5_wI-SAR",
+      "name": "souli-56.mp4",
+      "url": "https://drive.google.com/file/d/1-xhSX390Ihb_97A9aeG-NIQH5_wI-SAR/view?usp=drivesdk",
+      "bytes": 3766066,
+      "parent_ids": [
+        "18LXEDEV9V5u_quFkZe_fsFPb2iFGRkCE"
+      ]
+    },
+    {
+      "episode": "57",
+      "file_id": "1KZJVNexJxiVWip54-43E5xxhtKl69NYW",
+      "name": "souli-57.mp4",
+      "url": "https://drive.google.com/file/d/1KZJVNexJxiVWip54-43E5xxhtKl69NYW/view?usp=drivesdk",
+      "bytes": 2154838,
+      "parent_ids": [
+        "18LXEDEV9V5u_quFkZe_fsFPb2iFGRkCE"
+      ]
+    },
+    {
+      "episode": "58",
+      "file_id": "101SILv9aq_LIBS3--b6kv3tqA7NW1mOK",
+      "name": "souli-58.mp4",
+      "url": "https://drive.google.com/file/d/101SILv9aq_LIBS3--b6kv3tqA7NW1mOK/view?usp=drivesdk",
+      "bytes": 2172756,
+      "parent_ids": [
+        "18LXEDEV9V5u_quFkZe_fsFPb2iFGRkCE"
+      ]
+    },
+    {
+      "episode": "59",
+      "file_id": "1vNYUJ4Z6yZb7kegQyLeuj8I4tXReirAp",
+      "name": "souli-59.mp4",
+      "url": "https://drive.google.com/file/d/1vNYUJ4Z6yZb7kegQyLeuj8I4tXReirAp/view?usp=drivesdk",
+      "bytes": 1646049,
+      "parent_ids": [
+        "18LXEDEV9V5u_quFkZe_fsFPb2iFGRkCE"
+      ]
+    },
+    {
+      "episode": "60",
+      "file_id": "1o9noWbePexzveAr7US5kMheW_MDRJ0rf",
+      "name": "souli-60.mp4",
+      "url": "https://drive.google.com/file/d/1o9noWbePexzveAr7US5kMheW_MDRJ0rf/view?usp=drivesdk",
+      "bytes": 1361816,
+      "parent_ids": [
+        "18LXEDEV9V5u_quFkZe_fsFPb2iFGRkCE"
+      ]
+    },
+    {
+      "episode": "61",
+      "file_id": "1A27FtgWGQRC__4pQYH89Cas1lL9djzbq",
+      "name": "souli-61.mp4",
+      "url": "https://drive.google.com/file/d/1A27FtgWGQRC__4pQYH89Cas1lL9djzbq/view?usp=drivesdk",
+      "bytes": 2243439,
+      "parent_ids": [
+        "18LXEDEV9V5u_quFkZe_fsFPb2iFGRkCE"
+      ]
+    },
+    {
+      "episode": "62",
+      "file_id": "1EaIj8ZyxwrCIwI2dNWjgoz_MUkRnHAx0",
+      "name": "souli-62.mp4",
+      "url": "https://drive.google.com/file/d/1EaIj8ZyxwrCIwI2dNWjgoz_MUkRnHAx0/view?usp=drivesdk",
+      "bytes": 1436967,
+      "parent_ids": [
+        "18LXEDEV9V5u_quFkZe_fsFPb2iFGRkCE"
+      ]
+    },
+    {
+      "episode": "63",
+      "file_id": "17aX4ZIPf6bl9ZgtjhuO4JUTIUpJ96GBf",
+      "name": "souli-63.mp4",
+      "url": "https://drive.google.com/file/d/17aX4ZIPf6bl9ZgtjhuO4JUTIUpJ96GBf/view?usp=drivesdk",
+      "bytes": 1760851,
+      "parent_ids": [
+        "18LXEDEV9V5u_quFkZe_fsFPb2iFGRkCE"
+      ]
+    },
+    {
+      "episode": "64",
+      "file_id": "1pFqHDeNLw9cZL2XbOTwKh0PvGf0K2TKY",
+      "name": "souli-64.mp4",
+      "url": "https://drive.google.com/file/d/1pFqHDeNLw9cZL2XbOTwKh0PvGf0K2TKY/view?usp=drivesdk",
+      "bytes": 1410784,
+      "parent_ids": [
+        "18LXEDEV9V5u_quFkZe_fsFPb2iFGRkCE"
+      ]
+    },
+    {
+      "episode": "65",
+      "file_id": "1dV3VeEzgl3vPqfRPeP7uXoYU1QJqV1Is",
+      "name": "souli-65.mp4",
+      "url": "https://drive.google.com/file/d/1dV3VeEzgl3vPqfRPeP7uXoYU1QJqV1Is/view?usp=drivesdk",
+      "bytes": 1274068,
+      "parent_ids": [
+        "18LXEDEV9V5u_quFkZe_fsFPb2iFGRkCE"
+      ]
+    },
+    {
+      "episode": "66",
+      "file_id": "1UKiJh8j8rGTboSWzP22v-fAZEHPq0Edh",
+      "name": "souli-66.mp4",
+      "url": "https://drive.google.com/file/d/1UKiJh8j8rGTboSWzP22v-fAZEHPq0Edh/view?usp=drivesdk",
+      "bytes": 1403050,
+      "parent_ids": [
+        "18LXEDEV9V5u_quFkZe_fsFPb2iFGRkCE"
+      ]
+    },
+    {
+      "episode": "67",
+      "file_id": "14GWwNrGPR-Qnh7ltq0WfKxcqJzdgnKAC",
+      "name": "souli-67.mp4",
+      "url": "https://drive.google.com/file/d/14GWwNrGPR-Qnh7ltq0WfKxcqJzdgnKAC/view?usp=drivesdk",
+      "bytes": 1483228,
+      "parent_ids": [
+        "18LXEDEV9V5u_quFkZe_fsFPb2iFGRkCE"
+      ]
+    },
+    {
+      "episode": "68",
+      "file_id": "1LZz6DkOtLt0l0pxhKQnEXYYhtxLnXaxj",
+      "name": "souli-68.mp4",
+      "url": "https://drive.google.com/file/d/1LZz6DkOtLt0l0pxhKQnEXYYhtxLnXaxj/view?usp=drivesdk",
+      "bytes": 2678630,
+      "parent_ids": [
+        "18LXEDEV9V5u_quFkZe_fsFPb2iFGRkCE"
+      ]
+    },
+    {
+      "episode": "69",
+      "file_id": "1qAt2SfgJoBZcB4JUkazTAeCjded31_pr",
+      "name": "souli-69.mp4",
+      "url": "https://drive.google.com/file/d/1qAt2SfgJoBZcB4JUkazTAeCjded31_pr/view?usp=drivesdk",
+      "bytes": 2693025,
+      "parent_ids": [
+        "18LXEDEV9V5u_quFkZe_fsFPb2iFGRkCE"
+      ]
+    },
+    {
+      "episode": "70",
+      "file_id": "1myf6Zq4ybOPLN2baRfmc__Y0m39wc9yq",
+      "name": "souli-70.mp4",
+      "url": "https://drive.google.com/file/d/1myf6Zq4ybOPLN2baRfmc__Y0m39wc9yq/view?usp=drivesdk",
+      "bytes": 1393056,
+      "parent_ids": [
+        "18LXEDEV9V5u_quFkZe_fsFPb2iFGRkCE"
+      ]
+    },
+    {
+      "episode": "71",
+      "file_id": "1hgaqfcprOyIOhTH6nK5pmBy6HQF1Cq5h",
+      "name": "souli-71.mp4",
+      "url": "https://drive.google.com/file/d/1hgaqfcprOyIOhTH6nK5pmBy6HQF1Cq5h/view?usp=drivesdk",
+      "bytes": 1539428,
+      "parent_ids": [
+        "18LXEDEV9V5u_quFkZe_fsFPb2iFGRkCE"
+      ]
+    },
+    {
+      "episode": "72",
+      "file_id": "1SGSQaN2Ts9KFYTrfnIQnmevlVEQWRE0l",
+      "name": "souli-72.mp4",
+      "url": "https://drive.google.com/file/d/1SGSQaN2Ts9KFYTrfnIQnmevlVEQWRE0l/view?usp=drivesdk",
+      "bytes": 2066267,
+      "parent_ids": [
+        "18LXEDEV9V5u_quFkZe_fsFPb2iFGRkCE"
+      ]
+    },
+    {
+      "episode": "73",
+      "file_id": "1wFcAl2Y3zZNvrpPrg2_l7rOXpj6qHTrV",
+      "name": "souli-73.mp4",
+      "url": "https://drive.google.com/file/d/1wFcAl2Y3zZNvrpPrg2_l7rOXpj6qHTrV/view?usp=drivesdk",
+      "bytes": 1535496,
+      "parent_ids": [
+        "18LXEDEV9V5u_quFkZe_fsFPb2iFGRkCE"
+      ]
+    },
+    {
+      "episode": "74",
+      "file_id": "1nyXJoAOIQzUm6KVUqUaLcM2AJhTQWHNT",
+      "name": "souli-74.mp4",
+      "url": "https://drive.google.com/file/d/1nyXJoAOIQzUm6KVUqUaLcM2AJhTQWHNT/view?usp=drivesdk",
+      "bytes": 2162832,
+      "parent_ids": [
+        "18LXEDEV9V5u_quFkZe_fsFPb2iFGRkCE"
+      ]
+    },
+    {
+      "episode": "75",
+      "file_id": "1Zrw2K6O8AZ6x2I74DHomKZWd26a7dJ84",
+      "name": "souli-75.mp4",
+      "url": "https://drive.google.com/file/d/1Zrw2K6O8AZ6x2I74DHomKZWd26a7dJ84/view?usp=drivesdk",
+      "bytes": 1188746,
+      "parent_ids": [
+        "18LXEDEV9V5u_quFkZe_fsFPb2iFGRkCE"
+      ]
+    },
+    {
+      "episode": "76",
+      "file_id": "1gnj2nlCRI1Nf_DZNoRODhpRx0E5N78Jm",
+      "name": "souli-76.mp4",
+      "url": "https://drive.google.com/file/d/1gnj2nlCRI1Nf_DZNoRODhpRx0E5N78Jm/view?usp=drivesdk",
+      "bytes": 1673286,
+      "parent_ids": [
+        "18LXEDEV9V5u_quFkZe_fsFPb2iFGRkCE"
+      ]
+    },
+    {
+      "episode": "77",
+      "file_id": "1DSpa5nuzT4V3hxUAjERD8x_0Exy44ts5",
+      "name": "souli-77.mp4",
+      "url": "https://drive.google.com/file/d/1DSpa5nuzT4V3hxUAjERD8x_0Exy44ts5/view?usp=drivesdk",
+      "bytes": 1026352,
+      "parent_ids": [
+        "18LXEDEV9V5u_quFkZe_fsFPb2iFGRkCE"
+      ]
+    },
+    {
+      "episode": "78",
+      "file_id": "1O8jKMWUacVsWTMfuCJ3AL5D01LZINufE",
+      "name": "souli-78.mp4",
+      "url": "https://drive.google.com/file/d/1O8jKMWUacVsWTMfuCJ3AL5D01LZINufE/view?usp=drivesdk",
+      "bytes": 1822699,
+      "parent_ids": [
+        "18LXEDEV9V5u_quFkZe_fsFPb2iFGRkCE"
+      ]
+    },
+    {
+      "episode": "79",
+      "file_id": "187NoDRuOsxiSggG5kzbbjaaSw_jyJ3bj",
+      "name": "souli-79.mp4",
+      "url": "https://drive.google.com/file/d/187NoDRuOsxiSggG5kzbbjaaSw_jyJ3bj/view?usp=drivesdk",
+      "bytes": 3705508,
+      "parent_ids": [
+        "18LXEDEV9V5u_quFkZe_fsFPb2iFGRkCE"
+      ]
+    },
+    {
+      "episode": "80",
+      "file_id": "16kqh64zVWVzJcjs8CtG4DouQUyIvBeK1",
+      "name": "souli-80.mp4",
+      "url": "https://drive.google.com/file/d/16kqh64zVWVzJcjs8CtG4DouQUyIvBeK1/view?usp=drivesdk",
+      "bytes": 1378954,
+      "parent_ids": [
+        "18LXEDEV9V5u_quFkZe_fsFPb2iFGRkCE"
+      ]
+    }
+  ],
+  "banner": {
+    "content": [
+      {
+        "type": "text",
+        "text": "Action completed."
+      }
+    ],
+    "structuredContent": {
+      "accepted_input": "file_uri",
+      "success": true,
+      "id": "1tFLn7TB534u1lKPfqKW628yuC4zh74NK",
+      "title": "souli-homepage-banner-1080p-upscaled.mp4",
+      "file_name": "souli-homepage-banner-1080p-upscaled.mp4",
+      "mime_type": "video/mp4",
+      "url": "https://drive.google.com/file/d/1tFLn7TB534u1lKPfqKW628yuC4zh74NK/view?usp=drivesdk",
+      "parent_id": "1DlskbUV32ajbshlW5r-Lwf8d2HbvhNK2",
+      "structuredContent": {
+        "accepted_input": "file_uri",
+        "success": true,
+        "id": "1tFLn7TB534u1lKPfqKW628yuC4zh74NK",
+        "title": "souli-homepage-banner-1080p-upscaled.mp4",
+        "file_name": "souli-homepage-banner-1080p-upscaled.mp4",
+        "mime_type": "video/mp4",
+        "url": "https://drive.google.com/file/d/1tFLn7TB534u1lKPfqKW628yuC4zh74NK/view?usp=drivesdk",
+        "parent_id": "1DlskbUV32ajbshlW5r-Lwf8d2HbvhNK2"
+      }
+    },
+    "isError": false
+  },
+  "video_count": 80
+}

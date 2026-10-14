@@ -10,7 +10,7 @@ const provider = {
   removeListener(name, handler) { if (handlers.get(name) === handler) handlers.delete(name) },
   async request(call) {
     calls.push(call)
-    if (call.method === 'eth_requestAccounts') return [account]
+    if (call.method === 'eth_requestAccounts' || call.method === 'eth_accounts') return [account]
     if (call.method === 'eth_chainId') return chainId
     if (call.method === 'eth_blockNumber') return '0x100'
     if (call.method === 'eth_call') {
@@ -45,7 +45,7 @@ const pending = session.refresh()
 await tick(); session.disconnect(); release('0xffff'); await pending
 assert.equal(session.state.address, ''); assert.equal(session.state.usdcUnits, null)
 assert.equal(handlers.size, 0, 'clear removes provider listeners')
-assert.match(session.state.notice, /earlier token approvals/)
+assert.match(session.state.notice, /earlier token approvals/i)
 const allowed = new Set(['eth_requestAccounts', 'eth_chainId', 'eth_blockNumber', 'eth_call', 'wallet_switchEthereumChain'])
 assert.ok(calls.every(c => allowed.has(c.method)), 'no signature, allowance, transaction or broad permissions request')
 session.destroy()
@@ -62,3 +62,28 @@ const connecting = delayed.connect()
 delayed.disconnect(); completeConnect([A]); await connecting
 assert.equal(delayed.state.address, '', 'late wallet approval cannot reconnect a cleared session')
 console.log('PASS: shared read-only wallet, no automatic prompt/network switch, account changes, blocked stale responses, disconnect and rejection.')
+const before=calls.length
+deferredRead=null
+const restored=createWalletSession(()=>provider)
+assert.equal(await restored.restore(),B)
+assert.equal(restored.getProvider(),provider,'Signing must use the connected provider')
+assert.equal(calls.slice(before).some(c=>c.method==='eth_requestAccounts'),false,'Restoring never opens a permission prompt')
+restored.destroy()
+const silentMissing=createWalletSession(()=>null)
+await silentMissing.restore();assert.equal(silentMissing.state.error,'');silentMissing.destroy()
+
+// Real providers may announce a newer account before an older connect resolves.
+let finishRequest
+const changing=createWalletSession(()=>({...provider,request:call=>call.method==='eth_requestAccounts'?new Promise(resolve=>{finishRequest=resolve}):provider.request(call)}))
+const accountRequest=changing.connect()
+handlers.get('accountsChanged')([B]);finishRequest([A]);await accountRequest
+assert.equal(changing.state.address,B,'late connect response must not replace a newer account event')
+account=A;await changing.synchronize();assert.equal(changing.state.address,A,'app return reads the selected account without opening MetaMask')
+const countsBeforeDisconnect=calls.filter(c=>c.method==='eth_requestAccounts').length
+let finishRevoke
+const disconnecting=changing.disconnect(()=>new Promise(resolve=>{finishRevoke=resolve}))
+assert.equal(changing.state.address,'');assert.equal(changing.state.busy,true)
+await changing.connect();assert.equal(calls.filter(c=>c.method==='eth_requestAccounts').length,countsBeforeDisconnect,'cannot reconnect while permission revocation is pending')
+finishRevoke(true);await disconnecting;assert.equal(changing.state.busy,false)
+changing.destroy()
+console.log('PASS: stale account events, mobile resume reconciliation and reconnect blocked during permission revocation.')

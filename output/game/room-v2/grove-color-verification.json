@@ -1,0 +1,34 @@
+{
+  "errors": [],
+  "automaticColorEncounter": true,
+  "creatureModels": 3,
+  "actualProjectiles": true,
+  "paintOwnershipChanges": true,
+  "scoreSurvivesReload": true,
+  "paintPersistsThroughRest": true,
+  "reducedMotionRemovesParticles": true,
+  "liveRenderer": {
+    "drawCalls": 97,
+    "triangles": 17948,
+    "creatures": 3,
+    "parts": 40,
+    "particles": 3
+  },
+  "result": {
+    "light": 100,
+    "soul": 36.8,
+    "wild": 22.9,
+    "outcome": "bloomed"
+  },
+  "mobile": [
+    {
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "width": 320,
+      "overflow": false
+    }
+  ],
+  "performanceNote": "Headless software WebGL. No real-device FPS claim."
+}

@@ -1,0 +1,11 @@
+{
+  "package": "@safe-global/safe-contracts",
+  "version": "1.4.1",
+  "repository": "https://github.com/safe-global/safe-contracts",
+  "tarIntegrity": "sha512-fP1jewywSwsIniM04NsqPyVRFKPMAuirC3ftA/TA4X3Zc5EnwQp/UCJUU2PL/37/z/jMo8UUaJ+pnFNWmMU7dQ==",
+  "originalArtifactSha256": {
+    "SafeL2": "a57d54c0d757ca7fb86693480797de69c880878690b67061f6f9624e11def8bd",
+    "SafeProxyFactory": "f77ccb60e95345e6583216e82feb5430098679d62aa4aeda7388df3831476997"
+  },
+  "purpose": "Unmodified ABI and bytecode, local integration tests only; no public deployment"
+}

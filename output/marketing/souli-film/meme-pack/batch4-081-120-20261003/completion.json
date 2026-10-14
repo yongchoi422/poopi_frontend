@@ -1,0 +1,17 @@
+{
+  "completed_kst": "2026-10-04",
+  "new_count": 40,
+  "existing_count": 80,
+  "total_count": 120,
+  "r1_selected": 10,
+  "r2_selected": 27,
+  "r3_selected": 3,
+  "drive_files": 43,
+  "drive_size_parent_mismatches": 0,
+  "gallery_playback_verified": "1280x720, 8 seconds, no video error",
+  "gallery_filters_verified": true,
+  "gallery_search_verified": true,
+  "browser_console_errors": 0,
+  "published_to_x": false,
+  "drive_folder": "https://drive.google.com/drive/folders/1LHsPYeVAyn1Yu-GVJCPXHR4PMaaMLmvT"
+}

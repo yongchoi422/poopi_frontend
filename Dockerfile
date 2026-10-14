@@ -1,45 +1,24 @@
-# Node.js 환경 설정
-FROM node:16-alpine as build-stage
-
-# 작업 디렉토리 설정
+FROM node:24-bookworm-slim AS web
 WORKDIR /app
-
-# package.json 및 package-lock.json 복사
-COPY package*.json ./
-
-# 필요한 패키지 설치
-RUN npm install
-
-# 프로젝트 파일 복사
-COPY . .
-
-# Vite를 사용하여 프로젝트 빌드
+COPY package.json package-lock.json ./
+RUN npm ci --no-audit --no-fund
+COPY index.html lighthouse.html vite.config.js ./
+COPY testnet ./testnet
+COPY scripts/sale-lab-plugin.mjs ./scripts/sale-lab-plugin.mjs
+COPY src ./src
+COPY public ./public
 RUN npm run build
 
-# 빌드된 정적 파일을 서빙하기 위해 serve 패키지 설치
-RUN npm install -g serve
-
-# 서버 포트 설정
+FROM node:24-bookworm-slim
+WORKDIR /app
+COPY server/package.json server/package-lock.json ./server/
+RUN npm ci --prefix server --omit=dev --no-audit --no-fund
+COPY server/*.mjs ./server/
+COPY src/lighthouse/sanctuary.mjs ./src/lighthouse/sanctuary.mjs
+COPY src/lighthouse/market-world.mjs ./src/lighthouse/market-world.mjs
+COPY --from=web /app/dist ./dist
+ENV NODE_ENV=production HOST=0.0.0.0 PORT=8080
+USER node
 EXPOSE 8080
-
-# serve를 사용하여 앱 실행, 포트 8080에서 리스닝
-CMD ["serve", "-s", "dist", "-l", "8080"]
-
-
-# # 빌드 환경
-# FROM node:16-alpine as build-stage
-# WORKDIR /app
-# COPY package*.json ./
-# RUN npm install
-# COPY . .
-# RUN npm run build
-
-# # 프로덕션 환경
-# FROM nginx:stable-alpine as production-stage
-# COPY --from=build-stage /app/dist /usr/share/nginx/html
-
-# # Nginx 설정 파일을 수정하는 단계 추가
-# COPY nginx.conf /etc/nginx/nginx.conf
-
-# EXPOSE 8080
-# CMD ["nginx", "-g", "daemon off;"]
+HEALTHCHECK --interval=30s --timeout=5s --start-period=20s --retries=3 CMD node -e "fetch('http://127.0.0.1:'+process.env.PORT+'/api/health/live',{signal:AbortSignal.timeout(3000)}).then(r=>process.exit(r.ok?0:1)).catch(()=>process.exit(1))"
+CMD ["node", "server/index.mjs"]

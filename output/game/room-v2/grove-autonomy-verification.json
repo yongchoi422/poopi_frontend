@@ -1,0 +1,25 @@
+{
+  "errors": [],
+  "defaultAutomatic": true,
+  "noGameClickUntilSecondEncounter": true,
+  "gradualPlacement": true,
+  "reloadDuringPreparation": true,
+  "twoTabTransitions": true,
+  "automaticRestAndRepeat": true,
+  "weatherAdaptiveTools": true,
+  "manualTakeoverPreservesRound": true,
+  "modePersists": true,
+  "sizes": [
+    {
+      "width": 390,
+      "overflow": false,
+      "toggleHeight": 44
+    },
+    {
+      "width": 320,
+      "overflow": false,
+      "toggleHeight": 44
+    }
+  ],
+  "performanceNote": "Headless software WebGL, not a real-device performance measurement."
+}

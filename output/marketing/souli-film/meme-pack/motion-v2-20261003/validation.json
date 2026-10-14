@@ -1,0 +1,602 @@
+{
+  "01": {
+    "master_sha256": "480a16d44b74a6914f98e51c82ecbdadd3ffda6028247c46040d09e57e0d2a36",
+    "output_sha256": "cc295cf934c881d7ca8bd8cbd4e245fb599c7a87a140635eeff41571f0649faf",
+    "full_decode": "passed",
+    "bytes": 1646541,
+    "ffmpeg_report": "Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'C:\\Users\\yongc\\Documents\\GitHub\\souli\\output\\marketing\\souli-film\\meme-pack\\motion-v2-20261003\\final\\episode-01.mp4':\n  Metadata:\n    major_brand     : isom\n    minor_version   : 512\n    compatible_brands: isomiso2avc1mp41\n    encoder         : Lavf61.7.100\n  Duration: 00:00:08.00, start: 0.000000, bitrate: 1646 kb/s\n  Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(progressive), 1280x720, 1643 kb/s, 24 fps, 24 tbr, 12288 tbn (default)\n      Metadata:\n        handler_name    : VideoHandler\n        vendor_id       : [0][0][0][0]\n        encoder         : Lavc61.19.100 libx264\nStream mapping:\n  Stream #0:0 -> #0:0 (h264 (native) -> wrapped_avframe (native))\nPress [q] to stop, [?] for help\nOutput #0, null, to 'pipe:':\n  Metadata:\n    major_brand     : isom\n    minor_version   : 512\n    compatible_brands: isomiso2avc1mp41\n    encoder         : Lavf61.7.100\n  Stream #0:0(und): Video: wrapped_avframe, yuv420p(progressive), 1280x720, q=2-31, 200 kb/s, 24 fps, 24 tbn (default)\n      Metadata:\n        handler_name    : VideoHandler\n        vendor_id       : [0][0][0][0]\n        encoder         : Lavc61.19.100 wrapped_avframe\n[out#0/null @ 000002286a7b4a40] video:82KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown\nframe=  192 fps=0.0 q=-0.0 Lsize=N/A time=00:00:08.00 bitrate=N/A speed= 104x    \n"
+  },
+  "08": {
+    "master_sha256": "8db741b025a5196598a68583f46a23ee1285ccaa0efa13c0c22960cbc66810ad",
+    "output_sha256": "0996a6bd236fe55eb16ecb11132852222bbc76cde966bdff75cb23f6b026d1c8",
+    "full_decode": "passed",
+    "bytes": 1797866,
+    "ffmpeg_report": "Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'C:\\Users\\yongc\\Documents\\GitHub\\souli\\output\\marketing\\souli-film\\meme-pack\\motion-v2-20261003\\final\\episode-08.mp4':\n  Metadata:\n    major_brand     : isom\n    minor_version   : 512\n    compatible_brands: isomiso2avc1mp41\n    encoder         : Lavf61.7.100\n  Duration: 00:00:08.00, start: 0.000000, bitrate: 1797 kb/s\n  Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(progressive), 1280x720, 1794 kb/s, 24 fps, 24 tbr, 12288 tbn (default)\n      Metadata:\n        handler_name    : VideoHandler\n        vendor_id       : [0][0][0][0]\n        encoder         : Lavc61.19.100 libx264\nStream mapping:\n  Stream #0:0 -> #0:0 (h264 (native) -> wrapped_avframe (native))\nPress [q] to stop, [?] for help\nOutput #0, null, to 'pipe:':\n  Metadata:\n    major_brand     : isom\n    minor_version   : 512\n    compatible_brands: isomiso2avc1mp41\n    encoder         : Lavf61.7.100\n  Stream #0:0(und): Video: wrapped_avframe, yuv420p(progressive), 1280x720, q=2-31, 200 kb/s, 24 fps, 24 tbn (default)\n      Metadata:\n        handler_name    : VideoHandler\n        vendor_id       : [0][0][0][0]\n        encoder         : Lavc61.19.100 wrapped_avframe\n[out#0/null @ 000001fb3191d580] video:82KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown\nframe=  192 fps=0.0 q=-0.0 Lsize=N/A time=00:00:08.00 bitrate=N/A speed= 104x    \n"
+  },
+  "37": {
+    "master_sha256": "faeccbc56552c84450fe6cd9e2bf25547ab734886efef21925fb9a5fc08e40cc",
+    "output_sha256": "cfe43fe147e452763484743702266f795eadec8f81101b0ec0a520b29df260ad",
+    "full_decode": "passed",
+    "bytes": 1813861,
+    "ffmpeg_report": "Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'C:\\Users\\yongc\\Documents\\GitHub\\souli\\output\\marketing\\souli-film\\meme-pack\\motion-v2-20261003\\final\\episode-37.mp4':\n  Metadata:\n    major_brand     : isom\n    minor_version   : 512\n    compatible_brands: isomiso2avc1mp41\n    encoder         : Lavf61.7.100\n  Duration: 00:00:08.00, start: 0.000000, bitrate: 1813 kb/s\n  Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(progressive), 1280x720, 1810 kb/s, 24 fps, 24 tbr, 12288 tbn (default)\n      Metadata:\n        handler_name    : VideoHandler\n        vendor_id       : [0][0][0][0]\n        encoder         : Lavc61.19.100 libx264\nStream mapping:\n  Stream #0:0 -> #0:0 (h264 (native) -> wrapped_avframe (native))\nPress [q] to stop, [?] for help\nOutput #0, null, to 'pipe:':\n  Metadata:\n    major_brand     : isom\n    minor_version   : 512\n    compatible_brands: isomiso2avc1mp41\n    encoder         : Lavf61.7.100\n  Stream #0:0(und): Video: wrapped_avframe, yuv420p(progressive), 1280x720, q=2-31, 200 kb/s, 24 fps, 24 tbn (default)\n      Metadata:\n        handler_name    : VideoHandler\n        vendor_id       : [0][0][0][0]\n        encoder         : Lavc61.19.100 wrapped_avframe\n[out#0/null @ 00000256da604a40] video:82KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown\nframe=  192 fps=0.0 q=-0.0 Lsize=N/A time=00:00:08.00 bitrate=N/A speed= 107x    \n"
+  },
+  "41": {
+    "master_sha256": "93753456e505c09820712302c83f8295ae1dd5580b399da5d03c59dce346d6fa",
+    "output_sha256": "a6b5603a60e6147adc5df12f97cf05931fa71fa2696631d1fef60fd2cae66825",
+    "full_decode": "passed",
+    "bytes": 1635949,
+    "ffmpeg_report": "Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'C:\\Users\\yongc\\Documents\\GitHub\\souli\\output\\marketing\\souli-film\\meme-pack\\motion-v2-20261003\\final\\episode-41.mp4':\n  Metadata:\n    major_brand     : isom\n    minor_version   : 512\n    compatible_brands: isomiso2avc1mp41\n    encoder         : Lavf61.7.100\n  Duration: 00:00:08.00, start: 0.000000, bitrate: 1635 kb/s\n  Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(progressive), 1280x720, 1632 kb/s, 24 fps, 24 tbr, 12288 tbn (default)\n      Metadata:\n        handler_name    : VideoHandler\n        vendor_id       : [0][0][0][0]\n        encoder         : Lavc61.19.100 libx264\nStream mapping:\n  Stream #0:0 -> #0:0 (h264 (native) -> wrapped_avframe (native))\nPress [q] to stop, [?] for help\nOutput #0, null, to 'pipe:':\n  Metadata:\n    major_brand     : isom\n    minor_version   : 512\n    compatible_brands: isomiso2avc1mp41\n    encoder         : Lavf61.7.100\n  Stream #0:0(und): Video: wrapped_avframe, yuv420p(progressive), 1280x720, q=2-31, 200 kb/s, 24 fps, 24 tbn (default)\n      Metadata:\n        handler_name    : VideoHandler\n        vendor_id       : [0][0][0][0]\n        encoder         : Lavc61.19.100 wrapped_avframe\n[out#0/null @ 0000028df0af4a40] video:82KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown\nframe=  192 fps=0.0 q=-0.0 Lsize=N/A time=00:00:08.00 bitrate=N/A speed= 120x    \n"
+  },
+  "04": {
+    "master_sha256": "abc6b36e3c71f99cf0146515de5053ac00327b0fa0c6ac0fd359d535fcdeb38e",
+    "output_sha256": "4649e6da8d70f8c88d7cb30b5705972526de68c40950a1205026b7c1f9d642ca",
+    "full_decode": "passed",
+    "bytes": 2095816,
+    "ffmpeg_report": "Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'C:\\Users\\yongc\\Documents\\GitHub\\souli\\output\\marketing\\souli-film\\meme-pack\\motion-v2-20261003\\final\\episode-04.mp4':\n  Metadata:\n    major_brand     : isom\n    minor_version   : 512\n    compatible_brands: isomiso2avc1mp41\n    encoder         : Lavf61.7.100\n  Duration: 00:00:08.00, start: 0.000000, bitrate: 2095 kb/s\n  Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(progressive), 1280x720, 2092 kb/s, 24 fps, 24 tbr, 12288 tbn (default)\n      Metadata:\n        handler_name    : VideoHandler\n        vendor_id       : [0][0][0][0]\n        encoder         : Lavc61.19.100 libx264\nStream mapping:\n  Stream #0:0 -> #0:0 (h264 (native) -> wrapped_avframe (native))\nPress [q] to stop, [?] for help\nOutput #0, null, to 'pipe:':\n  Metadata:\n    major_brand     : isom\n    minor_version   : 512\n    compatible_brands: isomiso2avc1mp41\n    encoder         : Lavf61.7.100\n  Stream #0:0(und): Video: wrapped_avframe, yuv420p(progressive), 1280x720, q=2-31, 200 kb/s, 24 fps, 24 tbn (default)\n      Metadata:\n        handler_name    : VideoHandler\n        vendor_id       : [0][0][0][0]\n        encoder         : Lavc61.19.100 wrapped_avframe\n[out#0/null @ 0000018448704a40] video:82KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown\nframe=  192 fps=0.0 q=-0.0 Lsize=N/A time=00:00:08.00 bitrate=N/A speed= 104x    \n"
+  },
+  "02": {
+    "master_sha256": "565366bb595a939b9bea5cf145fe544f38237e31a5d540fc2e3eea6127e46a15",
+    "output_sha256": "16a42165b2d00fc907c78b556cd6506c1a166883b2c14e3680601d36d4245aa2",
+    "full_decode": "passed",
+    "bytes": 2216164,
+    "ffmpeg_report": "Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'C:\\Users\\yongc\\Documents\\GitHub\\souli\\output\\marketing\\souli-film\\meme-pack\\motion-v2-20261003\\final\\episode-02.mp4':\n  Metadata:\n    major_brand     : isom\n    minor_version   : 512\n    compatible_brands: isomiso2avc1mp41\n    encoder         : Lavf61.7.100\n  Duration: 00:00:08.00, start: 0.000000, bitrate: 2216 kb/s\n  Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(progressive), 1280x720, 2212 kb/s, 24 fps, 24 tbr, 12288 tbn (default)\n      Metadata:\n        handler_name    : VideoHandler\n        vendor_id       : [0][0][0][0]\n        encoder         : Lavc61.19.100 libx264\nStream mapping:\n  Stream #0:0 -> #0:0 (h264 (native) -> wrapped_avframe (native))\nPress [q] to stop, [?] for help\nOutput #0, null, to 'pipe:':\n  Metadata:\n    major_brand     : isom\n    minor_version   : 512\n    compatible_brands: isomiso2avc1mp41\n    encoder         : Lavf61.7.100\n  Stream #0:0(und): Video: wrapped_avframe, yuv420p(progressive), 1280x720, q=2-31, 200 kb/s, 24 fps, 24 tbn (default)\n      Metadata:\n        handler_name    : VideoHandler\n        vendor_id       : [0][0][0][0]\n        encoder         : Lavc61.19.100 wrapped_avframe\n[out#0/null @ 000002401bf11500] video:82KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown\nframe=  192 fps=0.0 q=-0.0 Lsize=N/A time=00:00:08.00 bitrate=N/A speed= 108x    \n"
+  },
+  "05": {
+    "id": "05",
+    "bytes": 1297301,
+    "sha256": "33a7992c7891975aa1ea9518165d23c04b09676d0d2155f0bfd299670961b333",
+    "full_decode": "passed",
+    "audio": false,
+    "format": "H264 1280x720 24fps 8s",
+    "continuity_repair": true
+  },
+  "06": {
+    "master_sha256": "62dda5aab96650632498253cbd7915351dd8bd7077b24070533017d203e4cf42",
+    "output_sha256": "04026e5f28efb8eeef59cb073ae39e8b27a40cce6d057e20885dc449a376d003",
+    "full_decode": "passed",
+    "bytes": 1471200,
+    "ffmpeg_report": "Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'C:\\Users\\yongc\\Documents\\GitHub\\souli\\output\\marketing\\souli-film\\meme-pack\\motion-v2-20261003\\final\\episode-06.mp4':\n  Metadata:\n    major_brand     : isom\n    minor_version   : 512\n    compatible_brands: isomiso2avc1mp41\n    encoder         : Lavf61.7.100\n  Duration: 00:00:08.00, start: 0.000000, bitrate: 1471 kb/s\n  Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(progressive), 1280x720, 1468 kb/s, 24 fps, 24 tbr, 12288 tbn (default)\n      Metadata:\n        handler_name    : VideoHandler\n        vendor_id       : [0][0][0][0]\n        encoder         : Lavc61.19.100 libx264\nStream mapping:\n  Stream #0:0 -> #0:0 (h264 (native) -> wrapped_avframe (native))\nPress [q] to stop, [?] for help\nOutput #0, null, to 'pipe:':\n  Metadata:\n    major_brand     : isom\n    minor_version   : 512\n    compatible_brands: isomiso2avc1mp41\n    encoder         : Lavf61.7.100\n  Stream #0:0(und): Video: wrapped_avframe, yuv420p(progressive), 1280x720, q=2-31, 200 kb/s, 24 fps, 24 tbn (default)\n      Metadata:\n        handler_name    : VideoHandler\n        vendor_id       : [0][0][0][0]\n        encoder         : Lavc61.19.100 wrapped_avframe\n[out#0/null @ 0000027065de4a40] video:82KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown\nframe=  192 fps=0.0 q=-0.0 Lsize=N/A time=00:00:08.00 bitrate=N/A speed= 113x    \n"
+  },
+  "09": {
+    "master_sha256": "56eb805174437ce4352ebdb0cdea6de8b2e608f8d7aba2ee3c52a4dc96ba956f",
+    "output_sha256": "89c2bfdae70444bbf3a61a46b70de26ae417ebdba068e23173db9673d58660ae",
+    "full_decode": "passed",
+    "bytes": 2329869,
+    "ffmpeg_report": "Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'C:\\Users\\yongc\\Documents\\GitHub\\souli\\output\\marketing\\souli-film\\meme-pack\\motion-v2-20261003\\final\\episode-09.mp4':\n  Metadata:\n    major_brand     : isom\n    minor_version   : 512\n    compatible_brands: isomiso2avc1mp41\n    encoder         : Lavf61.7.100\n  Duration: 00:00:08.00, start: 0.000000, bitrate: 2329 kb/s\n  Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(progressive), 1280x720, 2326 kb/s, 24 fps, 24 tbr, 12288 tbn (default)\n      Metadata:\n        handler_name    : VideoHandler\n        vendor_id       : [0][0][0][0]\n        encoder         : Lavc61.19.100 libx264\nStream mapping:\n  Stream #0:0 -> #0:0 (h264 (native) -> wrapped_avframe (native))\nPress [q] to stop, [?] for help\nOutput #0, null, to 'pipe:':\n  Metadata:\n    major_brand     : isom\n    minor_version   : 512\n    compatible_brands: isomiso2avc1mp41\n    encoder         : Lavf61.7.100\n  Stream #0:0(und): Video: wrapped_avframe, yuv420p(progressive), 1280x720, q=2-31, 200 kb/s, 24 fps, 24 tbn (default)\n      Metadata:\n        handler_name    : VideoHandler\n        vendor_id       : [0][0][0][0]\n        encoder         : Lavc61.19.100 wrapped_avframe\n[out#0/null @ 0000015d15844a40] video:82KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown\nframe=  192 fps=0.0 q=-0.0 Lsize=N/A time=00:00:08.00 bitrate=N/A speed= 101x    \n"
+  },
+  "10": {
+    "master_sha256": "df90bef29473270a54dcc96a1ad4cc66ad2ec11602537fddf15a854970e3446c",
+    "output_sha256": "f78b1780eb6ccee6793bec7185fb9ee47368e23d1caa22e0de569d570dc2fd27",
+    "full_decode": "passed",
+    "bytes": 1844286,
+    "ffmpeg_report": "Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'C:\\Users\\yongc\\Documents\\GitHub\\souli\\output\\marketing\\souli-film\\meme-pack\\motion-v2-20261003\\final\\episode-10.mp4':\n  Metadata:\n    major_brand     : isom\n    minor_version   : 512\n    compatible_brands: isomiso2avc1mp41\n    encoder         : Lavf61.7.100\n  Duration: 00:00:08.00, start: 0.000000, bitrate: 1844 kb/s\n  Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(progressive), 1280x720, 1841 kb/s, 24 fps, 24 tbr, 12288 tbn (default)\n      Metadata:\n        handler_name    : VideoHandler\n        vendor_id       : [0][0][0][0]\n        encoder         : Lavc61.19.100 libx264\nStream mapping:\n  Stream #0:0 -> #0:0 (h264 (native) -> wrapped_avframe (native))\nPress [q] to stop, [?] for help\nOutput #0, null, to 'pipe:':\n  Metadata:\n    major_brand     : isom\n    minor_version   : 512\n    compatible_brands: isomiso2avc1mp41\n    encoder         : Lavf61.7.100\n  Stream #0:0(und): Video: wrapped_avframe, yuv420p(progressive), 1280x720, q=2-31, 200 kb/s, 24 fps, 24 tbn (default)\n      Metadata:\n        handler_name    : VideoHandler\n        vendor_id       : [0][0][0][0]\n        encoder         : Lavc61.19.100 wrapped_avframe\n[out#0/null @ 000001878dc14a40] video:82KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown\nframe=  192 fps=0.0 q=-0.0 Lsize=N/A time=00:00:08.00 bitrate=N/A speed= 104x    \n"
+  },
+  "11": {
+    "master_sha256": "27dabcb7d88e6d6a3f2555c3bc8b2a241f90875898ddc84b456e7f78df6de417",
+    "output_sha256": "498a4488de35b4fdd6726661262ea9fba0d885ab4c852a1f5d1fae99c93f094b",
+    "full_decode": "passed",
+    "bytes": 2210308,
+    "ffmpeg_report": "Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'C:\\Users\\yongc\\Documents\\GitHub\\souli\\output\\marketing\\souli-film\\meme-pack\\motion-v2-20261003\\final\\episode-11.mp4':\n  Metadata:\n    major_brand     : isom\n    minor_version   : 512\n    compatible_brands: isomiso2avc1mp41\n    encoder         : Lavf61.7.100\n  Duration: 00:00:08.00, start: 0.000000, bitrate: 2210 kb/s\n  Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(progressive), 1280x720, 2207 kb/s, 24 fps, 24 tbr, 12288 tbn (default)\n      Metadata:\n        handler_name    : VideoHandler\n        vendor_id       : [0][0][0][0]\n        encoder         : Lavc61.19.100 libx264\nStream mapping:\n  Stream #0:0 -> #0:0 (h264 (native) -> wrapped_avframe (native))\nPress [q] to stop, [?] for help\nOutput #0, null, to 'pipe:':\n  Metadata:\n    major_brand     : isom\n    minor_version   : 512\n    compatible_brands: isomiso2avc1mp41\n    encoder         : Lavf61.7.100\n  Stream #0:0(und): Video: wrapped_avframe, yuv420p(progressive), 1280x720, q=2-31, 200 kb/s, 24 fps, 24 tbn (default)\n      Metadata:\n        handler_name    : VideoHandler\n        vendor_id       : [0][0][0][0]\n        encoder         : Lavc61.19.100 wrapped_avframe\n[out#0/null @ 00000285bdb97dc0] video:82KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown\nframe=  192 fps=0.0 q=-0.0 Lsize=N/A time=00:00:08.00 bitrate=N/A speed=100x    \n"
+  },
+  "12": {
+    "master_sha256": "94de639f824b1cbfadcb132c008e33814a3648210edd381b32e55b5c3d434cc7",
+    "output_sha256": "2bc659a98dcdbd681d2237929f62e53b8ae2a2a13204944c3b78ca130115750d",
+    "full_decode": "passed",
+    "bytes": 2198177,
+    "ffmpeg_report": "Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'C:\\Users\\yongc\\Documents\\GitHub\\souli\\output\\marketing\\souli-film\\meme-pack\\motion-v2-20261003\\final\\episode-12.mp4':\n  Metadata:\n    major_brand     : isom\n    minor_version   : 512\n    compatible_brands: isomiso2avc1mp41\n    encoder         : Lavf61.7.100\n  Duration: 00:00:08.00, start: 0.000000, bitrate: 2198 kb/s\n  Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(progressive), 1280x720, 2195 kb/s, 24 fps, 24 tbr, 12288 tbn (default)\n      Metadata:\n        handler_name    : VideoHandler\n        vendor_id       : [0][0][0][0]\n        encoder         : Lavc61.19.100 libx264\nStream mapping:\n  Stream #0:0 -> #0:0 (h264 (native) -> wrapped_avframe (native))\nPress [q] to stop, [?] for help\nOutput #0, null, to 'pipe:':\n  Metadata:\n    major_brand     : isom\n    minor_version   : 512\n    compatible_brands: isomiso2avc1mp41\n    encoder         : Lavf61.7.100\n  Stream #0:0(und): Video: wrapped_avframe, yuv420p(progressive), 1280x720, q=2-31, 200 kb/s, 24 fps, 24 tbn (default)\n      Metadata:\n        handler_name    : VideoHandler\n        vendor_id       : [0][0][0][0]\n        encoder         : Lavc61.19.100 wrapped_avframe\n[out#0/null @ 000002cbadbf4a40] video:82KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown\nframe=  192 fps=0.0 q=-0.0 Lsize=N/A time=00:00:08.00 bitrate=N/A speed= 104x    \n"
+  },
+  "03": {
+    "master_sha256": "17325b3a3ce49f6c48d47723e795abe6dc89dd5d984362b45e109ccf7804a539",
+    "output_sha256": "36d50acfce63d9ccd67fa33ad89858402ec6c59d384c5550f86c5ad73d813999",
+    "full_decode": "passed",
+    "bytes": 2307415,
+    "ffmpeg_report": "Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'C:\\Users\\yongc\\Documents\\GitHub\\souli\\output\\marketing\\souli-film\\meme-pack\\motion-v2-20261003\\final\\episode-03.mp4':\n  Metadata:\n    major_brand     : isom\n    minor_version   : 512\n    compatible_brands: isomiso2avc1mp41\n    encoder         : Lavf61.7.100\n  Duration: 00:00:08.00, start: 0.000000, bitrate: 2307 kb/s\n  Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(progressive), 1280x720, 2304 kb/s, 24 fps, 24 tbr, 12288 tbn (default)\n      Metadata:\n        handler_name    : VideoHandler\n        vendor_id       : [0][0][0][0]\n        encoder         : Lavc61.19.100 libx264\nStream mapping:\n  Stream #0:0 -> #0:0 (h264 (native) -> wrapped_avframe (native))\nPress [q] to stop, [?] for help\nOutput #0, null, to 'pipe:':\n  Metadata:\n    major_brand     : isom\n    minor_version   : 512\n    compatible_brands: isomiso2avc1mp41\n    encoder         : Lavf61.7.100\n  Stream #0:0(und): Video: wrapped_avframe, yuv420p(progressive), 1280x720, q=2-31, 200 kb/s, 24 fps, 24 tbn (default)\n      Metadata:\n        handler_name    : VideoHandler\n        vendor_id       : [0][0][0][0]\n        encoder         : Lavc61.19.100 wrapped_avframe\n[out#0/null @ 000001e430b84a40] video:82KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown\nframe=  192 fps=0.0 q=-0.0 Lsize=N/A time=00:00:08.00 bitrate=N/A speed=  95x    \n"
+  },
+  "07": {
+    "id": "07",
+    "bytes": 2762925,
+    "sha256": "5f171c3752021fe75ca5d414dd3728052d26727f9237c945c67d6313cf4ddb4d",
+    "full_decode": "passed",
+    "audio": false,
+    "format": "H264 1280x720 24fps 8s",
+    "continuity_repair": true
+  },
+  "13": {
+    "master_sha256": "3bc19b1b7a951bf15a21789806c40c7ab3c8664ad9d80795f0ddf9fc2aef5ce2",
+    "output_sha256": "7910568d850a67a3c0cfc9585dfa2270e1a114c3424a82344ce59a423167048c",
+    "full_decode": "passed",
+    "bytes": 1409284,
+    "ffmpeg_report": "Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'C:\\Users\\yongc\\Documents\\GitHub\\souli\\output\\marketing\\souli-film\\meme-pack\\motion-v2-20261003\\final\\episode-13.mp4':\n  Metadata:\n    major_brand     : isom\n    minor_version   : 512\n    compatible_brands: isomiso2avc1mp41\n    encoder         : Lavf61.7.100\n  Duration: 00:00:08.00, start: 0.000000, bitrate: 1409 kb/s\n  Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(progressive), 1280x720, 1406 kb/s, 24 fps, 24 tbr, 12288 tbn (default)\n      Metadata:\n        handler_name    : VideoHandler\n        vendor_id       : [0][0][0][0]\n        encoder         : Lavc61.19.100 libx264\nStream mapping:\n  Stream #0:0 -> #0:0 (h264 (native) -> wrapped_avframe (native))\nPress [q] to stop, [?] for help\nOutput #0, null, to 'pipe:':\n  Metadata:\n    major_brand     : isom\n    minor_version   : 512\n    compatible_brands: isomiso2avc1mp41\n    encoder         : Lavf61.7.100\n  Stream #0:0(und): Video: wrapped_avframe, yuv420p(progressive), 1280x720, q=2-31, 200 kb/s, 24 fps, 24 tbn (default)\n      Metadata:\n        handler_name    : VideoHandler\n        vendor_id       : [0][0][0][0]\n        encoder         : Lavc61.19.100 wrapped_avframe\n[out#0/null @ 0000020bd0ab4a40] video:82KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown\nframe=  192 fps=0.0 q=-0.0 Lsize=N/A time=00:00:08.00 bitrate=N/A speed= 127x    \n"
+  },
+  "15": {
+    "master_sha256": "9b9d367319eafc1974a95b8c3cbccd899df62caedf9a9e94f66dce655fc13bf5",
+    "output_sha256": "96c3bd2bf687b30ad70e1cb9d602f153aaad5e6be6e457d3a4e110111639d733",
+    "full_decode": "passed",
+    "bytes": 2233744,
+    "ffmpeg_report": "Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'C:\\Users\\yongc\\Documents\\GitHub\\souli\\output\\marketing\\souli-film\\meme-pack\\motion-v2-20261003\\final\\episode-15.mp4':\n  Metadata:\n    major_brand     : isom\n    minor_version   : 512\n    compatible_brands: isomiso2avc1mp41\n    encoder         : Lavf61.7.100\n  Duration: 00:00:08.00, start: 0.000000, bitrate: 2233 kb/s\n  Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(progressive), 1280x720, 2230 kb/s, 24 fps, 24 tbr, 12288 tbn (default)\n      Metadata:\n        handler_name    : VideoHandler\n        vendor_id       : [0][0][0][0]\n        encoder         : Lavc61.19.100 libx264\nStream mapping:\n  Stream #0:0 -> #0:0 (h264 (native) -> wrapped_avframe (native))\nPress [q] to stop, [?] for help\nOutput #0, null, to 'pipe:':\n  Metadata:\n    major_brand     : isom\n    minor_version   : 512\n    compatible_brands: isomiso2avc1mp41\n    encoder         : Lavf61.7.100\n  Stream #0:0(und): Video: wrapped_avframe, yuv420p(progressive), 1280x720, q=2-31, 200 kb/s, 24 fps, 24 tbn (default)\n      Metadata:\n        handler_name    : VideoHandler\n        vendor_id       : [0][0][0][0]\n        encoder         : Lavc61.19.100 wrapped_avframe\n[out#0/null @ 000001d6c2ae4a40] video:82KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown\nframe=  192 fps=0.0 q=-0.0 Lsize=N/A time=00:00:08.00 bitrate=N/A speed= 110x    \n"
+  },
+  "16": {
+    "master_sha256": "9f42f39f94f99015533b74128e6fa90f03f45257dbb6f9d84aa8276b05e73ddd",
+    "output_sha256": "c39af49618d684e44e5eb18b316120393827b14508e031a35f58d075fb197b68",
+    "full_decode": "passed",
+    "bytes": 2650215,
+    "ffmpeg_report": "Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'C:\\Users\\yongc\\Documents\\GitHub\\souli\\output\\marketing\\souli-film\\meme-pack\\motion-v2-20261003\\final\\episode-16.mp4':\n  Metadata:\n    major_brand     : isom\n    minor_version   : 512\n    compatible_brands: isomiso2avc1mp41\n    encoder         : Lavf61.7.100\n  Duration: 00:00:08.00, start: 0.000000, bitrate: 2650 kb/s\n  Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(progressive), 1280x720, 2647 kb/s, 24 fps, 24 tbr, 12288 tbn (default)\n      Metadata:\n        handler_name    : VideoHandler\n        vendor_id       : [0][0][0][0]\n        encoder         : Lavc61.19.100 libx264\nStream mapping:\n  Stream #0:0 -> #0:0 (h264 (native) -> wrapped_avframe (native))\nPress [q] to stop, [?] for help\nOutput #0, null, to 'pipe:':\n  Metadata:\n    major_brand     : isom\n    minor_version   : 512\n    compatible_brands: isomiso2avc1mp41\n    encoder         : Lavf61.7.100\n  Stream #0:0(und): Video: wrapped_avframe, yuv420p(progressive), 1280x720, q=2-31, 200 kb/s, 24 fps, 24 tbn (default)\n      Metadata:\n        handler_name    : VideoHandler\n        vendor_id       : [0][0][0][0]\n        encoder         : Lavc61.19.100 wrapped_avframe\n[out#0/null @ 000002b13e914a40] video:82KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown\nframe=  192 fps=0.0 q=-0.0 Lsize=N/A time=00:00:08.00 bitrate=N/A speed=86.1x    \n"
+  },
+  "17": {
+    "master_sha256": "7b6021ee36603fdac1bcf1f2333d9c494060ed9f0bc1527d67d6657d2902d43e",
+    "output_sha256": "72b4f7350535c154b352a56db0771f35e67465aa0f16d0110eece024d291d475",
+    "full_decode": "passed",
+    "bytes": 1853794,
+    "ffmpeg_report": "Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'C:\\Users\\yongc\\Documents\\GitHub\\souli\\output\\marketing\\souli-film\\meme-pack\\motion-v2-20261003\\final\\episode-17.mp4':\n  Metadata:\n    major_brand     : isom\n    minor_version   : 512\n    compatible_brands: isomiso2avc1mp41\n    encoder         : Lavf61.7.100\n  Duration: 00:00:08.00, start: 0.000000, bitrate: 1853 kb/s\n  Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(progressive), 1280x720, 1850 kb/s, 24 fps, 24 tbr, 12288 tbn (default)\n      Metadata:\n        handler_name    : VideoHandler\n        vendor_id       : [0][0][0][0]\n        encoder         : Lavc61.19.100 libx264\nStream mapping:\n  Stream #0:0 -> #0:0 (h264 (native) -> wrapped_avframe (native))\nPress [q] to stop, [?] for help\nOutput #0, null, to 'pipe:':\n  Metadata:\n    major_brand     : isom\n    minor_version   : 512\n    compatible_brands: isomiso2avc1mp41\n    encoder         : Lavf61.7.100\n  Stream #0:0(und): Video: wrapped_avframe, yuv420p(progressive), 1280x720, q=2-31, 200 kb/s, 24 fps, 24 tbn (default)\n      Metadata:\n        handler_name    : VideoHandler\n        vendor_id       : [0][0][0][0]\n        encoder         : Lavc61.19.100 wrapped_avframe\n[out#0/null @ 00000262efce4a40] video:82KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown\nframe=  192 fps=0.0 q=-0.0 Lsize=N/A time=00:00:08.00 bitrate=N/A speed= 106x    \n"
+  },
+  "18": {
+    "master_sha256": "156d97da959a8bf6f4c2a5f7e8bbc3092edb76b4369ec4de5ac23f80a544eebe",
+    "output_sha256": "4569324cee53a446b4ce11efa69cae8f4e152e3884e0231885ba93670666eee0",
+    "full_decode": "passed",
+    "bytes": 2866976,
+    "ffmpeg_report": "Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'C:\\Users\\yongc\\Documents\\GitHub\\souli\\output\\marketing\\souli-film\\meme-pack\\motion-v2-20261003\\final\\episode-18.mp4':\n  Metadata:\n    major_brand     : isom\n    minor_version   : 512\n    compatible_brands: isomiso2avc1mp41\n    encoder         : Lavf61.7.100\n  Duration: 00:00:08.00, start: 0.000000, bitrate: 2866 kb/s\n  Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(progressive), 1280x720, 2863 kb/s, 24 fps, 24 tbr, 12288 tbn (default)\n      Metadata:\n        handler_name    : VideoHandler\n        vendor_id       : [0][0][0][0]\n        encoder         : Lavc61.19.100 libx264\nStream mapping:\n  Stream #0:0 -> #0:0 (h264 (native) -> wrapped_avframe (native))\nPress [q] to stop, [?] for help\nOutput #0, null, to 'pipe:':\n  Metadata:\n    major_brand     : isom\n    minor_version   : 512\n    compatible_brands: isomiso2avc1mp41\n    encoder         : Lavf61.7.100\n  Stream #0:0(und): Video: wrapped_avframe, yuv420p(progressive), 1280x720, q=2-31, 200 kb/s, 24 fps, 24 tbn (default)\n      Metadata:\n        handler_name    : VideoHandler\n        vendor_id       : [0][0][0][0]\n        encoder         : Lavc61.19.100 wrapped_avframe\n[out#0/null @ 000002198a024a40] video:82KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown\nframe=  192 fps=0.0 q=-0.0 Lsize=N/A time=00:00:08.00 bitrate=N/A speed=95.8x    \n"
+  },
+  "14": {
+    "master_sha256": "9623f6ecd1a8226b031a175f2726c8fdca9f81ef688c853f94cc503f041efff0",
+    "output_sha256": "9e4bb2d381e8c7f47746d3cc681ff06f92dd321b4bf23be5d36397ce971ffa5a",
+    "full_decode": "passed",
+    "bytes": 1804856,
+    "ffmpeg_report": "Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'C:\\Users\\yongc\\Documents\\GitHub\\souli\\output\\marketing\\souli-film\\meme-pack\\motion-v2-20261003\\final\\episode-14.mp4':\n  Metadata:\n    major_brand     : isom\n    minor_version   : 512\n    compatible_brands: isomiso2avc1mp41\n    encoder         : Lavf61.7.100\n  Duration: 00:00:08.00, start: 0.000000, bitrate: 1804 kb/s\n  Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(progressive), 1280x720, 1801 kb/s, 24 fps, 24 tbr, 12288 tbn (default)\n      Metadata:\n        handler_name    : VideoHandler\n        vendor_id       : [0][0][0][0]\n        encoder         : Lavc61.19.100 libx264\nStream mapping:\n  Stream #0:0 -> #0:0 (h264 (native) -> wrapped_avframe (native))\nPress [q] to stop, [?] for help\nOutput #0, null, to 'pipe:':\n  Metadata:\n    major_brand     : isom\n    minor_version   : 512\n    compatible_brands: isomiso2avc1mp41\n    encoder         : Lavf61.7.100\n  Stream #0:0(und): Video: wrapped_avframe, yuv420p(progressive), 1280x720, q=2-31, 200 kb/s, 24 fps, 24 tbn (default)\n      Metadata:\n        handler_name    : VideoHandler\n        vendor_id       : [0][0][0][0]\n        encoder         : Lavc61.19.100 wrapped_avframe\n[out#0/null @ 0000023716bae200] video:82KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown\nframe=  192 fps=0.0 q=-0.0 Lsize=N/A time=00:00:08.00 bitrate=N/A speed= 108x    \n"
+  },
+  "19": {
+    "master_sha256": "d91d637762ea239b0e24f97d66454f88c55adccbc40346d0f5dc66bbbeb7e797",
+    "output_sha256": "30dad3e17491089aee4beb8de80941ab7f86247739ba053412e7d88bb6cac542",
+    "full_decode": "passed",
+    "bytes": 1940320,
+    "ffmpeg_report": "Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'C:\\Users\\yongc\\Documents\\GitHub\\souli\\output\\marketing\\souli-film\\meme-pack\\motion-v2-20261003\\final\\episode-19.mp4':\n  Metadata:\n    major_brand     : isom\n    minor_version   : 512\n    compatible_brands: isomiso2avc1mp41\n    encoder         : Lavf61.7.100\n  Duration: 00:00:08.00, start: 0.000000, bitrate: 1940 kb/s\n  Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(progressive), 1280x720, 1937 kb/s, 24 fps, 24 tbr, 12288 tbn (default)\n      Metadata:\n        handler_name    : VideoHandler\n        vendor_id       : [0][0][0][0]\n        encoder         : Lavc61.19.100 libx264\nStream mapping:\n  Stream #0:0 -> #0:0 (h264 (native) -> wrapped_avframe (native))\nPress [q] to stop, [?] for help\nOutput #0, null, to 'pipe:':\n  Metadata:\n    major_brand     : isom\n    minor_version   : 512\n    compatible_brands: isomiso2avc1mp41\n    encoder         : Lavf61.7.100\n  Stream #0:0(und): Video: wrapped_avframe, yuv420p(progressive), 1280x720, q=2-31, 200 kb/s, 24 fps, 24 tbn (default)\n      Metadata:\n        handler_name    : VideoHandler\n        vendor_id       : [0][0][0][0]\n        encoder         : Lavc61.19.100 wrapped_avframe\n[out#0/null @ 000001fd2c504a40] video:82KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown\nframe=  192 fps=0.0 q=-0.0 Lsize=N/A time=00:00:08.00 bitrate=N/A speed= 110x    \n"
+  },
+  "20": {
+    "master_sha256": "d81817a414663f4c71f06e8e09a2ea96095bd1f68c7078bd1b044a2c2789c4f7",
+    "output_sha256": "ab8f8582de63e14d295b868ad18064357ac8d578f79f4efa94ef8fafa6f430a3",
+    "full_decode": "passed",
+    "bytes": 3649849,
+    "ffmpeg_report": "Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'C:\\Users\\yongc\\Documents\\GitHub\\souli\\output\\marketing\\souli-film\\meme-pack\\motion-v2-20261003\\final\\episode-20.mp4':\n  Metadata:\n    major_brand     : isom\n    minor_version   : 512\n    compatible_brands: isomiso2avc1mp41\n    encoder         : Lavf61.7.100\n  Duration: 00:00:08.00, start: 0.000000, bitrate: 3649 kb/s\n  Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(progressive), 1280x720, 3646 kb/s, 24 fps, 24 tbr, 12288 tbn (default)\n      Metadata:\n        handler_name    : VideoHandler\n        vendor_id       : [0][0][0][0]\n        encoder         : Lavc61.19.100 libx264\nStream mapping:\n  Stream #0:0 -> #0:0 (h264 (native) -> wrapped_avframe (native))\nPress [q] to stop, [?] for help\nOutput #0, null, to 'pipe:':\n  Metadata:\n    major_brand     : isom\n    minor_version   : 512\n    compatible_brands: isomiso2avc1mp41\n    encoder         : Lavf61.7.100\n  Stream #0:0(und): Video: wrapped_avframe, yuv420p(progressive), 1280x720, q=2-31, 200 kb/s, 24 fps, 24 tbn (default)\n      Metadata:\n        handler_name    : VideoHandler\n        vendor_id       : [0][0][0][0]\n        encoder         : Lavc61.19.100 wrapped_avframe\n[out#0/null @ 00000141e2374a40] video:82KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown\nframe=  192 fps=0.0 q=-0.0 Lsize=N/A time=00:00:08.00 bitrate=N/A speed=  78x    \n"
+  },
+  "21": {
+    "master_sha256": "6dc0f6ee07fee4f1fed705e56e01e9ed0512dbaae5d040281404edf10d027831",
+    "output_sha256": "83e1a814c764696cc659ca596c0d41fa6e7b5f5b68ffae9dfd45d8054a7c30b6",
+    "full_decode": "passed",
+    "bytes": 1681075,
+    "ffmpeg_report": "Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'C:\\Users\\yongc\\Documents\\GitHub\\souli\\output\\marketing\\souli-film\\meme-pack\\motion-v2-20261003\\final\\episode-21.mp4':\n  Metadata:\n    major_brand     : isom\n    minor_version   : 512\n    compatible_brands: isomiso2avc1mp41\n    encoder         : Lavf61.7.100\n  Duration: 00:00:08.00, start: 0.000000, bitrate: 1681 kb/s\n  Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(progressive), 1280x720, 1677 kb/s, 24 fps, 24 tbr, 12288 tbn (default)\n      Metadata:\n        handler_name    : VideoHandler\n        vendor_id       : [0][0][0][0]\n        encoder         : Lavc61.19.100 libx264\nStream mapping:\n  Stream #0:0 -> #0:0 (h264 (native) -> wrapped_avframe (native))\nPress [q] to stop, [?] for help\nOutput #0, null, to 'pipe:':\n  Metadata:\n    major_brand     : isom\n    minor_version   : 512\n    compatible_brands: isomiso2avc1mp41\n    encoder         : Lavf61.7.100\n  Stream #0:0(und): Video: wrapped_avframe, yuv420p(progressive), 1280x720, q=2-31, 200 kb/s, 24 fps, 24 tbn (default)\n      Metadata:\n        handler_name    : VideoHandler\n        vendor_id       : [0][0][0][0]\n        encoder         : Lavc61.19.100 wrapped_avframe\n[out#0/null @ 000001b730e0d580] video:82KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown\nframe=  192 fps=0.0 q=-0.0 Lsize=N/A time=00:00:08.00 bitrate=N/A speed= 111x    \n"
+  },
+  "22": {
+    "master_sha256": "eca762bb987f9761b320f8df0aa22ac593cd604f8b59ab3a1d593bd3dd0c3b77",
+    "output_sha256": "bf817275cd4b909efef6d596bc8e204f8fd986728cc468d9e88499c5feeeb80d",
+    "full_decode": "passed",
+    "bytes": 1426197,
+    "ffmpeg_report": "Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'C:\\Users\\yongc\\Documents\\GitHub\\souli\\output\\marketing\\souli-film\\meme-pack\\motion-v2-20261003\\final\\episode-22.mp4':\n  Metadata:\n    major_brand     : isom\n    minor_version   : 512\n    compatible_brands: isomiso2avc1mp41\n    encoder         : Lavf61.7.100\n  Duration: 00:00:08.00, start: 0.000000, bitrate: 1426 kb/s\n  Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(progressive), 1280x720, 1423 kb/s, 24 fps, 24 tbr, 12288 tbn (default)\n      Metadata:\n        handler_name    : VideoHandler\n        vendor_id       : [0][0][0][0]\n        encoder         : Lavc61.19.100 libx264\nStream mapping:\n  Stream #0:0 -> #0:0 (h264 (native) -> wrapped_avframe (native))\nPress [q] to stop, [?] for help\nOutput #0, null, to 'pipe:':\n  Metadata:\n    major_brand     : isom\n    minor_version   : 512\n    compatible_brands: isomiso2avc1mp41\n    encoder         : Lavf61.7.100\n  Stream #0:0(und): Video: wrapped_avframe, yuv420p(progressive), 1280x720, q=2-31, 200 kb/s, 24 fps, 24 tbn (default)\n      Metadata:\n        handler_name    : VideoHandler\n        vendor_id       : [0][0][0][0]\n        encoder         : Lavc61.19.100 wrapped_avframe\n[out#0/null @ 000001ed36954a40] video:82KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown\nframe=  192 fps=0.0 q=-0.0 Lsize=N/A time=00:00:08.00 bitrate=N/A speed= 111x    \n"
+  },
+  "23": {
+    "master_sha256": "e84f9c8e26513f1db96c4407378332290597d0452d6b39f4911209d63ac57345",
+    "output_sha256": "6e3fc54ce9d8180a91e13480bd0631db310a48bcd8861ef85cda7a646ff53b88",
+    "full_decode": "passed",
+    "bytes": 1462790,
+    "ffmpeg_report": "Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'C:\\Users\\yongc\\Documents\\GitHub\\souli\\output\\marketing\\souli-film\\meme-pack\\motion-v2-20261003\\final\\episode-23.mp4':\n  Metadata:\n    major_brand     : isom\n    minor_version   : 512\n    compatible_brands: isomiso2avc1mp41\n    encoder         : Lavf61.7.100\n  Duration: 00:00:08.00, start: 0.000000, bitrate: 1462 kb/s\n  Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(progressive), 1280x720, 1459 kb/s, 24 fps, 24 tbr, 12288 tbn (default)\n      Metadata:\n        handler_name    : VideoHandler\n        vendor_id       : [0][0][0][0]\n        encoder         : Lavc61.19.100 libx264\nStream mapping:\n  Stream #0:0 -> #0:0 (h264 (native) -> wrapped_avframe (native))\nPress [q] to stop, [?] for help\nOutput #0, null, to 'pipe:':\n  Metadata:\n    major_brand     : isom\n    minor_version   : 512\n    compatible_brands: isomiso2avc1mp41\n    encoder         : Lavf61.7.100\n  Stream #0:0(und): Video: wrapped_avframe, yuv420p(progressive), 1280x720, q=2-31, 200 kb/s, 24 fps, 24 tbn (default)\n      Metadata:\n        handler_name    : VideoHandler\n        vendor_id       : [0][0][0][0]\n        encoder         : Lavc61.19.100 wrapped_avframe\n[out#0/null @ 000001e89a984a40] video:82KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown\nframe=  192 fps=0.0 q=-0.0 Lsize=N/A time=00:00:08.00 bitrate=N/A speed= 127x    \n"
+  },
+  "24": {
+    "master_sha256": "bfd855dcddd1e839f39dbf4868bdbf2d629ba5f9674f25277b8bec0e7152f451",
+    "output_sha256": "f5db898cf91f6402cb2c024520d7b241c2aedd8b6e9c38107d94868b02ba986b",
+    "full_decode": "passed",
+    "bytes": 1700529,
+    "ffmpeg_report": "Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'C:\\Users\\yongc\\Documents\\GitHub\\souli\\output\\marketing\\souli-film\\meme-pack\\motion-v2-20261003\\final\\episode-24.mp4':\n  Metadata:\n    major_brand     : isom\n    minor_version   : 512\n    compatible_brands: isomiso2avc1mp41\n    encoder         : Lavf61.7.100\n  Duration: 00:00:08.00, start: 0.000000, bitrate: 1700 kb/s\n  Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(progressive), 1280x720, 1697 kb/s, 24 fps, 24 tbr, 12288 tbn (default)\n      Metadata:\n        handler_name    : VideoHandler\n        vendor_id       : [0][0][0][0]\n        encoder         : Lavc61.19.100 libx264\nStream mapping:\n  Stream #0:0 -> #0:0 (h264 (native) -> wrapped_avframe (native))\nPress [q] to stop, [?] for help\nOutput #0, null, to 'pipe:':\n  Metadata:\n    major_brand     : isom\n    minor_version   : 512\n    compatible_brands: isomiso2avc1mp41\n    encoder         : Lavf61.7.100\n  Stream #0:0(und): Video: wrapped_avframe, yuv420p(progressive), 1280x720, q=2-31, 200 kb/s, 24 fps, 24 tbn (default)\n      Metadata:\n        handler_name    : VideoHandler\n        vendor_id       : [0][0][0][0]\n        encoder         : Lavc61.19.100 wrapped_avframe\n[out#0/null @ 000001f1abc8d580] video:82KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown\nframe=  192 fps=0.0 q=-0.0 Lsize=N/A time=00:00:08.00 bitrate=N/A speed= 110x    \n"
+  },
+  "25": {
+    "id": "25",
+    "bytes": 1266435,
+    "sha256": "87a0cc8f7a2f35850cbef97a32001abd43bf9ffe2468c42c78e9ff616085373e",
+    "full_decode": "passed",
+    "audio": false,
+    "format": "H264 1280x720 24fps 8s",
+    "continuity_repair": true
+  },
+  "26": {
+    "master_sha256": "41f3f3ac0d6cf8e58e63f62c653e29d5d1cec0349b111335e1ee3144db8ff6d7",
+    "output_sha256": "1db2584abb09278100187a228051b9d15e0ef2f972839411fc6b3cf8dfe9ac80",
+    "full_decode": "passed",
+    "bytes": 2582306,
+    "ffmpeg_report": "Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'C:\\Users\\yongc\\Documents\\GitHub\\souli\\output\\marketing\\souli-film\\meme-pack\\motion-v2-20261003\\final\\episode-26.mp4':\n  Metadata:\n    major_brand     : isom\n    minor_version   : 512\n    compatible_brands: isomiso2avc1mp41\n    encoder         : Lavf61.7.100\n  Duration: 00:00:08.00, start: 0.000000, bitrate: 2582 kb/s\n  Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(progressive), 1280x720, 2579 kb/s, 24 fps, 24 tbr, 12288 tbn (default)\n      Metadata:\n        handler_name    : VideoHandler\n        vendor_id       : [0][0][0][0]\n        encoder         : Lavc61.19.100 libx264\nStream mapping:\n  Stream #0:0 -> #0:0 (h264 (native) -> wrapped_avframe (native))\nPress [q] to stop, [?] for help\nOutput #0, null, to 'pipe:':\n  Metadata:\n    major_brand     : isom\n    minor_version   : 512\n    compatible_brands: isomiso2avc1mp41\n    encoder         : Lavf61.7.100\n  Stream #0:0(und): Video: wrapped_avframe, yuv420p(progressive), 1280x720, q=2-31, 200 kb/s, 24 fps, 24 tbn (default)\n      Metadata:\n        handler_name    : VideoHandler\n        vendor_id       : [0][0][0][0]\n        encoder         : Lavc61.19.100 wrapped_avframe\n[out#0/null @ 0000020021ed4a40] video:82KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown\nframe=  192 fps=0.0 q=-0.0 Lsize=N/A time=00:00:08.00 bitrate=N/A speed=97.8x    \n"
+  },
+  "27": {
+    "master_sha256": "2635d364395a98ce7a6d8c9c0a29b7aa2857ece1ae1bf4b2308bd04dc946aef7",
+    "output_sha256": "72a4ed4c9db97193de5fcd16d5b7e30f10217fa45cb04693f9a86393256d9d86",
+    "full_decode": "passed",
+    "bytes": 1204815,
+    "ffmpeg_report": "Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'C:\\Users\\yongc\\Documents\\GitHub\\souli\\output\\marketing\\souli-film\\meme-pack\\motion-v2-20261003\\final\\episode-27.mp4':\n  Metadata:\n    major_brand     : isom\n    minor_version   : 512\n    compatible_brands: isomiso2avc1mp41\n    encoder         : Lavf61.7.100\n  Duration: 00:00:08.00, start: 0.000000, bitrate: 1204 kb/s\n  Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(progressive), 1280x720, 1201 kb/s, 24 fps, 24 tbr, 12288 tbn (default)\n      Metadata:\n        handler_name    : VideoHandler\n        vendor_id       : [0][0][0][0]\n        encoder         : Lavc61.19.100 libx264\nStream mapping:\n  Stream #0:0 -> #0:0 (h264 (native) -> wrapped_avframe (native))\nPress [q] to stop, [?] for help\nOutput #0, null, to 'pipe:':\n  Metadata:\n    major_brand     : isom\n    minor_version   : 512\n    compatible_brands: isomiso2avc1mp41\n    encoder         : Lavf61.7.100\n  Stream #0:0(und): Video: wrapped_avframe, yuv420p(progressive), 1280x720, q=2-31, 200 kb/s, 24 fps, 24 tbn (default)\n      Metadata:\n        handler_name    : VideoHandler\n        vendor_id       : [0][0][0][0]\n        encoder         : Lavc61.19.100 wrapped_avframe\n[out#0/null @ 000001980ecb4a40] video:82KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown\nframe=  192 fps=0.0 q=-0.0 Lsize=N/A time=00:00:08.00 bitrate=N/A speed= 126x    \n"
+  },
+  "28": {
+    "id": "28",
+    "bytes": 1729355,
+    "sha256": "b0c67b1bb494f3265f87b0371834de6a2157370ea995abf85fbbf7ee3e963f5f",
+    "full_decode": "passed",
+    "audio": false,
+    "format": "H264 1280x720 24fps 8s",
+    "continuity_repair": true
+  },
+  "30": {
+    "master_sha256": "6919059b9ff8629acdb39057fada2bc3e80818b2185582f4108e64e403bf608f",
+    "output_sha256": "9d97e2cb9bf910b10875c619f3cd5a42b4cdb6800b4641715942c34811047072",
+    "full_decode": "passed",
+    "bytes": 2393652,
+    "ffmpeg_report": "Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'C:\\Users\\yongc\\Documents\\GitHub\\souli\\output\\marketing\\souli-film\\meme-pack\\motion-v2-20261003\\final\\episode-30.mp4':\n  Metadata:\n    major_brand     : isom\n    minor_version   : 512\n    compatible_brands: isomiso2avc1mp41\n    encoder         : Lavf61.7.100\n  Duration: 00:00:08.00, start: 0.000000, bitrate: 2393 kb/s\n  Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(progressive), 1280x720, 2390 kb/s, 24 fps, 24 tbr, 12288 tbn (default)\n      Metadata:\n        handler_name    : VideoHandler\n        vendor_id       : [0][0][0][0]\n        encoder         : Lavc61.19.100 libx264\nStream mapping:\n  Stream #0:0 -> #0:0 (h264 (native) -> wrapped_avframe (native))\nPress [q] to stop, [?] for help\nOutput #0, null, to 'pipe:':\n  Metadata:\n    major_brand     : isom\n    minor_version   : 512\n    compatible_brands: isomiso2avc1mp41\n    encoder         : Lavf61.7.100\n  Stream #0:0(und): Video: wrapped_avframe, yuv420p(progressive), 1280x720, q=2-31, 200 kb/s, 24 fps, 24 tbn (default)\n      Metadata:\n        handler_name    : VideoHandler\n        vendor_id       : [0][0][0][0]\n        encoder         : Lavc61.19.100 wrapped_avframe\n[out#0/null @ 0000026f24e1d040] video:82KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown\nframe=  192 fps=0.0 q=-0.0 Lsize=N/A time=00:00:08.00 bitrate=N/A speed=93.6x    \n"
+  },
+  "31": {
+    "id": "31",
+    "bytes": 1768203,
+    "sha256": "bb100126b48a783fd4ec319cd0f1126a8d15cfa8a9479caec5711df0e1007bde",
+    "full_decode": "passed",
+    "audio": false,
+    "format": "H264 1280x720 24fps 8s",
+    "continuity_repair": true
+  },
+  "32": {
+    "master_sha256": "19744b0c2a14fe15a263a20052503faac934d5603bf6662749fa2fdf754867ae",
+    "output_sha256": "15c705f6107f0f487ef15a4eda50fdf9bfbc29033bede0705f565f4353d4d4dc",
+    "full_decode": "passed",
+    "bytes": 2161691,
+    "ffmpeg_report": "Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'C:\\Users\\yongc\\Documents\\GitHub\\souli\\output\\marketing\\souli-film\\meme-pack\\motion-v2-20261003\\final\\episode-32.mp4':\n  Metadata:\n    major_brand     : isom\n    minor_version   : 512\n    compatible_brands: isomiso2avc1mp41\n    encoder         : Lavf61.7.100\n  Duration: 00:00:08.00, start: 0.000000, bitrate: 2161 kb/s\n  Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(progressive), 1280x720, 2158 kb/s, 24 fps, 24 tbr, 12288 tbn (default)\n      Metadata:\n        handler_name    : VideoHandler\n        vendor_id       : [0][0][0][0]\n        encoder         : Lavc61.19.100 libx264\nStream mapping:\n  Stream #0:0 -> #0:0 (h264 (native) -> wrapped_avframe (native))\nPress [q] to stop, [?] for help\nOutput #0, null, to 'pipe:':\n  Metadata:\n    major_brand     : isom\n    minor_version   : 512\n    compatible_brands: isomiso2avc1mp41\n    encoder         : Lavf61.7.100\n  Stream #0:0(und): Video: wrapped_avframe, yuv420p(progressive), 1280x720, q=2-31, 200 kb/s, 24 fps, 24 tbn (default)\n      Metadata:\n        handler_name    : VideoHandler\n        vendor_id       : [0][0][0][0]\n        encoder         : Lavc61.19.100 wrapped_avframe\n[out#0/null @ 0000022c627f4a40] video:82KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown\nframe=  192 fps=0.0 q=-0.0 Lsize=N/A time=00:00:08.00 bitrate=N/A speed= 110x    \n"
+  },
+  "33": {
+    "id": "33",
+    "bytes": 3202967,
+    "sha256": "d34d20e45c261fc81d5cedd2592b5c6809cf8db5e37772bdff5a9b87207bbc92",
+    "full_decode": "passed",
+    "audio": false,
+    "format": "H264 1280x720 24fps 8s",
+    "continuity_repair": true
+  },
+  "29": {
+    "master_sha256": "14105059686550fa6717e0e966876262dfe947e48237fa517a10c10d5d8e6415",
+    "output_sha256": "162e202c57eaef410d01343816e1c09b28a78c0efd6d0a861d5feb06537b08f3",
+    "full_decode": "passed",
+    "bytes": 2262825,
+    "ffmpeg_report": "Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'C:\\Users\\yongc\\Documents\\GitHub\\souli\\output\\marketing\\souli-film\\meme-pack\\motion-v2-20261003\\final\\episode-29.mp4':\n  Metadata:\n    major_brand     : isom\n    minor_version   : 512\n    compatible_brands: isomiso2avc1mp41\n    encoder         : Lavf61.7.100\n  Duration: 00:00:08.00, start: 0.000000, bitrate: 2262 kb/s\n  Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(progressive), 1280x720, 2259 kb/s, 24 fps, 24 tbr, 12288 tbn (default)\n      Metadata:\n        handler_name    : VideoHandler\n        vendor_id       : [0][0][0][0]\n        encoder         : Lavc61.19.100 libx264\nStream mapping:\n  Stream #0:0 -> #0:0 (h264 (native) -> wrapped_avframe (native))\nPress [q] to stop, [?] for help\nOutput #0, null, to 'pipe:':\n  Metadata:\n    major_brand     : isom\n    minor_version   : 512\n    compatible_brands: isomiso2avc1mp41\n    encoder         : Lavf61.7.100\n  Stream #0:0(und): Video: wrapped_avframe, yuv420p(progressive), 1280x720, q=2-31, 200 kb/s, 24 fps, 24 tbn (default)\n      Metadata:\n        handler_name    : VideoHandler\n        vendor_id       : [0][0][0][0]\n        encoder         : Lavc61.19.100 wrapped_avframe\n[out#0/null @ 000001d266f34a40] video:82KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown\nframe=  192 fps=0.0 q=-0.0 Lsize=N/A time=00:00:08.00 bitrate=N/A speed=95.2x    \n"
+  },
+  "34": {
+    "id": "34",
+    "bytes": 1510561,
+    "sha256": "5b8753ae9fe16e2e4b72bac2d88c81dd202cf83bb7d6601811da01482ad0ab2e",
+    "full_decode": "passed",
+    "audio": false,
+    "format": "H264 1280x720 24fps 8s",
+    "continuity_repair": true
+  },
+  "35": {
+    "master_sha256": "4f2f284443e03c72f88c85573c2ae63d4001325c8e753bce9868587efb9ef3fc",
+    "output_sha256": "8bbc2bd2a3d53587dbb65bf2bed695d14eaf52690661c526243809986cf2d389",
+    "full_decode": "passed",
+    "bytes": 1398332,
+    "ffmpeg_report": "Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'C:\\Users\\yongc\\Documents\\GitHub\\souli\\output\\marketing\\souli-film\\meme-pack\\motion-v2-20261003\\final\\episode-35.mp4':\n  Metadata:\n    major_brand     : isom\n    minor_version   : 512\n    compatible_brands: isomiso2avc1mp41\n    encoder         : Lavf61.7.100\n  Duration: 00:00:08.00, start: 0.000000, bitrate: 1398 kb/s\n  Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(progressive), 1280x720, 1395 kb/s, 24 fps, 24 tbr, 12288 tbn (default)\n      Metadata:\n        handler_name    : VideoHandler\n        vendor_id       : [0][0][0][0]\n        encoder         : Lavc61.19.100 libx264\nStream mapping:\n  Stream #0:0 -> #0:0 (h264 (native) -> wrapped_avframe (native))\nPress [q] to stop, [?] for help\nOutput #0, null, to 'pipe:':\n  Metadata:\n    major_brand     : isom\n    minor_version   : 512\n    compatible_brands: isomiso2avc1mp41\n    encoder         : Lavf61.7.100\n  Stream #0:0(und): Video: wrapped_avframe, yuv420p(progressive), 1280x720, q=2-31, 200 kb/s, 24 fps, 24 tbn (default)\n      Metadata:\n        handler_name    : VideoHandler\n        vendor_id       : [0][0][0][0]\n        encoder         : Lavc61.19.100 wrapped_avframe\n[out#0/null @ 0000028a6e1c4a40] video:82KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown\nframe=  192 fps=0.0 q=-0.0 Lsize=N/A time=00:00:08.00 bitrate=N/A speed= 125x    \n"
+  },
+  "38": {
+    "master_sha256": "5b0e89c4581a29f149dc1efd49f1373f051c066e14c19fffdfd930818b37814a",
+    "output_sha256": "6c06e88530120702938bb6324bf5e574b4eec97fae2e6890bdd8294d13aa02fb",
+    "full_decode": "passed",
+    "bytes": 1513479,
+    "ffmpeg_report": "Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'C:\\Users\\yongc\\Documents\\GitHub\\souli\\output\\marketing\\souli-film\\meme-pack\\motion-v2-20261003\\final\\episode-38.mp4':\n  Metadata:\n    major_brand     : isom\n    minor_version   : 512\n    compatible_brands: isomiso2avc1mp41\n    encoder         : Lavf61.7.100\n  Duration: 00:00:08.00, start: 0.000000, bitrate: 1513 kb/s\n  Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(progressive), 1280x720, 1510 kb/s, 24 fps, 24 tbr, 12288 tbn (default)\n      Metadata:\n        handler_name    : VideoHandler\n        vendor_id       : [0][0][0][0]\n        encoder         : Lavc61.19.100 libx264\nStream mapping:\n  Stream #0:0 -> #0:0 (h264 (native) -> wrapped_avframe (native))\nPress [q] to stop, [?] for help\nOutput #0, null, to 'pipe:':\n  Metadata:\n    major_brand     : isom\n    minor_version   : 512\n    compatible_brands: isomiso2avc1mp41\n    encoder         : Lavf61.7.100\n  Stream #0:0(und): Video: wrapped_avframe, yuv420p(progressive), 1280x720, q=2-31, 200 kb/s, 24 fps, 24 tbn (default)\n      Metadata:\n        handler_name    : VideoHandler\n        vendor_id       : [0][0][0][0]\n        encoder         : Lavc61.19.100 wrapped_avframe\n[out#0/null @ 000001cfee6ad580] video:82KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown\nframe=  192 fps=0.0 q=-0.0 Lsize=N/A time=00:00:08.00 bitrate=N/A speed= 126x    \n"
+  },
+  "39": {
+    "master_sha256": "d5e93a001ef0d2757dbe2ae3974a1eaf26d841a2ac39dba05a59abf5b58dd2bf",
+    "output_sha256": "4441b6a22b6d76ba9851e7c8442c249992c9e01dd0de22056b23ae21a5d2c721",
+    "full_decode": "passed",
+    "bytes": 1933672,
+    "ffmpeg_report": "Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'C:\\Users\\yongc\\Documents\\GitHub\\souli\\output\\marketing\\souli-film\\meme-pack\\motion-v2-20261003\\final\\episode-39.mp4':\n  Metadata:\n    major_brand     : isom\n    minor_version   : 512\n    compatible_brands: isomiso2avc1mp41\n    encoder         : Lavf61.7.100\n  Duration: 00:00:08.00, start: 0.000000, bitrate: 1933 kb/s\n  Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(progressive), 1280x720, 1930 kb/s, 24 fps, 24 tbr, 12288 tbn (default)\n      Metadata:\n        handler_name    : VideoHandler\n        vendor_id       : [0][0][0][0]\n        encoder         : Lavc61.19.100 libx264\nStream mapping:\n  Stream #0:0 -> #0:0 (h264 (native) -> wrapped_avframe (native))\nPress [q] to stop, [?] for help\nOutput #0, null, to 'pipe:':\n  Metadata:\n    major_brand     : isom\n    minor_version   : 512\n    compatible_brands: isomiso2avc1mp41\n    encoder         : Lavf61.7.100\n  Stream #0:0(und): Video: wrapped_avframe, yuv420p(progressive), 1280x720, q=2-31, 200 kb/s, 24 fps, 24 tbn (default)\n      Metadata:\n        handler_name    : VideoHandler\n        vendor_id       : [0][0][0][0]\n        encoder         : Lavc61.19.100 wrapped_avframe\n[out#0/null @ 0000026b59b4d580] video:82KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown\nframe=  192 fps=0.0 q=-0.0 Lsize=N/A time=00:00:08.00 bitrate=N/A speed= 112x    \n"
+  },
+  "40": {
+    "master_sha256": "560ecdbfed349eb1a8725189b3e3612ec355d4fca8b13ba99569a2824cc08295",
+    "output_sha256": "75ea3701e2f2bd5a5b0b7941edbaf7c810d3c8d304d52674131c7f897e736c6e",
+    "full_decode": "passed",
+    "bytes": 2853196,
+    "ffmpeg_report": "Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'C:\\Users\\yongc\\Documents\\GitHub\\souli\\output\\marketing\\souli-film\\meme-pack\\motion-v2-20261003\\final\\episode-40.mp4':\n  Metadata:\n    major_brand     : isom\n    minor_version   : 512\n    compatible_brands: isomiso2avc1mp41\n    encoder         : Lavf61.7.100\n  Duration: 00:00:08.00, start: 0.000000, bitrate: 2853 kb/s\n  Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(progressive), 1280x720, 2850 kb/s, 24 fps, 24 tbr, 12288 tbn (default)\n      Metadata:\n        handler_name    : VideoHandler\n        vendor_id       : [0][0][0][0]\n        encoder         : Lavc61.19.100 libx264\nStream mapping:\n  Stream #0:0 -> #0:0 (h264 (native) -> wrapped_avframe (native))\nPress [q] to stop, [?] for help\nOutput #0, null, to 'pipe:':\n  Metadata:\n    major_brand     : isom\n    minor_version   : 512\n    compatible_brands: isomiso2avc1mp41\n    encoder         : Lavf61.7.100\n  Stream #0:0(und): Video: wrapped_avframe, yuv420p(progressive), 1280x720, q=2-31, 200 kb/s, 24 fps, 24 tbn (default)\n      Metadata:\n        handler_name    : VideoHandler\n        vendor_id       : [0][0][0][0]\n        encoder         : Lavc61.19.100 wrapped_avframe\n[out#0/null @ 00000298a2df4a40] video:82KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown\nframe=  192 fps=0.0 q=-0.0 Lsize=N/A time=00:00:08.00 bitrate=N/A speed=85.2x    \n"
+  },
+  "42": {
+    "master_sha256": "4380f4fc14f705813a5db5a38a130e505df682340745e911604a2377b3b62297",
+    "output_sha256": "2316f903a8440a25fddee1bc2ba0bbb61749bc3cf7f18f80461bbc2a6c3c4d5f",
+    "full_decode": "passed",
+    "bytes": 1339783,
+    "ffmpeg_report": "Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'C:\\Users\\yongc\\Documents\\GitHub\\souli\\output\\marketing\\souli-film\\meme-pack\\motion-v2-20261003\\final\\episode-42.mp4':\n  Metadata:\n    major_brand     : isom\n    minor_version   : 512\n    compatible_brands: isomiso2avc1mp41\n    encoder         : Lavf61.7.100\n  Duration: 00:00:08.00, start: 0.000000, bitrate: 1339 kb/s\n  Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(progressive), 1280x720, 1336 kb/s, 24 fps, 24 tbr, 12288 tbn (default)\n      Metadata:\n        handler_name    : VideoHandler\n        vendor_id       : [0][0][0][0]\n        encoder         : Lavc61.19.100 libx264\nStream mapping:\n  Stream #0:0 -> #0:0 (h264 (native) -> wrapped_avframe (native))\nPress [q] to stop, [?] for help\nOutput #0, null, to 'pipe:':\n  Metadata:\n    major_brand     : isom\n    minor_version   : 512\n    compatible_brands: isomiso2avc1mp41\n    encoder         : Lavf61.7.100\n  Stream #0:0(und): Video: wrapped_avframe, yuv420p(progressive), 1280x720, q=2-31, 200 kb/s, 24 fps, 24 tbn (default)\n      Metadata:\n        handler_name    : VideoHandler\n        vendor_id       : [0][0][0][0]\n        encoder         : Lavc61.19.100 wrapped_avframe\n[out#0/null @ 000002327e74ee80] video:82KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown\nframe=  192 fps=0.0 q=-0.0 Lsize=N/A time=00:00:08.00 bitrate=N/A speed= 116x    \n"
+  },
+  "43": {
+    "master_sha256": "a32fcc9f41b40aef767b24f4fcdad1ba67e8585f4c68c0bd6b1ce6d8b1b3cb5c",
+    "output_sha256": "35dc99a0b9256ae9d02d0a78e38c401a0958edca20c186bc969f1b3560710d9a",
+    "full_decode": "passed",
+    "bytes": 1349218,
+    "ffmpeg_report": "Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'C:\\Users\\yongc\\Documents\\GitHub\\souli\\output\\marketing\\souli-film\\meme-pack\\motion-v2-20261003\\final\\episode-43.mp4':\n  Metadata:\n    major_brand     : isom\n    minor_version   : 512\n    compatible_brands: isomiso2avc1mp41\n    encoder         : Lavf61.7.100\n  Duration: 00:00:08.00, start: 0.000000, bitrate: 1349 kb/s\n  Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(progressive), 1280x720, 1346 kb/s, 24 fps, 24 tbr, 12288 tbn (default)\n      Metadata:\n        handler_name    : VideoHandler\n        vendor_id       : [0][0][0][0]\n        encoder         : Lavc61.19.100 libx264\nStream mapping:\n  Stream #0:0 -> #0:0 (h264 (native) -> wrapped_avframe (native))\nPress [q] to stop, [?] for help\nOutput #0, null, to 'pipe:':\n  Metadata:\n    major_brand     : isom\n    minor_version   : 512\n    compatible_brands: isomiso2avc1mp41\n    encoder         : Lavf61.7.100\n  Stream #0:0(und): Video: wrapped_avframe, yuv420p(progressive), 1280x720, q=2-31, 200 kb/s, 24 fps, 24 tbn (default)\n      Metadata:\n        handler_name    : VideoHandler\n        vendor_id       : [0][0][0][0]\n        encoder         : Lavc61.19.100 wrapped_avframe\n[out#0/null @ 0000022feceed580] video:82KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown\nframe=  192 fps=0.0 q=-0.0 Lsize=N/A time=00:00:08.00 bitrate=N/A speed= 110x    \n"
+  },
+  "44": {
+    "master_sha256": "28a366e8b4b8e044cd5b3f41e533c3dcbcb7009da47682fec84ae8733fd62983",
+    "output_sha256": "597143d8d370bae4cc425b543190f70e4bfb1f7c5d8b9508780ca75e6c59fc8b",
+    "full_decode": "passed",
+    "bytes": 1980250,
+    "ffmpeg_report": "Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'C:\\Users\\yongc\\Documents\\GitHub\\souli\\output\\marketing\\souli-film\\meme-pack\\motion-v2-20261003\\final\\episode-44.mp4':\n  Metadata:\n    major_brand     : isom\n    minor_version   : 512\n    compatible_brands: isomiso2avc1mp41\n    encoder         : Lavf61.7.100\n  Duration: 00:00:08.00, start: 0.000000, bitrate: 1980 kb/s\n  Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(progressive), 1280x720, 1977 kb/s, 24 fps, 24 tbr, 12288 tbn (default)\n      Metadata:\n        handler_name    : VideoHandler\n        vendor_id       : [0][0][0][0]\n        encoder         : Lavc61.19.100 libx264\nStream mapping:\n  Stream #0:0 -> #0:0 (h264 (native) -> wrapped_avframe (native))\nPress [q] to stop, [?] for help\nOutput #0, null, to 'pipe:':\n  Metadata:\n    major_brand     : isom\n    minor_version   : 512\n    compatible_brands: isomiso2avc1mp41\n    encoder         : Lavf61.7.100\n  Stream #0:0(und): Video: wrapped_avframe, yuv420p(progressive), 1280x720, q=2-31, 200 kb/s, 24 fps, 24 tbn (default)\n      Metadata:\n        handler_name    : VideoHandler\n        vendor_id       : [0][0][0][0]\n        encoder         : Lavc61.19.100 wrapped_avframe\n[out#0/null @ 000001952f424a40] video:82KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown\nframe=  192 fps=0.0 q=-0.0 Lsize=N/A time=00:00:08.00 bitrate=N/A speed= 111x    \n"
+  },
+  "45": {
+    "master_sha256": "13c0d896593352ae928807cea703f13e050b5aaebc6d8e36d6dc185eca1f6916",
+    "output_sha256": "d6ae3e6466d0ec36283a3a621d69c421be73fb6623dd2626093109f6bdf7ec14",
+    "full_decode": "passed",
+    "bytes": 1697155,
+    "ffmpeg_report": "Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'C:\\Users\\yongc\\Documents\\GitHub\\souli\\output\\marketing\\souli-film\\meme-pack\\motion-v2-20261003\\final\\episode-45.mp4':\n  Metadata:\n    major_brand     : isom\n    minor_version   : 512\n    compatible_brands: isomiso2avc1mp41\n    encoder         : Lavf61.7.100\n  Duration: 00:00:08.00, start: 0.000000, bitrate: 1697 kb/s\n  Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(progressive), 1280x720, 1693 kb/s, 24 fps, 24 tbr, 12288 tbn (default)\n      Metadata:\n        handler_name    : VideoHandler\n        vendor_id       : [0][0][0][0]\n        encoder         : Lavc61.19.100 libx264\nStream mapping:\n  Stream #0:0 -> #0:0 (h264 (native) -> wrapped_avframe (native))\nPress [q] to stop, [?] for help\nOutput #0, null, to 'pipe:':\n  Metadata:\n    major_brand     : isom\n    minor_version   : 512\n    compatible_brands: isomiso2avc1mp41\n    encoder         : Lavf61.7.100\n  Stream #0:0(und): Video: wrapped_avframe, yuv420p(progressive), 1280x720, q=2-31, 200 kb/s, 24 fps, 24 tbn (default)\n      Metadata:\n        handler_name    : VideoHandler\n        vendor_id       : [0][0][0][0]\n        encoder         : Lavc61.19.100 wrapped_avframe\n[out#0/null @ 00000220e8fe4a40] video:82KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown\nframe=  192 fps=0.0 q=-0.0 Lsize=N/A time=00:00:08.00 bitrate=N/A speed= 113x    \n"
+  },
+  "46": {
+    "id": "46",
+    "bytes": 1842868,
+    "sha256": "decedf56d1d6f3bc542307780e1d00406b99234d96d908da938400eb7e88ee12",
+    "full_decode": "passed",
+    "audio": false,
+    "format": "H264 1280x720 24fps 8s",
+    "continuity_repair": true
+  },
+  "47": {
+    "master_sha256": "a44d37dc0e252d0a842719aa3cc8d6795b5346a5cbc69241c8fa99412a6c78c1",
+    "output_sha256": "4d0247ec5905f4e13b226eeb04def5a446f16a2e78f6ccd44524980de2395b58",
+    "full_decode": "passed",
+    "bytes": 1787913,
+    "ffmpeg_report": "Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'C:\\Users\\yongc\\Documents\\GitHub\\souli\\output\\marketing\\souli-film\\meme-pack\\motion-v2-20261003\\final\\episode-47.mp4':\n  Metadata:\n    major_brand     : isom\n    minor_version   : 512\n    compatible_brands: isomiso2avc1mp41\n    encoder         : Lavf61.7.100\n  Duration: 00:00:08.00, start: 0.000000, bitrate: 1787 kb/s\n  Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(progressive), 1280x720, 1784 kb/s, 24 fps, 24 tbr, 12288 tbn (default)\n      Metadata:\n        handler_name    : VideoHandler\n        vendor_id       : [0][0][0][0]\n        encoder         : Lavc61.19.100 libx264\nStream mapping:\n  Stream #0:0 -> #0:0 (h264 (native) -> wrapped_avframe (native))\nPress [q] to stop, [?] for help\nOutput #0, null, to 'pipe:':\n  Metadata:\n    major_brand     : isom\n    minor_version   : 512\n    compatible_brands: isomiso2avc1mp41\n    encoder         : Lavf61.7.100\n  Stream #0:0(und): Video: wrapped_avframe, yuv420p(progressive), 1280x720, q=2-31, 200 kb/s, 24 fps, 24 tbn (default)\n      Metadata:\n        handler_name    : VideoHandler\n        vendor_id       : [0][0][0][0]\n        encoder         : Lavc61.19.100 wrapped_avframe\n[out#0/null @ 000001f870d64a40] video:82KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown\nframe=  192 fps=0.0 q=-0.0 Lsize=N/A time=00:00:08.00 bitrate=N/A speed= 115x    \n"
+  },
+  "48": {
+    "master_sha256": "3d2dffc8529a66a4254dea4a2ddf4f566f54ade6ba9983c3d65bf8bc61c53bed",
+    "output_sha256": "94d13d1f905b08a719e6aff5dba516ed7fc45f2137a16ee62ef51586aa5a2499",
+    "full_decode": "passed",
+    "bytes": 2862263,
+    "ffmpeg_report": "Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'C:\\Users\\yongc\\Documents\\GitHub\\souli\\output\\marketing\\souli-film\\meme-pack\\motion-v2-20261003\\final\\episode-48.mp4':\n  Metadata:\n    major_brand     : isom\n    minor_version   : 512\n    compatible_brands: isomiso2avc1mp41\n    encoder         : Lavf61.7.100\n  Duration: 00:00:08.00, start: 0.000000, bitrate: 2862 kb/s\n  Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(progressive), 1280x720, 2859 kb/s, 24 fps, 24 tbr, 12288 tbn (default)\n      Metadata:\n        handler_name    : VideoHandler\n        vendor_id       : [0][0][0][0]\n        encoder         : Lavc61.19.100 libx264\nStream mapping:\n  Stream #0:0 -> #0:0 (h264 (native) -> wrapped_avframe (native))\nPress [q] to stop, [?] for help\nOutput #0, null, to 'pipe:':\n  Metadata:\n    major_brand     : isom\n    minor_version   : 512\n    compatible_brands: isomiso2avc1mp41\n    encoder         : Lavf61.7.100\n  Stream #0:0(und): Video: wrapped_avframe, yuv420p(progressive), 1280x720, q=2-31, 200 kb/s, 24 fps, 24 tbn (default)\n      Metadata:\n        handler_name    : VideoHandler\n        vendor_id       : [0][0][0][0]\n        encoder         : Lavc61.19.100 wrapped_avframe\n[out#0/null @ 0000018b13c74a40] video:82KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown\nframe=  192 fps=0.0 q=-0.0 Lsize=N/A time=00:00:08.00 bitrate=N/A speed=95.8x    \n"
+  },
+  "49": {
+    "master_sha256": "76738ac570335e1b88c0dbe338770f310e05ceb769984a607c6786f4cf2cd391",
+    "output_sha256": "6d0af2e488c120d49046e7ce5e474c72807a907c337c174c0eda2c014adbf104",
+    "full_decode": "passed",
+    "bytes": 1888116,
+    "ffmpeg_report": "Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'C:\\Users\\yongc\\Documents\\GitHub\\souli\\output\\marketing\\souli-film\\meme-pack\\motion-v2-20261003\\final\\episode-49.mp4':\n  Metadata:\n    major_brand     : isom\n    minor_version   : 512\n    compatible_brands: isomiso2avc1mp41\n    encoder         : Lavf61.7.100\n  Duration: 00:00:08.00, start: 0.000000, bitrate: 1888 kb/s\n  Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(progressive), 1280x720, 1884 kb/s, 24 fps, 24 tbr, 12288 tbn (default)\n      Metadata:\n        handler_name    : VideoHandler\n        vendor_id       : [0][0][0][0]\n        encoder         : Lavc61.19.100 libx264\nStream mapping:\n  Stream #0:0 -> #0:0 (h264 (native) -> wrapped_avframe (native))\nPress [q] to stop, [?] for help\nOutput #0, null, to 'pipe:':\n  Metadata:\n    major_brand     : isom\n    minor_version   : 512\n    compatible_brands: isomiso2avc1mp41\n    encoder         : Lavf61.7.100\n  Stream #0:0(und): Video: wrapped_avframe, yuv420p(progressive), 1280x720, q=2-31, 200 kb/s, 24 fps, 24 tbn (default)\n      Metadata:\n        handler_name    : VideoHandler\n        vendor_id       : [0][0][0][0]\n        encoder         : Lavc61.19.100 wrapped_avframe\n[out#0/null @ 0000025c31184a40] video:82KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown\nframe=  192 fps=0.0 q=-0.0 Lsize=N/A time=00:00:08.00 bitrate=N/A speed= 102x    \n"
+  },
+  "36": {
+    "id": "36",
+    "bytes": 2619849,
+    "sha256": "23f3cf7203f699715a04583c84e2b5b0a95072cdfb4a449c5b7b1b10e956c7aa",
+    "full_decode": "passed",
+    "audio": false,
+    "format": "H264 1280x720 24fps 8s",
+    "continuity_repair": true
+  },
+  "50": {
+    "id": "50",
+    "bytes": 1738803,
+    "sha256": "b6db2707632fb0352a48421016589885c9825661cbc61c966db51a46e75c48f4",
+    "full_decode": "passed",
+    "audio": false,
+    "format": "H264 1280x720 24fps 8s",
+    "continuity_repair": true
+  },
+  "51": {
+    "master_sha256": "67ba4695be3e6ab55a9879e5aac8999e9b5d97c2a340ce217ead5fc304126ae7",
+    "output_sha256": "321c6afd55ed24f36b32057a8acf3e39779c75a231ecd0f7406a650739613ad6",
+    "full_decode": "passed",
+    "bytes": 2111074,
+    "ffmpeg_report": "Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'C:\\Users\\yongc\\Documents\\GitHub\\souli\\output\\marketing\\souli-film\\meme-pack\\motion-v2-20261003\\final\\episode-51.mp4':\n  Metadata:\n    major_brand     : isom\n    minor_version   : 512\n    compatible_brands: isomiso2avc1mp41\n    encoder         : Lavf61.7.100\n  Duration: 00:00:08.00, start: 0.000000, bitrate: 2111 kb/s\n  Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(progressive), 1280x720, 2107 kb/s, 24 fps, 24 tbr, 12288 tbn (default)\n      Metadata:\n        handler_name    : VideoHandler\n        vendor_id       : [0][0][0][0]\n        encoder         : Lavc61.19.100 libx264\nStream mapping:\n  Stream #0:0 -> #0:0 (h264 (native) -> wrapped_avframe (native))\nPress [q] to stop, [?] for help\nOutput #0, null, to 'pipe:':\n  Metadata:\n    major_brand     : isom\n    minor_version   : 512\n    compatible_brands: isomiso2avc1mp41\n    encoder         : Lavf61.7.100\n  Stream #0:0(und): Video: wrapped_avframe, yuv420p(progressive), 1280x720, q=2-31, 200 kb/s, 24 fps, 24 tbn (default)\n      Metadata:\n        handler_name    : VideoHandler\n        vendor_id       : [0][0][0][0]\n        encoder         : Lavc61.19.100 wrapped_avframe\n[out#0/null @ 0000026812dc4a40] video:82KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown\nframe=  192 fps=0.0 q=-0.0 Lsize=N/A time=00:00:08.00 bitrate=N/A speed=  91x    \n"
+  },
+  "52": {
+    "master_sha256": "8aee82446ae93c23cc29e29889e9ae056c77c3f539c8fd6a32a19645cd967704",
+    "output_sha256": "b8d4a58b5b29a39bdec928695de78a06af383b9f8270cfd8e9fe08d53fc645ea",
+    "full_decode": "passed",
+    "bytes": 2421432,
+    "ffmpeg_report": "Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'C:\\Users\\yongc\\Documents\\GitHub\\souli\\output\\marketing\\souli-film\\meme-pack\\motion-v2-20261003\\final\\episode-52.mp4':\n  Metadata:\n    major_brand     : isom\n    minor_version   : 512\n    compatible_brands: isomiso2avc1mp41\n    encoder         : Lavf61.7.100\n  Duration: 00:00:08.00, start: 0.000000, bitrate: 2421 kb/s\n  Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(progressive), 1280x720, 2418 kb/s, 24 fps, 24 tbr, 12288 tbn (default)\n      Metadata:\n        handler_name    : VideoHandler\n        vendor_id       : [0][0][0][0]\n        encoder         : Lavc61.19.100 libx264\nStream mapping:\n  Stream #0:0 -> #0:0 (h264 (native) -> wrapped_avframe (native))\nPress [q] to stop, [?] for help\nOutput #0, null, to 'pipe:':\n  Metadata:\n    major_brand     : isom\n    minor_version   : 512\n    compatible_brands: isomiso2avc1mp41\n    encoder         : Lavf61.7.100\n  Stream #0:0(und): Video: wrapped_avframe, yuv420p(progressive), 1280x720, q=2-31, 200 kb/s, 24 fps, 24 tbn (default)\n      Metadata:\n        handler_name    : VideoHandler\n        vendor_id       : [0][0][0][0]\n        encoder         : Lavc61.19.100 wrapped_avframe\n[out#0/null @ 000001d3d854d040] video:82KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown\nframe=  192 fps=0.0 q=-0.0 Lsize=N/A time=00:00:08.00 bitrate=N/A speed=68.9x    \n"
+  },
+  "53": {
+    "master_sha256": "b465ab5febc9e8009e3ce39403eaef3ae1d03cb6944ca112866ec2e5958596b5",
+    "output_sha256": "e1150b2bb8993b3710aa0529b9a09c5471cd74bacc2567a62ae089b5e29e1ada",
+    "full_decode": "passed",
+    "bytes": 1761215,
+    "ffmpeg_report": "Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'C:\\Users\\yongc\\Documents\\GitHub\\souli\\output\\marketing\\souli-film\\meme-pack\\motion-v2-20261003\\final\\episode-53.mp4':\n  Metadata:\n    major_brand     : isom\n    minor_version   : 512\n    compatible_brands: isomiso2avc1mp41\n    encoder         : Lavf61.7.100\n  Duration: 00:00:08.00, start: 0.000000, bitrate: 1761 kb/s\n  Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(progressive), 1280x720, 1758 kb/s, 24 fps, 24 tbr, 12288 tbn (default)\n      Metadata:\n        handler_name    : VideoHandler\n        vendor_id       : [0][0][0][0]\n        encoder         : Lavc61.19.100 libx264\nStream mapping:\n  Stream #0:0 -> #0:0 (h264 (native) -> wrapped_avframe (native))\nPress [q] to stop, [?] for help\nOutput #0, null, to 'pipe:':\n  Metadata:\n    major_brand     : isom\n    minor_version   : 512\n    compatible_brands: isomiso2avc1mp41\n    encoder         : Lavf61.7.100\n  Stream #0:0(und): Video: wrapped_avframe, yuv420p(progressive), 1280x720, q=2-31, 200 kb/s, 24 fps, 24 tbn (default)\n      Metadata:\n        handler_name    : VideoHandler\n        vendor_id       : [0][0][0][0]\n        encoder         : Lavc61.19.100 wrapped_avframe\n[out#0/null @ 00000276d1c64a40] video:82KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown\nframe=  192 fps=0.0 q=-0.0 Lsize=N/A time=00:00:08.00 bitrate=N/A speed= 107x    \n"
+  },
+  "54": {
+    "master_sha256": "b1d9db38e5ff1a4f0a42548f47610063ba787a5a93cc9cd788e6e2daf4e86daf",
+    "output_sha256": "c9ff4860ebcd982df3b729b98b3b3cb2a79e9b4970a51b0a2100e91f8b485325",
+    "full_decode": "passed",
+    "bytes": 1504231,
+    "ffmpeg_report": "Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'C:\\Users\\yongc\\Documents\\GitHub\\souli\\output\\marketing\\souli-film\\meme-pack\\motion-v2-20261003\\final\\episode-54.mp4':\n  Metadata:\n    major_brand     : isom\n    minor_version   : 512\n    compatible_brands: isomiso2avc1mp41\n    encoder         : Lavf61.7.100\n  Duration: 00:00:08.00, start: 0.000000, bitrate: 1504 kb/s\n  Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(progressive), 1280x720, 1501 kb/s, 24 fps, 24 tbr, 12288 tbn (default)\n      Metadata:\n        handler_name    : VideoHandler\n        vendor_id       : [0][0][0][0]\n        encoder         : Lavc61.19.100 libx264\nStream mapping:\n  Stream #0:0 -> #0:0 (h264 (native) -> wrapped_avframe (native))\nPress [q] to stop, [?] for help\nOutput #0, null, to 'pipe:':\n  Metadata:\n    major_brand     : isom\n    minor_version   : 512\n    compatible_brands: isomiso2avc1mp41\n    encoder         : Lavf61.7.100\n  Stream #0:0(und): Video: wrapped_avframe, yuv420p(progressive), 1280x720, q=2-31, 200 kb/s, 24 fps, 24 tbn (default)\n      Metadata:\n        handler_name    : VideoHandler\n        vendor_id       : [0][0][0][0]\n        encoder         : Lavc61.19.100 wrapped_avframe\n[out#0/null @ 000001f168f1d580] video:82KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown\nframe=  192 fps=0.0 q=-0.0 Lsize=N/A time=00:00:08.00 bitrate=N/A speed= 108x    \n"
+  },
+  "55": {
+    "id": "55",
+    "bytes": 1533075,
+    "sha256": "709a89e1917761de45d31181534347e20929768905a5f8b544981b9e3503aac9",
+    "full_decode": "passed",
+    "audio": false,
+    "format": "H264 1280x720 24fps 8s",
+    "continuity_repair": true
+  },
+  "56": {
+    "master_sha256": "b942cd75756935fb09fd5296416612c1afa39b080bce38dede661540f5bd14bb",
+    "output_sha256": "6e6ea8c4937b90c02ea50ed1c91c3caf6f9577450c5648e8938262cee8517255",
+    "full_decode": "passed",
+    "bytes": 4157916,
+    "ffmpeg_report": "Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'C:\\Users\\yongc\\Documents\\GitHub\\souli\\output\\marketing\\souli-film\\meme-pack\\motion-v2-20261003\\final\\episode-56.mp4':\n  Metadata:\n    major_brand     : isom\n    minor_version   : 512\n    compatible_brands: isomiso2avc1mp41\n    encoder         : Lavf61.7.100\n  Duration: 00:00:08.00, start: 0.000000, bitrate: 4157 kb/s\n  Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(progressive), 1280x720, 4154 kb/s, 24 fps, 24 tbr, 12288 tbn (default)\n      Metadata:\n        handler_name    : VideoHandler\n        vendor_id       : [0][0][0][0]\n        encoder         : Lavc61.19.100 libx264\nStream mapping:\n  Stream #0:0 -> #0:0 (h264 (native) -> wrapped_avframe (native))\nPress [q] to stop, [?] for help\nOutput #0, null, to 'pipe:':\n  Metadata:\n    major_brand     : isom\n    minor_version   : 512\n    compatible_brands: isomiso2avc1mp41\n    encoder         : Lavf61.7.100\n  Stream #0:0(und): Video: wrapped_avframe, yuv420p(progressive), 1280x720, q=2-31, 200 kb/s, 24 fps, 24 tbn (default)\n      Metadata:\n        handler_name    : VideoHandler\n        vendor_id       : [0][0][0][0]\n        encoder         : Lavc61.19.100 wrapped_avframe\n[out#0/null @ 000001ec692e4a40] video:82KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown\nframe=  192 fps=0.0 q=-0.0 Lsize=N/A time=00:00:08.00 bitrate=N/A speed=66.6x    \n"
+  },
+  "57": {
+    "master_sha256": "3582ceac1bb74f5afb5ac19ea916568cf032c93e1ed15eab0f8f0c07855c2e47",
+    "output_sha256": "0277a2e6d053e8a77bf179a09be67fe0ecf91cae34bcc9a589a5cdcb40d689ec",
+    "full_decode": "passed",
+    "bytes": 2348049,
+    "ffmpeg_report": "Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'C:\\Users\\yongc\\Documents\\GitHub\\souli\\output\\marketing\\souli-film\\meme-pack\\motion-v2-20261003\\final\\episode-57.mp4':\n  Metadata:\n    major_brand     : isom\n    minor_version   : 512\n    compatible_brands: isomiso2avc1mp41\n    encoder         : Lavf61.7.100\n  Duration: 00:00:08.00, start: 0.000000, bitrate: 2348 kb/s\n  Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(progressive), 1280x720, 2344 kb/s, 24 fps, 24 tbr, 12288 tbn (default)\n      Metadata:\n        handler_name    : VideoHandler\n        vendor_id       : [0][0][0][0]\n        encoder         : Lavc61.19.100 libx264\nStream mapping:\n  Stream #0:0 -> #0:0 (h264 (native) -> wrapped_avframe (native))\nPress [q] to stop, [?] for help\nOutput #0, null, to 'pipe:':\n  Metadata:\n    major_brand     : isom\n    minor_version   : 512\n    compatible_brands: isomiso2avc1mp41\n    encoder         : Lavf61.7.100\n  Stream #0:0(und): Video: wrapped_avframe, yuv420p(progressive), 1280x720, q=2-31, 200 kb/s, 24 fps, 24 tbn (default)\n      Metadata:\n        handler_name    : VideoHandler\n        vendor_id       : [0][0][0][0]\n        encoder         : Lavc61.19.100 wrapped_avframe\n[out#0/null @ 0000020a717ad040] video:82KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown\nframe=  192 fps=0.0 q=-0.0 Lsize=N/A time=00:00:08.00 bitrate=N/A speed= 101x    \n"
+  },
+  "58": {
+    "master_sha256": "001f878da02275c494181d5d8e830113f7db5b8d8a239c3fbe87b002b4b1c880",
+    "output_sha256": "fb0434a84fb3e6f963ce5ca5b191451caee72b9b4bb837c929db827f17ca3eeb",
+    "full_decode": "passed",
+    "bytes": 3037984,
+    "ffmpeg_report": "Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'C:\\Users\\yongc\\Documents\\GitHub\\souli\\output\\marketing\\souli-film\\meme-pack\\motion-v2-20261003\\final\\episode-58.mp4':\n  Metadata:\n    major_brand     : isom\n    minor_version   : 512\n    compatible_brands: isomiso2avc1mp41\n    encoder         : Lavf61.7.100\n  Duration: 00:00:08.00, start: 0.000000, bitrate: 3037 kb/s\n  Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(progressive), 1280x720, 3034 kb/s, 24 fps, 24 tbr, 12288 tbn (default)\n      Metadata:\n        handler_name    : VideoHandler\n        vendor_id       : [0][0][0][0]\n        encoder         : Lavc61.19.100 libx264\nStream mapping:\n  Stream #0:0 -> #0:0 (h264 (native) -> wrapped_avframe (native))\nPress [q] to stop, [?] for help\nOutput #0, null, to 'pipe:':\n  Metadata:\n    major_brand     : isom\n    minor_version   : 512\n    compatible_brands: isomiso2avc1mp41\n    encoder         : Lavf61.7.100\n  Stream #0:0(und): Video: wrapped_avframe, yuv420p(progressive), 1280x720, q=2-31, 200 kb/s, 24 fps, 24 tbn (default)\n      Metadata:\n        handler_name    : VideoHandler\n        vendor_id       : [0][0][0][0]\n        encoder         : Lavc61.19.100 wrapped_avframe\n[out#0/null @ 00000277846f4a40] video:82KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown\nframe=  192 fps=0.0 q=-0.0 Lsize=N/A time=00:00:08.00 bitrate=N/A speed=  93x    \n"
+  },
+  "59": {
+    "master_sha256": "7d98702a03033eff2379fe45e7c04a9becee6bf20edd63c1a9488320ab119fc5",
+    "output_sha256": "7113b9a78500c2d32066bb184af9b369706d9d76ed6036d780aa508a5ab8661a",
+    "full_decode": "passed",
+    "bytes": 1920440,
+    "ffmpeg_report": "Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'C:\\Users\\yongc\\Documents\\GitHub\\souli\\output\\marketing\\souli-film\\meme-pack\\motion-v2-20261003\\final\\episode-59.mp4':\n  Metadata:\n    major_brand     : isom\n    minor_version   : 512\n    compatible_brands: isomiso2avc1mp41\n    encoder         : Lavf61.7.100\n  Duration: 00:00:08.00, start: 0.000000, bitrate: 1920 kb/s\n  Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(progressive), 1280x720, 1917 kb/s, 24 fps, 24 tbr, 12288 tbn (default)\n      Metadata:\n        handler_name    : VideoHandler\n        vendor_id       : [0][0][0][0]\n        encoder         : Lavc61.19.100 libx264\nStream mapping:\n  Stream #0:0 -> #0:0 (h264 (native) -> wrapped_avframe (native))\nPress [q] to stop, [?] for help\nOutput #0, null, to 'pipe:':\n  Metadata:\n    major_brand     : isom\n    minor_version   : 512\n    compatible_brands: isomiso2avc1mp41\n    encoder         : Lavf61.7.100\n  Stream #0:0(und): Video: wrapped_avframe, yuv420p(progressive), 1280x720, q=2-31, 200 kb/s, 24 fps, 24 tbn (default)\n      Metadata:\n        handler_name    : VideoHandler\n        vendor_id       : [0][0][0][0]\n        encoder         : Lavc61.19.100 wrapped_avframe\n[out#0/null @ 0000014d28fa4a40] video:82KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown\nframe=  192 fps=0.0 q=-0.0 Lsize=N/A time=00:00:08.00 bitrate=N/A speed=86.2x    \n"
+  },
+  "60": {
+    "id": "60",
+    "bytes": 1442227,
+    "sha256": "f3ddc57eb6c31084346418fe66fc68f385b777d46d0d0e823e7fb1a28412a9bd",
+    "full_decode": "passed",
+    "audio": false,
+    "format": "H264 1280x720 24fps 8s",
+    "continuity_repair": true
+  },
+  "61": {
+    "master_sha256": "1b8b84279bf5f0128ee03bbb89241564e04ccea759a77d0351f1dfd07d9fe387",
+    "output_sha256": "765deeb74da4f58f09c3c2caa368a670ca7e61e63c594674de5fb67ef4135c38",
+    "full_decode": "passed",
+    "bytes": 2685921,
+    "ffmpeg_report": "Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'C:\\Users\\yongc\\Documents\\GitHub\\souli\\output\\marketing\\souli-film\\meme-pack\\motion-v2-20261003\\final\\episode-61.mp4':\n  Metadata:\n    major_brand     : isom\n    minor_version   : 512\n    compatible_brands: isomiso2avc1mp41\n    encoder         : Lavf61.7.100\n  Duration: 00:00:08.00, start: 0.000000, bitrate: 2685 kb/s\n  Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(progressive), 1280x720, 2682 kb/s, 24 fps, 24 tbr, 12288 tbn (default)\n      Metadata:\n        handler_name    : VideoHandler\n        vendor_id       : [0][0][0][0]\n        encoder         : Lavc61.19.100 libx264\nStream mapping:\n  Stream #0:0 -> #0:0 (h264 (native) -> wrapped_avframe (native))\nPress [q] to stop, [?] for help\nOutput #0, null, to 'pipe:':\n  Metadata:\n    major_brand     : isom\n    minor_version   : 512\n    compatible_brands: isomiso2avc1mp41\n    encoder         : Lavf61.7.100\n  Stream #0:0(und): Video: wrapped_avframe, yuv420p(progressive), 1280x720, q=2-31, 200 kb/s, 24 fps, 24 tbn (default)\n      Metadata:\n        handler_name    : VideoHandler\n        vendor_id       : [0][0][0][0]\n        encoder         : Lavc61.19.100 wrapped_avframe\n[out#0/null @ 0000016be4724a40] video:82KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown\nframe=  192 fps=0.0 q=-0.0 Lsize=N/A time=00:00:08.00 bitrate=N/A speed=77.7x    \n"
+  },
+  "62": {
+    "master_sha256": "ecf52c8571400ec43dc3131691c5b028698d4a0c821cd599c037927a5624b274",
+    "output_sha256": "a83ed7c45a26b47f1510dbe488a07931c006f32061e55573c8177a0057f2dc97",
+    "full_decode": "passed",
+    "bytes": 1855948,
+    "ffmpeg_report": "Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'C:\\Users\\yongc\\Documents\\GitHub\\souli\\output\\marketing\\souli-film\\meme-pack\\motion-v2-20261003\\final\\episode-62.mp4':\n  Metadata:\n    major_brand     : isom\n    minor_version   : 512\n    compatible_brands: isomiso2avc1mp41\n    encoder         : Lavf61.7.100\n  Duration: 00:00:08.00, start: 0.000000, bitrate: 1855 kb/s\n  Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(progressive), 1280x720, 1852 kb/s, 24 fps, 24 tbr, 12288 tbn (default)\n      Metadata:\n        handler_name    : VideoHandler\n        vendor_id       : [0][0][0][0]\n        encoder         : Lavc61.19.100 libx264\nStream mapping:\n  Stream #0:0 -> #0:0 (h264 (native) -> wrapped_avframe (native))\nPress [q] to stop, [?] for help\nOutput #0, null, to 'pipe:':\n  Metadata:\n    major_brand     : isom\n    minor_version   : 512\n    compatible_brands: isomiso2avc1mp41\n    encoder         : Lavf61.7.100\n  Stream #0:0(und): Video: wrapped_avframe, yuv420p(progressive), 1280x720, q=2-31, 200 kb/s, 24 fps, 24 tbn (default)\n      Metadata:\n        handler_name    : VideoHandler\n        vendor_id       : [0][0][0][0]\n        encoder         : Lavc61.19.100 wrapped_avframe\n[out#0/null @ 0000020178d24a40] video:82KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown\nframe=  192 fps=0.0 q=-0.0 Lsize=N/A time=00:00:08.00 bitrate=N/A speed= 114x    \n"
+  },
+  "63": {
+    "id": "63",
+    "bytes": 1998311,
+    "sha256": "ce109eec16118dce4b78f53b2dead21e0bbcd48b48a00eaad3b35579afa6cbb6",
+    "full_decode": "passed",
+    "audio": false,
+    "format": "H264 1280x720 24fps 8s",
+    "continuity_repair": true
+  },
+  "64": {
+    "master_sha256": "d5256c9de20e38bf7d0373fe311a67699df8a7fa8fd7406edf33c33e88647102",
+    "output_sha256": "835841e77cbcf7b4df76f7125fa6251b6ea94e33ce50b656fb093d1a3262c5b5",
+    "full_decode": "passed",
+    "bytes": 1840281,
+    "ffmpeg_report": "Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'C:\\Users\\yongc\\Documents\\GitHub\\souli\\output\\marketing\\souli-film\\meme-pack\\motion-v2-20261003\\final\\episode-64.mp4':\n  Metadata:\n    major_brand     : isom\n    minor_version   : 512\n    compatible_brands: isomiso2avc1mp41\n    encoder         : Lavf61.7.100\n  Duration: 00:00:08.00, start: 0.000000, bitrate: 1840 kb/s\n  Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(progressive), 1280x720, 1837 kb/s, 24 fps, 24 tbr, 12288 tbn (default)\n      Metadata:\n        handler_name    : VideoHandler\n        vendor_id       : [0][0][0][0]\n        encoder         : Lavc61.19.100 libx264\nStream mapping:\n  Stream #0:0 -> #0:0 (h264 (native) -> wrapped_avframe (native))\nPress [q] to stop, [?] for help\nOutput #0, null, to 'pipe:':\n  Metadata:\n    major_brand     : isom\n    minor_version   : 512\n    compatible_brands: isomiso2avc1mp41\n    encoder         : Lavf61.7.100\n  Stream #0:0(und): Video: wrapped_avframe, yuv420p(progressive), 1280x720, q=2-31, 200 kb/s, 24 fps, 24 tbn (default)\n      Metadata:\n        handler_name    : VideoHandler\n        vendor_id       : [0][0][0][0]\n        encoder         : Lavc61.19.100 wrapped_avframe\n[out#0/null @ 000001bfd79f4a40] video:82KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown\nframe=  192 fps=0.0 q=-0.0 Lsize=N/A time=00:00:08.00 bitrate=N/A speed= 107x    \n"
+  },
+  "65": {
+    "master_sha256": "449588ea0ad46ea179967beec4174aa6486809f7653b96a2926ee5b636cbf88f",
+    "output_sha256": "750cb18bc885aa90fdf5a805fea8b98071cace836dd4d6d0436d1d197c99e918",
+    "full_decode": "passed",
+    "bytes": 1491217,
+    "ffmpeg_report": "Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'C:\\Users\\yongc\\Documents\\GitHub\\souli\\output\\marketing\\souli-film\\meme-pack\\motion-v2-20261003\\final\\episode-65.mp4':\n  Metadata:\n    major_brand     : isom\n    minor_version   : 512\n    compatible_brands: isomiso2avc1mp41\n    encoder         : Lavf61.7.100\n  Duration: 00:00:08.00, start: 0.000000, bitrate: 1491 kb/s\n  Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(progressive), 1280x720, 1488 kb/s, 24 fps, 24 tbr, 12288 tbn (default)\n      Metadata:\n        handler_name    : VideoHandler\n        vendor_id       : [0][0][0][0]\n        encoder         : Lavc61.19.100 libx264\nStream mapping:\n  Stream #0:0 -> #0:0 (h264 (native) -> wrapped_avframe (native))\nPress [q] to stop, [?] for help\nOutput #0, null, to 'pipe:':\n  Metadata:\n    major_brand     : isom\n    minor_version   : 512\n    compatible_brands: isomiso2avc1mp41\n    encoder         : Lavf61.7.100\n  Stream #0:0(und): Video: wrapped_avframe, yuv420p(progressive), 1280x720, q=2-31, 200 kb/s, 24 fps, 24 tbn (default)\n      Metadata:\n        handler_name    : VideoHandler\n        vendor_id       : [0][0][0][0]\n        encoder         : Lavc61.19.100 wrapped_avframe\n[out#0/null @ 0000024a7af94a40] video:82KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown\nframe=  192 fps=0.0 q=-0.0 Lsize=N/A time=00:00:08.00 bitrate=N/A speed= 131x    \n"
+  },
+  "66": {
+    "id": "66",
+    "bytes": 1303750,
+    "sha256": "281ff0758c5f5b96f1da894f1fa46f3d5fe43c9c714b64f7b1322554e280ebed",
+    "full_decode": "passed",
+    "audio": false,
+    "format": "H264 1280x720 24fps 8s",
+    "continuity_repair": true
+  },
+  "67": {
+    "id": "67",
+    "bytes": 1814967,
+    "sha256": "e4240c667e1b3767fcdf2916fa2a5699000377c72377a0b834a386076ae5aa0b",
+    "full_decode": "passed",
+    "audio": false,
+    "format": "H264 1280x720 24fps 8s",
+    "continuity_repair": true
+  },
+  "68": {
+    "master_sha256": "52c7a7c6937007cf39daeacf615b6e5aff6d286223d469993a9cff50f51d8882",
+    "output_sha256": "93de1e29eb32d36ed39cb3a70f5685c63eb2a2e579038686c92e75f3c589e39c",
+    "full_decode": "passed",
+    "bytes": 2893698,
+    "ffmpeg_report": "Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'C:\\Users\\yongc\\Documents\\GitHub\\souli\\output\\marketing\\souli-film\\meme-pack\\motion-v2-20261003\\final\\episode-68.mp4':\n  Metadata:\n    major_brand     : isom\n    minor_version   : 512\n    compatible_brands: isomiso2avc1mp41\n    encoder         : Lavf61.7.100\n  Duration: 00:00:08.00, start: 0.000000, bitrate: 2893 kb/s\n  Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(progressive), 1280x720, 2890 kb/s, 24 fps, 24 tbr, 12288 tbn (default)\n      Metadata:\n        handler_name    : VideoHandler\n        vendor_id       : [0][0][0][0]\n        encoder         : Lavc61.19.100 libx264\nStream mapping:\n  Stream #0:0 -> #0:0 (h264 (native) -> wrapped_avframe (native))\nPress [q] to stop, [?] for help\nOutput #0, null, to 'pipe:':\n  Metadata:\n    major_brand     : isom\n    minor_version   : 512\n    compatible_brands: isomiso2avc1mp41\n    encoder         : Lavf61.7.100\n  Stream #0:0(und): Video: wrapped_avframe, yuv420p(progressive), 1280x720, q=2-31, 200 kb/s, 24 fps, 24 tbn (default)\n      Metadata:\n        handler_name    : VideoHandler\n        vendor_id       : [0][0][0][0]\n        encoder         : Lavc61.19.100 wrapped_avframe\n[out#0/null @ 000002407fe44a40] video:82KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown\nframe=  192 fps=0.0 q=-0.0 Lsize=N/A time=00:00:08.00 bitrate=N/A speed=  87x    \n"
+  },
+  "69": {
+    "master_sha256": "cb7fdabd77315e8f0a0da8d27e78f035eadea98d91a0540fd2a980f82a9cdad8",
+    "output_sha256": "85d7fa29ca55edf498f5b98f29a0bc4f927df516bedfbbcceb7c730233fae9af",
+    "full_decode": "passed",
+    "bytes": 2660593,
+    "ffmpeg_report": "Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'C:\\Users\\yongc\\Documents\\GitHub\\souli\\output\\marketing\\souli-film\\meme-pack\\motion-v2-20261003\\final\\episode-69.mp4':\n  Metadata:\n    major_brand     : isom\n    minor_version   : 512\n    compatible_brands: isomiso2avc1mp41\n    encoder         : Lavf61.7.100\n  Duration: 00:00:08.00, start: 0.000000, bitrate: 2660 kb/s\n  Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(progressive), 1280x720, 2657 kb/s, 24 fps, 24 tbr, 12288 tbn (default)\n      Metadata:\n        handler_name    : VideoHandler\n        vendor_id       : [0][0][0][0]\n        encoder         : Lavc61.19.100 libx264\nStream mapping:\n  Stream #0:0 -> #0:0 (h264 (native) -> wrapped_avframe (native))\nPress [q] to stop, [?] for help\nOutput #0, null, to 'pipe:':\n  Metadata:\n    major_brand     : isom\n    minor_version   : 512\n    compatible_brands: isomiso2avc1mp41\n    encoder         : Lavf61.7.100\n  Stream #0:0(und): Video: wrapped_avframe, yuv420p(progressive), 1280x720, q=2-31, 200 kb/s, 24 fps, 24 tbn (default)\n      Metadata:\n        handler_name    : VideoHandler\n        vendor_id       : [0][0][0][0]\n        encoder         : Lavc61.19.100 wrapped_avframe\n[out#0/null @ 0000023350714a40] video:82KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown\nframe=  192 fps=0.0 q=-0.0 Lsize=N/A time=00:00:08.00 bitrate=N/A speed=97.3x    \n"
+  },
+  "71": {
+    "master_sha256": "99c7304142a86ae6b7ac996bc9ff6f6bf9f55a6bfb1b9dcca7754cb005c90cc0",
+    "output_sha256": "ea4287f50dc1f927e9727723dd8f7abf24b2757ef4f6ad30622adc10f2cfb12c",
+    "full_decode": "passed",
+    "bytes": 2026070,
+    "ffmpeg_report": "Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'C:\\Users\\yongc\\Documents\\GitHub\\souli\\output\\marketing\\souli-film\\meme-pack\\motion-v2-20261003\\final\\episode-71.mp4':\n  Metadata:\n    major_brand     : isom\n    minor_version   : 512\n    compatible_brands: isomiso2avc1mp41\n    encoder         : Lavf61.7.100\n  Duration: 00:00:08.00, start: 0.000000, bitrate: 2026 kb/s\n  Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(progressive), 1280x720, 2022 kb/s, 24 fps, 24 tbr, 12288 tbn (default)\n      Metadata:\n        handler_name    : VideoHandler\n        vendor_id       : [0][0][0][0]\n        encoder         : Lavc61.19.100 libx264\nStream mapping:\n  Stream #0:0 -> #0:0 (h264 (native) -> wrapped_avframe (native))\nPress [q] to stop, [?] for help\nOutput #0, null, to 'pipe:':\n  Metadata:\n    major_brand     : isom\n    minor_version   : 512\n    compatible_brands: isomiso2avc1mp41\n    encoder         : Lavf61.7.100\n  Stream #0:0(und): Video: wrapped_avframe, yuv420p(progressive), 1280x720, q=2-31, 200 kb/s, 24 fps, 24 tbn (default)\n      Metadata:\n        handler_name    : VideoHandler\n        vendor_id       : [0][0][0][0]\n        encoder         : Lavc61.19.100 wrapped_avframe\n[out#0/null @ 00000221f2551ec0] video:82KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown\nframe=  192 fps=0.0 q=-0.0 Lsize=N/A time=00:00:08.00 bitrate=N/A speed= 106x    \n"
+  },
+  "72": {
+    "master_sha256": "d47352a184599e95ff19836451e2051406bc1517decb9bf1e38a5cd69c5241a1",
+    "output_sha256": "a5352147027bf91f1a7164a3d2b20b2cbbf276261674fa4069115ec9e7e42a31",
+    "full_decode": "passed",
+    "bytes": 2448231,
+    "ffmpeg_report": "Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'C:\\Users\\yongc\\Documents\\GitHub\\souli\\output\\marketing\\souli-film\\meme-pack\\motion-v2-20261003\\final\\episode-72.mp4':\n  Metadata:\n    major_brand     : isom\n    minor_version   : 512\n    compatible_brands: isomiso2avc1mp41\n    encoder         : Lavf61.7.100\n  Duration: 00:00:08.00, start: 0.000000, bitrate: 2448 kb/s\n  Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(progressive), 1280x720, 2445 kb/s, 24 fps, 24 tbr, 12288 tbn (default)\n      Metadata:\n        handler_name    : VideoHandler\n        vendor_id       : [0][0][0][0]\n        encoder         : Lavc61.19.100 libx264\nStream mapping:\n  Stream #0:0 -> #0:0 (h264 (native) -> wrapped_avframe (native))\nPress [q] to stop, [?] for help\nOutput #0, null, to 'pipe:':\n  Metadata:\n    major_brand     : isom\n    minor_version   : 512\n    compatible_brands: isomiso2avc1mp41\n    encoder         : Lavf61.7.100\n  Stream #0:0(und): Video: wrapped_avframe, yuv420p(progressive), 1280x720, q=2-31, 200 kb/s, 24 fps, 24 tbn (default)\n      Metadata:\n        handler_name    : VideoHandler\n        vendor_id       : [0][0][0][0]\n        encoder         : Lavc61.19.100 wrapped_avframe\n[out#0/null @ 000001b1b0a11500] video:82KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown\nframe=  192 fps=0.0 q=-0.0 Lsize=N/A time=00:00:08.00 bitrate=N/A speed=100x    \n"
+  },
+  "70": {
+    "master_sha256": "b0ea7d8622702fc844fe1f35efc19ea1417573aed290285e464a55d5066e92b7",
+    "output_sha256": "af162e9fcc73c58128ac4b7f4260aef87bcbb1b183a5454a1c00e178b47a60cb",
+    "full_decode": "passed",
+    "bytes": 1524081,
+    "ffmpeg_report": "Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'C:\\Users\\yongc\\Documents\\GitHub\\souli\\output\\marketing\\souli-film\\meme-pack\\motion-v2-20261003\\final\\episode-70.mp4':\n  Metadata:\n    major_brand     : isom\n    minor_version   : 512\n    compatible_brands: isomiso2avc1mp41\n    encoder         : Lavf61.7.100\n  Duration: 00:00:08.00, start: 0.000000, bitrate: 1524 kb/s\n  Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(progressive), 1280x720, 1520 kb/s, 24 fps, 24 tbr, 12288 tbn (default)\n      Metadata:\n        handler_name    : VideoHandler\n        vendor_id       : [0][0][0][0]\n        encoder         : Lavc61.19.100 libx264\nStream mapping:\n  Stream #0:0 -> #0:0 (h264 (native) -> wrapped_avframe (native))\nPress [q] to stop, [?] for help\nOutput #0, null, to 'pipe:':\n  Metadata:\n    major_brand     : isom\n    minor_version   : 512\n    compatible_brands: isomiso2avc1mp41\n    encoder         : Lavf61.7.100\n  Stream #0:0(und): Video: wrapped_avframe, yuv420p(progressive), 1280x720, q=2-31, 200 kb/s, 24 fps, 24 tbn (default)\n      Metadata:\n        handler_name    : VideoHandler\n        vendor_id       : [0][0][0][0]\n        encoder         : Lavc61.19.100 wrapped_avframe\n[out#0/null @ 00000178e27f4a40] video:82KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown\nframe=  192 fps=0.0 q=-0.0 Lsize=N/A time=00:00:08.00 bitrate=N/A speed= 126x    \n"
+  },
+  "73": {
+    "id": "73",
+    "bytes": 1653645,
+    "sha256": "dafbbaa4755b836d72f88116b67152bf10db447c770fe5cd7f0c349c732f0996",
+    "full_decode": "passed",
+    "audio": false,
+    "format": "H264 1280x720 24fps 8s",
+    "continuity_repair": true
+  },
+  "75": {
+    "master_sha256": "ae89098d70a5f2171b15bd36e293b546af6c6ba44e0926f9a2836a0144802b6a",
+    "output_sha256": "fcbc8de82f0e27a3402aa4dc0be2d3b019b4c1dec1c478fa1219e0d879ee2b5d",
+    "full_decode": "passed",
+    "bytes": 1499588,
+    "ffmpeg_report": "Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'C:\\Users\\yongc\\Documents\\GitHub\\souli\\output\\marketing\\souli-film\\meme-pack\\motion-v2-20261003\\final\\episode-75.mp4':\n  Metadata:\n    major_brand     : isom\n    minor_version   : 512\n    compatible_brands: isomiso2avc1mp41\n    encoder         : Lavf61.7.100\n  Duration: 00:00:08.00, start: 0.000000, bitrate: 1499 kb/s\n  Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(progressive), 1280x720, 1496 kb/s, 24 fps, 24 tbr, 12288 tbn (default)\n      Metadata:\n        handler_name    : VideoHandler\n        vendor_id       : [0][0][0][0]\n        encoder         : Lavc61.19.100 libx264\nStream mapping:\n  Stream #0:0 -> #0:0 (h264 (native) -> wrapped_avframe (native))\nPress [q] to stop, [?] for help\nOutput #0, null, to 'pipe:':\n  Metadata:\n    major_brand     : isom\n    minor_version   : 512\n    compatible_brands: isomiso2avc1mp41\n    encoder         : Lavf61.7.100\n  Stream #0:0(und): Video: wrapped_avframe, yuv420p(progressive), 1280x720, q=2-31, 200 kb/s, 24 fps, 24 tbn (default)\n      Metadata:\n        handler_name    : VideoHandler\n        vendor_id       : [0][0][0][0]\n        encoder         : Lavc61.19.100 wrapped_avframe\n[out#0/null @ 000001ed16b44a40] video:82KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown\nframe=  192 fps=0.0 q=-0.0 Lsize=N/A time=00:00:08.00 bitrate=N/A speed= 122x    \n"
+  },
+  "74": {
+    "id": "74",
+    "bytes": 1647021,
+    "sha256": "590899f62f1b5bd0d8378e7388f290a5d56ff951fd4128fd05f0f54eeae5b79b",
+    "full_decode": "passed",
+    "audio": false,
+    "format": "H264 1280x720 24fps 8s",
+    "continuity_repair": true
+  },
+  "76": {
+    "master_sha256": "d75b9e23c5524b299357edd58915c5b5e5fa40df9ba9b23f842fd495b784b1c8",
+    "output_sha256": "07e45c640435b9764155ce735a72e525c758e4730ee5559625c04bae08fb2161",
+    "full_decode": "passed",
+    "bytes": 2460798,
+    "ffmpeg_report": "Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'C:\\Users\\yongc\\Documents\\GitHub\\souli\\output\\marketing\\souli-film\\meme-pack\\motion-v2-20261003\\final\\episode-76.mp4':\n  Metadata:\n    major_brand     : isom\n    minor_version   : 512\n    compatible_brands: isomiso2avc1mp41\n    encoder         : Lavf61.7.100\n  Duration: 00:00:08.00, start: 0.000000, bitrate: 2460 kb/s\n  Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(progressive), 1280x720, 2457 kb/s, 24 fps, 24 tbr, 12288 tbn (default)\n      Metadata:\n        handler_name    : VideoHandler\n        vendor_id       : [0][0][0][0]\n        encoder         : Lavc61.19.100 libx264\nStream mapping:\n  Stream #0:0 -> #0:0 (h264 (native) -> wrapped_avframe (native))\nPress [q] to stop, [?] for help\nOutput #0, null, to 'pipe:':\n  Metadata:\n    major_brand     : isom\n    minor_version   : 512\n    compatible_brands: isomiso2avc1mp41\n    encoder         : Lavf61.7.100\n  Stream #0:0(und): Video: wrapped_avframe, yuv420p(progressive), 1280x720, q=2-31, 200 kb/s, 24 fps, 24 tbn (default)\n      Metadata:\n        handler_name    : VideoHandler\n        vendor_id       : [0][0][0][0]\n        encoder         : Lavc61.19.100 wrapped_avframe\n[out#0/null @ 00000209c3659040] video:82KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown\nframe=  192 fps=0.0 q=-0.0 Lsize=N/A time=00:00:08.00 bitrate=N/A speed= 106x    \n"
+  },
+  "77": {
+    "id": "77",
+    "bytes": 956181,
+    "sha256": "9068aa3b1afa46bcf1c8d1a69ee425415d3cceb63c886ff6a4168a0c15519472",
+    "full_decode": "passed",
+    "audio": false,
+    "format": "H264 1280x720 24fps 8s",
+    "continuity_repair": true
+  },
+  "78": {
+    "master_sha256": "2e2e16dc72d06041459f8a06e18f7239ee3072f017b2e5110e0e32246d1fa9f5",
+    "output_sha256": "60eaa615c2c1875ce58e5e8b6581bc789a0b9e32e50a39e9ae8d71ca00702be3",
+    "full_decode": "passed",
+    "bytes": 1980256,
+    "ffmpeg_report": "Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'C:\\Users\\yongc\\Documents\\GitHub\\souli\\output\\marketing\\souli-film\\meme-pack\\motion-v2-20261003\\final\\episode-78.mp4':\n  Metadata:\n    major_brand     : isom\n    minor_version   : 512\n    compatible_brands: isomiso2avc1mp41\n    encoder         : Lavf61.7.100\n  Duration: 00:00:08.00, start: 0.000000, bitrate: 1980 kb/s\n  Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(progressive), 1280x720, 1977 kb/s, 24 fps, 24 tbr, 12288 tbn (default)\n      Metadata:\n        handler_name    : VideoHandler\n        vendor_id       : [0][0][0][0]\n        encoder         : Lavc61.19.100 libx264\nStream mapping:\n  Stream #0:0 -> #0:0 (h264 (native) -> wrapped_avframe (native))\nPress [q] to stop, [?] for help\nOutput #0, null, to 'pipe:':\n  Metadata:\n    major_brand     : isom\n    minor_version   : 512\n    compatible_brands: isomiso2avc1mp41\n    encoder         : Lavf61.7.100\n  Stream #0:0(und): Video: wrapped_avframe, yuv420p(progressive), 1280x720, q=2-31, 200 kb/s, 24 fps, 24 tbn (default)\n      Metadata:\n        handler_name    : VideoHandler\n        vendor_id       : [0][0][0][0]\n        encoder         : Lavc61.19.100 wrapped_avframe\n[out#0/null @ 000002befde14a40] video:82KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown\nframe=  192 fps=0.0 q=-0.0 Lsize=N/A time=00:00:08.00 bitrate=N/A speed= 114x    \n"
+  },
+  "79": {
+    "id": "79",
+    "bytes": 3875794,
+    "sha256": "0f8bd4607fc020f7d817f69412bf7ee8d8d12789f10d74688eeda467e0a568b6",
+    "full_decode": "passed",
+    "audio": false,
+    "format": "H264 1280x720 24fps 8s",
+    "continuity_repair": true
+  },
+  "80": {
+    "id": "80",
+    "bytes": 1474396,
+    "sha256": "76a6f9875bae0daf52fa74974ba45a75d4f1ee12d6c57d8d2fd3440e67f05fcf",
+    "full_decode": "passed",
+    "audio": false,
+    "format": "H264 1280x720 24fps 8s",
+    "continuity_repair": true
+  }
+}

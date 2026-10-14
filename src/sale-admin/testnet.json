@@ -1,0 +1,34 @@
+{
+  "enabled": true,
+  "chainId": 84532,
+  "controller": "0x734417B7CAe7D8A00d15ED886d46463d1a64C087",
+  "operators": [
+    "0x4a4AA86208EcFdBACBaD551dF7baf5D3C84425BB",
+    "0x3cDF38407cE65966055aDDF8bfC5B17eF00397e1",
+    "0x9Bf15CD7Cc82655fAe3803663Ba1c6D5ED07D607"
+  ],
+  "controllerRuntimeCodeHash": "0xa254b525a297714c77af50258ff113127dfec6e208e2bb406f830d16a5fc67d1",
+  "tokenRuntimeCodeHash": "0x22d551c40a9dbee68dd298b861a2acb9b65294dec601d6c13e02630971afdb64",
+  "sale": {
+    "enabled": true,
+    "mode": "test",
+    "chainId": 84532,
+    "address": "0x534d2408dE5BA5c8dB54105C38D3040ec7388708",
+    "runtimeCodeHash": "0x92a01432453bddac9d3f43f344639df0c79520f629d78eb42198be061a79bbd3",
+    "terms": {
+      "version": 1,
+      "chainId": 84532,
+      "token": "0xD643520BfEb76e59250d56Df8B196F9c751Bc252",
+      "treasury": "0x734417B7CAe7D8A00d15ED886d46463d1a64C087",
+      "unitPriceWei": "100000000",
+      "saleCap": "5000000",
+      "walletCap": "5000000",
+      "startsAt": "1790936546",
+      "endsAt": "1792146146",
+      "immediateDelivery": true,
+      "automaticLiquidity": false,
+      "refundable": false
+    },
+    "termsHash": "0xf3d804bdc0027987ab79b67f7474d4380e6b1ce9e94e775f616709d88d8940cd"
+  }
+}

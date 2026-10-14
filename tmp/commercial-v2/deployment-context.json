@@ -1,0 +1,40 @@
+{
+  "preparedAt": "2026-10-03T13:19:46.621Z",
+  "status": "REVIEW_CANDIDATE_ONLY_NOT_DEPLOYED",
+  "publicTransactionsSent": 0,
+  "referenceFdvUsd": 15000000,
+  "priceReference": {
+    "source": "https://api.coinbase.com/v2/prices/ETH-USD/spot",
+    "ethUsd": "2678.635",
+    "serverDate": "Sat, 03 Oct 2026 13:19:42 GMT"
+  },
+  "unitPriceEth": "0.000026666033792798",
+  "maximumPurchaseEth": "111.9973419297516",
+  "lpShareBps": 5000,
+  "operationsShareBps": 5000,
+  "lpPrincipalLockPlan": "One year after initial LP creation; no lock deployed",
+  "stock": {
+    "buyerTokens": "4200000",
+    "separateMatchingLpTokens": "2100000",
+    "walletWholeSouli": "999",
+    "walletEth": "0.002481590398207485"
+  },
+  "preflight": {
+    "block": 52122118,
+    "controller": "0xc177F10Da4c62FBbef8182e82EE09F7Db79769dA",
+    "sale": "0x9B3b5BFbc22821416e390E10e0a30C1AC1960B68",
+    "estimatedGas": "2278121",
+    "publicTransactionsSent": 0,
+    "note": "Read-only preflight. Recheck immediately before signing; this is not a fee quote, audit, or launch approval."
+  },
+  "compiler": "0.8.37+commit.f401782d.Emscripten.clang",
+  "launchEnabled": false,
+  "remaining": [
+    "Fresh final price/nonce review and wallet deployment signature",
+    "Verify new paused contract and source; limited-stock original-token purchase/recovery cycle",
+    "Confirm supply wallet and prepare buyer stock; keep LP stock separate",
+    "External independent review remains pending",
+    "Finalize LP execution timing, beneficiary/lock implementation and operating budget; publish receipts"
+  ],
+  "note": "Reference price only. Rebuild immediately before signing. No public sale, LP creation, lock, allowance or stock transfer occurred."
+}

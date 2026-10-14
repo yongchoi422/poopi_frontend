@@ -1,0 +1,24 @@
+<script setup>
+import SaleProof from './SaleProof.vue'
+</script>
+<template>
+  <article class="liquidity-receipts" aria-labelledby="liquidity-title">
+    <div class="liquidity-heading"><div><span class="liquidity-eyebrow">FOLLOW THE ETH</span><h3 id="liquidity-title">Your SOULI. Clear receipts.</h3></div><span class="liquidity-pending">LP not created</span></div>
+    <p class="liquidity-intro">Half for liquidity. Half to build SOULI.</p>
+    <ol class="liquidity-path" aria-label="Planned purchase and liquidity flow">
+      <li><span aria-hidden="true">1</span><div><strong>Buy SOULI</strong><small>Tokens arrive in your wallet.</small></div></li>
+      <li><span aria-hidden="true">2</span><div><strong>50 / 50</strong><small>LP budget / operations budget.</small></div></li>
+      <li><span aria-hidden="true">3</span><div><strong>Team adds LP</strong><small>ETH + separate SOULI. Done manually.</small></div></li>
+    </ol>
+    <p class="liquidity-control"><strong>The team controls the funds.</strong> The contract does not force the 50:50 split or LP funding. A one-year LP lock is planned, not active.</p>
+    <SaleProof />
+    <details><summary>How the LP plan works</summary><p>50% of actual purchase ETH is allocated to manual Uniswap liquidity, with separate matching SOULI. The other 50% funds development, reviews, hosting, marketing, taxes and gas. Founder top-ups are recorded separately from customer purchases.</p><p>The first 1.4M-token stock target corresponds to $100,000 at the original reference price: half of its purchase ETH for LP, paired with a separate 700,000 SOULI. At full 4.2M sellout, the matching stock is 2.1M. These are reference calculations, not live dollar guarantees; pool conditions will be reviewed at execution.</p><p>The proposed lock uses Base Uniswap V2 LP tokens and a standard OpenZeppelin time lock. Internal tests include an actual Base-state fork. No public LP or lock has been created. LP timing is not announced. The beneficiary must be chosen before lock deployment; the funding receipt and exact unlock date will be published when executed. Trading fees inside V2 LP remain locked with the LP shares. Ownership of the future release right can change without shortening the time lock.</p><p>Funds collected by an operator are not yet liquidity. LP in an operator wallet is not locked. We will publish actual pool funding and lock receipts, quantities, ownership and expiry once executed.</p><a href="/whitepaper/#funds">Read the funding plan ↗</a></details>
+  </article>
+</template>
+
+<style scoped>
+.liquidity-receipts{margin-top:24px;border:2px solid #283465;border-radius:24px;background:#fffdf5;padding:28px;box-shadow:0 5px 0 #283465;color:#25335f}
+.liquidity-control{padding:12px 14px;background:#fff0ae;border-radius:12px;font-size:13px;line-height:1.6;margin:0 0 18px}
+.liquidity-heading{display:flex;justify-content:space-between;align-items:center;gap:18px;flex-wrap:wrap}.liquidity-heading h3{font-size:clamp(22px,3vw,32px);margin:5px 0 0;line-height:1.15}.liquidity-eyebrow{font-size:11px;font-weight:800;letter-spacing:.13em;color:#2459dc}.liquidity-pending{padding:8px 12px;background:#fff0ae;border:1px solid #ddc56b;border-radius:99px;font-size:12px;font-weight:750;white-space:nowrap}.liquidity-intro{max-width:680px;line-height:1.6;margin:16px 0 22px}.liquidity-path{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;list-style:none;padding:0;margin:0 0 24px}.liquidity-path li{display:flex;gap:12px;align-items:flex-start;padding:16px;background:#edf2ff;border-radius:14px}.liquidity-path li>span{width:28px;height:28px;flex-shrink:0;border-radius:50%;display:grid;place-items:center;background:#275ce4;color:#fff;font-size:13px;font-weight:800}.liquidity-path strong,.liquidity-path small{display:block}.liquidity-path strong{font-size:15px}.liquidity-path small{font-size:12px;line-height:1.5;margin-top:4px}.liquidity-evidence{display:grid;grid-template-columns:1fr 1fr;gap:0 26px;margin:0}.liquidity-evidence>div{padding:14px 0;border-top:1px solid #d4d9e7;display:flex;justify-content:space-between;gap:16px;align-items:baseline}.liquidity-evidence dt{font-size:13px}.liquidity-evidence dd{margin:0;font-weight:750;font-size:13px;text-align:right}.liquidity-evidence dd small{font-weight:500;display:block;margin-top:4px}.liquidity-receipts details{border-top:1px solid #d4d9e7;margin-top:12px;padding-top:16px}.liquidity-receipts summary{font-weight:750;cursor:pointer;font-size:14px}.liquidity-receipts details p{font-size:13px;line-height:1.65;max-width:800px}.liquidity-receipts details a{font-size:13px;font-weight:750;color:#2459dc}
+@media(max-width:680px){.liquidity-receipts{padding:20px 16px;border-radius:18px}.liquidity-path{grid-template-columns:1fr;gap:8px}.liquidity-path li{padding:12px}.liquidity-evidence{grid-template-columns:1fr}.liquidity-heading{gap:12px}.liquidity-intro{font-size:14px}}
+</style>
