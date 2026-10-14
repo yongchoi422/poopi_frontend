@@ -1,0 +1,17 @@
+{
+  "created_on": "2026-10-02",
+  "status": "concept_preview_not_published",
+  "generator": "Codex built-in image_gen",
+  "image": "keyframe-v1.png",
+  "prompt": "keyframe-v1.prompt.txt",
+  "source_art": [
+    "src/lighthouse/public-souls.json: souls[0]",
+    "src/lighthouse/public-souls.json: souls[2]",
+    "src/lighthouse/tiny-soul.json"
+  ],
+  "reference_conversion": "Original SVGs rasterized to PNG using nearest-neighbor scaling, without modifying the source SVGs.",
+  "review": "Composition, landscape setting and three distinct characters are present. Generated sprite outlines and markings are interpreted, not pixel-identical to the original SVGs. Treat this as a visual-direction preview; exact original sprite fidelity needs correction before final video use.",
+  "recommended_next_step": "Choose the visual direction, prepare exact-character keyframes, then use Flow Gemini Omni Flash 1.1 image-to-video. Original character references may additionally support identity when the selected Flow mode permits them.",
+  "flow_generation_started": false,
+  "website_changed": false
+}

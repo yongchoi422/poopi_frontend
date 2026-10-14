@@ -1,0 +1,108 @@
+{
+  "preparedAt": "2026-10-03T13:19:46.621Z",
+  "status": "V2_SMALL_MAINNET_CYCLE_COMPLETE",
+  "publicTransactionsSent": 8,
+  "referenceFdvUsd": 15000000,
+  "priceReference": {
+    "source": "https://api.coinbase.com/v2/prices/ETH-USD/spot",
+    "ethUsd": "2678.635",
+    "serverDate": "Sat, 03 Oct 2026 13:19:42 GMT"
+  },
+  "unitPriceEth": "0.000026666033792798",
+  "maximumPurchaseEth": "111.9973419297516",
+  "lpShareBps": 5000,
+  "operationsShareBps": 5000,
+  "lpPrincipalLockPlan": "One year after initial LP creation; no lock deployed",
+  "stock": {
+    "buyerTokens": "4200000",
+    "separateMatchingLpTokens": "2100000",
+    "walletWholeSouli": "998",
+    "walletEthAtPreparation": "0.002481590398207485",
+    "remainingBuyerTokens": "4199999"
+  },
+  "preflight": {
+    "block": 52122118,
+    "controller": "0xc177F10Da4c62FBbef8182e82EE09F7Db79769dA",
+    "sale": "0x9B3b5BFbc22821416e390E10e0a30C1AC1960B68",
+    "estimatedGas": "2278121",
+    "publicTransactionsSent": 0,
+    "note": "Read-only preflight. Recheck immediately before signing; this is not a fee quote, audit, or launch approval."
+  },
+  "compiler": "0.8.37+commit.f401782d.Emscripten.clang",
+  "launchEnabled": false,
+  "remaining": [
+    "External independent review and final supply/obligations check",
+    "LP timing, lock implementation, beneficiary and fee rights",
+    "Operating budget, public disclosures and reviewed commercial checkout release"
+  ],
+  "note": "V2 small mainnet cycle completed with user-signed transactions. Sale paused, stock and contract ETH zero. No public commercial launch, LP or lock created.",
+  "deployment": {
+    "hash": "0xcd98087074ee7438cdd836a3c5b705be0b46bacd5e8cf8f5a7d74dca6d8f2407",
+    "block": 52122407,
+    "controller": "0xc177F10Da4c62FBbef8182e82EE09F7Db79769dA",
+    "sale": "0x9B3b5BFbc22821416e390E10e0a30C1AC1960B68",
+    "paused": true,
+    "available": "0",
+    "verifiedAt": "2026-10-03T13:31:14.077Z",
+    "sourceMatch": "Sourcify creation/runtime exact_match"
+  },
+  "verifiedAt": "2026-10-03T14:32:35.628Z",
+  "verifiedTransactionCount": 8,
+  "latestState": {
+    "block": 52124303,
+    "time": 1791037953,
+    "paused": true,
+    "available": "0",
+    "sold": "1",
+    "proceedsWei": "26666033792798",
+    "inventory": "0",
+    "heldTokens": "0",
+    "saleEth": "0",
+    "controllerEth": "0",
+    "walletTokens": "998000000000",
+    "allowance": "0",
+    "remainingToFund": "4199999",
+    "isOperator": true,
+    "status": "Paused"
+  },
+  "smallMainnetCycle": {
+    "status": "V2_SMALL_MAINNET_CYCLE_COMPLETE",
+    "checkedAt": "2026-10-03T14:32:35.628Z",
+    "sale": "0x9B3b5BFbc22821416e390E10e0a30C1AC1960B68",
+    "controller": "0xc177F10Da4c62FBbef8182e82EE09F7Db79769dA",
+    "buyer": "0x1375b43B72676067079fb66969cb85F33EC1768B",
+    "purchaseHash": "0x233e7dec959f238a6a983e311d49f8b3a95adfbccae019dffa505ec5e967b3e1",
+    "pauseHash": "0x748e12bce1a2103e8aacd80222b1688c998494ca0eedea4e91487810d0175409",
+    "recoverHash": "0x26ff3a58868c80a3b99e0885e0b719a18589a892b3304cbc1c7693cd124dae11",
+    "collectHash": "0xf48d79c3e059312b476870145069cf8fc9cc4d04979b5fee2f4a41f104be9d20",
+    "buyerTokenBalance": "2000000000",
+    "finalState": {
+      "block": 52124303,
+      "time": 1791037953,
+      "paused": true,
+      "available": "0",
+      "sold": "1",
+      "proceedsWei": "26666033792798",
+      "inventory": "0",
+      "heldTokens": "0",
+      "saleEth": "0",
+      "controllerEth": "0",
+      "walletTokens": "998000000000",
+      "allowance": "0",
+      "remainingToFund": "4199999",
+      "isOperator": true,
+      "status": "Paused"
+    },
+    "pendingWalletRequest": false,
+    "commercialLaunchEnabled": false,
+    "independentExternalAuditComplete": false,
+    "lpCreated": false,
+    "lpLockCreated": false,
+    "notes": [
+      "Purchased one original SOULI via phone wallet; delivered and original inscription verified.",
+      "Recovered41 SOULI and collected26666033792798wei to A, ETH delta reconciled including fees.",
+      "One test token counts against the4.2M lifetime cap; maximum new funding4,199,999 SOULI.",
+      "50:50 is a manual allocation, not an on-chain spending restriction."
+    ]
+  }
+}

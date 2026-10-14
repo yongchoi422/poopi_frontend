@@ -1,5 +1,5 @@
 import { createApp } from 'vue'
-import Lighthouse from './IdleLighthouse.vue'
+import Sanctuary from './SanctuaryApp.vue'
 import './village.css'
 import './idle.css'
 import './purchase.css'
@@ -7,5 +7,8 @@ import './launch.css'
 import './community.css'
 import './world.css'
 import './pixel-ui.css'
+import './sanctuary.css'
+import '../styles/souli-brand.css'
+import '../styles/souli-typography.css'
 
-createApp(Lighthouse).mount('#lighthouse-app')
+createApp(Sanctuary).mount('#lighthouse-app')

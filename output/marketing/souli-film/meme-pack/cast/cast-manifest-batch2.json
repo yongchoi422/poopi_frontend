@@ -1,0 +1,168 @@
+{
+  "chainId": 8453,
+  "contract": "0xb43eA104c7ec75038Ac8EcA57107Eefc8B039aFF",
+  "block": 52076462,
+  "fetchedAt": "2026-10-02T11:57:54.254Z",
+  "cast": [
+    {
+      "id": "21",
+      "seed": "22301",
+      "extra": "0",
+      "svg": "soul-21.svg",
+      "png": "soul-21.png",
+      "source": "deployed renderer example; not a claimed holder asset"
+    },
+    {
+      "id": "22",
+      "seed": "151319",
+      "extra": "0",
+      "svg": "soul-22.svg",
+      "png": "soul-22.png",
+      "source": "deployed renderer example; not a claimed holder asset"
+    },
+    {
+      "id": "23",
+      "seed": "501337",
+      "extra": "0",
+      "svg": "soul-23.svg",
+      "png": "soul-23.png",
+      "source": "deployed renderer example; not a claimed holder asset"
+    },
+    {
+      "id": "24",
+      "seed": "2501351",
+      "extra": "0",
+      "svg": "soul-24.svg",
+      "png": "soul-24.png",
+      "source": "deployed renderer example; not a claimed holder asset"
+    },
+    {
+      "id": "25",
+      "seed": "22367",
+      "extra": "0",
+      "svg": "soul-25.svg",
+      "png": "soul-25.png",
+      "source": "deployed renderer example; not a claimed holder asset"
+    },
+    {
+      "id": "26",
+      "seed": "151389",
+      "extra": "0",
+      "svg": "soul-26.svg",
+      "png": "soul-26.png",
+      "source": "deployed renderer example; not a claimed holder asset"
+    },
+    {
+      "id": "27",
+      "seed": "501401",
+      "extra": "0",
+      "svg": "soul-27.svg",
+      "png": "soul-27.png",
+      "source": "deployed renderer example; not a claimed holder asset"
+    },
+    {
+      "id": "28",
+      "seed": "2501423",
+      "extra": "0",
+      "svg": "soul-28.svg",
+      "png": "soul-28.png",
+      "source": "deployed renderer example; not a claimed holder asset"
+    },
+    {
+      "id": "29",
+      "seed": "22441",
+      "extra": "0",
+      "svg": "soul-29.svg",
+      "png": "soul-29.png",
+      "source": "deployed renderer example; not a claimed holder asset"
+    },
+    {
+      "id": "30",
+      "seed": "151463",
+      "extra": "0",
+      "svg": "soul-30.svg",
+      "png": "soul-30.png",
+      "source": "deployed renderer example; not a claimed holder asset"
+    },
+    {
+      "id": "31",
+      "seed": "501487",
+      "extra": "0",
+      "svg": "soul-31.svg",
+      "png": "soul-31.png",
+      "source": "deployed renderer example; not a claimed holder asset"
+    },
+    {
+      "id": "32",
+      "seed": "2501511",
+      "extra": "0",
+      "svg": "soul-32.svg",
+      "png": "soul-32.png",
+      "source": "deployed renderer example; not a claimed holder asset"
+    },
+    {
+      "id": "33",
+      "seed": "22531",
+      "extra": "0",
+      "svg": "soul-33.svg",
+      "png": "soul-33.png",
+      "source": "deployed renderer example; not a claimed holder asset"
+    },
+    {
+      "id": "34",
+      "seed": "151553",
+      "extra": "0",
+      "svg": "soul-34.svg",
+      "png": "soul-34.png",
+      "source": "deployed renderer example; not a claimed holder asset"
+    },
+    {
+      "id": "35",
+      "seed": "501577",
+      "extra": "0",
+      "svg": "soul-35.svg",
+      "png": "soul-35.png",
+      "source": "deployed renderer example; not a claimed holder asset"
+    },
+    {
+      "id": "36",
+      "seed": "2501601",
+      "extra": "0",
+      "svg": "soul-36.svg",
+      "png": "soul-36.png",
+      "source": "deployed renderer example; not a claimed holder asset"
+    },
+    {
+      "id": "37",
+      "seed": "22621",
+      "extra": "0",
+      "svg": "soul-37.svg",
+      "png": "soul-37.png",
+      "source": "deployed renderer example; not a claimed holder asset"
+    },
+    {
+      "id": "38",
+      "seed": "151643",
+      "extra": "0",
+      "svg": "soul-38.svg",
+      "png": "soul-38.png",
+      "source": "deployed renderer example; not a claimed holder asset"
+    },
+    {
+      "id": "39",
+      "seed": "501667",
+      "extra": "0",
+      "svg": "soul-39.svg",
+      "png": "soul-39.png",
+      "source": "deployed renderer example; not a claimed holder asset"
+    },
+    {
+      "id": "40",
+      "seed": "2501693",
+      "extra": "0",
+      "svg": "soul-40.svg",
+      "png": "soul-40.png",
+      "source": "deployed renderer example; not a claimed holder asset"
+    }
+  ]
+}

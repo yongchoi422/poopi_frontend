@@ -1,0 +1,98 @@
+[
+  {
+    "file": "souli-continuity-audit-20261003.zip",
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "Action completed."
+        }
+      ],
+      "structuredContent": {
+        "accepted_input": "file_uri",
+        "success": true,
+        "id": "1ys7aIfJM3h4UFTjiW_uh54duWP-pxEl3",
+        "title": "souli-continuity-audit-20261003.zip",
+        "file_name": "souli-continuity-audit-20261003.zip",
+        "mime_type": "application/zip",
+        "url": "https://drive.google.com/file/d/1ys7aIfJM3h4UFTjiW_uh54duWP-pxEl3/view?usp=drivesdk",
+        "parent_id": "1zeTkihPmdrMOS7067d7vDbQzZWuO207F",
+        "structuredContent": {
+          "accepted_input": "file_uri",
+          "success": true,
+          "id": "1ys7aIfJM3h4UFTjiW_uh54duWP-pxEl3",
+          "title": "souli-continuity-audit-20261003.zip",
+          "file_name": "souli-continuity-audit-20261003.zip",
+          "mime_type": "application/zip",
+          "url": "https://drive.google.com/file/d/1ys7aIfJM3h4UFTjiW_uh54duWP-pxEl3/view?usp=drivesdk",
+          "parent_id": "1zeTkihPmdrMOS7067d7vDbQzZWuO207F"
+        }
+      },
+      "isError": false
+    }
+  },
+  {
+    "file": "continuity-audit.csv",
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "Action completed."
+        }
+      ],
+      "structuredContent": {
+        "accepted_input": "file_uri",
+        "success": true,
+        "id": "1aPGAI7nV-h2-l52ZUcLegvAjzfAg8ikH",
+        "title": "souli-continuity-audit.csv",
+        "file_name": "souli-continuity-audit.csv",
+        "mime_type": "text/csv",
+        "url": "https://drive.google.com/file/d/1aPGAI7nV-h2-l52ZUcLegvAjzfAg8ikH/view?usp=drivesdk",
+        "parent_id": "1zeTkihPmdrMOS7067d7vDbQzZWuO207F",
+        "structuredContent": {
+          "accepted_input": "file_uri",
+          "success": true,
+          "id": "1aPGAI7nV-h2-l52ZUcLegvAjzfAg8ikH",
+          "title": "souli-continuity-audit.csv",
+          "file_name": "souli-continuity-audit.csv",
+          "mime_type": "text/csv",
+          "url": "https://drive.google.com/file/d/1aPGAI7nV-h2-l52ZUcLegvAjzfAg8ikH/view?usp=drivesdk",
+          "parent_id": "1zeTkihPmdrMOS7067d7vDbQzZWuO207F"
+        }
+      },
+      "isError": false
+    }
+  },
+  {
+    "file": "repair-brief.txt",
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "Action completed."
+        }
+      ],
+      "structuredContent": {
+        "accepted_input": "file_uri",
+        "success": true,
+        "id": "1m8918mgKexxzMX2MMuYVUeSk7jQV5eNp",
+        "title": "souli-repair-brief.txt",
+        "file_name": "souli-repair-brief.txt",
+        "mime_type": "text/plain",
+        "url": "https://drive.google.com/file/d/1m8918mgKexxzMX2MMuYVUeSk7jQV5eNp/view?usp=drivesdk",
+        "parent_id": "1zeTkihPmdrMOS7067d7vDbQzZWuO207F",
+        "structuredContent": {
+          "accepted_input": "file_uri",
+          "success": true,
+          "id": "1m8918mgKexxzMX2MMuYVUeSk7jQV5eNp",
+          "title": "souli-repair-brief.txt",
+          "file_name": "souli-repair-brief.txt",
+          "mime_type": "text/plain",
+          "url": "https://drive.google.com/file/d/1m8918mgKexxzMX2MMuYVUeSk7jQV5eNp/view?usp=drivesdk",
+          "parent_id": "1zeTkihPmdrMOS7067d7vDbQzZWuO207F"
+        }
+      },
+      "isError": false
+    }
+  }
+]

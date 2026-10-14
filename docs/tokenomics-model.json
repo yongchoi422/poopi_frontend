@@ -1,0 +1,146 @@
+{
+  "version": 4,
+  "scenarioDate": "2026-10-03",
+  "status": "PROPOSAL_NOT_LIVE_TERMS",
+  "executionPlan": {
+    "liquidity": "MANUAL_TEAM_TRANSACTION",
+    "treasury": "THREE_INDEPENDENT_OPERATORS_CONTROLLER_NOT_MAINNET_DEPLOYED",
+    "lpSpendingEnforcedByContract": false,
+    "firstSaleLpBudgetIsOperatingPlan": true,
+    "publicSaleEnabled": false
+  },
+  "assumptions": [
+    "USD reference values, not live prices",
+    "Each impact case starts from the same fresh v2-style pool",
+    "0.3% swap fee; constant ETH/USD; no gas, arbitrage, MEV, other trades or other pools",
+    "FDV is a reference calculation, not cash or guaranteed valuation",
+    "Existing investor balances and commitments are unknown; no circulating market cap is asserted"
+  ],
+  "supply": 210000000,
+  "fdvUsd": 15000000,
+  "tokenReferenceUsd": 0.07142857142857142,
+  "tokensPerReferenceUsd": 14,
+  "lpQuoteUsd": 50000,
+  "lpTokens": 700000,
+  "buyerTokensIfFullyPurchased": 700000,
+  "combinedInventoryIfFullyPurchased": 1400000,
+  "initialPoolNominalUsd": 100000,
+  "lpCandidateReserve": {
+    "status": "SUPERSEDED_LP_ONLY_RESEARCH_NOT_CURRENT_LAUNCH_PLAN",
+    "priceToleranceBps": 50,
+    "extraLpTokens": 3500,
+    "prefundingWithBuffer": 1403500,
+    "note": "Separate protected SOULI reserve to supply all target ETH; unused LP reserve has no withdrawal route"
+  },
+  "newBuyerSupplyPercent": 0.33333333333333337,
+  "matchingLpSupplyPercent": 0.33333333333333337,
+  "levels": [
+    {
+      "displayLevel": 1,
+      "minimumSeed": 1,
+      "referenceCostUsd": 0.07142857142857142
+    },
+    {
+      "displayLevel": 2,
+      "minimumSeed": 21000,
+      "referenceCostUsd": 1500
+    },
+    {
+      "displayLevel": 3,
+      "minimumSeed": 150000,
+      "referenceCostUsd": 10714.285714285714
+    },
+    {
+      "displayLevel": 4,
+      "minimumSeed": 500000,
+      "referenceCostUsd": 35714.28571428571
+    },
+    {
+      "displayLevel": 5,
+      "minimumSeed": 2500000,
+      "referenceCostUsd": 178571.42857142855
+    }
+  ],
+  "impact": [
+    {
+      "startingPriceValueUsd": 1000,
+      "tokensSold": 14000,
+      "receivedUsd": 977.5084808910328,
+      "endingSpotPriceChangePercent": -3.8774676095902683
+    },
+    {
+      "startingPriceValueUsd": 5000,
+      "tokensSold": 70000,
+      "receivedUsd": 4533.054469400746,
+      "endingSpotPriceChangePercent": -17.332826308001348
+    },
+    {
+      "startingPriceValueUsd": 10000,
+      "tokensSold": 140000,
+      "receivedUsd": 8312.489578122395,
+      "endingSpotPriceChangePercent": -30.520815963537316
+    },
+    {
+      "startingPriceValueUsd": 150000,
+      "tokensSold": 2100000,
+      "receivedUsd": 37471.8115760461,
+      "endingSpotPriceChangePercent": -93.73590578802305
+    }
+  ],
+  "supportExamples": [
+    {
+      "supportUsd": 0,
+      "purchasesUsd": 50000,
+      "buyerTokens": 700000,
+      "lpTokens": 700000,
+      "note": "Illustrative founder top-up to treasury, separate from sales; manual custody is withdrawable; public support intake not enabled"
+    },
+    {
+      "supportUsd": 20000,
+      "purchasesUsd": 30000,
+      "buyerTokens": 420000,
+      "lpTokens": 700000,
+      "note": "Illustrative founder top-up to treasury, separate from sales; manual custody is withdrawable; public support intake not enabled"
+    },
+    {
+      "supportUsd": 50000,
+      "purchasesUsd": 0,
+      "buyerTokens": 0,
+      "lpTokens": 700000,
+      "note": "Illustrative founder top-up to treasury, separate from sales; manual custody is withdrawable; public support intake not enabled"
+    }
+  ],
+  "operatingBudgetExamples": [
+    {
+      "monthlyUsd": 500,
+      "runwayMonths": 12,
+      "contingencyPercent": 20,
+      "reserveUsd": 7200,
+      "note": "Illustrative recurring cash budget, not an Azure quote; audit/legal/setup excluded"
+    },
+    {
+      "monthlyUsd": 1500,
+      "runwayMonths": 12,
+      "contingencyPercent": 20,
+      "reserveUsd": 21600,
+      "note": "Illustrative recurring cash budget, not an Azure quote; audit/legal/setup excluded"
+    },
+    {
+      "monthlyUsd": 3000,
+      "runwayMonths": 12,
+      "contingencyPercent": 20,
+      "reserveUsd": 43200,
+      "note": "Illustrative recurring cash budget, not an Azure quote; audit/legal/setup excluded"
+    }
+  ],
+  "allocation": {
+    "base": "Total supply, not the remaining reserve R",
+    "teamTargetPercent": 15,
+    "teamTargetTokens": 31500000,
+    "otherSupplyTokens": 178500000,
+    "otherAllocationBreakdown": null,
+    "teamDistributedVerifiedTokens": null,
+    "teamLockedVerifiedTokens": null,
+    "reason": "15% is the user-selected team budget target. Outside-main-wallet balances are unclassified, not verified team distributions. No balances moved or locked."
+  }
+}

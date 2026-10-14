@@ -1,0 +1,33 @@
+{
+  "counts": {
+    "clear_sampled": 60,
+    "remake": 17,
+    "watch": 3
+  },
+  "hold_ids": [
+    "05",
+    "07",
+    "25",
+    "28",
+    "31",
+    "33",
+    "34",
+    "36",
+    "46",
+    "50",
+    "55",
+    "60",
+    "63",
+    "66",
+    "67",
+    "73",
+    "74",
+    "77",
+    "79",
+    "80"
+  ],
+  "all_source_hashes_match": true,
+  "event_sheets": 26,
+  "report_html": "C:\\Users\\yongc\\Documents\\GitHub\\souli\\output\\marketing\\souli-film\\meme-pack\\motion-v2-20261003\\continuity-audit\\index.html",
+  "evidence_zip_bytes": 26530295
+}

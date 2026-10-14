@@ -1,0 +1,1 @@
+{"name":"souli-waiting-room-preview","private":true,"type":"module","scripts":{"start":"node serve.mjs","test":"node --test test-rules.mjs"},"dependencies":{"three":"0.186.1"}}

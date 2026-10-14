@@ -1,0 +1,23 @@
+{
+  "created_on": "2026-10-02",
+  "status": "concept_preview_not_published",
+  "generator": "Codex built-in image_gen",
+  "image": "keyframe-v2.png",
+  "prompt": "keyframe-v2.prompt.txt",
+  "reference_contact_sheet": "references/selection-v2/contact-sheet.png",
+  "candidate_review": "Compared six public SOULI samples and five stored level examples. Selected the lavender display-level-5 design as lead, coral public sample 6 as companion, and level-1 gold cluster as small accent.",
+  "source_art": [
+    "src/lighthouse/purchase-levels.json: displayLevel 5",
+    "src/lighthouse/public-souls.json: souls[5]",
+    "src/lighthouse/purchase-levels.json: displayLevel 1"
+  ],
+  "website_reference": {
+    "url": "https://www.doodles.app/",
+    "observed": "Read the user's Chrome tab and sampled the banner. DOM reports a muted looping hero video of 7.333333 seconds. Observed large cast silhouettes and quieter environmental background.",
+    "used_for": "Character prominence and short homepage-loop direction; no third-party artwork was used as an image-generation input."
+  },
+  "review": "Much larger bright lavender/coral characters contrast with a quieter deep-blue background. Dimensional pixel edges and lighting are a proposed brand-film treatment. The generated face and silhouette details are interpreted, not pixel-identical to the SVG source. The gold cluster reads as a floating accent rather than a clearly separate foreground character. This is a direction preview, not final exact-art production material.",
+  "recommended_hero_motion": "7-8 second restrained loop: slight hovering, subtle light and sparks, a steady camera, and a matching start/end composition. Confirm final character artwork before video generation.",
+  "flow_generation_started": false,
+  "website_changed": false
+}

@@ -1,0 +1,194 @@
+[
+  {
+    "status": "fulfilled",
+    "value": {
+      "content": [
+        {
+          "type": "text",
+          "text": "Action completed."
+        }
+      ],
+      "structuredContent": {
+        "id": "1k0tUw3ejSGiK5lM5_LTVdFbxTmmUeYDf",
+        "title": "souli-current-01-40-continuity-fixed-20261003.zip",
+        "mime_type": "application/zip",
+        "size": "87230935",
+        "url": "https://drive.google.com/file/d/1k0tUw3ejSGiK5lM5_LTVdFbxTmmUeYDf/view?usp=drivesdk",
+        "display_url": "https://drive.google.com/file/d/1k0tUw3ejSGiK5lM5_LTVdFbxTmmUeYDf/view?usp=drivesdk",
+        "file_or_folder": "file",
+        "created_time": null,
+        "modified_time": null,
+        "parent_ids": [
+          "1qRG_ChP8Z8oJd4knzVUSOU_RTjOqynpE"
+        ],
+        "drive_id": null,
+        "current_user_can_share": null,
+        "has_augmented_permissions": null,
+        "shared": null,
+        "permissions": null,
+        "source_visibility_status": "access_not_verified"
+      },
+      "isError": false
+    }
+  },
+  {
+    "status": "fulfilled",
+    "value": {
+      "content": [
+        {
+          "type": "text",
+          "text": "Action completed."
+        }
+      ],
+      "structuredContent": {
+        "id": "18raiwxmgOZhOh3sAmp4EkBEvKb42Mbib",
+        "title": "souli-current-41-80-continuity-fixed-20261003.zip",
+        "mime_type": "application/zip",
+        "size": "86305320",
+        "url": "https://drive.google.com/file/d/18raiwxmgOZhOh3sAmp4EkBEvKb42Mbib/view?usp=drivesdk",
+        "display_url": "https://drive.google.com/file/d/18raiwxmgOZhOh3sAmp4EkBEvKb42Mbib/view?usp=drivesdk",
+        "file_or_folder": "file",
+        "created_time": null,
+        "modified_time": null,
+        "parent_ids": [
+          "1qRG_ChP8Z8oJd4knzVUSOU_RTjOqynpE"
+        ],
+        "drive_id": null,
+        "current_user_can_share": null,
+        "has_augmented_permissions": null,
+        "shared": null,
+        "permissions": null,
+        "source_visibility_status": "access_not_verified"
+      },
+      "isError": false
+    }
+  },
+  {
+    "status": "fulfilled",
+    "value": {
+      "content": [
+        {
+          "type": "text",
+          "text": "Action completed."
+        }
+      ],
+      "structuredContent": {
+        "id": "1owBdAGkQGMB4yehyI70cY7li93YTNtuv",
+        "title": "README-current-delivery.txt",
+        "mime_type": "text/plain",
+        "size": "1536",
+        "url": "https://drive.google.com/file/d/1owBdAGkQGMB4yehyI70cY7li93YTNtuv/view?usp=drivesdk",
+        "display_url": "https://drive.google.com/file/d/1owBdAGkQGMB4yehyI70cY7li93YTNtuv/view?usp=drivesdk",
+        "file_or_folder": "file",
+        "created_time": null,
+        "modified_time": null,
+        "parent_ids": [
+          "1qRG_ChP8Z8oJd4knzVUSOU_RTjOqynpE"
+        ],
+        "drive_id": null,
+        "current_user_can_share": null,
+        "has_augmented_permissions": null,
+        "shared": null,
+        "permissions": null,
+        "source_visibility_status": "access_not_verified"
+      },
+      "isError": false
+    }
+  },
+  {
+    "status": "fulfilled",
+    "value": {
+      "content": [
+        {
+          "type": "text",
+          "text": "Action completed."
+        }
+      ],
+      "structuredContent": {
+        "id": "12in3xr_0j1FM9C8I1PUFFPQOTHv6GdIx",
+        "title": "current-80-captions.csv",
+        "mime_type": "text/csv",
+        "size": "16095",
+        "url": "https://drive.google.com/file/d/12in3xr_0j1FM9C8I1PUFFPQOTHv6GdIx/view?usp=drivesdk",
+        "display_url": "https://drive.google.com/file/d/12in3xr_0j1FM9C8I1PUFFPQOTHv6GdIx/view?usp=drivesdk",
+        "file_or_folder": "file",
+        "created_time": null,
+        "modified_time": null,
+        "parent_ids": [
+          "1qRG_ChP8Z8oJd4knzVUSOU_RTjOqynpE"
+        ],
+        "drive_id": null,
+        "current_user_can_share": null,
+        "has_augmented_permissions": null,
+        "shared": null,
+        "permissions": null,
+        "source_visibility_status": "access_not_verified"
+      },
+      "isError": false
+    }
+  },
+  {
+    "status": "fulfilled",
+    "value": {
+      "content": [
+        {
+          "type": "text",
+          "text": "Action completed."
+        }
+      ],
+      "structuredContent": {
+        "id": "1TV933cx0UZPFPrK5dtOae9-8YWuG1UDA",
+        "title": "current-80-manifest.json",
+        "mime_type": "application/json",
+        "size": "208299",
+        "url": "https://drive.google.com/file/d/1TV933cx0UZPFPrK5dtOae9-8YWuG1UDA/view?usp=drivesdk",
+        "display_url": "https://drive.google.com/file/d/1TV933cx0UZPFPrK5dtOae9-8YWuG1UDA/view?usp=drivesdk",
+        "file_or_folder": "file",
+        "created_time": null,
+        "modified_time": null,
+        "parent_ids": [
+          "1qRG_ChP8Z8oJd4knzVUSOU_RTjOqynpE"
+        ],
+        "drive_id": null,
+        "current_user_can_share": null,
+        "has_augmented_permissions": null,
+        "shared": null,
+        "permissions": null,
+        "source_visibility_status": "access_not_verified"
+      },
+      "isError": false
+    }
+  },
+  {
+    "status": "fulfilled",
+    "value": {
+      "content": [
+        {
+          "type": "text",
+          "text": "Action completed."
+        }
+      ],
+      "structuredContent": {
+        "id": "1l-4Jl7Q5p3s7YLjs9FiK6xBr6sgmVcKU",
+        "title": "delivery-receipt.json",
+        "mime_type": "application/json",
+        "size": "999",
+        "url": "https://drive.google.com/file/d/1l-4Jl7Q5p3s7YLjs9FiK6xBr6sgmVcKU/view?usp=drivesdk",
+        "display_url": "https://drive.google.com/file/d/1l-4Jl7Q5p3s7YLjs9FiK6xBr6sgmVcKU/view?usp=drivesdk",
+        "file_or_folder": "file",
+        "created_time": null,
+        "modified_time": null,
+        "parent_ids": [
+          "1qRG_ChP8Z8oJd4knzVUSOU_RTjOqynpE"
+        ],
+        "drive_id": null,
+        "current_user_can_share": null,
+        "has_augmented_permissions": null,
+        "shared": null,
+        "permissions": null,
+        "source_visibility_status": "access_not_verified"
+      },
+      "isError": false
+    }
+  }
+]

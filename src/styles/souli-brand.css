@@ -1,0 +1,57 @@
+/* Scoped specificity keeps shared styles stable when Vite extracts common CSS before entry CSS. */
+/* Crisp brand accents, with quiet surfaces around the original pixel art. */
+:is(#souli-site, #lighthouse-app, #app) .site-header{border-bottom:2px solid var(--souli-blue)}
+:is(#souli-site, #lighthouse-app, #app) .site-brand{color:var(--souli-blue-deep)}
+:is(#souli-site, #lighthouse-app, #app) .site-hero{background:var(--souli-blue);color:#fffefa}
+:is(#souli-site, #lighthouse-app, #app) .site-hero .site-eyebrow,:is(#souli-site, #lighthouse-app, #app) .site-hero .hero-description,:is(#souli-site, #lighthouse-app, #app) .site-hero .hero-note,:is(#souli-site, #lighthouse-app, #app) .site-hero .hero-note a,:is(#souli-site, #lighthouse-app, #app) .site-hero .hero-friends span{color:#edf3ff}
+:is(#souli-site, #lighthouse-app, #app) .site-hero .site-eyebrow i{background:var(--souli-yellow)}
+:is(#souli-site, #lighthouse-app, #app) .hero-copy h1{color:#fffefa;text-shadow:0 3px 0 #143cbb}
+:is(#souli-site, #lighthouse-app, #app) .site-hero .quiet-link{color:#fffefa}
+:is(#souli-site, #lighthouse-app, #app) .site-hero .quiet-link:hover{color:var(--souli-yellow)}
+:is(#souli-site, #lighthouse-app, #app) .pixel-button{background:var(--souli-yellow);color:var(--souli-ink);border:2px solid var(--souli-ink);box-shadow:0 4px 0 var(--souli-ink)}
+:is(#souli-site, #lighthouse-app, #app) .pixel-button:hover{background:#ffdf66;box-shadow:0 6px 0 var(--souli-ink)}
+:is(#souli-site, #lighthouse-app, #app) .pixel-button:active{box-shadow:0 2px 0 var(--souli-ink)}
+:is(#souli-site, #lighthouse-app, #app) .hero-window{border:2px solid var(--souli-ink);box-shadow:7px 8px 0 #163baf;background:var(--souli-paper);color:var(--souli-ink)}
+:is(#souli-site, #lighthouse-app, #app) .window-bar{background:var(--souli-yellow);border-bottom:1px solid var(--souli-ink)}
+:is(#souli-site, #lighthouse-app, #app) .window-bar i{background:var(--souli-blue)}
+:is(#souli-site, #lighthouse-app, #app) .window-bar small{color:#485271}
+:is(#souli-site, #lighthouse-app, #app) .hero-window .region-tabs button[aria-pressed=true]{background:var(--souli-blue);border-color:var(--souli-blue);color:white}
+:is(#souli-site, #lighthouse-app, #app) .world-ribbon{background:var(--souli-blue-deep);color:#fffefa;border-color:var(--souli-blue-deep)}
+:is(#souli-site, #lighthouse-app, #app) .steps li>span{background:var(--souli-yellow);border:1px solid #d1a82b;color:var(--souli-ink)}
+:is(#souli-site, #lighthouse-app, #app) .soul-card{border-color:#9eb5df;box-shadow:0 4px 0 #c4d3f0}
+:is(#souli-site, #lighthouse-app, #app) .soul-portrait>span{background:#fffefa;color:var(--souli-ink)}
+:is(#souli-site, #lighthouse-app, #app) .receipt-contract,:is(#souli-site, #lighthouse-app, #app) .receipt-status{border-color:#829ecf}
+:is(#souli-site, #lighthouse-app, #app) .receipt-status .receipt-not-open{background:var(--souli-yellow);color:#44350c}
+:is(#souli-site, #lighthouse-app, #app) .launch-section{background:var(--souli-blue-deep);color:#fffefa}
+:is(#souli-site, #lighthouse-app, #app) .launch-section .site-eyebrow,:is(#souli-site, #lighthouse-app, #app) .launch-section p{color:#e1eaff}
+:is(#souli-site, #lighthouse-app, #app) .launch-site-plan{color:var(--souli-ink);background:var(--souli-paper)}
+:is(#souli-site, #lighthouse-app, #app) .launch-site-plan p{color:var(--souli-muted)}
+:is(#souli-site, #lighthouse-app, #app) .closing-scene{background-color:#9acfff}
+:is(#souli-site, #lighthouse-app, #app) .closing-scene::before{background:var(--souli-yellow)}
+:is(#souli-site, #lighthouse-app, #app) .sanctuary-app .san-header{background:var(--souli-blue);border-color:var(--souli-blue-deep);color:white}
+:is(#souli-site, #lighthouse-app, #app) .sanctuary-app .san-brand,:is(#souli-site, #lighthouse-app, #app) .sanctuary-app .san-brand small{color:white}
+:is(#souli-site, #lighthouse-app, #app) .san-header-actions .san-wallet-button{background:var(--souli-yellow);border-color:var(--souli-ink);color:var(--souli-ink);box-shadow:0 3px 0 #173caa}
+:is(#souli-site, #lighthouse-app, #app) .san-header-actions .san-menu-button{background:#fffefa;border-color:var(--souli-ink);color:var(--souli-ink)}
+:is(#souli-site, #lighthouse-app, #app) .sanctuary-app .san-market-chip,:is(#souli-site, #lighthouse-app, #app) .sanctuary-app .san-mode-chip,:is(#souli-site, #lighthouse-app, #app) .sanctuary-app .san-companion-chip,:is(#souli-site, #lighthouse-app, #app) .san-world-controls .san-motion-toggle,:is(#souli-site, #lighthouse-app, #app) .san-guard-meter{background:#fffefa;border-color:#7894c6;box-shadow:0 3px 0 #244c9830}
+:is(#souli-site, #lighthouse-app, #app) .san-market-chip>span:first-child{color:var(--souli-blue)}
+:is(#souli-site, #lighthouse-app, #app) .san-simple-zones{border-color:#9ab1d7}
+:is(#souli-site, #lighthouse-app, #app) .san-simple-zones button[aria-pressed=true]{color:var(--souli-ink);border-color:var(--souli-blue)!important}
+:is(#souli-site, #lighthouse-app, #app) .san-simple-zones button:nth-child(1)[aria-pressed=true]{background:var(--souli-mint)}
+:is(#souli-site, #lighthouse-app, #app) .san-simple-zones button:nth-child(2)[aria-pressed=true]{background:var(--souli-lilac)}
+:is(#souli-site, #lighthouse-app, #app) .san-simple-zones button:nth-child(3)[aria-pressed=true]{background:var(--souli-pink)}
+:is(#souli-site, #lighthouse-app, #app) .san-primary{background:var(--souli-yellow)!important;border-color:#cea321!important;color:var(--souli-ink)!important}
+:is(#souli-site, #lighthouse-app, #app) .san-primary:hover:not(:disabled){background:#ffdf66!important}
+:is(#souli-site, #lighthouse-app, #app) .san-menu-grid button{background:#d9e5ff;border-color:#9bb4e9}
+:is(#souli-site, #lighthouse-app, #app) .san-menu-grid button:hover,:is(#souli-site, #lighthouse-app, #app) .san-menu-grid button:focus-visible{background:var(--souli-yellow)}
+:is(#souli-site, #lighthouse-app, #app) .san-guard-meter progress{accent-color:var(--souli-blue)}
+:is(#souli-site, #lighthouse-app, #app) .san-dialog.eth-sale{--sale-ink:var(--souli-ink);--sale-muted:var(--souli-muted);border-color:#8aa5d5;box-shadow:0 18px 70px #17245045}
+:is(#souli-site, #lighthouse-app, #app) .san-dialog.eth-sale .san-primary{background:var(--souli-yellow);border-color:#d4a92b;color:var(--souli-ink)!important;box-shadow:0 3px 0 #cea321}
+:is(#souli-site, #lighthouse-app, #app) .san-dialog.eth-sale .eth-sale-level-grid button[aria-pressed=true]{border-color:var(--souli-blue);box-shadow:inset 0 0 0 1px var(--souli-blue);background:#c5dcff}
+:is(#souli-site, #lighthouse-app, #app) .eth-sale-portrait{border-color:#8db8e1;background:var(--souli-sky)}
+:is(#souli-site, #lighthouse-app, #app) .eth-sale-consent input{accent-color:var(--souli-blue)}
+:is(#souli-site, #lighthouse-app, #app) .copy-contract,:is(#souli-site, #lighthouse-app, #app) .san-secondary,:is(#souli-site, #lighthouse-app, #app) .san-header-actions button,:is(#souli-site, #lighthouse-app, #app) .san-dialog-close,:is(#souli-site, #lighthouse-app, #app) .san-menu-grid button{border:1.5px solid #8299c3;box-shadow:0 3px 0 #bfd0ef;transition:transform .12s,box-shadow .12s}
+:is(#souli-site, #lighthouse-app, #app) .copy-contract:hover,:is(#souli-site, #lighthouse-app, #app) .san-secondary:hover:not(:disabled),:is(#souli-site, #lighthouse-app, #app) .san-header-actions button:hover:not(:disabled),:is(#souli-site, #lighthouse-app, #app) .san-menu-grid button:hover{transform:translateY(-1px);box-shadow:0 4px 0 #9db6e3}
+:is(#souli-site, #lighthouse-app, #app) .san-primary:active:not(:disabled),:is(#souli-site, #lighthouse-app, #app) .san-secondary:active:not(:disabled),:is(#souli-site, #lighthouse-app, #app) .san-header-actions button:active:not(:disabled),:is(#souli-site, #lighthouse-app, #app) .san-dialog-close:active,:is(#souli-site, #lighthouse-app, #app) .san-menu-grid button:active,:is(#souli-site, #lighthouse-app, #app) .copy-contract:active{transform:translateY(3px);box-shadow:none!important}
+:is(#souli-site, #lighthouse-app, #app) .san-primary{box-shadow:0 3px 0 #ba9122;transition:transform .12s,box-shadow .12s}
+@media(prefers-reduced-motion:reduce){:is(#souli-site, #lighthouse-app, #app) .pixel-button,:is(#souli-site, #lighthouse-app, #app) .san-primary,:is(#souli-site, #lighthouse-app, #app) .san-secondary,:is(#souli-site, #lighthouse-app, #app) .san-header-actions button,:is(#souli-site, #lighthouse-app, #app) .copy-contract,:is(#souli-site, #lighthouse-app, #app) .san-menu-grid button{transition:none}}
+@media(max-width:760px){:is(#souli-site, #lighthouse-app, #app) .hero-window{box-shadow:4px 5px 0 #163baf}:is(#souli-site, #lighthouse-app, #app) .site-hero{padding-bottom:45px}}

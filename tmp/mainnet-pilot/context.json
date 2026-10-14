@@ -1,0 +1,26 @@
+{
+  "preparedAt": "2026-10-03T05:36:10.536Z",
+  "status": "UNSIGNED_PILOT_ONLY_AWAITING_USER_WALLET_APPROVAL",
+  "priceReference": {
+    "source": "https://api.coinbase.com/v2/prices/ETH-USD/spot",
+    "serverDate": "Sat, 03 Oct 2026 05:36:08 GMT",
+    "ethUsd": "2676.805"
+  },
+  "totalSupply": "210000000",
+  "referenceFdvUsd": "15000000",
+  "unitPriceEth": "0.000026684264049332",
+  "maximumPilotRevenueEth": "0.001120739090071944",
+  "startsAtUtc": "2026-10-03T05:36:07.000Z",
+  "endsAtUtc": "2026-10-10T05:36:07.000Z",
+  "compiler": "0.8.37+commit.f401782d.Emscripten.clang",
+  "preflight": {
+    "block": 52108210,
+    "controller": "0xD643520BfEb76e59250d56Df8B196F9c751Bc252",
+    "sale": "0x83bcB8Ba9b7518CDEc32f2eE0e684f1d7b4ffB01",
+    "estimatedGas": "2269781",
+    "publicTransactionsSent": 0,
+    "note": "Read-only preflight. Recheck immediately before signing; this is not a fee quote, audit, or launch approval."
+  },
+  "publicTransactionsSent": 0,
+  "note": "Pilot is separate from the commercial launch. Initially paused; no inventory transfer or token approval in deployment. Fixed ETH price; USD changes with ETH. Three independent operators, one signature is enough. Manual LP, no automatic LP or refund."
+}

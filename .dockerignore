@@ -1,7 +1,16 @@
 node_modules
+**/node_modules
+server/data
+logs
+docs
+**/.env*
 dist
 .git
 *.log
 tmp.py
 .DS_Store
 .env*
+contracts
+tmp
+output
+purchase-lab.html

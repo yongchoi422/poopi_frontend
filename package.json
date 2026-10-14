@@ -1,25 +1,41 @@
 {
-  "name": "fungis",
+  "name": "souli-world",
   "version": "1.0.0",
   "private": true,
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "dev:api": "node server/index.mjs",
+    "dev:sale": "node scripts/dev-sale.mjs",
+    "test:sale": "npm --prefix contracts test",
+    "test:sale:fork": "npm --prefix contracts run test:fork",
+    "test:sale:dex-fork": "npm --prefix contracts run test:dex-fork",
+    "test:sale:lp-fork": "npm --prefix contracts run test:lp-fork",
+    "start": "node server/index.mjs",
+    "test:postgres": "node scripts/check-postgres.mjs",
+    "test:firestore": "node scripts/check-firestore.mjs",
+    "test:docker": "node scripts/check-docker.mjs",
+    "test:beta": "npm --prefix server test",
+    "test": "node scripts/check-release.mjs",
+    "dev:legacy": "node scripts/dev-legacy.mjs"
   },
   "dependencies": {
-    "@vueuse/core": "^10.9.0",
-    "@wagmi/core": "^1.4.13",
-    "@web3modal/wagmi": "^3.5.7",
-    "bignumber.js": "^9.1.2",
-    "pinia": "^2.1.7",
-    "vue": "^3.3.4",
-    "vue-inline-svg": "^3.1.2",
-    "web3": "1.10"
+    "@metamask/connect-evm": "2.1.1",
+    "ethers": "6.17.0",
+    "vue": "3.5.43"
   },
   "devDependencies": {
-    "@vitejs/plugin-vue": "^4.4.0",
-    "sass": "^1.69.5",
-    "vite": "^4.4.11"
+    "@vitejs/plugin-vue": "6.0.9",
+    "rollup": "npm:@rollup/wasm-node@4.63.5",
+    "sass": "1.105.1",
+    "vite": "7.3.6"
+  },
+  "engines": {
+    "node": ">=24"
+  },
+  "overrides": {
+    "rollup": "npm:@rollup/wasm-node@4.63.5",
+    "@metamask/utils": { "uuid": "11.1.1" }
   }
 }

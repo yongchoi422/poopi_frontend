@@ -1,0 +1,33 @@
+{
+  "schema": 1,
+  "confirmed": true,
+  "chainId": 8453,
+  "sale": "0x9B3b5BFbc22821416e390E10e0a30C1AC1960B68",
+  "controller": "0xc177F10Da4c62FBbef8182e82EE09F7Db79769dA",
+  "termsHash": "0xe44473908cc3fce7d26ca0f93c22e9dd7731704d790b08e3003b7096d7cd7c1a",
+  "initialStock": "1399999",
+  "previouslySold": "1",
+  "roundCap": "4200000",
+  "openedAt": "2026-10-04T05:29:41.000Z",
+  "block": 52151217,
+  "receipts": [
+    {
+      "action": "approve",
+      "hash": "0x4851d7a3115b063690cd7fe83585e199d9c51075a38d224fc5a897538d793b4b",
+      "block": 52150965,
+      "at": "2026-10-04T05:21:17.000Z"
+    },
+    {
+      "action": "deposit",
+      "hash": "0xf2ab4fc10766d0adb36fb4877736f0bb3854711042dfdeb26be18dd61418822d",
+      "block": 52151070,
+      "at": "2026-10-04T05:24:47.000Z"
+    },
+    {
+      "action": "start",
+      "hash": "0xaeb5ea4fdbab5f5f39778e32c6b4cbe02aa274105e466a3244c7ab2d3fc2ba8b",
+      "block": 52151217,
+      "at": "2026-10-04T05:29:41.000Z"
+    }
+  ]
+}

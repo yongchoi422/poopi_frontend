@@ -1,0 +1,20 @@
+{
+  "file": "souli-hero-1080p.mp4",
+  "source": "souli-hero-master-720p.mp4",
+  "conversion": "Local high-quality Lanczos resize from the downloaded 1280x720 Flow master to 1920x1080; H.264 CRF17, yuv420p, muted, faststart.",
+  "native_1080p_generation": false,
+  "flow_1080p_export": "Upscaling requested in Flow. The browser reported processing, but neither the download event nor the page asset bundle produced a saved 1080p file. This local file is not represented as Flow's upscaled export.",
+  "integration": "Use muted autoplay, playsinline, loop and a poster. Respect reduced-motion preferences. Keep text outside faces and avoid excessive mobile cropping.",
+  "website_changed": false,
+  "other_thread_messaged": false,
+  "validation": {
+    "dimensions": [
+      1920,
+      1080
+    ],
+    "fps": 24.0,
+    "seconds": 8.0,
+    "bytes": 3488733,
+    "full_decode_passed": true
+  }
+}

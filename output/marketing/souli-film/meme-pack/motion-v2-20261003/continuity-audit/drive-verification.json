@@ -1,0 +1,107 @@
+[
+  {
+    "status": "fulfilled",
+    "value": {
+      "file": "souli-continuity-audit-20261003.zip",
+      "metadata": {
+        "content": [
+          {
+            "type": "text",
+            "text": "Action completed."
+          }
+        ],
+        "structuredContent": {
+          "id": "1ys7aIfJM3h4UFTjiW_uh54duWP-pxEl3",
+          "title": "souli-continuity-audit-20261003.zip",
+          "mime_type": "application/zip",
+          "size": "26530295",
+          "url": "https://drive.google.com/file/d/1ys7aIfJM3h4UFTjiW_uh54duWP-pxEl3/view?usp=drivesdk",
+          "display_url": "https://drive.google.com/file/d/1ys7aIfJM3h4UFTjiW_uh54duWP-pxEl3/view?usp=drivesdk",
+          "file_or_folder": "file",
+          "created_time": null,
+          "modified_time": null,
+          "parent_ids": [
+            "1zeTkihPmdrMOS7067d7vDbQzZWuO207F"
+          ],
+          "drive_id": null,
+          "current_user_can_share": null,
+          "has_augmented_permissions": null,
+          "shared": null,
+          "permissions": null,
+          "source_visibility_status": "access_not_verified"
+        },
+        "isError": false
+      }
+    }
+  },
+  {
+    "status": "fulfilled",
+    "value": {
+      "file": "continuity-audit.csv",
+      "metadata": {
+        "content": [
+          {
+            "type": "text",
+            "text": "Action completed."
+          }
+        ],
+        "structuredContent": {
+          "id": "1aPGAI7nV-h2-l52ZUcLegvAjzfAg8ikH",
+          "title": "souli-continuity-audit.csv",
+          "mime_type": "text/csv",
+          "size": "31260",
+          "url": "https://drive.google.com/file/d/1aPGAI7nV-h2-l52ZUcLegvAjzfAg8ikH/view?usp=drivesdk",
+          "display_url": "https://drive.google.com/file/d/1aPGAI7nV-h2-l52ZUcLegvAjzfAg8ikH/view?usp=drivesdk",
+          "file_or_folder": "file",
+          "created_time": null,
+          "modified_time": null,
+          "parent_ids": [
+            "1zeTkihPmdrMOS7067d7vDbQzZWuO207F"
+          ],
+          "drive_id": null,
+          "current_user_can_share": null,
+          "has_augmented_permissions": null,
+          "shared": null,
+          "permissions": null,
+          "source_visibility_status": "access_not_verified"
+        },
+        "isError": false
+      }
+    }
+  },
+  {
+    "status": "fulfilled",
+    "value": {
+      "file": "repair-brief.txt",
+      "metadata": {
+        "content": [
+          {
+            "type": "text",
+            "text": "Action completed."
+          }
+        ],
+        "structuredContent": {
+          "id": "1m8918mgKexxzMX2MMuYVUeSk7jQV5eNp",
+          "title": "souli-repair-brief.txt",
+          "mime_type": "text/plain",
+          "size": "11963",
+          "url": "https://drive.google.com/file/d/1m8918mgKexxzMX2MMuYVUeSk7jQV5eNp/view?usp=drivesdk",
+          "display_url": "https://drive.google.com/file/d/1m8918mgKexxzMX2MMuYVUeSk7jQV5eNp/view?usp=drivesdk",
+          "file_or_folder": "file",
+          "created_time": null,
+          "modified_time": null,
+          "parent_ids": [
+            "1zeTkihPmdrMOS7067d7vDbQzZWuO207F"
+          ],
+          "drive_id": null,
+          "current_user_can_share": null,
+          "has_augmented_permissions": null,
+          "shared": null,
+          "permissions": null,
+          "source_visibility_status": "access_not_verified"
+        },
+        "isError": false
+      }
+    }
+  }
+]

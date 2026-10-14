@@ -1,0 +1,814 @@
+{
+  "screens": [
+    {
+      "time": 2,
+      "name": "calm",
+      "residents": 5,
+      "visitors": 0,
+      "visitorParts": 0,
+      "shots": 0,
+      "impacts": 0,
+      "floods": 0,
+      "paintedCells": 0,
+      "particles": 0,
+      "wetSurface": true,
+      "gate": {
+        "pressure": 0,
+        "capacity": 80,
+        "broken": false,
+        "repair": 0,
+        "breaches": 0,
+        "repairs": 0
+      },
+      "phase": "prepare",
+      "logical": 0,
+      "homeClean": 100,
+      "selected": -1,
+      "overview": false,
+      "width": 1402,
+      "height": 840,
+      "drawCalls": 89,
+      "triangles": 88600,
+      "resources": {
+        "geometries": 78,
+        "textures": 10
+      },
+      "crew": [
+        {
+          "id": 0,
+          "job": "guard",
+          "action": "Keeping a little watch",
+          "contribution": 0,
+          "screen": {
+            "x": 593.1068983847156,
+            "y": 387.13339849129227,
+            "visible": true
+          },
+          "pixels": 216
+        },
+        {
+          "id": 1,
+          "job": "guard",
+          "action": "Keeping a little watch",
+          "contribution": 0,
+          "screen": {
+            "x": 804.4599098662488,
+            "y": 420.0501490585021,
+            "visible": true
+          },
+          "pixels": 59
+        },
+        {
+          "id": 2,
+          "job": "wash",
+          "action": "Keeping a little watch",
+          "contribution": 0,
+          "screen": {
+            "x": 432.2212311952946,
+            "y": 438.5275233967776,
+            "visible": true
+          },
+          "pixels": 24
+        },
+        {
+          "id": 3,
+          "job": "wash",
+          "action": "Keeping a little watch",
+          "contribution": 0,
+          "screen": {
+            "x": 893.485409574656,
+            "y": 506.6275457165634,
+            "visible": true
+          },
+          "pixels": 33
+        },
+        {
+          "id": 4,
+          "job": "repair",
+          "action": "Keeping a little watch",
+          "contribution": 0,
+          "screen": {
+            "x": 673.4969309043756,
+            "y": 452.14180235942194,
+            "visible": true
+          },
+          "pixels": 61
+        }
+      ],
+      "elapsed": 2,
+      "weather": "violet",
+      "reduced": false,
+      "paused": true,
+      "audio": false
+    },
+    {
+      "time": 18.3,
+      "name": "defense",
+      "residents": 5,
+      "visitors": 3,
+      "visitorParts": 31,
+      "shots": 0,
+      "impacts": 3,
+      "floods": 0,
+      "paintedCells": 80,
+      "particles": 21,
+      "wetSurface": true,
+      "gate": {
+        "pressure": 0,
+        "capacity": 80,
+        "broken": false,
+        "repair": 0,
+        "brokenAt": null,
+        "breaches": 0,
+        "repairs": 0
+      },
+      "phase": "encounter",
+      "logical": 41.66129032258065,
+      "homeClean": 100,
+      "selected": -1,
+      "overview": false,
+      "width": 1402,
+      "height": 840,
+      "drawCalls": 160,
+      "triangles": 163462,
+      "resources": {
+        "geometries": 96,
+        "textures": 10
+      },
+      "crew": [
+        {
+          "id": 0,
+          "job": "guard",
+          "action": "On watch",
+          "contribution": 6,
+          "screen": {
+            "x": 596.1891800677957,
+            "y": 381.2154176597783,
+            "visible": true
+          },
+          "pixels": 216
+        },
+        {
+          "id": 1,
+          "job": "guard",
+          "action": "On watch",
+          "contribution": 6,
+          "screen": {
+            "x": 807.1336321316012,
+            "y": 414.9166023090254,
+            "visible": true
+          },
+          "pixels": 59
+        },
+        {
+          "id": 2,
+          "job": "wash",
+          "action": "Checking the neighborhood",
+          "contribution": 0,
+          "screen": {
+            "x": 394.7386430304885,
+            "y": 418.1051578640009,
+            "visible": true
+          },
+          "pixels": 24
+        },
+        {
+          "id": 3,
+          "job": "wash",
+          "action": "Checking the neighborhood",
+          "contribution": 0,
+          "screen": {
+            "x": 893.7849929447133,
+            "y": 497.83445637100726,
+            "visible": true
+          },
+          "pixels": 33
+        },
+        {
+          "id": 4,
+          "job": "repair",
+          "action": "On watch",
+          "contribution": 0,
+          "screen": {
+            "x": 669.2525072144775,
+            "y": 460.29109584402613,
+            "visible": true
+          },
+          "pixels": 61
+        }
+      ],
+      "elapsed": 18.3,
+      "weather": "violet",
+      "reduced": false,
+      "paused": true,
+      "audio": false
+    },
+    {
+      "time": 35,
+      "name": "pressure",
+      "residents": 5,
+      "visitors": 16,
+      "visitorParts": 166,
+      "shots": 3,
+      "impacts": 5,
+      "floods": 0,
+      "paintedCells": 159,
+      "particles": 62,
+      "wetSurface": true,
+      "gate": {
+        "pressure": 5.6000000000000005,
+        "capacity": 80,
+        "broken": false,
+        "repair": 0,
+        "brokenAt": null,
+        "breaches": 0,
+        "repairs": 0
+      },
+      "phase": "encounter",
+      "logical": 98.2258064516129,
+      "homeClean": 100,
+      "selected": -1,
+      "overview": false,
+      "width": 1402,
+      "height": 840,
+      "drawCalls": 161,
+      "triangles": 190848,
+      "resources": {
+        "geometries": 96,
+        "textures": 10
+      },
+      "crew": [
+        {
+          "id": 0,
+          "job": "guard",
+          "action": "On watch",
+          "contribution": 17,
+          "screen": {
+            "x": 595.7856584110568,
+            "y": 381.0660970177685,
+            "visible": true
+          },
+          "pixels": 216
+        },
+        {
+          "id": 1,
+          "job": "guard",
+          "action": "Pushing the tide back",
+          "contribution": 18,
+          "screen": {
+            "x": 807.5422466153078,
+            "y": 414.8970312279152,
+            "visible": true
+          },
+          "pixels": 59
+        },
+        {
+          "id": 2,
+          "job": "wash",
+          "action": "Checking the neighborhood",
+          "contribution": 0,
+          "screen": {
+            "x": 416.24752579264936,
+            "y": 453.52717041499744,
+            "visible": true
+          },
+          "pixels": 24
+        },
+        {
+          "id": 3,
+          "job": "wash",
+          "action": "Checking the neighborhood",
+          "contribution": 0,
+          "screen": {
+            "x": 837.4053689956871,
+            "y": 520.8127429977314,
+            "visible": true
+          },
+          "pixels": 33
+        },
+        {
+          "id": 4,
+          "job": "repair",
+          "action": "On watch",
+          "contribution": 0,
+          "screen": {
+            "x": 676.4551748352636,
+            "y": 446.3824172644458,
+            "visible": true
+          },
+          "pixels": 61
+        }
+      ],
+      "elapsed": 35,
+      "weather": "violet",
+      "reduced": false,
+      "paused": true,
+      "audio": false
+    },
+    {
+      "time": 38,
+      "name": "breach",
+      "residents": 5,
+      "visitors": 16,
+      "visitorParts": 166,
+      "shots": 4,
+      "impacts": 6,
+      "floods": 1,
+      "paintedCells": 207,
+      "particles": 104,
+      "wetSurface": true,
+      "gate": {
+        "pressure": 80,
+        "capacity": 80,
+        "broken": true,
+        "repair": 0,
+        "brokenAt": 102,
+        "breaches": 1,
+        "repairs": 0
+      },
+      "phase": "encounter",
+      "logical": 108.38709677419355,
+      "homeClean": 96.3,
+      "selected": -1,
+      "overview": false,
+      "width": 1402,
+      "height": 840,
+      "drawCalls": 163,
+      "triangles": 198520,
+      "resources": {
+        "geometries": 96,
+        "textures": 10
+      },
+      "crew": [
+        {
+          "id": 0,
+          "job": "guard",
+          "action": "Pushing the tide back",
+          "contribution": 20,
+          "screen": {
+            "x": 570.1888653512524,
+            "y": 417.9348473019887,
+            "visible": true
+          },
+          "pixels": 216
+        },
+        {
+          "id": 1,
+          "job": "guard",
+          "action": "On watch",
+          "contribution": 20,
+          "screen": {
+            "x": 792.7352622785672,
+            "y": 453.4895971069443,
+            "visible": true
+          },
+          "pixels": 59
+        },
+        {
+          "id": 2,
+          "job": "wash",
+          "action": "Rinsing a stray visitor",
+          "contribution": 1,
+          "screen": {
+            "x": 535.535253697232,
+            "y": 438.1950028508493,
+            "visible": true
+          },
+          "pixels": 24
+        },
+        {
+          "id": 3,
+          "job": "wash",
+          "action": "Washing the street",
+          "contribution": 18,
+          "screen": {
+            "x": 760.6100988180755,
+            "y": 461.52867248862265,
+            "visible": true
+          },
+          "pixels": 33
+        },
+        {
+          "id": 4,
+          "job": "repair",
+          "action": "Mending the gate",
+          "contribution": 0,
+          "screen": {
+            "x": 701.6977834351819,
+            "y": 396.859640533544,
+            "visible": true
+          },
+          "pixels": 61
+        }
+      ],
+      "elapsed": 38,
+      "weather": "violet",
+      "reduced": false,
+      "paused": true,
+      "audio": false
+    },
+    {
+      "time": 40,
+      "name": "flooded",
+      "residents": 5,
+      "visitors": 15,
+      "visitorParts": 155,
+      "shots": 1,
+      "impacts": 7,
+      "floods": 1,
+      "paintedCells": 268,
+      "particles": 104,
+      "wetSurface": true,
+      "gate": {
+        "pressure": 80,
+        "capacity": 80,
+        "broken": true,
+        "repair": 0,
+        "brokenAt": 102,
+        "breaches": 1,
+        "repairs": 0
+      },
+      "phase": "encounter",
+      "logical": 115.16129032258064,
+      "homeClean": 91.8,
+      "selected": -1,
+      "overview": false,
+      "width": 1402,
+      "height": 840,
+      "drawCalls": 117,
+      "triangles": 132770,
+      "resources": {
+        "geometries": 96,
+        "textures": 10
+      },
+      "crew": [
+        {
+          "id": 0,
+          "job": "guard",
+          "action": "On watch",
+          "contribution": 21,
+          "screen": {
+            "x": 570.1888653512524,
+            "y": 417.9348473019887,
+            "visible": true
+          },
+          "pixels": 216
+        },
+        {
+          "id": 1,
+          "job": "guard",
+          "action": "On watch",
+          "contribution": 22,
+          "screen": {
+            "x": 792.7352622785672,
+            "y": 453.4895971069443,
+            "visible": true
+          },
+          "pixels": 59
+        },
+        {
+          "id": 2,
+          "job": "wash",
+          "action": "Washing the street",
+          "contribution": 79,
+          "screen": {
+            "x": 577.0064511303358,
+            "y": 459.0336968250437,
+            "visible": true
+          },
+          "pixels": 24
+        },
+        {
+          "id": 3,
+          "job": "wash",
+          "action": "Washing the street",
+          "contribution": 118,
+          "screen": {
+            "x": 731.355947342548,
+            "y": 466.8401554015756,
+            "visible": true
+          },
+          "pixels": 33
+        },
+        {
+          "id": 4,
+          "job": "repair",
+          "action": "Mending the gate",
+          "contribution": 0,
+          "screen": {
+            "x": 701.6977834351819,
+            "y": 396.859640533544,
+            "visible": true
+          },
+          "pixels": 61
+        }
+      ],
+      "elapsed": 40,
+      "weather": "violet",
+      "reduced": false,
+      "paused": true,
+      "audio": false
+    },
+    {
+      "time": 46,
+      "name": "cleaning",
+      "residents": 5,
+      "visitors": 18,
+      "visitorParts": 186,
+      "shots": 2,
+      "impacts": 10,
+      "floods": 0,
+      "paintedCells": 229,
+      "particles": 132,
+      "wetSurface": true,
+      "gate": {
+        "pressure": 80,
+        "capacity": 80,
+        "broken": true,
+        "repair": 56.09999999999998,
+        "brokenAt": 102,
+        "breaches": 1,
+        "repairs": 0
+      },
+      "phase": "encounter",
+      "logical": 135.48387096774192,
+      "homeClean": 95.5,
+      "selected": -1,
+      "overview": false,
+      "width": 1402,
+      "height": 840,
+      "drawCalls": 162,
+      "triangles": 205972,
+      "resources": {
+        "geometries": 96,
+        "textures": 10
+      },
+      "crew": [
+        {
+          "id": 0,
+          "job": "guard",
+          "action": "On watch",
+          "contribution": 26,
+          "screen": {
+            "x": 570.1888653512524,
+            "y": 417.9348473019887,
+            "visible": true
+          },
+          "pixels": 216
+        },
+        {
+          "id": 1,
+          "job": "guard",
+          "action": "On watch",
+          "contribution": 27,
+          "screen": {
+            "x": 792.7352622785672,
+            "y": 453.4895971069443,
+            "visible": true
+          },
+          "pixels": 59
+        },
+        {
+          "id": 2,
+          "job": "wash",
+          "action": "Washing the street",
+          "contribution": 187,
+          "screen": {
+            "x": 597.0302681579121,
+            "y": 522.3576016204562,
+            "visible": true
+          },
+          "pixels": 24
+        },
+        {
+          "id": 3,
+          "job": "wash",
+          "action": "Washing the street",
+          "contribution": 230,
+          "screen": {
+            "x": 674.953523360421,
+            "y": 485.5777358208809,
+            "visible": true
+          },
+          "pixels": 33
+        },
+        {
+          "id": 4,
+          "job": "repair",
+          "action": "Mending the gate",
+          "contribution": 56.09999999999998,
+          "screen": {
+            "x": 701.6977834351819,
+            "y": 396.859640533544,
+            "visible": true
+          },
+          "pixels": 61
+        }
+      ],
+      "elapsed": 46,
+      "weather": "violet",
+      "reduced": false,
+      "paused": true,
+      "audio": false
+    },
+    {
+      "time": 73,
+      "name": "rest",
+      "residents": 5,
+      "visitors": 0,
+      "visitorParts": 0,
+      "shots": 0,
+      "impacts": 0,
+      "floods": 0,
+      "paintedCells": 174,
+      "particles": 0,
+      "wetSurface": true,
+      "gate": {
+        "pressure": 52.700000000000145,
+        "capacity": 120,
+        "broken": false,
+        "repair": 100,
+        "brokenAt": 102,
+        "breaches": 1,
+        "repairs": 1
+      },
+      "phase": "rest",
+      "logical": 210,
+      "homeClean": 100,
+      "selected": -1,
+      "overview": false,
+      "width": 1402,
+      "height": 840,
+      "drawCalls": 135,
+      "triangles": 153596,
+      "resources": {
+        "geometries": 96,
+        "textures": 10
+      },
+      "crew": [
+        {
+          "id": 0,
+          "job": "guard",
+          "action": "On watch",
+          "contribution": 41,
+          "screen": {
+            "x": 593.6575620546834,
+            "y": 380.2786083938356,
+            "visible": true
+          },
+          "pixels": 216
+        },
+        {
+          "id": 1,
+          "job": "guard",
+          "action": "On watch",
+          "contribution": 41,
+          "screen": {
+            "x": 809.6972015710467,
+            "y": 414.79381707396465,
+            "visible": true
+          },
+          "pixels": 59
+        },
+        {
+          "id": 2,
+          "job": "wash",
+          "action": "Checking the neighborhood",
+          "contribution": 272,
+          "screen": {
+            "x": 383.15170051997,
+            "y": 451.85952046329413,
+            "visible": true
+          },
+          "pixels": 24
+        },
+        {
+          "id": 3,
+          "job": "wash",
+          "action": "Checking the neighborhood",
+          "contribution": 271,
+          "screen": {
+            "x": 901.3932780193959,
+            "y": 534.6555121348001,
+            "visible": true
+          },
+          "pixels": 33
+        },
+        {
+          "id": 4,
+          "job": "repair",
+          "action": "Relieving the pressure",
+          "contribution": 160.79999999999995,
+          "screen": {
+            "x": 701.6773818128651,
+            "y": 397.53621273390013,
+            "visible": true
+          },
+          "pixels": 61
+        }
+      ],
+      "elapsed": 73,
+      "weather": "violet",
+      "reduced": false,
+      "paused": true,
+      "audio": false
+    }
+  ],
+  "checks": [
+    "Actual defense, paint flood, cleaning and repair, five contributing souls",
+    "All five original pixel fronts retained",
+    "User-gesture sound toggle and event scheduling",
+    "Still and OS reduced motion retain the simulation but remove extra motion",
+    "Actual branded PNG download",
+    "Mobile 390px, no horizontal overflow and controls visible",
+    "Mobile 320px, no horizontal overflow and controls visible",
+    "Demo color weather and replay",
+    "Autonomous clock advances; simulated hidden-tab event stops it",
+    "Three replay cycles do not accumulate geometry/textures",
+    "Rest completes and the next color story begins automatically"
+  ],
+  "resources": {
+    "memoryA": {
+      "geometries": 96,
+      "textures": 10
+    },
+    "memoryB": {
+      "geometries": 96,
+      "textures": 10
+    }
+  },
+  "errors": [],
+  "externalRequests": 0,
+  "checkedAt": "2026-10-11T05:20:11.043Z",
+  "environment": "Desktop Chrome headless ANGLE/SwiftShader; physical mobile GPU, sustained FPS and sound quality are not certified.",
+  "replayShadow": {
+    "refreshedOnBackwardSeek": true,
+    "rootRedirect": true,
+    "checkedAt": "2026-10-11T05:22:42.984Z"
+  },
+  "controlHitTests": {
+    "cases": [
+      {
+        "width": 320,
+        "time": 2,
+        "pass": true
+      },
+      {
+        "width": 320,
+        "time": 38,
+        "pass": true
+      },
+      {
+        "width": 320,
+        "time": 46,
+        "pass": true
+      },
+      {
+        "width": 320,
+        "time": 73,
+        "pass": true
+      },
+      {
+        "width": 390,
+        "time": 2,
+        "pass": true
+      },
+      {
+        "width": 390,
+        "time": 38,
+        "pass": true
+      },
+      {
+        "width": 390,
+        "time": 46,
+        "pass": true
+      },
+      {
+        "width": 390,
+        "time": 73,
+        "pass": true
+      },
+      {
+        "width": 1440,
+        "time": 2,
+        "pass": true
+      },
+      {
+        "width": 1440,
+        "time": 38,
+        "pass": true
+      },
+      {
+        "width": 1440,
+        "time": 46,
+        "pass": true
+      },
+      {
+        "width": 1440,
+        "time": 73,
+        "pass": true
+      }
+    ],
+    "method": "DOM layout with actual timeline copy, rendering module skipped; 320px full WebGL screenshot inspected separately."
+  }
+}

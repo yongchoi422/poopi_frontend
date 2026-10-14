@@ -1,0 +1,7 @@
+{
+  "name": "souli-room-model-draft",
+  "private": true,
+  "type": "module",
+  "scripts": { "start": "node serve.mjs" },
+  "dependencies": { "three": "0.186.1" }
+}

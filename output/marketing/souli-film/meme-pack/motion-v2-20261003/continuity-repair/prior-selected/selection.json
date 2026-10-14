@@ -1,0 +1,482 @@
+[
+  {
+    "id": "01",
+    "status": "accepted",
+    "source": "r2/episode-01-master-720p.mp4",
+    "observed": "커피를 맞고 몸 전체를 좌우로 튕기며 이동한다. 새 얼굴·글자가 생긴 1차본을 탈락시키고 2차본을 선택했다."
+  },
+  {
+    "id": "02",
+    "status": "accepted",
+    "source": "r2/episode-02-master-720p.mp4",
+    "observed": "같은 비대칭 검정 무늬를 유지하면서 벨트 위에서 반복 점프하고 기울어진 채 멈춘다. 새 눈썹이 생긴 1차본 제외."
+  },
+  {
+    "id": "03",
+    "status": "accepted",
+    "source": "r2/episode-03-master-720p.mp4",
+    "observed": "전화 쪽으로 뛰어가고 풀잎을 피해 몸을 좌우로 기울이다 뒤로 눕는다. 추가 눈·눈썹 없이 기존 체크 무늬 유지."
+  },
+  {
+    "id": "04",
+    "status": "accepted",
+    "source": "episode-04-master-720p.mp4",
+    "observed": "레드카펫을 따라 점프하다 말려오는 카펫을 피하고 몸 전체를 숙여 인사한다. 기존 형태와 민트·검정 무늬 유지."
+  },
+  {
+    "id": "05",
+    "status": "accepted",
+    "source": "episode-05-master-720p.mp4",
+    "observed": "냉장고를 향해 몸을 기울이다 떨어지는 당근에 점프하고 다시 다가간다. 원래 분홍·검정 무늬 유지."
+  },
+  {
+    "id": "06",
+    "status": "accepted",
+    "source": "r2/episode-06-master-720p.mp4",
+    "observed": "토스터 옆에서 몸을 기울이다 직접 점프한다. 원래 검정 두 사각형과 파란 세로줄 유지. 빵의 튀는 동작은 뚜렷하지 않아 소울의 반응 위주로 사용."
+  },
+  {
+    "id": "07",
+    "status": "accepted",
+    "source": "r2/episode-07-master-720p.mp4",
+    "observed": "아이스크림 쪽으로 기울었다가 의자 위에서 뒤로 이동하고 떨어진 크림을 보고 점프한다. 기존 분홍 패치와 검정 사각형 유지."
+  },
+  {
+    "id": "08",
+    "status": "accepted",
+    "source": "episode-08-master-720p.mp4",
+    "observed": "먹구름을 피해 좌우로 이동하고 점프한다. 구름이 따라온 뒤 몸을 기울여 반응한다. 입 패치의 비율은 조금 달라진다."
+  },
+  {
+    "id": "09",
+    "status": "accepted",
+    "source": "episode-09-master-720p.mp4",
+    "observed": "카트에 몸을 대고 밀고, 카트가 굴러가자 소울이 독립적으로 점프한다. 검정·크림 패턴 유지."
+  },
+  {
+    "id": "10",
+    "status": "accepted",
+    "source": "episode-10-master-720p.mp4",
+    "observed": "의자 위에서 몸을 좌우로 기울이고 점프한 뒤 의자가 이동한다. 원래 보라색 형태와 가로 무늬 유지."
+  },
+  {
+    "id": "11",
+    "status": "accepted",
+    "source": "episode-11-master-720p.mp4",
+    "observed": "나초에 몸을 대고 밀고 뒤로 기울다 다시 그릇 쪽으로 이동한다. 기존 가로 무늬와 실루엣 유지."
+  },
+  {
+    "id": "12",
+    "status": "accepted",
+    "source": "episode-12-master-720p.mp4",
+    "observed": "선풍기 앞으로 이동한 소울이 바람에 뒤로 밀리고 점프하며 다시 다가간다. 원래 빨강·크림·검정 모양 유지."
+  },
+  {
+    "id": "13",
+    "status": "accepted",
+    "source": "episode-13-master-720p.mp4",
+    "observed": "우주선 안에서 감자칩을 따라 몸이 떠서 이동하고 기울어진다. 기존 노란 실루엣과 가로 무늬 유지."
+  },
+  {
+    "id": "14",
+    "status": "accepted",
+    "source": "r2/episode-14-master-720p.mp4",
+    "observed": "문 앞에서 몸 전체로 뛰다가 문이 열리면 기울고 회전하며 엘리베이터 안으로 이동한다. 윗부분이 길어지던 1차본을 교체했다."
+  },
+  {
+    "id": "15",
+    "status": "accepted",
+    "source": "episode-15-master-720p.mp4",
+    "observed": "스카프가 얼굴 앞을 지나자 몸을 좌우로 기울이고 점프해 벗겨낸다. 원래 민트·검정 무늬 유지."
+  },
+  {
+    "id": "16",
+    "status": "accepted",
+    "source": "episode-16-master-720p.mp4",
+    "observed": "쿠션 위로 점프한 뒤 푹신한 표면에서 몸을 좌우로 기울인다. 얼굴 무늬와 복숭아색 실루엣 유지."
+  },
+  {
+    "id": "17",
+    "status": "accepted",
+    "source": "episode-17-master-720p.mp4",
+    "observed": "풍선에 매달린 소울이 바닥에서 떠오르고 몸을 좌우로 기울이며 내려왔다 다시 뜬다. 기존 가로 무늬 유지."
+  },
+  {
+    "id": "18",
+    "status": "accepted",
+    "source": "episode-18-master-720p.mp4",
+    "observed": "종이배 위에서 소울이 배와 별개로 기울고 점프해 균형을 잡는다. 오리가 지나가자 다시 기울여 반응한다."
+  },
+  {
+    "id": "19",
+    "status": "accepted",
+    "source": "episode-19-master-720p.mp4",
+    "observed": "은색 뚜껑이 열리자 몸을 기울여 작은 감자튀김을 살핀다. 기존 앞면 무늬는 유지하며 가려졌던 아래쪽은 생성된 형태가 드러난다."
+  },
+  {
+    "id": "20",
+    "status": "accepted",
+    "source": "episode-20-master-720p.mp4",
+    "observed": "명상하듯 기울던 소울이 전화 쪽으로 점프했다가 돌아온다. 올리브색 실루엣과 검정·크림 무늬 유지."
+  },
+  {
+    "id": "21",
+    "status": "accepted",
+    "source": "r3/episode-21-master-720p.mp4",
+    "observed": "양말을 피해 왼쪽으로 뛰고, 양말이 옆에 떨어지자 몸을 기울여 살핀다. 원래 정사각형과 가로 줄무늬 유지."
+  },
+  {
+    "id": "22",
+    "status": "accepted",
+    "source": "r2/episode-22-master-720p.mp4",
+    "observed": "자판기 안에서 점프한 뒤 떨어진 부스러기에 다가가 다시 뛴다. 새 눈이 생긴 1차본을 교체하고 원래 네 사각형 무늬 유지."
+  },
+  {
+    "id": "23",
+    "status": "accepted",
+    "source": "episode-23-master-720p.mp4",
+    "observed": "종이가 다가오자 소울이 뒤로 뛰고 좌우로 움직인다. 파란 실루엣과 원래 검정 무늬 유지."
+  },
+  {
+    "id": "24",
+    "status": "accepted",
+    "source": "episode-24-master-720p.mp4",
+    "observed": "회전 접시 위에서 소울이 자체적으로 기울고 점프하며 지나가는 음식을 따라간다. 실루엣은 유지되며 상단 검정 패치가 조금 달라진다."
+  },
+  {
+    "id": "25",
+    "status": "accepted",
+    "source": "r2/episode-25-master-720p.mp4",
+    "observed": "공을 밀고 몸통이 뛰어오른 뒤 핀이 쓰러질 때 기울어진다. 낮은 계단형 실루엣과 가로 무늬 유지."
+  },
+  {
+    "id": "26",
+    "status": "accepted",
+    "source": "r2/episode-26-master-720p.mp4",
+    "observed": "DJ 부스 뒤에서 좌우로 기울고 점프한다. 연기가 몸을 가리지 않아 보라색 판과 노란 인레이 유지."
+  },
+  {
+    "id": "27",
+    "status": "accepted",
+    "source": "episode-27-master-720p.mp4",
+    "observed": "박물관 전시대 앞에서 소울이 점프하고 몸을 기울여 인사한다. 작은 마카로니 공개 후 다시 몸을 움직인다. 원형 유지."
+  },
+  {
+    "id": "28",
+    "status": "accepted",
+    "source": "episode-28-master-720p.mp4",
+    "observed": "종이차 안에서 몸이 들썩이고 기울어지는 반응이 뚜렷하다. 차 바퀴의 소품 연속성은 일부 느슨하다."
+  },
+  {
+    "id": "29",
+    "status": "accepted",
+    "source": "r2/episode-29-master-720p.mp4",
+    "observed": "낚싯대 움직임에 몸이 뒤로 홉하고 작은 잎이 올라온 뒤 옆으로 기울어진다. 흙색 판형과 흰검정 인레이 유지."
+  },
+  {
+    "id": "30",
+    "status": "accepted",
+    "source": "episode-30-master-720p.mp4",
+    "observed": "텐트가 내려앉자 분홍색 블록이 홉하고 기울어진다. 낮은 몸통과 원래 패턴 유지."
+  },
+  {
+    "id": "31",
+    "status": "accepted",
+    "source": "episode-31-master-720p.mp4",
+    "observed": "수하물 벨트를 향해 몸이 여러 번 기울고 홉한다. 분홍 실루엣과 검정 점 패턴 유지."
+  },
+  {
+    "id": "32",
+    "status": "accepted",
+    "source": "episode-32-master-720p.mp4",
+    "observed": "왕관이 내려오자 몸통이 뛰고 양쪽으로 기울어진다. 아이보리 톱니형 윤곽과 패치 유지."
+  },
+  {
+    "id": "33",
+    "status": "accepted",
+    "source": "episode-33-master-720p.mp4",
+    "observed": "우산 아래로 이동하고 물을 피하듯 몸을 홉하고 기울인다. 청록 블록과 가로 무늬 유지."
+  },
+  {
+    "id": "34",
+    "status": "accepted",
+    "source": "episode-34-master-720p.mp4",
+    "observed": "팬케이크 쪽으로 다가가 접시를 건드린 뒤 뒤로 홉한다. 크림색 블록 무늬 유지. 팬케이크 높이는 중간에 크게 낮아진다."
+  },
+  {
+    "id": "35",
+    "status": "accepted",
+    "source": "episode-35-master-720p.mp4",
+    "observed": "체스 말 쪽으로 이동하고 기울어지며 말을 넘긴다. 보라색 가로 실루엣과 검정 막대 패턴 유지."
+  },
+  {
+    "id": "36",
+    "status": "accepted",
+    "source": "r4/episode-36-master-720p.mp4",
+    "observed": "결정 몸통이 바위 위에서 좌우로 기울고 점프한다. 앞의 검정 가로 막대와 결정 윤곽이 유지되며 모래성이 무너진 뒤 멈칫한다."
+  },
+  {
+    "id": "37",
+    "status": "accepted",
+    "source": "r2/episode-37-master-720p.mp4",
+    "observed": "청소기 이동과 별개로 소울이 두 번 뛰고 몸을 기울여 균형을 잡는다. 사람형 로봇으로 변한 1차본은 탈락했다."
+  },
+  {
+    "id": "38",
+    "status": "accepted",
+    "source": "episode-38-master-720p.mp4",
+    "observed": "책장이 넘어올 때 이동하고 기울어진다. 중간에 반대쪽 면을 보여 주지만 연두색 조각과 보라색 인레이가 유지된다."
+  },
+  {
+    "id": "39",
+    "status": "accepted",
+    "source": "episode-39-master-720p.mp4",
+    "observed": "정상에서 점프한 뒤 깃발이 날아가자 몸을 기울인다. 얼음색 곡선 계단형 윤곽과 회색 검정 무늬 유지."
+  },
+  {
+    "id": "40",
+    "status": "accepted",
+    "source": "episode-40-master-720p.mp4",
+    "observed": "새싹을 향해 기울고 잎이 머리 위로 오자 점프한 뒤 좌우로 움직인다. 네모난 몸과 민트 모자이크 유지."
+  },
+  {
+    "id": "41",
+    "status": "accepted",
+    "source": "episode-41-master-720p.mp4",
+    "observed": "팝콘을 향해 기울다 튀는 팝콘에 놀라 점프하고, 다시 다가가 바닥의 팝콘을 건드린다. 기존 가로 무늬와 실루엣 유지."
+  },
+  {
+    "id": "42",
+    "status": "accepted",
+    "source": "episode-42-master-720p.mp4",
+    "observed": "큰 공으로 다가가고 뒤로 물러난 뒤 온몸으로 밀어 본다. 초록 몸체와 보라색 사각 무늬 유지."
+  },
+  {
+    "id": "43",
+    "status": "accepted",
+    "source": "episode-43-master-720p.mp4",
+    "observed": "사진 의자에서 균형을 잡다가 배경지가 떨어질 때 홉한다. 살구색 윤곽과 민트 검정 무늬 유지."
+  },
+  {
+    "id": "44",
+    "status": "accepted",
+    "source": "episode-44-master-720p.mp4",
+    "observed": "신발 사이에서 홉하고 신발이 먼저 출발한 뒤 다시 움직인다. 청록색 윤곽과 십자 무늬 유지."
+  },
+  {
+    "id": "45",
+    "status": "accepted",
+    "source": "episode-45-master-720p.mp4",
+    "observed": "모자에 몸을 숙이고 당근이 내려오자 점프한다. 짙은 회색 두 돌출부와 가로 인레이 유지."
+  },
+  {
+    "id": "46",
+    "status": "accepted",
+    "source": "episode-46-master-720p.mp4",
+    "observed": "마시멜로 바벨에 몸을 기울여 밀고 뒤로 홉한다. 붉은 낮은 몸체와 흰검정 무늬가 유지된다."
+  },
+  {
+    "id": "47",
+    "status": "accepted",
+    "source": "episode-47-master-720p.mp4",
+    "observed": "포크의 면을 따라 낮은 몸통이 앞으로 움직이고 양쪽으로 기울어진다. 분홍색 덩어리와 라일락 검정 부분 유지."
+  },
+  {
+    "id": "48",
+    "status": "accepted",
+    "source": "episode-48-master-720p.mp4",
+    "observed": "굴러오는 덤불을 피하며 점프한 뒤 다시 기울어진다. 짙은 회색 윤곽과 민트 패턴 유지."
+  },
+  {
+    "id": "49",
+    "status": "accepted",
+    "source": "episode-49-master-720p.mp4",
+    "observed": "잠망경 쪽으로 다가갔다가 오리가 움직일 때 뒤로 홉한다. 회색 블록과 검정 민트 가로 무늬 유지."
+  },
+  {
+    "id": "50",
+    "status": "accepted",
+    "source": "episode-50-master-720p.mp4",
+    "observed": "반죽을 몸으로 밀고 밀대가 접근하자 뒤로 홉한다. 보라색 계단형 외곽과 중앙 세로 인레이 유지."
+  },
+  {
+    "id": "51",
+    "status": "accepted",
+    "source": "episode-51-master-720p.mp4",
+    "observed": "골프공을 밀어 보내고 돌아오는 공에 몸을 기울인 뒤 다시 이동한다. 노란색 가로 실루엣과 작은 사각 패턴 유지."
+  },
+  {
+    "id": "52",
+    "status": "accepted",
+    "source": "episode-52-master-720p.mp4",
+    "observed": "젤리 쪽으로 점프하고 흔들림을 따라 몸 전체가 기울어진다. 붉은 외곽과 민트 가로 줄 무늬 유지."
+  },
+  {
+    "id": "53",
+    "status": "accepted",
+    "source": "episode-53-master-720p.mp4",
+    "observed": "집게 아래에서 솟아올랐다가 옆으로 기울어진다. 흰색 계단형 판과 검정 회색 무늬 유지. 원화에서 가려진 아래쪽은 일부 생성된다."
+  },
+  {
+    "id": "54",
+    "status": "accepted",
+    "source": "r2/episode-54-master-720p.mp4",
+    "observed": "낮은 분홍 조각이 앞으로 이동하고 트라이앵글 반응에 홉한다. 목이나 다리 없이 원래 짧은 몸체 유지."
+  },
+  {
+    "id": "55",
+    "status": "accepted",
+    "source": "episode-55-master-720p.mp4",
+    "observed": "벨 쪽으로 점프하고 작은 벨이 나타나자 좌우로 기울인다. 분홍 곡선형과 사각 무늬 유지."
+  },
+  {
+    "id": "56",
+    "status": "accepted",
+    "source": "episode-56-master-720p.mp4",
+    "observed": "해먹의 흔들림과 별개로 몸을 기울이고 판 위에서 한 번 홉한다. 보라색 외곽과 중앙 무늬 유지."
+  },
+  {
+    "id": "57",
+    "status": "accepted",
+    "source": "episode-57-master-720p.mp4",
+    "observed": "쿠키가 든 금고로 다가갔다가 문이 닫히자 뒤로 홉하고 기울어진다. 노란 판과 분홍 검정 무늬 유지."
+  },
+  {
+    "id": "58",
+    "status": "accepted",
+    "source": "episode-58-master-720p.mp4",
+    "observed": "눈을 날리는 선풍기를 향해 기울었다가 뒤로 홉한다. 라벤더 블록과 민트 사각점 세로 검정 무늬 유지."
+  },
+  {
+    "id": "59",
+    "status": "accepted",
+    "source": "episode-59-master-720p.mp4",
+    "observed": "작은 대포가 발사된 뒤 몸이 뒤로 점프하고 그릇 쪽으로 기울어진다. 보라색 판과 노란 조각 무늬 유지."
+  },
+  {
+    "id": "60",
+    "status": "accepted",
+    "source": "episode-60-master-720p.mp4",
+    "observed": "도미노 옆에서 몸을 기울이고 홉한다. 초록색 둥근 계단형 외곽과 크림색 중심 패턴 유지."
+  },
+  {
+    "id": "61",
+    "status": "accepted",
+    "source": "episode-61-master-720p.mp4",
+    "observed": "피자 치즈가 늘어나자 몸이 뒤로 기울고 홉한다. 낮은 보라색 판형과 양쪽 검정 무늬 유지."
+  },
+  {
+    "id": "62",
+    "status": "accepted",
+    "source": "episode-62-master-720p.mp4",
+    "observed": "키캡을 몸으로 건드린 뒤 튀는 스프링에 뒤로 홉한다. 투명 청록색의 짧은 몸과 가로 돌출부 유지."
+  },
+  {
+    "id": "63",
+    "status": "accepted",
+    "source": "episode-63-master-720p.mp4",
+    "observed": "두루마리 쪽으로 이동하고 종이가 풀리자 홉한다. 노란 몸체와 흰검정 사각 패턴 유지."
+  },
+  {
+    "id": "64",
+    "status": "accepted",
+    "source": "episode-64-master-720p.mp4",
+    "observed": "풍선이 커지자 물러나고 바람이 빠지면 앞으로 홉한다. 주황색 윤곽과 밝은 가로 패턴 유지."
+  },
+  {
+    "id": "65",
+    "status": "accepted",
+    "source": "episode-65-master-720p.mp4",
+    "observed": "떠오르는 샌드위치를 따라 달 표면에서 높게 홉하고 착지한다. 흰색 낮은 판과 검정 가로 무늬 유지."
+  },
+  {
+    "id": "66",
+    "status": "accepted",
+    "source": "episode-66-master-720p.mp4",
+    "observed": "연필 쪽으로 이동해 굴린 뒤 옆으로 홉한다. 분홍색 둥근 계단형과 두 검정 세로 무늬 유지."
+  },
+  {
+    "id": "67",
+    "status": "accepted",
+    "source": "episode-67-master-720p.mp4",
+    "observed": "교통콘이 늘어나는 동안 몸이 점프하고 기울어진다. 청록색 외곽과 분홍 중앙 무늬 유지."
+  },
+  {
+    "id": "68",
+    "status": "accepted",
+    "source": "episode-68-master-720p.mp4",
+    "observed": "푸딩에 다가갔다가 압착기가 내려오자 뒤로 홉한다. 파란색 계단형과 밝은 패턴 유지."
+  },
+  {
+    "id": "69",
+    "status": "accepted",
+    "source": "episode-69-master-720p.mp4",
+    "observed": "튜브에 접근해 밀고 튜브가 굴러가자 뒤로 홉한다. 낮은 주황색 실루엣과 검정 흰색 가로 인레이 유지."
+  },
+  {
+    "id": "70",
+    "status": "accepted",
+    "source": "r2/episode-70-master-720p.mp4",
+    "observed": "우편함으로 다가가고 작은 시리얼 링이 굴러오자 뒤로 홉한다. 새로운 눈 없이 분홍 띠와 검정 가로 무늬 유지."
+  },
+  {
+    "id": "71",
+    "status": "accepted",
+    "source": "episode-71-master-720p.mp4",
+    "observed": "수도꼭지로 다가가고 몸을 길게 기울여 물방울을 기다린다. 라벤더색 가로 형태와 앞면 색 패턴 유지."
+  },
+  {
+    "id": "72",
+    "status": "accepted",
+    "source": "episode-72-master-720p.mp4",
+    "observed": "도장 쪽으로 다가갔다가 찍히는 순간 뒤로 홉한다. 노란색 윤곽과 분홍 검정 무늬 유지."
+  },
+  {
+    "id": "73",
+    "status": "accepted",
+    "source": "episode-73-master-720p.mp4",
+    "observed": "솜사탕 기계 쪽으로 몸을 기울이고 떨어진 작은 솜사탕에 반응해 홉한다. 흙색 판형과 원래 가로 인레이 유지."
+  },
+  {
+    "id": "74",
+    "status": "accepted",
+    "source": "r2/episode-74-master-720p.mp4",
+    "observed": "쿠키 기차가 지나갈 때 플랫폼에서 홉하고 몸을 기울인다. 위쪽에 추가 얼굴 없이 주황색 판과 낮은 검정 사각점 유지."
+  },
+  {
+    "id": "75",
+    "status": "accepted",
+    "source": "episode-75-master-720p.mp4",
+    "observed": "주사위를 몸으로 밀고 결과를 본 뒤 크게 점프하고 기울어진다. 구리색 곡선형 윤곽과 밝은 가로 패턴 유지."
+  },
+  {
+    "id": "76",
+    "status": "accepted",
+    "source": "episode-76-master-720p.mp4",
+    "observed": "요가 매트가 풀리고 다시 말릴 때 몸을 기울이고 홉한다. 라일락 분홍 몸체와 세 가로 막대 유지."
+  },
+  {
+    "id": "77",
+    "status": "accepted",
+    "source": "episode-77-master-720p.mp4",
+    "observed": "케첩 병을 밀었다가 작은 방울에 뒤로 홉한다. 짧고 낮은 붉은 몸체와 원래 검정 사각 무늬 유지."
+  },
+  {
+    "id": "78",
+    "status": "accepted",
+    "source": "episode-78-master-720p.mp4",
+    "observed": "먼지에 다가가다가 청소기가 작동하자 뒤로 홉한다. 초록색 계단형과 파란색 검정 인레이 유지."
+  },
+  {
+    "id": "79",
+    "status": "accepted",
+    "source": "episode-79-master-720p.mp4",
+    "observed": "오리 행렬을 따라 몸을 길게 기울이고 한 번 홉한다. 긴 회색 몸통과 노랑 검정 체커 무늬 유지."
+  },
+  {
+    "id": "80",
+    "status": "accepted",
+    "source": "episode-80-master-720p.mp4",
+    "observed": "알람시계를 밀어 떨어뜨리고 홉한 뒤 베개 쪽으로 기울어진다. 초록 윤곽과 하단 세 검정 무늬 유지. 마지막 시계 소품 위치는 다시 바뀐다."
+  }
+]

@@ -1,0 +1,9 @@
+{
+  "contract": "0xb43eA104c7ec75038Ac8EcA57107Eefc8B039aFF",
+  "block": 51982158,
+  "fetchedAt": "2026-09-30T07:34:24.201Z",
+  "seed": "1",
+  "extra": "0",
+  "level": 0,
+  "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><rect x='0' y='0' width='24' height='24' fill='#FEF3B6'/><rect x='0' y='17' width='24' height='8' fill='#A27267'/><rect x='0' y='17' width='24' height='1' fill='#A27267'/><rect x='0' y='18' width='24' height='1' fill='#A27267'/><rect x='19' y='1' width='2' height='1' fill='#FCE779'/><rect x='19' y='2' width='2' height='1' fill='#FCE779'/><rect x='20' y='3' width='1' height='1' fill='#FCE779'/></svg>"
+}

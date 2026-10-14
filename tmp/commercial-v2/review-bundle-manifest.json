@@ -1,0 +1,448 @@
+{
+  "purpose": "Local external-review preparation, no recipient or upload",
+  "publicTransactionsSent": 0,
+  "independentAuditCompleted": false,
+  "note": "Selected current sources, generated compiler inputs, tests and evidence. Not a full website checkout. Original scan precedes local fixes. Install pinned dependencies in the actual repository to reproduce checks. Dated deployment candidates are excluded.",
+  "files": [
+    {
+      "path": "contracts/artifacts/contracts.json",
+      "bytes": 734001,
+      "sha256": "3f26d5f1e275da767592d05358f0a9d2e02006c59cb38f8b1ef6ee110f176fd2"
+    },
+    {
+      "path": "contracts/artifacts/standard-input.json",
+      "bytes": 231068,
+      "sha256": "8285ba995b2bb9948793661aef77cae7e73b9ff0a1040397596d7bd021e816d4"
+    },
+    {
+      "path": "contracts/hardhat.config.js",
+      "bytes": 187,
+      "sha256": "7bd5a5859ef5211a247e1df50bb426d67605a6304a1ec521e9771157016eb770"
+    },
+    {
+      "path": "contracts/package-lock.json",
+      "bytes": 52318,
+      "sha256": "7902eed57bc4f13c172240f827455f8985f4ccd877f4e3cc4e376b7df08ab0cd"
+    },
+    {
+      "path": "contracts/package.json",
+      "bytes": 691,
+      "sha256": "df4264952ee5491e4e33e6f3d055a75db520b12316b8a027b87d23fdcba04e55"
+    },
+    {
+      "path": "contracts/release/base-sale.draft.json",
+      "bytes": 454,
+      "sha256": "da113a435a71e27877c16055872ffd576e8f0fa6436ed5276a1cb5abfb5ea737"
+    },
+    {
+      "path": "contracts/scripts/check-commercial-v2-fork.mjs",
+      "bytes": 7216,
+      "sha256": "f923003e09d0896d4080018b7d4dc73486931f2f74df547457582b5f35a7ee74"
+    },
+    {
+      "path": "contracts/scripts/check-dex-fork.mjs",
+      "bytes": 7294,
+      "sha256": "738a3f105d19a4816c2790dc1cf9df5b4bf9257b8b06226ff2f3f95b332a4503"
+    },
+    {
+      "path": "contracts/scripts/check-fork.mjs",
+      "bytes": 4599,
+      "sha256": "6df66d657491a9863467c08519bcce4c8972bfb253effe0c8f3a5c930d351908"
+    },
+    {
+      "path": "contracts/scripts/check-inscriptions-fork.mjs",
+      "bytes": 7869,
+      "sha256": "3f438d089df03210381ba354b9a3e9e86b45ef7992f16e8098b657bc9c493d83"
+    },
+    {
+      "path": "contracts/scripts/check-lp-fork.mjs",
+      "bytes": 9221,
+      "sha256": "978820ed1779c1c6973f3ea949cf2049c541099c0b29067a9a15794f0bfe784a"
+    },
+    {
+      "path": "contracts/scripts/check-safe-readiness.mjs",
+      "bytes": 2294,
+      "sha256": "198995e64059e9ce2cf5cb62cfc20930e87165a2727ace854202ca17dbe8134e"
+    },
+    {
+      "path": "contracts/scripts/check-three-wallet-fork.mjs",
+      "bytes": 6028,
+      "sha256": "92f059602641ba8c67233350130b9bc1eee1141c9d9975fe59cd58a32d81753d"
+    },
+    {
+      "path": "contracts/scripts/compile.mjs",
+      "bytes": 2362,
+      "sha256": "999f4cd013c961daac8d53e721d9a9068dc0e0b49d47239fbf5cf5409f269ca3"
+    },
+    {
+      "path": "contracts/scripts/demo.mjs",
+      "bytes": 2503,
+      "sha256": "b8ad2c4f4a112d4d68d283adfc38127ff40d5b2b62020e1f23c5f4b7fa87f536"
+    },
+    {
+      "path": "contracts/scripts/deployer-account.mjs",
+      "bytes": 2008,
+      "sha256": "cf60c1d66a7198cc3810e66d4b07690298b9179b4224e25ab8ec63e99bd4d535"
+    },
+    {
+      "path": "contracts/scripts/prepare-pilot-review.mjs",
+      "bytes": 3143,
+      "sha256": "5597b10eec12792f89c42da40aceeb827d986649f9cbbeba5e25442696bfb2f9"
+    },
+    {
+      "path": "contracts/scripts/read-only-fork-rpc.mjs",
+      "bytes": 3135,
+      "sha256": "75912987896d4dd897f2de487ab94a1b96a9019fa90ab2d0384b13a2be488e4a"
+    },
+    {
+      "path": "contracts/scripts/release-tools.mjs",
+      "bytes": 6938,
+      "sha256": "610c26248cd4cc6215bce0ebf05242ea4b6b965e11d6b957028f9d5c7797ded5"
+    },
+    {
+      "path": "contracts/scripts/release.mjs",
+      "bytes": 1643,
+      "sha256": "48abcf9974aa8c9b5b44846642523ea3916ce8096de8becedaf1f36ff488a34a"
+    },
+    {
+      "path": "contracts/scripts/three-wallet-release-tools.mjs",
+      "bytes": 8721,
+      "sha256": "cba6f2a037a89cc7576fa95628ad81bf635df88ea8e6be2962f38a4f937530ab"
+    },
+    {
+      "path": "contracts/scripts/three-wallet-release.mjs",
+      "bytes": 1614,
+      "sha256": "1dd91a1b47e539ef35e03425b9f0f1a0e78f79e2c43ccd235cdb6b96abd2b839"
+    },
+    {
+      "path": "contracts/scripts/verify-pilot-source.mjs",
+      "bytes": 2758,
+      "sha256": "0d10de1b2e18f84cf889dbf29d5bc9d4490a778e2d94a255aa7a789cfe25abb4"
+    },
+    {
+      "path": "contracts/src/SouliEthSale.sol",
+      "bytes": 7025,
+      "sha256": "67aa39564594b578b075ec7c46e7597915bf5a042e93d9519f447738ab0016b1"
+    },
+    {
+      "path": "contracts/src/SouliEthSaleV2.sol",
+      "bytes": 7167,
+      "sha256": "d481418b5879835d3a44c87edc8f4e2c898ce799fd404f3ed8e7ffafb73ae909"
+    },
+    {
+      "path": "contracts/src/SouliLpSale.sol",
+      "bytes": 15123,
+      "sha256": "9d4780a8e20cbb62d3dc3a37d72718cd1c74fa7736f5cc0f8860b5f1cc2c0e8f"
+    },
+    {
+      "path": "contracts/src/SouliPermanentLpLock.sol",
+      "bytes": 526,
+      "sha256": "4595313b591e9472ec1da1ae89d32fedf66ef1e515078a4a42b4db2c83ac72f8"
+    },
+    {
+      "path": "contracts/src/SouliThreeWalletController.sol",
+      "bytes": 5365,
+      "sha256": "024d089810c647ca5463710c5b80ca5ed751b850b7abdf32acc91b1f6c84003f"
+    },
+    {
+      "path": "contracts/src/SouliThreeWalletControllerV2.sol",
+      "bytes": 5375,
+      "sha256": "65f63d7aa3c9ecd92781d6a31858c25649d6756330e5a9f9fde5420b262f0c7e"
+    },
+    {
+      "path": "contracts/test/admin-client.test.mjs",
+      "bytes": 10580,
+      "sha256": "e9b71121ede0cd8dd099af965cc55c911c461451a6e0cbac12e501cd5c4001a9"
+    },
+    {
+      "path": "contracts/test/admin-read-rpc.test.mjs",
+      "bytes": 5010,
+      "sha256": "34c830718d2d9d254907809c94da1bcd6514d10a257a3e9e47764017f8522f1a"
+    },
+    {
+      "path": "contracts/test/commercial-security.test.mjs",
+      "bytes": 6602,
+      "sha256": "be85b4a292285c032f7b9c033487efb7634224c2656b145500af1cd802698b82"
+    },
+    {
+      "path": "contracts/test/deploy-client.test.mjs",
+      "bytes": 7509,
+      "sha256": "36b26c937a12fbcbebbfab0206ecae1f4e5ff84f1223f6f8ea76ccfe6832aac0"
+    },
+    {
+      "path": "contracts/test/deployer-7702.test.mjs",
+      "bytes": 5621,
+      "sha256": "417eadb34cf16ff978f62c848872fbffd6efd2adc356bd0953fccf253359f42d"
+    },
+    {
+      "path": "contracts/test/fixtures/CommercialAdversary.sol",
+      "bytes": 707,
+      "sha256": "c376fab3e21205f8a5120dccc51688c981da77806eaa01d2198448cdbd9f25dd"
+    },
+    {
+      "path": "contracts/test/fixtures/LpFixtures.sol",
+      "bytes": 3602,
+      "sha256": "39c12f461726001b2f48c28301e071ef1936ee939f1a4c388263883e797a7538"
+    },
+    {
+      "path": "contracts/test/fixtures/SepoliaLab.sol",
+      "bytes": 1078,
+      "sha256": "23ef9345609206eb304cfd6cfc95b624316c320cffeedb043c929b00ea5aca30"
+    },
+    {
+      "path": "contracts/test/fixtures/StockCallbackLab.sol",
+      "bytes": 1752,
+      "sha256": "fb0113c274de6621ab8c9d7c6064cbeb1f3894742cdb82fe8518218278ed600e"
+    },
+    {
+      "path": "contracts/test/fixtures/TestTokens.sol",
+      "bytes": 1866,
+      "sha256": "33887509092d0a239be9054fd52346b03d10a6c045fa68a3de30dccf7665e79f"
+    },
+    {
+      "path": "contracts/test/fixtures/ThreeWalletLab.sol",
+      "bytes": 816,
+      "sha256": "5cc17a47d7da009a794d941f6f5d725e1a28c8804e92f21dba0d6fb034c9c02e"
+    },
+    {
+      "path": "contracts/test/lp-sale.test.mjs",
+      "bytes": 17492,
+      "sha256": "cabd00c73d7519bab873652e1120f757fb94a031b29e2f1bd2be20a54dcdc97b"
+    },
+    {
+      "path": "contracts/test/native-sale.test.mjs",
+      "bytes": 15798,
+      "sha256": "f4e2a4e0d16a1c2c4abb803e3612ff8614c2e68d1157ca6991ef50883cfcdbff"
+    },
+    {
+      "path": "contracts/test/read-only-fork-rpc.test.mjs",
+      "bytes": 1857,
+      "sha256": "91ba5dfe5f6e5f9eb1cb842de032acf4a377b074c2512df2c384a8392dc1b59f"
+    },
+    {
+      "path": "contracts/test/runtime-integrity.test.mjs",
+      "bytes": 1698,
+      "sha256": "29afd3197ae3401a9df8515b5985300a152d8c3f2e6443be30158e8167f9adef"
+    },
+    {
+      "path": "contracts/test/safe-sale.test.mjs",
+      "bytes": 7947,
+      "sha256": "f2356697566e9f171972fa2b0a06d403c8660cb6fd1167687f7d1096712f7049"
+    },
+    {
+      "path": "contracts/test/sale-v2.test.mjs",
+      "bytes": 12783,
+      "sha256": "b040e2c93816eb65d60f661883015a5c7d27ba5619a0e6cecbd550a312d9f79b"
+    },
+    {
+      "path": "contracts/test/sale.test.mjs",
+      "bytes": 12203,
+      "sha256": "29cf48f8888754f7f2ed60f4311391d7ed13d9f30dcca4fd412930204999bddd"
+    },
+    {
+      "path": "contracts/test/sepolia-lab.test.mjs",
+      "bytes": 9528,
+      "sha256": "dd4ace6ceb4e4d5586bd272e5c638a09cb8d3ea832ff3d12077137ca039d4ee2"
+    },
+    {
+      "path": "contracts/test/stock-callback.test.mjs",
+      "bytes": 2720,
+      "sha256": "d56f397bcbf9e358c77732ffe71769100ce2b9ea4e8f6fa969b21a40b34bb99b"
+    },
+    {
+      "path": "contracts/test/three-wallet-client.test.mjs",
+      "bytes": 8125,
+      "sha256": "1d048888398b1e945204c7ca7dc534e3f47970d72b84afb601ac70bc243e951d"
+    },
+    {
+      "path": "contracts/test/three-wallet-release.test.mjs",
+      "bytes": 5108,
+      "sha256": "130b3a5fe250cd5366a97abdd03aa49bbc5fd8f99ff1eaea8bbc3d5d8ec594a9"
+    },
+    {
+      "path": "contracts/test/three-wallet.test.mjs",
+      "bytes": 6336,
+      "sha256": "b4ef99cf3faa20f12c24b658a95bd39c0afbe18e651bc696594cdbcaa11b67e7"
+    },
+    {
+      "path": "contracts/vendor/safe-1.4.1/provenance.json",
+      "bytes": 555,
+      "sha256": "9b90c56d55c27ce948a3d60d5a9ca9b887bf5471379e8f35bf586fae560e6f91"
+    },
+    {
+      "path": "contracts/vendor/safe-1.4.1/SafeL2.json",
+      "bytes": 121445,
+      "sha256": "7a21afeb5e451669d22c00cf1c82393a652e564269dc07b9d81a16c4cf39f474"
+    },
+    {
+      "path": "contracts/vendor/safe-1.4.1/SafeProxyFactory.json",
+      "bytes": 15344,
+      "sha256": "fecd9a4572d4da6ecd6f243d43a68aeabe60ec129ae2f52db5e09a0e9b4501c1"
+    },
+    {
+      "path": "contracts/vendor/souli/contracts/Generator.sol",
+      "bytes": 20183,
+      "sha256": "967ad91eb6274f0e2bbb7cda7f43d89998eec40d48bf0fc8e819fc2c56c65b7f"
+    },
+    {
+      "path": "contracts/vendor/souli/contracts/lib/Ownable.sol",
+      "bytes": 601,
+      "sha256": "8f737fae1eaa9754928b5f4cefc11ef80300c9d7f2cfa89e3719be0d6b9002be"
+    },
+    {
+      "path": "contracts/vendor/souli/contracts/token/Erc20.sol",
+      "bytes": 10155,
+      "sha256": "b7985e4c3440d6f548c8cb3a2df680520944b43e378c3f992af84d0f0f8c9a1c"
+    },
+    {
+      "path": "contracts/vendor/souli/contracts/token/PoolCreatableErc20i.sol",
+      "bytes": 928,
+      "sha256": "33580bcaa1afb26e83b8b87e96bea3e9a5a240df7c87474e21cb2c29b1fad2d0"
+    },
+    {
+      "path": "contracts/vendor/souli/contracts/token/Souli.sol",
+      "bytes": 11253,
+      "sha256": "ed1d3250d278375c1f3c9966a6640757377fdea5731aa351da3b2c0a39798cee"
+    },
+    {
+      "path": "contracts/vendor/souli/PROVENANCE.json",
+      "bytes": 734,
+      "sha256": "5fbe6c3c83209dc62ec676d17376b1a2af38b5d656dcbc586ab255067e85d748"
+    },
+    {
+      "path": "docs/COMMERCIAL-LAUNCH-RUNBOOK.ko.md",
+      "bytes": 4314,
+      "sha256": "6caafd084a61a41fdee5d3d705587b39da43d14bbc4a0b56771f263ffa03d122"
+    },
+    {
+      "path": "docs/commercial-round-proposal.json",
+      "bytes": 13580,
+      "sha256": "a7effc96c5404f11f88dfa59961661f7838afaa5a2ba59cecd348569db70a898"
+    },
+    {
+      "path": "docs/COMMERCIAL-SALE-PLAN.ko.md",
+      "bytes": 12017,
+      "sha256": "658b9b01c2522f4ffde7c7057f27fcaa58667ab0cf43554fc8d09a01aa4489be"
+    },
+    {
+      "path": "docs/LP-ONE-YEAR-PLAN.ko.md",
+      "bytes": 4499,
+      "sha256": "d28dfda2473bd94f36319e27b9b7cd2314e6eb8243f71f17fd2ad7ec61e26fb9"
+    },
+    {
+      "path": "docs/SALE-SECURITY-REVIEW.ko.md",
+      "bytes": 18476,
+      "sha256": "a5b0300fbfedb604ff7685356e53f7ddcdb23cc6367376941b8314f11e8d0fb3"
+    },
+    {
+      "path": "logs/sale-checks/audit-solc-source.json",
+      "bytes": 294,
+      "sha256": "07b77dc773925fcb6c5dcdc51546c3e7279d1d39faa053744a76b3b4aaca1997"
+    },
+    {
+      "path": "logs/sale-checks/commercial-final-contracts.log",
+      "bytes": 13794,
+      "sha256": "3819876af9c68f31c8eb94889e1238006a330a3ad44b71d1adfaf45382667307"
+    },
+    {
+      "path": "logs/sale-checks/commercial-final-root-test.log",
+      "bytes": 10000,
+      "sha256": "50a71ad76327febe45c60ef5dde9254bdeebffbd36a2e432de80ad58e20736b0"
+    },
+    {
+      "path": "logs/sale-checks/commercial-v2-base-fork.json",
+      "bytes": 1187,
+      "sha256": "b9ec9e37d032444fe76f8a6603aece1633ffdc42665cb99c21b9fb917a386aeb"
+    },
+    {
+      "path": "logs/sale-checks/slither-v2.json",
+      "bytes": 371607,
+      "sha256": "0e0aeb774fa6138ece5567291976a9040ace2fd833b16dd58e03ca95f6109d7c"
+    },
+    {
+      "path": "logs/sale-checks/slither-v2.log",
+      "bytes": 12678,
+      "sha256": "d2de1cfbd2725a023a039da8607c2af85d7600f698c475fb446fadf921ca683a"
+    },
+    {
+      "path": "package-lock.json",
+      "bytes": 85941,
+      "sha256": "4f19533fdee03e191f436f47b1f0aac2ffea41492da3d76b8e993c15138d5d0a"
+    },
+    {
+      "path": "package.json",
+      "bytes": 1293,
+      "sha256": "29ab4abd50aface4be0b84219cb40c5cfa8cd2fae0acad93cd5b69634b65ab27"
+    },
+    {
+      "path": "scripts/plan-commercial-round.mjs",
+      "bytes": 5090,
+      "sha256": "3b9c6efccac1c25be08372f914439075be1576f4fedf5baf0b4ac51f1d558192"
+    },
+    {
+      "path": "scripts/prepare-commercial-candidate.mjs",
+      "bytes": 4051,
+      "sha256": "3098e74b466094fcee2afe9b3086ab64c1355f7d0269f31aaba375426cff3a0b"
+    },
+    {
+      "path": "scripts/test-commercial-plan.mjs",
+      "bytes": 2555,
+      "sha256": "5654862c618572918f4bb3ad5c8a72c3ca778e278628bd5c8e4445ef91dd7b73"
+    },
+    {
+      "path": "src/lighthouse/native-sale.mjs",
+      "bytes": 16374,
+      "sha256": "c441225845e993eab9bcbf9988ab03a7116b3765d40b7c31d434a9948e44aa96"
+    },
+    {
+      "path": "src/lighthouse/sale-config.mjs",
+      "bytes": 1406,
+      "sha256": "18b35f268ec00a08fe02a1be4db72670348499660248745e8a90d4f26352686d"
+    },
+    {
+      "path": "src/lighthouse/sale-profile.mjs",
+      "bytes": 609,
+      "sha256": "c391081b79e194be3e9511cd4352cf009ca39fddcf486faa8a54ff3d49ac6e0c"
+    },
+    {
+      "path": "src/lighthouse/sale-window.mjs",
+      "bytes": 549,
+      "sha256": "92d4d5e54cb7a3d7f5e8b288072b90c25b3a5abf899ec417ac11f8e89b3d4267"
+    },
+    {
+      "path": "src/lighthouse/wallet-provider.mjs",
+      "bytes": 1271,
+      "sha256": "3c81e76b5eee587d3dbb746838798e8a646e0987f4b7ffa15a4b7884d3256204"
+    },
+    {
+      "path": "src/lighthouse/wallet-session.mjs",
+      "bytes": 6044,
+      "sha256": "377180fe1e22963da2ecfa40fd85d9272f1a4183d20ca78bfd9aefa3572f6011"
+    },
+    {
+      "path": "src/sale-admin/AdminApp.vue",
+      "bytes": 15743,
+      "sha256": "f5b868adbf382276a83e9253f1ae51ff81a8ac679dafb34749695f47e69ef523"
+    },
+    {
+      "path": "src/sale-admin/client.mjs",
+      "bytes": 17643,
+      "sha256": "a2be46881b23f0ed3de0ec13a904a4a93d1f156ff7fbe3d036dc41151ae9d145"
+    },
+    {
+      "path": "src/sale-admin/config.mjs",
+      "bytes": 961,
+      "sha256": "2915a7a60f3048f7b5ff275138c9d0796b18c80b1b66b0fabb0984a41b98238c"
+    },
+    {
+      "path": "src/sale-admin/deploy-client.mjs",
+      "bytes": 7680,
+      "sha256": "bf4b1d043b85c76e3519ff23863af005172328efeac1716e387aa82429b3ec8b"
+    },
+    {
+      "path": "src/sale-admin/read-rpc.mjs",
+      "bytes": 4739,
+      "sha256": "b88dc8338484bd31ca981cc73a6ad4448dc090bbcab2395cb15dc80217b70023"
+    }
+  ]
+}

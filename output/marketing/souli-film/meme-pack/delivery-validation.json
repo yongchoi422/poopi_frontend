@@ -1,0 +1,240 @@
+[
+  {
+    "id": "01",
+    "file": "episode-01.mp4",
+    "bytes": 1605012,
+    "sha256": "a46c4491d655458e6686e77ab949163b90614adae51c82d77dd6466fb1a47549",
+    "decode_passed": true
+  },
+  {
+    "id": "02",
+    "file": "episode-02.mp4",
+    "bytes": 1974779,
+    "sha256": "e8ab2593c40eefe673358d5473d92ea9caa86b4b80b6d82ba8b40e61dbdca8f6",
+    "decode_passed": true
+  },
+  {
+    "id": "03",
+    "file": "episode-03.mp4",
+    "bytes": 1950217,
+    "sha256": "dd3119778e9db83b5528ecb321a5ef1d9111bda5aedbda34e1f16d0d1c3bab2d",
+    "decode_passed": true
+  },
+  {
+    "id": "04",
+    "file": "episode-04.mp4",
+    "bytes": 1511391,
+    "sha256": "e55eb4cf0006256899eb9360e4f0a7ab0cb042f6c47a2215b67ab88d34ceaa61",
+    "decode_passed": true
+  },
+  {
+    "id": "05",
+    "file": "episode-05.mp4",
+    "bytes": 2003943,
+    "sha256": "90960c7352b042d0a2947865c1e2660edf930396d522a5c2218a6c2eee02d383",
+    "decode_passed": true
+  },
+  {
+    "id": "06",
+    "file": "episode-06.mp4",
+    "bytes": 1426476,
+    "sha256": "83f4c3d2e8445bef6dd8d2645de8afd2fb84d0bf3f607b969ceddf6706828d1e",
+    "decode_passed": true
+  },
+  {
+    "id": "07",
+    "file": "episode-07.mp4",
+    "bytes": 2823892,
+    "sha256": "d32711f5b0b3efaf58befdd0f98f5951ceb3b663fd43530bcb239ec45bdab13d",
+    "decode_passed": true
+  },
+  {
+    "id": "08",
+    "file": "episode-08.mp4",
+    "bytes": 1592493,
+    "sha256": "4cda97804f41851b1672e97457bc4a9dc6e392e12c4cd2fa2483edd99aab8ed6",
+    "decode_passed": true
+  },
+  {
+    "id": "09",
+    "file": "episode-09.mp4",
+    "bytes": 2759679,
+    "sha256": "a35becd2422c40b398858a2c42afcdb93ea5ee06119528a73ff57d76918ae6ab",
+    "decode_passed": true
+  },
+  {
+    "id": "10",
+    "file": "episode-10.mp4",
+    "bytes": 1933386,
+    "sha256": "c844a940be525e173147042ba4af816ff3cc5477203cdefb99da7687592b4bc7",
+    "decode_passed": true
+  },
+  {
+    "id": "11",
+    "file": "episode-11.mp4",
+    "bytes": 2076779,
+    "sha256": "88825307bff3cc8fcb642729736927d75afe86fe8956746528c419ccf4d341de",
+    "decode_passed": true
+  },
+  {
+    "id": "12",
+    "file": "episode-12.mp4",
+    "bytes": 1703520,
+    "sha256": "7f046e5afd27c5069e810dde3341e77c824688aed72ec02034515f1e1e95d4b7",
+    "decode_passed": true
+  },
+  {
+    "id": "13",
+    "file": "episode-13.mp4",
+    "bytes": 1473927,
+    "sha256": "7ba90b8365cd64c64e1f03746f3f9738f4a3227c2769d7f9ab7f4e6baba3ba97",
+    "decode_passed": true
+  },
+  {
+    "id": "14",
+    "file": "episode-14.mp4",
+    "bytes": 1803136,
+    "sha256": "5bd3d885a9d25bdf996d2397a39ceeb6426615a305f142eab37f165dd242d187",
+    "decode_passed": true
+  },
+  {
+    "id": "15",
+    "file": "episode-15.mp4",
+    "bytes": 1870967,
+    "sha256": "6ad924261529d3db906cc8b4cdd55d787fcdc577575d7a268ce3e1def3da853b",
+    "decode_passed": true
+  },
+  {
+    "id": "16",
+    "file": "episode-16.mp4",
+    "bytes": 2078804,
+    "sha256": "ccd47542d9d5634fe9cf4efabea46821bb5b72696b527d328b78e7f1b95ef7dd",
+    "decode_passed": true
+  },
+  {
+    "id": "17",
+    "file": "episode-17.mp4",
+    "bytes": 1815545,
+    "sha256": "303d8c932c72e3560d4d28023f6f2d2abf0f407551a447850e7e100f01a5001c",
+    "decode_passed": true
+  },
+  {
+    "id": "18",
+    "file": "episode-18.mp4",
+    "bytes": 2777809,
+    "sha256": "00c634904c0275b7394a8f25d77bd0c1a5f1ee99c16ca2c632b5036c04434920",
+    "decode_passed": true
+  },
+  {
+    "id": "19",
+    "file": "episode-19.mp4",
+    "bytes": 2203529,
+    "sha256": "bbbf1d24dd434a96522bd649918c99d7037928a2c390d3e08c050ab4f648b20f",
+    "decode_passed": true
+  },
+  {
+    "id": "20",
+    "file": "episode-20.mp4",
+    "bytes": 2791953,
+    "sha256": "ed0a9de12ea547c949d1c73d0bb2b65b4024a5adc7a55da24ae237cf95b14075",
+    "decode_passed": true
+  },
+  {
+    "id": "21",
+    "file": "episode-21.mp4",
+    "bytes": 1801026,
+    "sha256": "09bb6cee6308e46f73ec4da50c8b24aabb633c7e3c03f71c91d1f8ab53202e3b",
+    "decode_passed": true
+  },
+  {
+    "id": "22",
+    "file": "episode-22.mp4",
+    "bytes": 1428423,
+    "sha256": "599a0baa5c82c5f890e18a1cd9cdb21c50780aaf68549a0d5d04e4af807876bf",
+    "decode_passed": true
+  },
+  {
+    "id": "23",
+    "file": "episode-23.mp4",
+    "bytes": 1670037,
+    "sha256": "f3d712fac23097b7155b0001672b1ca250fb421e0378ab4e847dd939d95e22d2",
+    "decode_passed": true
+  },
+  {
+    "id": "24",
+    "file": "episode-24.mp4",
+    "bytes": 2427191,
+    "sha256": "56ef7ab7e62d687a8e9459d55541100060793cd1f88cf38d1ca694f4bfe15861",
+    "decode_passed": true
+  },
+  {
+    "id": "25",
+    "file": "episode-25.mp4",
+    "bytes": 1178598,
+    "sha256": "ae6c984a4bce23c72f410012361d3d6b37d357b992b827ae522b6a9e65b8452b",
+    "decode_passed": true
+  },
+  {
+    "id": "26",
+    "file": "episode-26.mp4",
+    "bytes": 2760433,
+    "sha256": "7b1f7fbf5af3366879a18e20c6786f2e244d0a2f4afd8d0855b60c49db5ee2c9",
+    "decode_passed": true
+  },
+  {
+    "id": "27",
+    "file": "episode-27.mp4",
+    "bytes": 976907,
+    "sha256": "e99a94293baa8f3e04b90e703a1c8085aab54af07e36df267cc9a629f170a4dd",
+    "decode_passed": true
+  },
+  {
+    "id": "28",
+    "file": "episode-28.mp4",
+    "bytes": 1720556,
+    "sha256": "c2021db7800aac22a41aebacf446b46ee9de9080cf45f6e4ac2cbab09a9dff00",
+    "decode_passed": true
+  },
+  {
+    "id": "29",
+    "file": "episode-29.mp4",
+    "bytes": 2196231,
+    "sha256": "9a373abe4fde6ebefeb969ada58c989771f187baf992a925df2672cbe94059df",
+    "decode_passed": true
+  },
+  {
+    "id": "30",
+    "file": "episode-30.mp4",
+    "bytes": 2184809,
+    "sha256": "10d903462d3d1e3cae546c882c8d0f393dcdca2041a9ed9afb889c35cea296f1",
+    "decode_passed": true
+  },
+  {
+    "id": "32",
+    "file": "episode-32.mp4",
+    "bytes": 1575490,
+    "sha256": "d346b5e8ee82a3733e550f37854b3bbf7f1431cd3e02641ea7dd762265de750b",
+    "decode_passed": true
+  },
+  {
+    "id": "33",
+    "file": "episode-33.mp4",
+    "bytes": 2494067,
+    "sha256": "179aadc4082ff7d6de037bcd718eaf1f9e143fd7bb8208f5867a197af54fc5c2",
+    "decode_passed": true
+  },
+  {
+    "id": "34",
+    "file": "episode-34.mp4",
+    "bytes": 1585073,
+    "sha256": "e123406c5f09ff2f61d75f2cebf4c67ac42d1051706216d5ba9d5e54722595b2",
+    "decode_passed": true
+  },
+  {
+    "id": "35",
+    "file": "episode-35.mp4",
+    "bytes": 1035978,
+    "sha256": "767f74da085ad79da89e34d6a3bdba4bd9a157eab2227d4740c0ed9d89bf491b",
+    "decode_passed": true
+  }
+]

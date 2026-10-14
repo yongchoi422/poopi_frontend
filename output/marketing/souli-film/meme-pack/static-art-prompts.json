@@ -1,0 +1,22 @@
+[
+  {
+    "id": "01",
+    "prompt": "SOULI 01 static-art final. Locked camera product photograph animated for 8 seconds. Animate ONLY the brown coffee drop: it stretches, falls onto the top of the orange object, splashes, then drips onto the metal tray. The entire orange object stays completely motionless, with EXACTLY the same colored squares and blank orange surfaces as the input photo in every frame. It is a nonliving painted wooden logo. Everything except the liquid is frozen. Finish with a little foam bubble on top. No invented markings, no face, no eyes, no mouth, no anatomy."
+  },
+  {
+    "id": "04",
+    "prompt": "SOULI 04 static-art final. Eight-second locked-camera animated product photograph. The terracotta and mint painted cutout is completely frozen, every painted shape and its entire outline identical throughout. Only animate the tiny red carpet: it unrolls forward one short length, pauses, then comically rolls itself back up in front of the frozen art object. The joke is a self-cancelling red carpet. Do not animate, redraw or interpret the cutout. No facial expressions, new features or limbs. End exactly as the reference."
+  },
+  {
+    "id": "05",
+    "prompt": "SOULI 05 static-art final. Eight-second locked-camera photograph. Animate ONLY the refrigerator door, slowly opening wider to reveal ascending vegetable sticks, then quietly closing. The grey and pink felt object beside it must be absolutely frozen in its original position and orientation, with every original colored patch and blank surface unchanged. It is an inanimate felt art prop, not a living character. Do not add any eyes, eyebrows, mouth, expressions or limbs. The rest of the scene is static apart from the fridge light changing naturally."
+  },
+  {
+    "id": "10",
+    "prompt": "SOULI 10 static-art final. Eight-second locked camera office photograph. The purple pixel-logo sculpture is rigidly attached to the black chair as one inanimate assembly. Its original three face squares and outline stay EXACTLY unchanged. At 2 seconds the whole chair with its attached purple sculpture rolls smoothly to the right and exits the frame through the doorway. The purple object never leaves the chair and never changes orientation. Hold empty office for 2 seconds. No walking, legs, arms, face changes, humans or door-opening hands."
+  },
+  {
+    "id": "19",
+    "prompt": "SOULI 19 static-art final. Eight-second locked camera photograph. Animate ONLY the shiny silver cloche: it slowly lifts vertically out of frame to reveal one French fry on the large plate. The wooden pixel-art object behind it is entirely frozen, every dark and purple geometric marking exactly unchanged. Keep its lower body plain wood with NO additional black marks. No facial interpretation, movements or anatomy. Tiny steam wisp only, then a three-second still anticlimax. Preserve the original photo composition."
+  }
+]

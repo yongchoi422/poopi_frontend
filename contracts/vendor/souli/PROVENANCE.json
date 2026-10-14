@@ -1,0 +1,13 @@
+{
+  "repository": "yongchoi422/erc-20i-souli-smart-contract",
+  "commit": "e8485db42b0aea997e7b30ce5f8b3aa352d56cf4",
+  "retrieved": "2026-10-01",
+  "purpose": "Unmodified source fixtures for compatibility testing. Not a claim that this source matches deployed Base bytecode. No token redeployment on a public chain.",
+  "files": {
+    "contracts/token/Souli.sol": "58eb562086bc12e6f7eb019487d784ae1812598a",
+    "contracts/token/Erc20.sol": "ad2fb735f62cc19f2fba91fb39bbff92fa36bd03",
+    "contracts/token/PoolCreatableErc20i.sol": "1b8542ac54b411cc6e109a44f7ddf712a5c6a4a8",
+    "contracts/Generator.sol": "67465303b41527e89fad7af155389ae498ebd7ab",
+    "contracts/lib/Ownable.sol": "9066faa47b16f78e51ebb707846564ced6cddb23"
+  }
+}

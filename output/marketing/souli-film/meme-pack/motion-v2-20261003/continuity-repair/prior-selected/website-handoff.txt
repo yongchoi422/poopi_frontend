@@ -1,0 +1,16 @@
+SOULI MOTION V2 — 80 reviewed clips / 2026-10-03
+
+Final videos: C:\Users\yongc\Documents\GitHub\souli\output\marketing\souli-film\meme-pack\motion-v2-20261003\final
+Library: C:\Users\yongc\Documents\GitHub\souli\output\marketing\souli-film\meme-pack\motion-v2-20261003\gallery.html
+Before / after comparison: C:\Users\yongc\Documents\GitHub\souli\output\marketing\souli-film\meme-pack\motion-v2-20261003\index.html
+Manifest: C:\Users\yongc\Documents\GitHub\souli\output\marketing\souli-film\meme-pack\motion-v2-20261003\delivery-manifest.json
+Drive: https://drive.google.com/drive/folders/1zeTkihPmdrMOS7067d7vDbQzZWuO207F
+
+Use only final/episode-NN.mp4 for the new version. Source masters and rejected generations are kept separately for traceability. Existing approved keyframes and the old videos remain in their original locations.
+Files are native 720p from Flow, 16:9, 8 seconds, H.264, muted, faststart. They are not native 1080p exports.
+
+Website integration: copy chosen MP4 and matching poster into the website's static asset storage or CDN; use those deployed asset URLs, not the local Windows paths or Google Drive viewer URLs. Use video muted playsinline autoplay loop for a hero, a poster fallback, and respect prefers-reduced-motion. Show one clip at a time; do not autoplay the entire 80-video library. A mobile hero may need contain or a separately reviewed crop. This delivery does not change or deploy the website.
+
+Marketing: captions.csv contains the previous English caption drafts and situation tags, alongside the actual observed action of each new clip. These remain drafts; no posts have been published or scheduled.
+
+Review: each candidate was compared at 16 timestamps (0, 0.5, ... 7, 7.95 seconds). Clear face replacements, humanoid transformations, and duplicate characters were rejected and regenerated. All final files passed a full decode. Minor prop, texture, or previously hidden-area differences can remain.

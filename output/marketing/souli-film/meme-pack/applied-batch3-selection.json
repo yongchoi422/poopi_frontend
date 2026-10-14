@@ -1,0 +1,292 @@
+{
+  "42": {
+    "id": "42",
+    "status": "accepted",
+    "source": "revisions/batch3-first/episode-42-master-720p.mp4",
+    "note": "대형 탁구공이 세 번 튀고 멈춘다. 초록 조형물의 비대칭 픽셀 무늬가 유지된다.",
+    "master_sha256": "90581f1ea0fb8581c42a78282b7aea76790f2a31beb70c117e45655111b11758"
+  },
+  "43": {
+    "id": "43",
+    "status": "accepted",
+    "source": "revisions/batch3-first/episode-43-master-720p.mp4",
+    "note": "사진 배경지가 출렁이며 벽돌 무늬를 드러낸다. 캐릭터는 원래 얼굴과 형태를 유지한다.",
+    "master_sha256": "9841eb51f9e3590427e2e07607a905e906e50d1c48777a69c41eb25532df573d"
+  },
+  "44": {
+    "id": "44",
+    "status": "accepted",
+    "source": "revisions/batch3-first/episode-44-master-720p.mp4",
+    "note": "바퀴 달린 거대한 운동화가 먼저 떠나고 소울만 출발선에 남는다. 원래 무늬가 유지된다.",
+    "master_sha256": "e387a293a4a2d9d7af6b54f0f57688ba2de2cd8241762c3ad3f4a797c58d583f"
+  },
+  "45": {
+    "id": "45",
+    "status": "accepted",
+    "source": "revisions/batch3-first/episode-45-master-720p.mp4",
+    "note": "마술 모자의 당근이 솟았다가 옆으로 쓰러진다. 검은 펠트 조형물의 얼굴 띠가 유지된다.",
+    "master_sha256": "b197dd1b5255b4bb63a55349a1c44b09f39de60f79f4295dc4020d86787b5f91"
+  },
+  "48": {
+    "id": "48",
+    "status": "accepted",
+    "source": "revisions/batch3-first/episode-48-master-720p.mp4",
+    "note": "회전초가 커지며 소울 앞을 지나간다. 잠깐 가려진 뒤에도 원래 형태와 무늬가 유지된다.",
+    "master_sha256": "f819d3ff423a7678b241bc4de835cd3aad96c666646ef555cf8c740aece657d4"
+  },
+  "50": {
+    "id": "50",
+    "status": "accepted",
+    "source": "revisions/batch3-first/episode-50-master-720p.mp4",
+    "note": "빵 반죽이 부풀며 밀대를 떨어뜨린다. 보라색 조형물의 픽셀 무늬가 유지된다.",
+    "master_sha256": "bfdda8b5d42b7f87fa9dbaacc37d9eb53b3fc27951c61bc2b6e6c916c3d8670f"
+  },
+  "51": {
+    "id": "51",
+    "status": "accepted",
+    "source": "revisions/batch3-first/episode-51-master-720p.mp4",
+    "note": "골프공이 루프를 돌아 소울 앞으로 다시 돌아온다. 노란 소울의 원래 형태와 무늬가 유지된다.",
+    "master_sha256": "d9de5d9dbe3f4254fa40d8085fe59c5a201f20ec2dc06326ebf0392a716fde4a"
+  },
+  "52": {
+    "id": "52",
+    "status": "accepted",
+    "source": "revisions/batch3-first/episode-52-master-720p.mp4",
+    "note": "큰 빨간 젤리가 흔들리다가 멈춘다. 옆의 붉은 조형물은 끝까지 같은 무늬를 유지한다.",
+    "master_sha256": "f9a5fdd6075017d29a63c6886c3ade727cdf7ea2280875b156d0b5c96a989422"
+  },
+  "53": {
+    "id": "53",
+    "status": "accepted",
+    "source": "revisions/batch3-first/episode-53-master-720p.mp4",
+    "note": "집게가 빈 곳을 집었다가 빈 채로 올라간다. 흰 조형물은 바뀌지 않는다.",
+    "master_sha256": "da93df9b91742a131bf8442bb08f094f3326f39b204fd591b9b83d2e07a821cd"
+  },
+  "54": {
+    "id": "54",
+    "status": "accepted",
+    "source": "revisions/batch3-first/episode-54-master-720p.mp4",
+    "note": "트라이앵글을 한 번 두드리자 금빛 종이가 쏟아진다. 분홍 조형물의 형태와 무늬가 유지된다.",
+    "master_sha256": "ed40bc1f3b1fda51d5833b244f9212c2331114f0deb1b5dd408d1c71fb301714"
+  },
+  "55": {
+    "id": "55",
+    "status": "accepted",
+    "source": "revisions/batch3-first/episode-55-master-720p.mp4",
+    "note": "호출 벨을 누르면 더 작은 벨이 옆으로 들어온다. 소울의 긴 비대칭 실루엣이 유지된다.",
+    "master_sha256": "4e334dd830d7fcff744fa0cb33c12b9933cdee49f5abf63f982007f8fb248967"
+  },
+  "41": {
+    "id": "41",
+    "status": "accepted",
+    "reason": "4초 이후 없던 두 눈이 생김. 팝콘이 조형물에 닿지 않는 동작으로 재제작.",
+    "source": "revisions/batch3-repair/episode-41-master-720p.mp4",
+    "note": "팝콘이 옆으로 분출하고 흩어진다. 보라색 조형물에 눈이 추가되던 첫 버전을 교체했고, 원래 가로 무늬가 유지된다.",
+    "master_sha256": "5079f568868260c41d99bf7b6a3412495ededd8eec2967f5107da392a7933721"
+  },
+  "46": {
+    "id": "46",
+    "status": "accepted",
+    "reason": "첫 0.5초에 새 사람형 머리가 생성됨. 무생물 조형물로 다시 고정.",
+    "source": "revisions/batch3-repair/episode-46-master-720p.mp4",
+    "note": "마시멜로 바벨이 납작해진다. 첫 버전의 사람형 머리를 없앤 교체본에서 원래 빨간 실루엣이 유지된다.",
+    "master_sha256": "c014fdb28a69026307349ebd86d4a3436b3a9e5d465f70c863d066087223c583"
+  },
+  "47": {
+    "id": "47",
+    "status": "accepted",
+    "reason": "원래 비어 있는 오른쪽 핑크 부분에 두 눈이 생김. 포크만 움직이도록 재생성.",
+    "source": "revisions/batch3-repair/episode-47-master-720p.mp4",
+    "note": "포크가 파스타를 말아 내려놓는다. 조형물에 눈이 생기던 첫 버전을 교체했다. 마지막에 화면 위쪽으로 포크를 잡는 손 일부가 보이지만 소울은 변하지 않는다.",
+    "master_sha256": "49caae4033f9f0ffa9baafdf7bd667089512e73394a34d8b8a6d3cb11adbe1b6"
+  },
+  "49": {
+    "id": "49",
+    "status": "accepted",
+    "reason": "마지막 1초에 얼굴 띠가 변형되어 6.75초 이후에는 직전 정상 프레임을 유지하도록 편집.",
+    "source": "revisions/batch3-timing/episode-49-master-720p.mp4",
+    "note": "잠망경 위 고무 오리가 내려왔다 올라간다. 6.75초 이후 마지막 정상 프레임을 유지하여 끝의 얼굴 변형을 제외했다. 8초 192프레임 편집본 검수.",
+    "master_sha256": "b438040cb3baa8af5a0ef7111a6bd55339467ba3f7513d97a9335ab5ba89a63e"
+  },
+  "56": {
+    "id": "56",
+    "status": "accepted",
+    "source": "revisions/batch3-first/episode-56-master-720p.mp4",
+    "note": "해먹이 꼬이고 흔들렸다 풀린다. 보라색 소울은 판자와 함께 기울며 원래 형태와 픽셀 무늬를 유지한다.",
+    "master_sha256": "3c5c5b64229b1b4216f8fb749999b1263ab853e0a70c533ce4332936764cdc63"
+  },
+  "57": {
+    "id": "57",
+    "status": "accepted",
+    "source": "revisions/batch3-first/episode-57-master-720p.mp4",
+    "note": "쿠키 한 개를 보관한 거대한 금고 문이 닫힌다. 노란 소울의 무늬가 유지된다.",
+    "master_sha256": "96b894c056c3c20968007ad56c459ac1c7cf9f3b29e1bcc3b708675228e491d0"
+  },
+  "59": {
+    "id": "59",
+    "status": "accepted",
+    "source": "revisions/batch3-first/episode-59-master-720p.mp4",
+    "note": "거대한 대포가 색종이 한 장만 발사한다. 보라색의 비대칭 도형 무늬가 끝까지 유지된다.",
+    "master_sha256": "e703b926510b592c3ffaddc1bae3b1bb0c96274dac348a937213dc3fd22b98b2"
+  },
+  "60": {
+    "id": "60",
+    "status": "accepted",
+    "source": "revisions/batch3-first/episode-60-master-720p.mp4",
+    "note": "도미노가 역으로 일어났다가 다시 쓰러져 쿠션에서 멈춘다. 소울이 통째로 기울지만 외곽과 얼굴 무늬가 유지된다.",
+    "master_sha256": "8ee32af079298bc31e75ded47b0736b3a83a71bed2a6ccf969dfb040b7299d93"
+  },
+  "58": {
+    "id": "58",
+    "status": "accepted",
+    "source": "revisions/batch3-repair/episode-58-master-720p.mp4",
+    "note": "선풍기가 눈을 밀어 당근을 드러낸다. 위의 민트색 사각형과 아래 검정 사각형만 유지되고 새 눈이 생기지 않는다.",
+    "rejected_reason": "0.5초 이후 윗부분에 새로운 눈 한 쌍 생성. 재제작 필요.",
+    "master_sha256": "3defc0b1b740ee397870c96b411cd7766cdcddf20db0144b333b999797af0cc6"
+  },
+  "61": {
+    "id": "61",
+    "status": "accepted",
+    "source": "revisions/batch3-first/episode-61-master-720p.mp4",
+    "note": "치즈가 길게 늘어나다 끊어져 접시에 동그랗게 쌓인다. 보라색 소울의 픽셀은 고정되어 있다.",
+    "master_sha256": "90837ca5f44d04f9a3b1440f0e9ffb99caca784938fbcf7f71efa646c9375e37"
+  },
+  "62": {
+    "id": "62",
+    "status": "accepted",
+    "source": "revisions/batch3-first/episode-62-master-720p.mp4",
+    "note": "스프링 키가 위로 솟았다 옆으로 쓰러진다. 투명 민트 소울의 형태가 유지된다.",
+    "master_sha256": "f9d702216a2cf49e93b67e78d2afe93a7268fad26d40dac77219c261dd9d7323"
+  },
+  "63": {
+    "id": "63",
+    "status": "accepted",
+    "source": "revisions/batch3-first/episode-63-master-720p.mp4",
+    "note": "빈 두루마리가 말렸다가 길게 펼쳐진다. 노란 비대칭 소울 무늬가 유지된다.",
+    "master_sha256": "69eec26e57521008496a701288eb1cd4c1e9b661d6f744b2a553eb5f026fdee9"
+  },
+  "64": {
+    "id": "64",
+    "status": "accepted",
+    "source": "revisions/batch3-first/episode-64-master-720p.mp4",
+    "note": "풍선껌이 부풀었다가 힘없이 줄어든다. 잠깐 일부를 가리지만 소울의 외곽과 픽셀 무늬는 유지된다.",
+    "master_sha256": "fcf467232580f9781e278c3ac14d4e8375b2cf46360978ea64e19cc304f1aa6a"
+  },
+  "65": {
+    "id": "65",
+    "status": "accepted",
+    "source": "revisions/batch3-first/episode-65-master-720p.mp4",
+    "note": "달 위에서 샌드위치가 무중력으로 떠오르고 돌다가 바구니 위로 내려온다. 흰 소울과 가로 무늬가 유지된다.",
+    "master_sha256": "017f5ffa8550f6d5d083847c5e66c62e98baddb092a4f9e9f333ef001e585308"
+  },
+  "66": {
+    "id": "66",
+    "status": "accepted",
+    "source": "revisions/batch3-first/episode-66-master-720p.mp4",
+    "note": "거대한 연필이 일어나 흔들리다 지우개 쪽으로 눕는다. 분홍 소울과 검정 세로 사각형이 유지된다.",
+    "master_sha256": "7c95ef1a8c61a99dc10ce5bafa245c9f4166977bb589ac02b5d5df8a9e78854d"
+  },
+  "67": {
+    "id": "67",
+    "status": "accepted",
+    "source": "revisions/batch3-first/episode-67-master-720p.mp4",
+    "note": "교통콘이 길게 늘어났다 다시 작아진다. 민트·분홍 소울의 비대칭 실루엣이 유지된다.",
+    "master_sha256": "23bca7248b86da7d5e526fe25b7174ace80160cb9a0f0d0bfed17d22e2acaf9c"
+  },
+  "68": {
+    "id": "68",
+    "status": "accepted",
+    "source": "revisions/batch3-first/episode-68-master-720p.mp4",
+    "note": "공룡 발자국 도장이 푸딩을 눌러 발자국을 남긴다. 소울의 외곽과 표정은 유지되며 끝부분의 한 작은 패치 색은 살짝 변한다.",
+    "master_sha256": "43d9c50948167166dfeca9fdd021f6187f87bbf6ac745461509291c3f42ae4bb"
+  },
+  "69": {
+    "id": "69",
+    "status": "accepted",
+    "source": "revisions/batch3-first/episode-69-master-720p.mp4",
+    "note": "튜브가 거대하게 부풀어 소울 주변을 돌다가 밖으로 굴러간다. 주황 소울과 가로 검정 무늬가 유지된다.",
+    "master_sha256": "f698168d57c3e47b318ff1f22da361d8cfa6afa1d85d1b27964eb1df0852fcd7"
+  },
+  "70": {
+    "id": "70",
+    "status": "accepted",
+    "source": "revisions/batch3-repair/episode-70-master-720p.mp4",
+    "note": "우편함에서 시리얼 한 개가 굴러나와 넘어진다. 가로 눈 무늬와 분홍색 면이 유지되며 코가 생기지 않는다.",
+    "rejected_reason": "처음 0.5초에 돼지 코와 눈이 새로 생겨 원래 캐릭터와 달라진다. 재제작.",
+    "master_sha256": "2f5ba8359143b6ce021b52befd7c2343ae02707ba45265f0eeb307c5149a4b59"
+  },
+  "71": {
+    "id": "71",
+    "status": "accepted",
+    "source": "revisions/batch3-first/episode-71-master-720p.mp4",
+    "note": "사막 분수에서 물 몇 방울만 떨어지고 멈춘다. 보라색 소울은 끝까지 같은 형태다.",
+    "master_sha256": "ab1e2a6509fcd7024aaf4999efee0fd5304029ff8ab66275d99af5179c4b8575"
+  },
+  "72": {
+    "id": "72",
+    "status": "accepted",
+    "source": "revisions/batch3-first/episode-72-master-720p.mp4",
+    "note": "거대한 도장이 작은 스마일만 남긴다. 노란 소울의 픽셀 표정과 실루엣 유지.",
+    "master_sha256": "370e316388c5d19d0ce73e62862e3081f0ab62b03ea5afb1cfafe1e42235c767"
+  },
+  "75": {
+    "id": "75",
+    "status": "accepted",
+    "source": "revisions/batch3-first/episode-75-master-720p.mp4",
+    "note": "거대한 주사위가 구르지만 결국 1만 나온다. 구리색 긴 소울의 가로 무늬가 유지된다.",
+    "master_sha256": "b68000cd786b08a1c0f4d25cbe1d7877a47ad124581b61db5962c245114965f0"
+  },
+  "76": {
+    "id": "76",
+    "status": "accepted",
+    "source": "revisions/batch3-first/episode-76-master-720p.mp4",
+    "note": "요가매트가 펼쳐졌다 스스로 다시 말린다. 보라색 소울의 졸린 무늬가 유지된다.",
+    "master_sha256": "0d7d91f282c660f0b85422ebcdd8c363ba3a6b6b4cc9ab66683996dc82acb4f9"
+  },
+  "78": {
+    "id": "78",
+    "status": "accepted",
+    "source": "revisions/batch3-first/episode-78-master-720p.mp4",
+    "note": "청소기가 큰 먼지뭉치를 빨아들이고 작은 구슬만 남는다. 초록 소울과 세로 패턴 유지.",
+    "master_sha256": "78bf190d9bc392b86f6af770a65ac6bbf828f303c78b4d3a0c9c4c09544c5a72"
+  },
+  "79": {
+    "id": "79",
+    "status": "accepted",
+    "source": "revisions/batch3-first/episode-79-master-720p.mp4",
+    "note": "작은 고무 오리들 뒤로 거대한 오리가 지나간다. 긴 회색 소울이 바위 위에서 같은 무늬 유지.",
+    "master_sha256": "e1af0f376476d640beeb385cd9a1c4fc67c912ecde6fef27f84da813b7c23b79"
+  },
+  "73": {
+    "id": "73",
+    "status": "accepted",
+    "source": "revisions/batch3-repair/episode-73-master-720p.mp4",
+    "note": "솜사탕이 커졌다 기울며 작은 조각을 떨어뜨린다. 검정-밝은색-검정 가로 무늬 그대로 유지.",
+    "rejected_reason": "1초 이후 원래 검정 가로 무늬에 흰자와 동공 생성. 재제작.",
+    "master_sha256": "09fef57cfaf32c542da73311e5386a61328b1db2a0bbf320526b0b84db000f72"
+  },
+  "77": {
+    "id": "77",
+    "status": "accepted",
+    "source": "revisions/batch3-repair/episode-77-master-720p.mp4",
+    "note": "케첩 병이 한 방울을 멀리 있는 감자튀김에 쏜다. 낮고 넓은 빨간 소울 형태와 검정 무늬가 유지된다.",
+    "rejected_reason": "3초에 낮은 소울이 눈·다리 있는 인간형 캐릭터로 갑자기 변한다. 재제작.",
+    "master_sha256": "7b6bbd5a93d415d624e3c62f16bf64cb0d4a72934644c43860474906d31f1759"
+  },
+  "80": {
+    "id": "80",
+    "status": "accepted",
+    "source": "revisions/batch3-repair/episode-80-master-720p.mp4",
+    "note": "알람시계가 떨리다가 슬리퍼 안으로 떨어진다. 초록 소울의 위쪽은 빈 상태이며 아래 세 검정 사각형이 유지된다.",
+    "rejected_reason": "1초에 기존 무늬 위에 새로운 눈과 눈썹이 생긴다. 재제작.",
+    "master_sha256": "3f19a4df2fd63eec84eb4dd635e50e2d05d7a0a340a0a57b90c386c9479c082a"
+  },
+  "74": {
+    "id": "74",
+    "status": "accepted",
+    "source": "revisions/batch3-repair3/episode-74-master-720p.mp4",
+    "note": "긴 리본 열차가 쿠키들을 운반한다. 세 번째 생성본에서 주황 소울의 빈 윗부분과 아래 검정 두 사각형이 끝까지 유지된다. 기획의 쿠키 한 개보다 여러 개가 생성되어 과한 배송 농담으로 사용한다.",
+    "rejected_reason": "2초 이후 얼굴 위쪽에 새 눈 두 개 생성. 재제작. 두 번째 버전도 작은 점 눈이 생겨 제외.",
+    "master_sha256": "9843ea3b59d79d23292e269e2c05d8dfebc54edb69275672234b017e1234c7a6"
+  }
+}

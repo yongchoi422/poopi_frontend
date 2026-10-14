@@ -1,0 +1,42 @@
+{
+  "completed": "2026-10-03",
+  "replaced_ids": [
+    "05",
+    "07",
+    "25",
+    "28",
+    "31",
+    "33",
+    "34",
+    "36",
+    "46",
+    "50",
+    "55",
+    "60",
+    "63",
+    "66",
+    "67",
+    "73",
+    "74",
+    "77",
+    "79",
+    "80"
+  ],
+  "generation_candidates": 29,
+  "drive_folder": "https://drive.google.com/drive/folders/1qRG_ChP8Z8oJd4knzVUSOU_RTjOqynpE",
+  "parts": [
+    {
+      "id": "1k0tUw3ejSGiK5lM5_LTVdFbxTmmUeYDf",
+      "url": "https://drive.google.com/file/d/1k0tUw3ejSGiK5lM5_LTVdFbxTmmUeYDf/view?usp=drivesdk",
+      "name": "souli-current-01-40-continuity-fixed-20261003.zip"
+    },
+    {
+      "id": "18raiwxmgOZhOh3sAmp4EkBEvKb42Mbib",
+      "url": "https://drive.google.com/file/d/18raiwxmgOZhOh3sAmp4EkBEvKb42Mbib/view?usp=drivesdk",
+      "name": "souli-current-41-80-continuity-fixed-20261003.zip"
+    }
+  ],
+  "mp4_count": 20,
+  "zip_video_count": 80,
+  "local_report": "http://127.0.0.1:8892/meme-pack/motion-v2-20261003/continuity-repair/index.html"
+}

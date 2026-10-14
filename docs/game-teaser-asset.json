@@ -1,0 +1,16 @@
+{
+  "asset": "public/media/game/souli-character-teaser-v1.png",
+  "bytes": 46670,
+  "sha256": "44eb8e9593fa917bd71a448fcaf6e21083e0eaf0d5c132dc5f350088977e5413",
+  "source": "src/lighthouse/public-souls.json, souls[0] (Gm fren)",
+  "sourceSha256": "05616cab2a7ae4b87c0f6d1c89505a43f46f679098604c32652a3fb0a62102d4",
+  "geometry": "output/game/room-v2/soul-volume.mjs",
+  "geometrySha256": "d469b9ddecf0dcf3cd6fe1587af729d7fa71b024d5504c71d6668a8e998f4c1a",
+  "parser": "output/game/waiting-room/artwork.mjs",
+  "parserSha256": "79dbddee371790301d83e2d79f8e6a9f0889a84c83f4d780f90f5639acaebf9c",
+  "exporter": "tmp/game-teaser/render.html",
+  "render": "Transparent 1000x1000 PNG, Three 0.186.1, orthographic camera; original pixel colors and shape rendered with depth 5.5, roundness 0.18, worldWidth 2.2; yaw -0.42, roll 0.035.",
+  "publicRuntime": "Static lazy-loaded image; no Three.js or WebGL needed on the homepage.",
+  "label": "3D CHARACTER PREVIEW · SAMPLE SOUL",
+  "status": "Game in development. Illustrative character render, not a released wallet-linked room."
+}

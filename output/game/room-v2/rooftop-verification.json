@@ -1,0 +1,41 @@
+{
+  "errors": [],
+  "automaticCleanup": true,
+  "gatePressureAndFlood": true,
+  "midEncounterReload": true,
+  "restoredGateStateSurvivesReload": true,
+  "marketSnapshotFrozen": true,
+  "marketSource": "demo",
+  "distinctUpDownPaint": true,
+  "reducedMotion": true,
+  "separateForestSave": true,
+  "initial": {
+    "clean": 75.6,
+    "litBulbs": 11
+  },
+  "flood": {
+    "clean": 74.6,
+    "paintedCells": 217,
+    "surgeMeshes": 6,
+    "drawCalls": 140,
+    "triangles": 32836
+  },
+  "result": {
+    "clean": 90,
+    "breaches": 2,
+    "litBulbs": 16
+  },
+  "mobile": [
+    {
+      "width": 390,
+      "overflow": false,
+      "landmarkVisible": true
+    },
+    {
+      "width": 320,
+      "overflow": false,
+      "landmarkVisible": true
+    }
+  ],
+  "performanceNote": "Headless software WebGL; no real-device FPS claim."
+}

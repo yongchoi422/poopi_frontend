@@ -1,0 +1,130 @@
+{
+  "checks": [
+    {
+      "width": 820,
+      "weather": "calm",
+      "ok": true
+    },
+    {
+      "width": 820,
+      "weather": "rain",
+      "ok": true
+    },
+    {
+      "width": 820,
+      "weather": "fog",
+      "ok": true
+    },
+    {
+      "width": 820,
+      "weather": "breeze",
+      "ok": true
+    },
+    {
+      "width": 820,
+      "weather": "aurora",
+      "ok": true
+    },
+    {
+      "width": 736,
+      "weather": "calm",
+      "ok": true
+    },
+    {
+      "width": 736,
+      "weather": "rain",
+      "ok": true
+    },
+    {
+      "width": 736,
+      "weather": "fog",
+      "ok": true
+    },
+    {
+      "width": 736,
+      "weather": "breeze",
+      "ok": true
+    },
+    {
+      "width": 736,
+      "weather": "aurora",
+      "ok": true
+    },
+    {
+      "width": 650,
+      "weather": "calm",
+      "ok": true
+    },
+    {
+      "width": 650,
+      "weather": "rain",
+      "ok": true
+    },
+    {
+      "width": 650,
+      "weather": "fog",
+      "ok": true
+    },
+    {
+      "width": 650,
+      "weather": "breeze",
+      "ok": true
+    },
+    {
+      "width": 650,
+      "weather": "aurora",
+      "ok": true
+    },
+    {
+      "width": 390,
+      "weather": "calm",
+      "ok": true
+    },
+    {
+      "width": 390,
+      "weather": "rain",
+      "ok": true
+    },
+    {
+      "width": 390,
+      "weather": "fog",
+      "ok": true
+    },
+    {
+      "width": 390,
+      "weather": "breeze",
+      "ok": true
+    },
+    {
+      "width": 390,
+      "weather": "aurora",
+      "ok": true
+    },
+    {
+      "width": 320,
+      "weather": "calm",
+      "ok": true
+    },
+    {
+      "width": 320,
+      "weather": "rain",
+      "ok": true
+    },
+    {
+      "width": 320,
+      "weather": "fog",
+      "ok": true
+    },
+    {
+      "width": 320,
+      "weather": "breeze",
+      "ok": true
+    },
+    {
+      "width": 320,
+      "weather": "aurora",
+      "ok": true
+    }
+  ],
+  "errors": []
+}

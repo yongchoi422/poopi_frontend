@@ -1,4 +1,6 @@
 import snapshot from './public-souls.json'
+import tinySnapshot from './tiny-soul.json'
+import { compactFrame } from './soul-framing.mjs'
 
 export const TOKEN = snapshot.contract
 export const svgUrl = svg => `data:image/svg+xml;charset=utf-8,${encodeURIComponent(svg)}`
@@ -17,8 +19,14 @@ export function artForStage(raw) {
     && rects[2].getAttribute('fill') === rects[3].getAttribute('fill')
   if (!shape(rects[0], 0, 0, 24, 24) || (!groundOne && !groundTwo)) return { url: svgUrl(raw), separated: false }
   rects.slice(0, groundOne ? 2 : 4).forEach(rect => rect.remove())
-  return { url: svgUrl(new XMLSerializer().serializeToString(root)), separated: true }
+  const foreground = [...root.children]
+  const simple = foreground.every(el => el.localName === 'rect' && !el.hasAttribute('transform'))
+  const frame = simple ? compactFrame(foreground.map(el => Object.fromEntries(['x','y','width','height'].map(k => [k, Number(el.getAttribute(k))])))) : null
+  if (frame) root.setAttribute('viewBox', frame.viewBox)
+  return { url: svgUrl(new XMLSerializer().serializeToString(root)), separated: true, compact: !!frame }
 }
 
 export const publicSouls = () => snapshot.souls.map((soul, index) => ({ ...soul, ...artForStage(soul.svg), block: snapshot.block, label: ['Gm fren', 'Sir HODL', 'Tiny legend', 'Cozy degen', 'Grass toucher', 'Lil moon'][index] || `Soul ${index + 1}`, source: 'public' }))
 export const sampleInfo = { block: snapshot.block, fetchedAt: snapshot.fetchedAt }
+// Read from the deployed renderer with seed=1, extra=0, not a claimed wallet asset.
+export const tinySoul = () => ({ ...tinySnapshot, ...artForStage(tinySnapshot.svg), source: 'public', rendererExample: true, label: 'Little dot' })

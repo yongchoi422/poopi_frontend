@@ -1,0 +1,194 @@
+{
+  "01": {
+    "id": "01",
+    "source": "revisions/static-art/episode-01-master-720p.mp4",
+    "note": "커피가 머리 위로 쏟아지고 한 방울씩 흘러내린다. 캐릭터는 끝까지 동일한 블록 형태를 유지한다.",
+    "master_sha256": "82c89e2e910e896a6b06076dfd0a6a1adf998c9b85b8d5b2717f4cad9c01b9d2"
+  },
+  "02": {
+    "id": "02",
+    "source": "revisions/identity-final/episode-02-master-720p.mp4",
+    "note": "벨트 위에서 제자리 운동을 하고 조금 뒤로 밀린다. 원래 픽셀 무늬가 유지된다.",
+    "master_sha256": "a0b1db07923894ebcb1815f7f618d1b81006d5c522343c5a49f5811d98927510"
+  },
+  "04": {
+    "id": "04",
+    "source": "revisions/static-art/episode-04-master-720p.mp4",
+    "note": "레드카펫이 혼자 펼쳐졌다가 다시 말린다. 소울은 같은 표정으로 서 있다.",
+    "master_sha256": "9c17f51cc326a9d63bf8800f387c8022c0a6d050af92a96cf8dfb3b80c3fd8aa"
+  },
+  "05": {
+    "id": "05",
+    "source": "revisions/static-art/episode-05-master-720p.mp4",
+    "note": "냉장고 문이 열리고 닫히지만 소울은 제자리에 남는다.",
+    "master_sha256": "b3b7392e9c581b6abe203721cd00a5ebde995d1fe13e9e7df31cc6b797a07c41"
+  },
+  "06": {
+    "id": "06",
+    "source": "revisions/identity-final/episode-06-master-720p.mp4",
+    "note": "토스트가 튀어나오자 작은 소울이 통째로 한 번 뛴다.",
+    "master_sha256": "55e8ee2484a5b385bd48ca4f1d84b179d910bedcba1f0f13ca2e1d0f17a8acee"
+  },
+  "07": {
+    "id": "07",
+    "source": "revisions/identity-final/episode-07-master-720p.mp4",
+    "note": "소울은 그대로인데 옆 아이스크림만 녹아내린다.",
+    "master_sha256": "dd8f0892ce96977a1eef80e394cf24ae3a0646ab1b29886a8a721a4e1559ece5"
+  },
+  "10": {
+    "id": "10",
+    "source": "revisions/static-art/episode-10-master-720p.mp4",
+    "note": "소울을 태운 사무용 의자가 회의실 밖으로 굴러 나간다.",
+    "master_sha256": "40000a50634ed386ee34d3c12310eaa6fe20b4ecaf856005cced5c47d1f88beb"
+  },
+  "13": {
+    "id": "13",
+    "source": "revisions/identity-final/episode-13-master-720p.mp4",
+    "note": "우주에서 감자칩을 따라 소울이 둥둥 떠간다.",
+    "master_sha256": "3507aa754eaae6cc6aa8cd266675782b53b6a8a97895e002d35818b0095de651"
+  },
+  "16": {
+    "id": "16",
+    "source": "revisions/identity-final/episode-16-master-720p.mp4",
+    "note": "같은 얼굴의 소울이 소파 쿠션 사이로 천천히 가라앉는다.",
+    "master_sha256": "b72f062bea09f0300fc8daceb4d3be55692a3e22958bd9d16bfae09fb17f6687"
+  },
+  "17": {
+    "id": "17",
+    "source": "revisions/identity-final/episode-17-master-720p.mp4",
+    "note": "풍선이 소울을 살짝 들어 올렸다가 내려놓는다.",
+    "master_sha256": "7691e1bf2bb0657a335f288ff1c966f05ea6315da451681fb5422bc56ac90f20"
+  },
+  "18": {
+    "id": "18",
+    "source": "revisions/identity-final/episode-18-master-720p.mp4",
+    "note": "종이배가 거품 위에서 흔들리고 고무 오리가 지나간다.",
+    "master_sha256": "a22b822eb38a6be8f0a1bac6a2ac6475c320f8dfd8a0fba5f683b25beb95b514"
+  },
+  "21": {
+    "id": "21",
+    "source": "revisions/static-art/episode-21-master-720p.mp4",
+    "note": "커다란 양말이 소울 위로 내려앉아 얼굴만 조금 보인다.",
+    "master_sha256": "379e14b6ff7e8de1d97751e80b6e10e905ec3a56a6f1ad52c20ec7e970178843"
+  },
+  "22": {
+    "id": "22",
+    "source": "revisions/static-art/episode-22-master-720p.mp4",
+    "note": "과자 봉지는 끝내 걸려 있고, 부스러기 하나만 떨어진다.",
+    "master_sha256": "7d96aadfeb00a55a26de744efbed26aedfa0c27500e0cfc3e5aefca4ab85a8e6"
+  },
+  "23": {
+    "id": "23",
+    "source": "revisions/static-art/episode-23-master-720p.mp4",
+    "note": "프린터의 종이가 끝없이 말려 나오며 책상과 소울 앞을 채운다.",
+    "master_sha256": "41433da1279b56f869d30c0c695bf8c17077190476dcbcc49bb5ce40762aba89"
+  },
+  "24": {
+    "id": "24",
+    "source": "revisions/static-art/episode-24-master-720p.mp4",
+    "note": "접시를 탄 소울 앞으로 엄청 큰 접시와 작은 밥알이 지나간다.",
+    "master_sha256": "0873f36ba3731b43c08f39bc1592ee961e8b51f0adbed411780cdaf22e610aa3"
+  },
+  "25": {
+    "id": "25",
+    "source": "revisions/static-art/episode-25-master-720p.mp4",
+    "note": "작은 공을 보내자 한참 뒤 큰 핀 하나가 넘어진다.",
+    "master_sha256": "de896f6977da37d6d8c4aa17e4501bbd0318294b1d2b0f122eb0ca912f0540d0"
+  },
+  "19": {
+    "id": "19",
+    "source": "revisions/new-round2/episode-19-master-720p.mp4",
+    "note": "은색 뚜껑이 올라가 감자튀김을 드러낸 뒤 다시 내려온다. 기존 얼굴 무늬가 유지되며, 가려져 있던 아래쪽 받침은 생성 해석이다.",
+    "master_sha256": "b8144e555f8370ca6afebd5ad90cd3da724e41ac48d13b467ef73b0a349ecf55"
+  },
+  "26": {
+    "id": "26",
+    "source": "revisions/new-round2/episode-26-master-720p.mp4",
+    "note": "과한 연기가 DJ 데스크를 덮었다가 걷힌다. 보라색 픽셀 무늬가 유지된다.",
+    "master_sha256": "ef173a94d8b1b80a2384021825aaf244c98bcfc526b51fa15e7fddd33ad5bae8"
+  },
+  "27": {
+    "id": "27",
+    "source": "revisions/new-round2/episode-27-master-720p.mp4",
+    "note": "웅장한 전시대의 천이 벗겨지자 마카로니 하나가 나온다.",
+    "master_sha256": "32d9a8fe65b21135a17c681ff805c0a82da68ea95971b8859d5c7cc379985440"
+  },
+  "28": {
+    "id": "28",
+    "source": "revisions/new-round2/episode-28-master-720p.mp4",
+    "note": "종이 레이싱카가 조금 움직이다 바퀴 하나가 빠지고 그대로 멈춘다.",
+    "master_sha256": "745b6db3fffea7d18c47abce472d1c134a4115438d4d8fbb9ba8003a80e943c0"
+  },
+  "29": {
+    "id": "29",
+    "source": "revisions/new-round2/episode-29-master-720p.mp4",
+    "note": "잔뜩 기대하고 들어 올린 낚싯줄 끝에는 해초 한 가닥만 있다.",
+    "master_sha256": "7649961f68c9d36b9725c778d3f0938fbb3ad3979675f73b8119e941be9022b5"
+  },
+  "30": {
+    "id": "30",
+    "source": "revisions/new-round2/episode-30-master-720p.mp4",
+    "note": "멋진 풍경 앞에서 텐트가 바람 빠지듯 납작해진다.",
+    "master_sha256": "503d2af19eff7815c4ed783a9b043ac824f53619e41c8a76586a0f61f119d609"
+  },
+  "32": {
+    "id": "32",
+    "source": "revisions/new-round2/episode-32-master-720p.mp4",
+    "note": "왕관이 소울 앞까지 내려와 얼굴을 가린다. 왕관의 크기를 강조하는 연출이다.",
+    "master_sha256": "eb1f2b47012d9c0c5441ec5c600e5cdc66c5068b0625a951230a15f7613b92a1"
+  },
+  "33": {
+    "id": "33",
+    "source": "revisions/new-round2/episode-33-master-720p.mp4",
+    "note": "비를 피하려고 펼쳐진 우산이 뒤집힌 채 남는다.",
+    "master_sha256": "0320addb95b95d1cd5e72fae8300ff027c66ee62e8cade90ab6918724c4baab8"
+  },
+  "34": {
+    "id": "34",
+    "source": "revisions/new-round2/episode-34-master-720p.mp4",
+    "note": "블루베리 하나가 굴러 떨어지자 팬케이크 탑이 주저앉는다. 음식의 움직임은 과장된 슬랩스틱이다.",
+    "master_sha256": "2294b502473ab5a05ab6342c7f6dc7cf708f5748238d86ab7a5c40b737290f17"
+  },
+  "35": {
+    "id": "35",
+    "source": "revisions/new-round2/episode-35-master-720p.mp4",
+    "note": "체스 말 하나가 가장자리에서 넘어지지만 소울은 무표정하게 남는다.",
+    "master_sha256": "0da67ef07c05b9b23687d7947d18ad76b76ecabd35b67f9dd919c7b683b4c746"
+  },
+  "31": {
+    "id": "31",
+    "source": "revisions/new-round3/episode-31-master-720p.mp4",
+    "note": "수하물 벨트로 칫솔 한 개만 지나간다. 분홍 소울은 같은 얼굴로 기다린다.",
+    "master_sha256": "59faf84a137e89543e5feadcdf2aa744799010bf71060e3bbea37d492c8b1345"
+  },
+  "36": {
+    "id": "36",
+    "source": "revisions/new-round3/episode-36-master-720p.mp4",
+    "note": "파도가 공들인 모래성을 무너뜨리고 작은 깃발만 남긴다.",
+    "master_sha256": "4a1fdc4a9f00af271584a5878ea4eadc11f828867919cf59727e9e66d1cf9749"
+  },
+  "37": {
+    "id": "37",
+    "source": "revisions/new-round3/episode-37-master-720p.mp4",
+    "note": "로봇청소기를 탄 소울이 양말을 만나 멈칫하고 방향을 돌린다.",
+    "master_sha256": "746e2abe3086157e40eef2d0a3c1fa69d19943a60e2dde410197d900987c91be"
+  },
+  "38": {
+    "id": "38",
+    "source": "revisions/new-round3/episode-38-master-720p.mp4",
+    "note": "책장이 넘어오며 소울 위에 작은 종이 텐트처럼 덮인다.",
+    "master_sha256": "777479c8b091f627a1ba0b776c0eaae324d768781763a6171bf05d7400c372db"
+  },
+  "39": {
+    "id": "39",
+    "source": "revisions/new-round3/episode-39-master-720p.mp4",
+    "note": "정상에 꽂은 깃발 천만 바람에 날아가고 막대가 남는다.",
+    "master_sha256": "0b2761f911e7d1956631ee410f9821d6ab6c43825ddf414099957b21389dc264"
+  },
+  "40": {
+    "id": "40",
+    "source": "revisions/new-round3/episode-40-master-720p.mp4",
+    "note": "새싹이 과하게 자라 큰 잎이 소울의 모자처럼 머리를 덮는다.",
+    "master_sha256": "0d328c2944151f4a8483b3d83d8099537a339cf125756eee474bef2b1d3761bc"
+  }
+}

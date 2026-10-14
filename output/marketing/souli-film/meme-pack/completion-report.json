@@ -1,0 +1,233 @@
+{
+  "completed_on": "2026-10-02",
+  "scope": "preparation_only",
+  "videos": 80,
+  "added_this_batch": 40,
+  "new_episode_ids": [
+    "41",
+    "42",
+    "43",
+    "44",
+    "45",
+    "46",
+    "47",
+    "48",
+    "49",
+    "50",
+    "51",
+    "52",
+    "53",
+    "54",
+    "55",
+    "56",
+    "57",
+    "58",
+    "59",
+    "60",
+    "61",
+    "62",
+    "63",
+    "64",
+    "65",
+    "66",
+    "67",
+    "68",
+    "69",
+    "70",
+    "71",
+    "72",
+    "73",
+    "74",
+    "75",
+    "76",
+    "77",
+    "78",
+    "79",
+    "80"
+  ],
+  "regenerated_new_ids": [
+    "41",
+    "46",
+    "47",
+    "58",
+    "70",
+    "73",
+    "74",
+    "77",
+    "80"
+  ],
+  "edited_new_ids": [
+    "49"
+  ],
+  "published": false,
+  "scheduled": false,
+  "live_website_changed": false,
+  "other_thread_messaged": false,
+  "root_folder": "https://drive.google.com/drive/folders/1PFx3kre_rFMnmxNmTPYDVZhHKVNu3KND",
+  "assets": [
+    {
+      "local_file": "C:/Users/yongc/Documents/GitHub/souli/output/marketing/souli-film/meme-pack/captions.csv",
+      "metadata": {
+        "id": "1NqPgDdwl1uQ8rjd-HX9Fha86Y6Wm_mlU",
+        "title": "souli-80-captions.csv",
+        "mime_type": "text/csv",
+        "size": "27099",
+        "url": "https://drive.google.com/file/d/1NqPgDdwl1uQ8rjd-HX9Fha86Y6Wm_mlU/view?usp=drivesdk",
+        "display_url": "https://drive.google.com/file/d/1NqPgDdwl1uQ8rjd-HX9Fha86Y6Wm_mlU/view?usp=drivesdk",
+        "file_or_folder": "file",
+        "created_time": null,
+        "modified_time": null,
+        "parent_ids": [
+          "1dUEn05Rf_GVU5NFRSENEw_6xvIsH7ClW"
+        ],
+        "drive_id": null,
+        "current_user_can_share": null,
+        "has_augmented_permissions": null,
+        "shared": null,
+        "permissions": null,
+        "source_visibility_status": "access_not_verified"
+      }
+    },
+    {
+      "local_file": "C:/Users/yongc/Documents/GitHub/souli/output/marketing/souli-film/meme-pack/website-handoff.txt",
+      "metadata": {
+        "id": "1tFaqiw1JD3RLNWN-S9DOdkdTphe_Gcq3",
+        "title": "souli-80-website-handoff.ko.txt",
+        "mime_type": "text/plain",
+        "size": "4086",
+        "url": "https://drive.google.com/file/d/1tFaqiw1JD3RLNWN-S9DOdkdTphe_Gcq3/view?usp=drivesdk",
+        "display_url": "https://drive.google.com/file/d/1tFaqiw1JD3RLNWN-S9DOdkdTphe_Gcq3/view?usp=drivesdk",
+        "file_or_folder": "file",
+        "created_time": null,
+        "modified_time": null,
+        "parent_ids": [
+          "1dUEn05Rf_GVU5NFRSENEw_6xvIsH7ClW"
+        ],
+        "drive_id": null,
+        "current_user_can_share": null,
+        "has_augmented_permissions": null,
+        "shared": null,
+        "permissions": null,
+        "source_visibility_status": "access_not_verified"
+      }
+    },
+    {
+      "local_file": "C:/Users/yongc/Documents/GitHub/souli/output/marketing/souli-film/meme-pack/website-media-manifest.json",
+      "metadata": {
+        "id": "18-_zlatN5KTR-dGMMVrUXcNYeZUmD-EA",
+        "title": "souli-80-website-media-manifest.json",
+        "mime_type": "application/json",
+        "size": "76485",
+        "url": "https://drive.google.com/file/d/18-_zlatN5KTR-dGMMVrUXcNYeZUmD-EA/view?usp=drivesdk",
+        "display_url": "https://drive.google.com/file/d/18-_zlatN5KTR-dGMMVrUXcNYeZUmD-EA/view?usp=drivesdk",
+        "file_or_folder": "file",
+        "created_time": null,
+        "modified_time": null,
+        "parent_ids": [
+          "1dUEn05Rf_GVU5NFRSENEw_6xvIsH7ClW"
+        ],
+        "drive_id": null,
+        "current_user_can_share": null,
+        "has_augmented_permissions": null,
+        "shared": null,
+        "permissions": null,
+        "source_visibility_status": "access_not_verified"
+      }
+    },
+    {
+      "local_file": "C:/Users/yongc/Documents/GitHub/souli/output/marketing/souli-film/meme-pack/80-scenes-overview.jpg",
+      "metadata": {
+        "id": "1NpsMX3wMO4yTh1jTFl6JPboFBE9UWfqA",
+        "title": "souli-80-overview.jpg",
+        "mime_type": "image/jpeg",
+        "size": "1924936",
+        "url": "https://drive.google.com/file/d/1NpsMX3wMO4yTh1jTFl6JPboFBE9UWfqA/view?usp=drivesdk",
+        "display_url": "https://drive.google.com/file/d/1NpsMX3wMO4yTh1jTFl6JPboFBE9UWfqA/view?usp=drivesdk",
+        "file_or_folder": "file",
+        "created_time": null,
+        "modified_time": null,
+        "parent_ids": [
+          "1dUEn05Rf_GVU5NFRSENEw_6xvIsH7ClW"
+        ],
+        "drive_id": null,
+        "current_user_can_share": null,
+        "has_augmented_permissions": null,
+        "shared": null,
+        "permissions": null,
+        "source_visibility_status": "access_not_verified"
+      }
+    },
+    {
+      "local_file": "C:/Users/yongc/Documents/GitHub/souli/output/marketing/souli-film/meme-pack/new-40-scenes-overview.jpg",
+      "metadata": {
+        "id": "1jVMiSU4wr8DxJP--v-cx42rdXfKz9bxB",
+        "title": "souli-new-40-overview.jpg",
+        "mime_type": "image/jpeg",
+        "size": "962794",
+        "url": "https://drive.google.com/file/d/1jVMiSU4wr8DxJP--v-cx42rdXfKz9bxB/view?usp=drivesdk",
+        "display_url": "https://drive.google.com/file/d/1jVMiSU4wr8DxJP--v-cx42rdXfKz9bxB/view?usp=drivesdk",
+        "file_or_folder": "file",
+        "created_time": null,
+        "modified_time": null,
+        "parent_ids": [
+          "1dUEn05Rf_GVU5NFRSENEw_6xvIsH7ClW"
+        ],
+        "drive_id": null,
+        "current_user_can_share": null,
+        "has_augmented_permissions": null,
+        "shared": null,
+        "permissions": null,
+        "source_visibility_status": "access_not_verified"
+      }
+    },
+    {
+      "local_file": "C:/Users/yongc/Documents/GitHub/souli/output/marketing/souli-film/souli-80-final-delivery.zip",
+      "metadata": {
+        "id": "1e20RGTEJxim8RfXZ8_YTMFwPKUwAVh-m",
+        "title": "souli-80-final-delivery.zip",
+        "mime_type": "application/x-zip-compressed",
+        "size": "171912736",
+        "url": "https://drive.google.com/file/d/1e20RGTEJxim8RfXZ8_YTMFwPKUwAVh-m/view?usp=drivesdk",
+        "display_url": "https://drive.google.com/file/d/1e20RGTEJxim8RfXZ8_YTMFwPKUwAVh-m/view?usp=drivesdk",
+        "file_or_folder": "file",
+        "created_time": null,
+        "modified_time": null,
+        "parent_ids": [
+          "1dUEn05Rf_GVU5NFRSENEw_6xvIsH7ClW"
+        ],
+        "drive_id": null,
+        "current_user_can_share": null,
+        "has_augmented_permissions": null,
+        "shared": null,
+        "permissions": null,
+        "source_visibility_status": "access_not_verified"
+      }
+    }
+  ],
+  "verification": {
+    "video_count": 80,
+    "new_accepted_reviews": 40,
+    "unique_video_hashes": 80,
+    "full_decode": true,
+    "format": "1280x720, 24fps, 8s, H.264, muted",
+    "new_drive_video_sizes_match": true,
+    "zip_bytes": 171912736,
+    "zip_test_passed": true,
+    "zip_mp4_count": 82,
+    "local_catalog_links_valid": true,
+    "new_filter_visible_count": 40,
+    "browser_video_playback": "episode-41 reached 8.0s, ended true, media error null"
+  },
+  "proofs": [
+    "library-80-new40-proof.png",
+    "drive-80-delivery-proof.png",
+    "flow-80-production-proof.png"
+  ],
+  "notes": [
+    "New keyframes generated with built-in Codex image generator; video motion generated in Google Flow Omni 1.1 Flash.",
+    "Episode 49 uses a 1.25-second clean-frame hold; rejected originals retained locally.",
+    "Review samples sixteen temporal frames per new video; not a promise of pixel-perfect SVG identity or seamless looping.",
+    "The retained 1080p homepage hero is a local upscale from a 720p original.",
+    "The full ZIP was uploaded through the Google Drive browser after the connector attempt returned no confirmed upload. Drive metadata verified its byte size and parent."
+  ]
+}

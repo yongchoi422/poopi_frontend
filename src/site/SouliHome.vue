@@ -1,58 +1,86 @@
 <script setup>
-import { computed, ref } from 'vue'
-import PixelSoulWorld from '../lighthouse/PixelSoulWorld.vue'
-import { publicSouls, svgUrl, TOKEN } from '../lighthouse/soul-art'
+import { ref } from 'vue'
+import HeroFilm from './HeroFilm.vue'
+import { publicSouls, TOKEN } from '../lighthouse/soul-art'
 
 const souls = publicSouls()
-const selected = ref('home')
-const regions = [
-  { id:'sky', label:'Sky', view:'100 40 1000 760', title:'Bullish on a little higher.', description:'Floating islands. Cloud hopping. A very small moon mission.', mode:'up' },
-  { id:'home', label:'Home', view:'100 170 1000 760', title:'GM. You are home.', description:'A warm beacon, familiar faces, and a place for every little soul.', mode:'calm' },
-  { id:'roots', label:'Roots', view:'100 790 1000 760', title:'Touch grass. Then go deeper.', description:'Glowshrooms and quiet gardens under the forest floor.', mode:'calm' },
-  { id:'crystal', label:'Crystal', view:'100 1220 1000 760', title:'Diamond hands. Actual diamonds.', description:'A little sparkle. A little mining. No chart required.', mode:'calm' },
-  { id:'abyss', label:'Abyss', view:'100 1640 1000 760', title:'Market red. Friendship green.', description:'When the shadows stir, little souls keep the beacon glowing.', mode:'down' },
-]
-const region = computed(() => regions.find(item => item.id === selected.value))
-const traits = ['Certified GM enjoyer','HODL department','Smol but mighty','Professional chiller','Grass touched daily','Moon mission intern']
+const coinIcon = import.meta.env.BASE_URL + 'images/fungi/token-logo.png'
+const copyStatus = ref('')
+const tokenUrl = 'https://basescan.org/token/' + TOKEN
+const contractUrl = 'https://basescan.org/address/' + TOKEN
+async function copyContract() {
+  copyStatus.value = ''
+  try { await navigator.clipboard.writeText(TOKEN); copyStatus.value = 'Address copied.' }
+  catch { copyStatus.value = 'Select the address to copy it.' }
+}
 const questions = [
-  { title:'Do I need a wallet to play?', answer:'No. Enter the world and try it with public SOULI artwork. You can connect a wallet or look up a Base address when you want to bring in your own SVG.' },
-  { title:'What does connecting my wallet do?', answer:'The world preview reads your public address, SOULI artwork and balances. It does not ask for a signature, spending approval or payment. Looking up an address does not prove ownership.' },
-  { title:'Does the game follow the market?', answer:'The preview cycles through UP exploration, CHILL recovery and DOWN defense. Weather is simulated today. There is no live price feed or token reward; memories are game points.' },
-  { title:'Is everyone already in the same world?', answer:'This is a playable local prototype. Your progress stays in this browser, with up to two hours of idle catch-up. Other residents and the 100K view are simulations; shared servers are not connected yet.' },
-  { title:'Can I buy SOULI here?', answer:'The proposed sale is not live. The launch page explains the fixed-price funding plan and includes an optional simulation. Payment, Uniswap liquidity and refund contracts are not connected.' },
+  { title: 'What do I get?', answer: 'SOULI tokens on Base, sent to your wallet. Their seed data creates your original 24 × 24 inscription. You can view, save and share it now. It is part of the token, not a separate NFT.', href: '/whitepaper/#inscriptions', link: 'How inscriptions work' },
+  { title: 'Can I choose my character?', answer: 'Choose your token amount. The contract generates the look. The examples are not characters you can reserve. Adding tokens can change your existing soul instead of creating another one.', href: '/whitepaper/#inscriptions', link: 'Levels & changing forms' },
+  { title: 'How do I buy?', answer: 'Use MetaMask with ETH on Base. Choose an amount, review the total and confirm in your wallet. Never send ETH directly to a token or sale address.', href: '/buy/', link: 'Buy SOULI' },
+  { title: 'Can I play the game now?', answer: 'Not yet, fren. The 3D room and game are in development, with no release date or promised token rewards. Today you can view and share your original inscription.', href: '/whitepaper/#world', link: 'The game plan' }
 ]
 </script>
 
 <template>
   <a class="skip-link" href="#main">Skip to content</a>
-  <header class="site-header">
-    <a class="site-brand" href="./" aria-label="SOULI home"><img :src="souls[0].url" alt=""/><span>SOULI<small>A LITTLE WORLD TO HODL</small></span></a>
-    <nav aria-label="Main navigation"><a href="#world">The world</a><a href="#souls">The souls</a><a href="#launch">The launch</a></nav>
-    <a class="pixel-button small-button" href="./lighthouse.html">Play now <span>↗</span></a>
+  <header class="site-header film-site-header">
+    <a class="site-brand" href="./" aria-label="SOULI home"><img :src="coinIcon" alt="" class="site-coin-logo"/><span>SOULI<small>A LITTLE WORLD TO HODL</small></span></a>
+    <nav aria-label="Main navigation"><a href="#inscriptions">The souls</a><a href="/buy/">Buy SOULI</a><a href="#receipts">The facts</a><a href="/whitepaper/">Whitepaper</a></nav>
+    <a class="pixel-button small-button" href="/soul/">My SOULI <span aria-hidden="true">↗</span></a>
   </header>
 
-  <main id="main">
-    <section id="world" class="site-hero" aria-labelledby="hero-title">
-      <div class="hero-copy"><p class="site-eyebrow"><i></i> ORIGINAL ON-CHAIN SOULS · BASE</p><h1 id="hero-title">Smol souls.<br>Big world.</h1><p class="hero-description">Your little soul has a place to call home.<br>Wander, gather, and keep the lights on.</p><div class="hero-actions"><a class="pixel-button" href="./lighthouse.html">Enter the world <span>→</span></a><a class="quiet-link" href="#souls">Find your little legend ↓</a></div><p class="hero-note">Free to explore. No wallet needed.</p><div class="hero-friends" aria-label="Original SOULI SVG companions"><img v-for="soul in souls.slice(0,4)" :key="soul.label" :src="soul.url" :alt="soul.label"/><span>Less chart watching.<br>More soul searching.</span></div></div>
-      <figure class="hero-window">
-        <div class="window-bar"><span><i></i> SOULI WORLD</span><small>PLAYABLE PREVIEW</small></div>
-        <div class="hero-scene"><PixelSoulWorld :mode="region.mode" :souls="souls" :active="false" :light="0" :overview="false" launch-phase="gathering" :viewBox="region.view" preserveAspectRatio="xMidYMid slice"/><div class="scene-caption" aria-live="polite"><span>EXPLORE / {{ region.label.toUpperCase() }}</span><strong>{{ region.title }}</strong></div><a class="scene-enter" :href="`./lighthouse.html?region=${region.id}`" :aria-label="`Explore ${region.label} in the game`">↗</a></div>
-        <figcaption><div class="region-tabs" role="group" aria-label="Preview world layers"><button v-for="item in regions" :key="item.id" :aria-pressed="item.id===selected" @click="selected=item.id">{{ item.label }}</button></div><p>{{ region.description }}</p></figcaption>
-      </figure>
+  <main id="main" class="simple-home focused-home">
+    <section id="world" class="site-hero site-hero-film" aria-labelledby="hero-title">
+      <HeroFilm>
+        <div class="hero-copy">
+          <h1 id="hero-title">GM, fren.<br>Meet SOULI.</h1>
+          <p class="hero-value">Tokens in your wallet. <br>A little soul of your own.</p>
+          <div class="hero-actions hero-main-actions">
+            <a class="pixel-button" href="/buy/">Buy SOULI <span aria-hidden="true">→</span></a>
+            <a class="hero-token-button" href="#inscriptions">See the souls <span>No wallet needed</span></a>
+          </div>
+          <p class="hero-note">Original pixel art now. 3D game still cooking.</p>
+        </div>
+      </HeroFilm>
     </section>
 
-    <div class="world-ribbon" aria-label="Game highlights"><span>✦ REAL SVG SOULS</span><span>↟ FIVE LITTLE WORLDS</span><span>☾ ONE-CLICK IDLE</span><span>♡ EVERY LIGHT MATTERS</span></div>
+    <section id="inscriptions" class="site-section soul-discovery" aria-labelledby="souls-title">
+      <div class="discovery-copy">
+        <p class="site-eyebrow">YOUR TOKEN. YOUR CHARACTER.</p>
+        <h2 id="souls-title">Small pixels.<br>Big personality.</h2>
+        <div class="discovery-flow" aria-label="SOULI tokens create your original pixel inscription"><img :src="coinIcon" width="58" height="58" alt="SOULI token"><span aria-hidden="true">→</span><img :src="souls[0].url" width="80" height="80" alt="An example original SOULI inscription"></div>
+        <p>Your amount shapes its level.<br>The look is a surprise.</p>
+        <a class="pixel-button" href="/buy/">See levels & prices <span aria-hidden="true">→</span></a>
+        <a class="holder-link" href="/soul/">Already holding? View my SOULI ↗</a>
+      </div>
+      <div class="discovery-gallery">
+        <div class="soul-cards" aria-label="Original inscription examples, not selectable items">
+          <article v-for="soul in souls" :key="soul.label" class="soul-card"><div class="soul-portrait"><img :src="soul.url" :alt="soul.label + ', an original inscription example'" loading="lazy"></div><div class="soul-card-copy"><h3>{{ soul.label }}</h3></div></article>
+        </div>
+        <p class="art-caption">Original on-chain art · Examples, not exact items for sale.</p>
+      </div>
+    </section>
 
-    <section class="how-it-works site-section" aria-labelledby="how-title"><div class="section-intro"><p class="site-eyebrow">A SOFTER KIND OF GRIND</p><h2 id="how-title">A little less doing.<br>A little more being.</h2><p>One click, then let your soul do its thing.<br>Even diamond hands deserve a nap.</p></div><ol class="steps"><li><span>01</span><div><h3>Bring a little soul.</h3><p>Choose a practice fren, or look up the original SOULI SVG in your Base wallet.</p></div></li><li><span>02</span><div><h3>Set it free.</h3><p>Hit Start chilling. Your squad explores, gathers memories, rests, and defends.</p></div></li><li><span>03</span><div><h3>Come back to a little life.</h3><p>Collect game memories and see the day's adventures. No frantic clicking required.</p></div></li></ol></section>
+    <section id="receipts" class="site-section purchase-facts" aria-labelledby="facts-title">
+      <div class="section-heading"><div><p class="site-eyebrow">BEFORE YOU BUY</p><h2 id="facts-title">Know what you get.</h2></div><a class="quiet-link" href="/whitepaper/">All the details ↗</a></div>
+      <div class="purchase-fact-grid">
+        <article><span class="fact-tag">01 · YOURS NOW</span><h3>Tokens. Pixel soul.</h3><p>Delivered to your wallet.<br>View it. Save it. Share it.</p><a href="/soul/">My SOULI ↗</a></article>
+        <article><span class="fact-tag">02 · THE PAYMENT</span><h3>ETH on Base.</h3><p>See your total before you sign.<br>No automatic refunds.</p><a href="/buy/">See price & stock ↗</a></article>
+        <article><span class="fact-tag">03 · THE PLAN</span><h3>50 / 50.</h3><p>Liquidity / project operations.<br>Team managed. No LP yet.</p><a href="/whitepaper/#funds">Where the ETH goes ↗</a></article>
+      </div>
+      <div class="facts-footer"><p>Value can fall. Resale is not guaranteed.</p><details class="official-contract"><summary>Official contract & checks</summary><p>SOULI on Base · Compare the full address.</p><code>{{ TOKEN }}</code><div class="receipt-actions"><button class="copy-contract" @click="copyContract">Copy address</button><a :href="contractUrl" target="_blank" rel="noreferrer">Basescan ↗</a><a href="/whitepaper/#funds">Sale receipts ↗</a></div><p class="copy-status" role="status">{{ copyStatus }}</p><p>Token address — do not send payments here. Internal checks completed; no independent audit. The 50:50 use of funds and one-year LP lock are plans, not enforced or active locks.</p><a href="/whitepaper/#technology">Permissions & risks ↗</a></details></div>
+    </section>
 
-    <section id="souls" class="souls-section site-section" aria-labelledby="souls-title"><div class="section-heading"><div><p class="site-eyebrow">24 × 24. FULL OF PERSONALITY.</p><h2 id="souls-title">Meet the little legends.</h2></div><a class="quiet-link" href="./lighthouse.html?panel=souls">Bring my SVG ↗</a></div><p class="section-description">Original SOULI artwork from Base. Same pixels. A whole new place to live.</p><div class="soul-cards"><a v-for="(soul,index) in souls" :key="soul.label" class="soul-card" :href="`./lighthouse.html?soul=${index}`"><div class="soul-portrait"><img :src="svgUrl(soul.svg)" :alt="`${soul.label}, original SOULI SVG`" loading="lazy"/><span>0{{ index+1 }}</span></div><div class="soul-card-copy"><h3>{{ soul.label }}</h3><p>{{ traits[index] }}</p><span>Meet this fren ↗</span></div></a></div><p class="art-caption">Public on-chain samples · artwork previews, not items offered for sale.</p></section>
+    <section id="play" class="site-section game-teaser" aria-labelledby="game-title">
+      <div class="game-teaser-copy"><p class="game-teaser-status"><span aria-hidden="true"></span>GAME IN DEVELOPMENT</p><h2 id="game-title">Little soul.<br>Big things ahead.</h2><p class="game-teaser-line">Your pixel fren. A new dimension.</p><a class="game-teaser-link" href="/whitepaper/#world">A peek at the plan <span aria-hidden="true">↗</span></a></div>
+      <figure class="game-teaser-stage"><div class="game-teaser-portal" aria-hidden="true"></div><div class="game-teaser-shadow" aria-hidden="true"></div><img src="/media/game/souli-character-teaser-v1.png" width="1000" height="1000" alt="An original blue SOULI with pink floating pixels, rendered as a three-dimensional game character" loading="lazy" decoding="async"><figcaption>3D CHARACTER PREVIEW · SAMPLE SOUL</figcaption></figure>
+    </section>
 
-    <section id="launch" class="launch-section site-section" aria-labelledby="site-launch-title"><div class="launch-site-copy"><p class="site-eyebrow">THE NEXT CHAPTER · NOT LIVE</p><h2 id="site-launch-title">One shared goal.<br>One bright start.</h2><p>The plan is simple: a fixed-price start, funds held in a sale contract, then liquidity when the goal is met.</p><a class="pixel-button" href="./lighthouse.html?panel=launch">Explore the launch plan <span>→</span></a></div><div class="launch-site-plan"><div class="plan-top"><img :src="souls[0].url" alt=""/><span>Build the beacon.<br>Keep it transparent.</span></div><dl><div><dt>Proposed sale valuation</dt><dd>$15M <small>FDV</small></dd></div><div><dt>Proposed sale proceeds</dt><dd>100% <small>to LP</small></dd></div><div><dt>Sale & automatic pool creation</dt><dd class="not-live">Not connected</dd></div></dl><p>Goal, deadline and LP lock terms are not set. The plan still needs contracts for funding, pool creation and refunds.</p></div></section>
-
-    <section id="faq" class="faq-section site-section" aria-labelledby="faq-title"><div class="section-intro"><p class="site-eyebrow">BEFORE YOU WANDER OFF</p><h2 id="faq-title">A few little<br>answers.</h2><img :src="souls[0].url" alt="A curious SOULI" class="faq-soul" loading="lazy"/></div><div class="faq-list"><details v-for="question in questions" :key="question.title"><summary>{{ question.title }}<span aria-hidden="true">+</span></summary><p>{{ question.answer }}</p></details></div></section>
-
-    <section class="closing-scene" aria-label="Enter SOULI World"><div class="closing-friends"><img v-for="soul in souls" :key="soul.label" :src="soul.url" :alt="soul.label" loading="lazy"/></div><h2>GM, fren.<br>Your little world is waiting.</h2><a class="pixel-button" href="./lighthouse.html">Let's go touch grass <span>→</span></a><p>Playable preview · local progress · no purchase required</p></section>
+    <section id="faq" class="faq-section site-section compact-faq" aria-labelledby="faq-title">
+      <div class="section-intro"><p class="site-eyebrow">A LITTLE HELP</p><h2 id="faq-title">Good questions.</h2><a class="quiet-link" href="/whitepaper/">More in the whitepaper ↗</a></div>
+      <div class="faq-list"><details v-for="question in questions" :key="question.title"><summary>{{ question.title }}<span aria-hidden="true">+</span></summary><p>{{ question.answer }}</p><a class="faq-source" :href="question.href">{{ question.link }} ↗</a></details></div>
+    </section>
+    <section class="closing-scene compact-closing" aria-label="Get your SOULI"><div><h2>Meet your little soul.</h2><a class="holder-link" href="/soul/">Already holding? My SOULI ↗</a></div><a class="pixel-button" href="/buy/">Buy SOULI <span aria-hidden="true">→</span></a></section>
   </main>
-
-  <footer class="site-footer"><a class="site-brand" href="./"><span>SOULI<small>LITTLE SOULS. BIG WORLD.</small></span></a><div><a :href="`https://basescan.org/token/${TOKEN}`" target="_blank" rel="noreferrer">Verify Base contract ↗</a><a href="./lighthouse.html?panel=launch">Launch status</a><a href="#faq">FAQ</a></div><p>A world in the making.<br>Game points are not tokens or financial returns.</p></footer>
+  <footer class="site-footer"><a class="site-brand" href="./" aria-label="SOULI home"><img :src="coinIcon" alt="" class="site-coin-logo"/><span>SOULI<small>LITTLE SOULS. BIG WORLD.</small></span></a><div><a :href="tokenUrl" target="_blank" rel="noreferrer">Base contract ↗</a><a href="#receipts">The facts</a><a href="/whitepaper/">Whitepaper</a><a href="/testnet/">Testnet</a></div><p>Made for frens.<br>Game: Cooking.</p></footer>
 </template>

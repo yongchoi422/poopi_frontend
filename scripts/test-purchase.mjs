@@ -44,6 +44,15 @@ for (const call of calls.filter(c => c.method === 'eth_call')) {
 const wrongNetworkCalls = []
 assert.deepEqual(await readPurchaseWallet({ request: async c => { wrongNetworkCalls.push(c.method); return '0x1' } }, address), { chainId: '0x1', usdcUnits: null, soulUnits: null })
 assert.deepEqual(wrongNetworkCalls, ['eth_chainId'])
+const unavailableUsdc=await readPurchaseWallet({request:async call=>{
+  if(call.method==='eth_chainId')return '0x2105'
+  if(call.method==='eth_blockNumber')return '0x1234'
+  if(call.params[0].to===PURCHASE.usdc)throw Error('USDC lookup unavailable')
+  return '0x2a'
+}},address)
+assert.equal(unavailableUsdc.chainId,'0x2105');assert.equal(unavailableUsdc.usdcUnits,null);assert.equal(unavailableUsdc.soulUnits,42n)
+const unavailableBalances=await readPurchaseWallet({request:async call=>{if(call.method==='eth_chainId')return '0x2105';throw Error('temporary block lookup failure')}},address)
+assert.equal(unavailableBalances.chainId,'0x2105');assert.equal(unavailableBalances.soulUnits,null)
 await assert.rejects(() => readPurchaseWallet(provider, 'invalid'), /Invalid wallet/)
 const metamask = { isMetaMask: true, request() {} }, other = { request() {} }
 assert.equal(findInjectedWallet({ providers: [other, metamask] }), metamask)

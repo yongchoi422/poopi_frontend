@@ -1,0 +1,12 @@
+{
+  "chainId": 8453,
+  "token": "0xb43eA104c7ec75038Ac8EcA57107Eefc8B039aFF",
+  "block": 52027541,
+  "blockTime": "2026-10-01T08:47:09.000Z",
+  "observedAt": "2026-10-01T08:47:11.380Z",
+  "owner": "0xA159D241eC79b989cBD69D2917e5951E5F3A49c8",
+  "decimals": 9,
+  "totalSupplyUnits": "210000000000000000",
+  "tokenRuntimeCodeHash": "0x9afd2c3834d86fbf79beb22fd67e02e95f616e7606250f8b7d6e1cc6ff36574c",
+  "readOnly": true
+}

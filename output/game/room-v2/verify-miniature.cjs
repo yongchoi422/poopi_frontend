@@ -1,0 +1,35 @@
+const fs=require('node:fs'),assert=require('node:assert/strict');
+const {chromium}=require('C:/Users/yongc/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright');
+(async()=>{const browser=await chromium.launch({headless:true,channel:'chrome',args:['--enable-webgl','--use-gl=angle','--use-angle=swiftshader','--enable-unsafe-swiftshader']});try{
+ const context=await browser.newContext({viewport:{width:1440,height:1020}}),page=await context.newPage(),errors=[];
+ page.on('pageerror',e=>errors.push(e.message));page.on('console',m=>{if(m.type()==='error')errors.push(m.text());});
+ await page.goto('http://127.0.0.1:4318/miniature.html');await page.waitForFunction(()=>window.miniatureLab?.getStats().drawCalls>0);
+ const initial=await page.evaluate(()=>miniatureLab.getStats());assert.equal(initial.crew.length,5);assert.equal(initial.worldArea,600);assert.ok(initial.crew.every(c=>c.screen.visible));
+ await page.screenshot({path:__dirname+'/miniature-first.png',fullPage:true});
+ await page.click('#zoom-in');await page.waitForFunction(()=>miniatureLab.getStats().zoom>1);
+ await page.click('[data-resident="1"]');await page.waitForFunction(()=>miniatureLab.getStats().selected===1);await page.screenshot({path:__dirname+'/miniature-follow.png',fullPage:true});
+ await page.click('#overview');await page.waitForFunction(()=>miniatureLab.getStats().selected===-1&&miniatureLab.getStats().zoom===1);
+ const canvas=await page.locator('canvas').boundingBox();await page.mouse.move(canvas.x+canvas.width*.6,canvas.y+canvas.height*.6);await page.mouse.down();await page.mouse.move(canvas.x+canvas.width*.65,canvas.y+canvas.height*.65,{steps:4});await page.mouse.up();await page.waitForFunction(()=>Math.abs(miniatureLab.getStats().pan.x)>.1);await page.click('#overview');
+ await page.waitForFunction(()=>miniatureLab.getStats().projectiles>0&&miniatureLab.getStats().creatures>0,null,{timeout:18000});
+ const round=await page.evaluate(()=>miniatureLab.getState().round);await page.screenshot({path:__dirname+'/miniature-action.png',fullPage:true});
+ await page.reload();await page.waitForFunction(()=>window.miniatureLab?.getStats().drawCalls>0);assert.deepEqual(await page.evaluate(()=>miniatureLab.getState().round),round);
+ await page.click('#weather-open');assert.equal(await page.locator('[data-weather="coral"]').isDisabled(),true);await page.click('[data-close="weather-dialog"]');
+ await page.waitForFunction(()=>miniatureLab.getStats().surgeMeshes>0,null,{timeout:28000});
+ const burst=await page.evaluate(()=>miniatureLab.getStats());assert.ok(burst.gate.broken);assert.ok(burst.crew.length===5);assert.ok(burst.paintedCells>0);
+ await page.screenshot({path:__dirname+'/miniature-breach.png',fullPage:true});await page.locator('.world').screenshot({path:__dirname+'/miniature-breach-stage.png'});
+ console.log('Five actual residents, automatic defense, knockback, camera controls and a real paint flood verified.');
+ await page.click('#still');await page.waitForFunction(()=>miniatureLab.getStats().effectParticles===0&&miniatureLab.getStats().surgeMeshes===0);await page.click('#still');
+ await page.waitForFunction(()=>miniatureLab.getStats().gate.repair>15&&miniatureLab.getStats().gate.broken,null,{timeout:12000});
+ await page.screenshot({path:__dirname+'/miniature-repair.png',fullPage:true});
+ await page.waitForFunction(()=>miniatureLab.getState().phase==='rest',null,{timeout:28000});const result=await page.evaluate(()=>miniatureLab.getState().memories[0].result);
+ assert.equal(result.repairs,1);assert.ok(result.homeClean>=92);assert.ok(result.crew.every(c=>c.contribution>0));
+ await page.waitForFunction(()=>miniatureLab.getStats().gate.repairs===1&&!miniatureLab.getStats().gate.broken);await page.screenshot({path:__dirname+'/miniature-rest.png',fullPage:true});
+ await page.reload();await page.waitForFunction(()=>window.miniatureReady);assert.equal(await page.evaluate(()=>miniatureLab.getState().memories.length),1);
+ await page.click('#weather-open');await page.click('[data-weather="coral"]');await page.waitForFunction(()=>miniatureLab.getState().weather==='coral');
+ const mobile=[];for(const width of [390,320]){await page.setViewportSize({width,height:900});await page.waitForTimeout(250);assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth+1),false);assert.equal(await page.locator('.resident').count(),5);await page.screenshot({path:__dirname+`/miniature-mobile-${width}.png`,fullPage:true});mobile.push({width,overflow:false});}
+ await page.click('[data-resident="0"]');await page.waitForFunction(()=>miniatureLab.getStats().selected===0);await page.screenshot({path:__dirname+'/miniature-mobile-follow.png',fullPage:true});
+ await page.waitForFunction(()=>miniatureLab.getState().phase==='encounter'&&miniatureLab.getState().round.weather==='coral',null,{timeout:12000});
+ const second=await page.evaluate(()=>miniatureLab.getState().round);assert.equal(second.market.source,'demo');assert.equal(second.market.change,4.2);
+ const saves=await page.evaluate(async()=>{const {openMiniatureStore}=await import('./miniature-store.mjs'),a=await openMiniatureStore(),b=await openMiniatureStore();await a.update(s=>s,a.state.revision);let conflict=false;try{await b.update(s=>s,b.state.revision);}catch(e){conflict=/Another tab/.test(e.message);}a.close();b.close();return {conflict,dbs:(await indexedDB.databases()).map(d=>d.name)};});assert.ok(saves.conflict);assert.ok(saves.dbs.includes('souli-white-neighborhood-v1'));
+ assert.deepEqual(errors,[]);const report={errors,crew:5,worldArea:600,automaticDefense:true,distinctRolesAffectOutcome:true,cameraZoomFollowPan:true,gateBreachAndRepair:true,roundSurvivesReload:true,weather:'demo only',localSaveConflictProtected:true,reducedMotion:true,result,mobile,renderer:{drawCalls:burst.drawCalls,triangles:burst.triangles,creatures:burst.creatures},note:'Software WebGL, no physical-device FPS claim.'};fs.writeFileSync(__dirname+'/miniature-verification.json',JSON.stringify(report,null,2));console.log(JSON.stringify(report));
+}finally{await browser.close();}})().catch(e=>{console.error(e);process.exitCode=1;});

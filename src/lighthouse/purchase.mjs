@@ -58,9 +58,15 @@ export function findInjectedWallet(ethereum) {
 export async function readPurchaseWallet(provider, address) {
   if (!/^0x[0-9a-fA-F]{40}$/.test(address)) throw new Error('Invalid wallet address.')
   const chainId = await provider.request({ method: 'eth_chainId' })
+  if (typeof chainId !== 'string' || !/^0x[\da-f]+$/i.test(chainId)) throw Error('Wallet network is unavailable. Reconnect your wallet.')
   if (chainId.toLowerCase() !== PURCHASE.chainId) return { chainId, usdcUnits: null, soulUnits: null }
   const data = `0x70a08231${address.slice(2).toLowerCase().padStart(64, '0')}`
-  const block = await provider.request({ method: 'eth_blockNumber' })
-  const balances = await Promise.all([PURCHASE.usdc, PURCHASE.token].map(to => provider.request({ method: 'eth_call', params: [{ to, data }, block] })))
-  return { chainId, usdcUnits: BigInt(balances[0]), soulUnits: BigInt(balances[1]), block }
+  // These are optional display balances. A legacy USDC read must not prevent
+  // identifying the network or using the separately verified native ETH sale.
+  let block
+  try{block=await provider.request({ method: 'eth_blockNumber' })}
+  catch{return {chainId,usdcUnits:null,soulUnits:null,balanceUnavailable:true}}
+  const balances = await Promise.allSettled([PURCHASE.usdc, PURCHASE.token].map(to => provider.request({ method: 'eth_call', params: [{ to, data }, block] })))
+  const units=result=>{try{return result.status==='fulfilled'?BigInt(result.value):null}catch{return null}}
+  return { chainId, usdcUnits: units(balances[0]), soulUnits: units(balances[1]), block }
 }

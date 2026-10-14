@@ -1,0 +1,63 @@
+{
+  "status": "passed",
+  "originalChecks": [
+    {
+      "name": "Gm fren",
+      "exact": true,
+      "rects": 55
+    },
+    {
+      "name": "Sir HODL",
+      "exact": true,
+      "rects": 23
+    },
+    {
+      "name": "Tiny legend",
+      "exact": true,
+      "rects": 10
+    },
+    {
+      "name": "Cozy degen",
+      "exact": true,
+      "rects": 14
+    },
+    {
+      "name": "Grass toucher",
+      "exact": true,
+      "rects": 22
+    },
+    {
+      "name": "Lil moon",
+      "exact": true,
+      "rects": 12
+    },
+    {
+      "name": "Little dot",
+      "exact": true,
+      "rects": 3
+    }
+  ],
+  "mobile": [
+    {
+      "width": 390,
+      "scroll": 390,
+      "soulInside": true
+    },
+    {
+      "width": 320,
+      "scroll": 320,
+      "soulInside": true
+    }
+  ],
+  "glb": {
+    "bytes": 3799500,
+    "meshes": 162,
+    "triangles": 50964,
+    "boundsMeters": [
+      11.800000190734863,
+      6.035000000894069,
+      7.354499994814395
+    ]
+  },
+  "errors": []
+}

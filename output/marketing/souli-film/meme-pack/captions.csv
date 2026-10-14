@@ -1,0 +1,81 @@
+﻿id,title_ko,caption,mood,trigger,hero_eligible,context_requirement,video,observed_result
+01,GM은 에스프레소 샤워,gm. fully caffeinated.,gm,evergreen_gm,True,상황에 맞는 일상 코미디. 실제 출시·제휴·서비스 상태를 암시하는 캡션은 별도 사실 확인.,episode-01.mp4,커피가 머리 위로 쏟아지고 한 방울씩 흘러내린다. 캐릭터는 끝까지 동일한 블록 형태를 유지한다.
+02,횡보장 러닝머신,all that effort. still sideways.,rough,evergreen_or_verified_eth_sideways,False,상황에 맞는 일상 코미디. 실제 출시·제휴·서비스 상태를 암시하는 캡션은 별도 사실 확인.,episode-02.mp4,벨트 위에서 제자리 운동을 하고 조금 뒤로 밀린다. 원래 픽셀 무늬가 유지된다.
+03,풀 만지러 와서도 차트,touch grass. grass said enough.,frens,evergreen,False,상황에 맞는 일상 코미디. 실제 출시·제휴·서비스 상태를 암시하는 캡션은 별도 사실 확인.,episode-03.mp4,풀잎이 휴대전화를 쓰러뜨리고 소울은 웃는 채 남는다.
+04,초록 캔들 하나에 셀럽 출근,eth green for 5 minutes. me:,market,verified_eth_up,False,게시 직전 ETH 방향·기간을 확인하고 캡션이 맞을 때 사용. 실제 피해나 장애에는 사용하지 않음.,episode-04.mp4,레드카펫이 혼자 펼쳐졌다가 다시 말린다. 소울은 같은 표정으로 서 있다.
+05,차트 안 보는 냉장고,taking a break from the charts.,rough,evergreen,False,상황에 맞는 일상 코미디. 실제 출시·제휴·서비스 상태를 암시하는 캡션은 별도 사실 확인.,episode-05.mp4,냉장고 문이 열리고 닫히지만 소울은 제자리에 남는다.
+06,알람보다 강한 토스터,gm to everyone except my alarm.,gm,evergreen_gm,True,상황에 맞는 일상 코미디. 실제 출시·제휴·서비스 상태를 암시하는 캡션은 별도 사실 확인.,episode-06.mp4,토스트가 튀어나오자 작은 소울이 통째로 한 번 뛴다.
+07,침착한 척 녹아내리는 아이스크림,"doing absolutely fine, fren.",rough,evergreen_reaction,False,상황에 맞는 일상 코미디. 실제 출시·제휴·서비스 상태를 암시하는 캡션은 별도 사실 확인.,episode-07.mp4,소울은 그대로인데 옆 아이스크림만 녹아내린다.
+08,나만 따라오는 먹구름,market weather is personal today.,market,verified_eth_down_or_generic_weather,False,게시 직전 ETH 방향·기간을 확인하고 캡션이 맞을 때 사용. 실제 피해나 장애에는 사용하지 않음.,episode-08.mp4,좌우로 피하는 금빛 소울 위로 작은 먹구름이 따라온다.
+09,장바구니 플렉스,portfolio up. groceries upgraded.,market,verified_eth_up_or_fictional_personal_meme,False,게시 직전 ETH 방향·기간을 확인하고 캡션이 맞을 때 사용. 실제 피해나 장애에는 사용하지 않음.,episode-09.mp4,카메라가 올라가며 커다란 카트 안 완두콩 한 알을 보여준다.
+10,회의 끝났다는 순간,when someone says we can end early.,builder,evergreen_reaction,False,상황에 맞는 일상 코미디. 실제 출시·제휴·서비스 상태를 암시하는 캡션은 별도 사실 확인.,episode-10.mp4,소울을 태운 사무용 의자가 회의실 밖으로 굴러 나간다.
+11,딥 한 번만 더,just one more dip.,rough,evergreen_wordplay,False,상황에 맞는 일상 코미디. 실제 출시·제휴·서비스 상태를 암시하는 캡션은 별도 사실 확인.,episode-11.mp4,나초가 살사에 기울고 소울이 곁에서 함께 기울어진다.
+12,서버실의 미니 선풍기,"doing my part, fren.",builder,evergreen_builder_not_actual_outage,False,상황에 맞는 일상 코미디. 실제 출시·제휴·서비스 상태를 암시하는 캡션은 별도 사실 확인.,episode-12.mp4,작은 선풍기는 서버 대신 소울 머리의 종이만 날려버린다.
+13,할 일 없는 우주비행,big plans. easily distracted.,frens,evergreen,False,상황에 맞는 일상 코미디. 실제 출시·제휴·서비스 상태를 암시하는 캡션은 별도 사실 확인.,episode-13.mp4,우주에서 감자칩을 따라 소울이 둥둥 떠간다.
+14,엘리베이터 대기 0.1초,me waiting for literally anything.,rough,evergreen_reaction,False,상황에 맞는 일상 코미디. 실제 출시·제휴·서비스 상태를 암시하는 캡션은 별도 사실 확인.,episode-14.mp4,엘리베이터 앞에서 조급하게 떨다가 뒤늦게 들어간다.
+15,바람 불면 프로필 사진,new pfp. nailed it.,rough,evergreen_identity,False,상황에 맞는 일상 코미디. 실제 출시·제휴·서비스 상태를 암시하는 캡션은 별도 사실 확인.,episode-15.mp4,스카프가 날아와 눈 위 이마에 감긴다.
+16,잠깐 눕기 5분,"five minute break, fren.",rough,evergreen,True,상황에 맞는 일상 코미디. 실제 출시·제휴·서비스 상태를 암시하는 캡션은 별도 사실 확인.,episode-16.mp4,같은 얼굴의 소울이 소파 쿠션 사이로 천천히 가라앉는다.
+17,새 이웃 맞이하다 풍선에 끌림,new frens got me floating.,frens,community_welcome_or_verified_base_news,False,상황에 맞는 일상 코미디. 실제 출시·제휴·서비스 상태를 암시하는 캡션은 별도 사실 확인.,episode-17.mp4,풍선이 소울을 살짝 들어 올렸다가 내려놓는다.
+18,비장한 보트가 욕조였다,survived another wild session.,rough,evergreen_or_ordinary_eth_volatility,False,상황에 맞는 일상 코미디. 실제 출시·제휴·서비스 상태를 암시하는 캡션은 별도 사실 확인.,episode-18.mp4,종이배가 거품 위에서 흔들리고 고무 오리가 지나간다.
+19,고급 식당의 감자튀김 한 가닥,a very serious investor dinner.,rough,fictional_lifestyle_joke,False,상황에 맞는 일상 코미디. 실제 출시·제휴·서비스 상태를 암시하는 캡션은 별도 사실 확인.,episode-19.mp4,"은색 뚜껑이 올라가 감자튀김을 드러낸 뒤 다시 내려온다. 기존 얼굴 무늬가 유지되며, 가려져 있던 아래쪽 받침은 생성 해석이다."
+20,월요일부터 다른 사람,inner peace. until the notification.,frens,evergreen,False,상황에 맞는 일상 코미디. 실제 출시·제휴·서비스 상태를 암시하는 캡션은 별도 사실 확인.,episode-20.mp4,명상하던 소울이 휴대전화 쪽으로 움직여 정돈된 모래에 자국을 낸다.
+21,새 옷이 너무 큼,fresh fit. slightly oversized.,gm,gm_outfit,True,상황에 맞는 일상 코미디. 실제 출시·제휴·서비스 상태를 암시하는 캡션은 별도 사실 확인.,episode-21.mp4,커다란 양말이 소울 위로 내려앉아 얼굴만 조금 보인다.
+22,자판기의 작은 승리,one win. that's all i asked.,rough,evergreen_frustration,False,상황에 맞는 일상 코미디. 실제 출시·제휴·서비스 상태를 암시하는 캡션은 별도 사실 확인.,episode-22.mp4,"과자 봉지는 끝내 걸려 있고, 부스러기 하나만 떨어진다."
+23,작은 수정 한 개,"one small task, they said.",builder,builder_work,False,상황에 맞는 일상 코미디. 실제 출시·제휴·서비스 상태를 암시하는 캡션은 별도 사실 확인.,episode-23.mp4,프린터의 종이가 끝없이 말려 나오며 책상과 소울 앞을 채운다.
+24,어디론가는 가는 중,going places. mostly in circles.,frens,sideways_or_evergreen,False,상황에 맞는 일상 코미디. 실제 출시·제휴·서비스 상태를 암시하는 캡션은 별도 사실 확인.,episode-24.mp4,접시를 탄 소울 앞으로 엄청 큰 접시와 작은 밥알이 지나간다.
+25,확신은 큰데 볼은 작음,massive conviction. tiny ball.,rough,evergreen_confidence,False,상황에 맞는 일상 코미디. 실제 출시·제휴·서비스 상태를 암시하는 캡션은 별도 사실 확인.,episode-25.mp4,작은 공을 보내자 한참 뒤 큰 핀 하나가 넘어진다.
+26,분위기 담당,bringing absolutely too much atmosphere.,frens,community_party,False,상황에 맞는 일상 코미디. 실제 출시·제휴·서비스 상태를 암시하는 캡션은 별도 사실 확인.,episode-26.mp4,과한 연기가 DJ 데스크를 덮었다가 걷힌다. 보라색 픽셀 무늬가 유지된다.
+27,생태계에 큰 기여,my finest contribution.,builder,builder_small_win,False,상황에 맞는 일상 코미디. 실제 출시·제휴·서비스 상태를 암시하는 캡션은 별도 사실 확인.,episode-27.mp4,웅장한 전시대의 천이 벗겨지자 마카로니 하나가 나온다.
+28,준비는 완벽했는데,ready to launch. almost.,builder,builder_prelaunch,True,상황에 맞는 일상 코미디. 실제 출시·제휴·서비스 상태를 암시하는 캡션은 별도 사실 확인.,episode-28.mp4,종이 레이싱카가 조금 움직이다 바퀴 하나가 빠지고 그대로 멈춘다.
+29,대어를 낚았다고 생각함,caught something. technically.,rough,evergreen_small_win,False,상황에 맞는 일상 코미디. 실제 출시·제휴·서비스 상태를 암시하는 캡션은 별도 사실 확인.,episode-29.mp4,잔뜩 기대하고 들어 올린 낚싯줄 끝에는 해초 한 가닥만 있다.
+30,아웃도어 체질,outdoor person. in theory.,frens,weekend,False,상황에 맞는 일상 코미디. 실제 출시·제휴·서비스 상태를 암시하는 캡션은 별도 사실 확인.,episode-30.mp4,멋진 풍경 앞에서 텐트가 바람 빠지듯 납작해진다.
+31,짐은 가볍게,"traveling light, fren.",frens,weekend_travel,False,상황에 맞는 일상 코미디. 실제 출시·제휴·서비스 상태를 암시하는 캡션은 별도 사실 확인.,episode-31.mp4,수하물 벨트로 칫솔 한 개만 지나간다. 분홍 소울은 같은 얼굴로 기다린다.
+32,초록 캔들 보고 대관식,eth green. acting accordingly.,market,verified_eth_up,False,게시 직전 ETH 방향·기간을 확인하고 캡션이 맞을 때 사용. 실제 피해나 장애에는 사용하지 않음.,episode-32.mp4,왕관이 소울 앞까지 내려와 얼굴을 가린다. 왕관의 크기를 강조하는 연출이다.
+33,준비성 만렙,prepared for literally nothing.,rough,ordinary_red_day_or_rain,False,상황에 맞는 일상 코미디. 실제 출시·제휴·서비스 상태를 암시하는 캡션은 별도 사실 확인.,episode-33.mp4,비를 피하려고 펼쳐진 우산이 뒤집힌 채 남는다.
+34,완벽한 균형,perfectly balanced. for one second.,gm,evergreen_balance,False,상황에 맞는 일상 코미디. 실제 출시·제휴·서비스 상태를 암시하는 캡션은 별도 사실 확인.,episode-34.mp4,블루베리 하나가 굴러 떨어지자 팬케이크 탑이 주저앉는다. 음식의 움직임은 과장된 슬랩스틱이다.
+35,생각이 너무 많음,calculated everything except that.,builder,evergreen_overthinking,False,상황에 맞는 일상 코미디. 실제 출시·제휴·서비스 상태를 암시하는 캡션은 별도 사실 확인.,episode-35.mp4,체스 말 하나가 가장자리에서 넘어지지만 소울은 무표정하게 남는다.
+36,다 지었는데 밀려옴,built different. tide disagreed.,builder,builder_setback,False,상황에 맞는 일상 코미디. 실제 출시·제휴·서비스 상태를 암시하는 캡션은 별도 사실 확인.,episode-36.mp4,파도가 공들인 모래성을 무너뜨리고 작은 깃발만 남긴다.
+37,자동화의 끝,automating my entire personality.,builder,builder_automation,True,상황에 맞는 일상 코미디. 실제 출시·제휴·서비스 상태를 암시하는 캡션은 별도 사실 확인.,episode-37.mp4,로봇청소기를 탄 소울이 양말을 만나 멈칫하고 방향을 돌린다.
+38,리서치를 너무 열심히 함,did my own research. send help.,builder,research_or_builder,False,상황에 맞는 일상 코미디. 실제 출시·제휴·서비스 상태를 암시하는 캡션은 별도 사실 확인.,episode-38.mp4,책장이 넘어오며 소울 위에 작은 종이 텐트처럼 덮인다.
+39,정상에 도착했는데,made it. forgot why.,frens,evergreen_achievement,False,상황에 맞는 일상 코미디. 실제 출시·제휴·서비스 상태를 암시하는 캡션은 별도 사실 확인.,episode-39.mp4,정상에 꽂은 깃발 천만 바람에 날아가고 막대가 남는다.
+40,초록색에 과몰입,"watering my delusions, fren.",builder,evergreen_or_verified_eth_green,False,상황에 맞는 일상 코미디. 실제 출시·제휴·서비스 상태를 암시하는 캡션은 별도 사실 확인.,episode-40.mp4,새싹이 과하게 자라 큰 잎이 소울의 모자처럼 머리를 덮는다.
+41,팝콘 화산,one tiny update. entire timeline:,gm,gm / 작은 소식에 큰 반응,False,상황에 맞는 일상 코미디. 실제 출시·제휴·서비스 상태를 암시하는 캡션은 별도 사실 확인.,episode-41.mp4,"팝콘이 옆으로 분출하고 흩어진다. 보라색 조형물에 눈이 추가되던 첫 버전을 교체했고, 원래 가로 무늬가 유지된다."
+42,탁구 최종보스,"just one small obstacle, fren",rough,작은 목표 / 큰 난관,False,상황에 맞는 일상 코미디. 실제 출시·제휴·서비스 상태를 암시하는 캡션은 별도 사실 확인.,episode-42.mp4,대형 탁구공이 세 번 튀고 멈춘다. 초록 조형물의 비대칭 픽셀 무늬가 유지된다.
+43,증명사진 재난,profile pic vs current situation,builder,완벽한 척 / 월요일,False,상황에 맞는 일상 코미디. 실제 출시·제휴·서비스 상태를 암시하는 캡션은 별도 사실 확인.,episode-43.mp4,사진 배경지가 출렁이며 벽돌 무늬를 드러낸다. 캐릭터는 원래 얼굴과 형태를 유지한다.
+44,신발은 거들뿐,gear: maxed. progress: pending.,builder,과한 준비 / 첫걸음,False,상황에 맞는 일상 코미디. 실제 출시·제휴·서비스 상태를 암시하는 캡션은 별도 사실 확인.,episode-44.mp4,바퀴 달린 거대한 운동화가 먼저 떠나고 소울만 출발선에 남는다. 원래 무늬가 유지된다.
+45,마술사의 당근,summoning liquidity. got a carrot.,rough,기대와 현실,False,상황에 맞는 일상 코미디. 실제 출시·제휴·서비스 상태를 암시하는 캡션은 별도 사실 확인.,episode-45.mp4,마술 모자의 당근이 솟았다가 옆으로 쓰러진다. 검은 펠트 조형물의 얼굴 띠가 유지된다.
+46,마시멜로 역도,built different. mostly sugar.,builder,gm / 운동 결심,False,상황에 맞는 일상 코미디. 실제 출시·제휴·서비스 상태를 암시하는 캡션은 별도 사실 확인.,episode-46.mp4,마시멜로 바벨이 납작해진다. 첫 버전의 사람형 머리를 없앤 교체본에서 원래 빨간 실루엣이 유지된다.
+47,왕포크 한 가닥,after all that research: one noodle,rough,소소한 보상,False,상황에 맞는 일상 코미디. 실제 출시·제휴·서비스 상태를 암시하는 캡션은 별도 사실 확인.,episode-47.mp4,포크가 파스타를 말아 내려놓는다. 조형물에 눈이 생기던 첫 버전을 교체했다. 마지막에 화면 위쪽으로 포크를 잡는 손 일부가 보이지만 소울은 변하지 않는다.
+48,황야의 먼지구름,timeline quiet. tumbleweed bullish.,frens,조용한 타임라인,False,상황에 맞는 일상 코미디. 실제 출시·제휴·서비스 상태를 암시하는 캡션은 별도 사실 확인.,episode-48.mp4,회전초가 커지며 소울 앞을 지나간다. 잠깐 가려진 뒤에도 원래 형태와 무늬가 유지된다.
+49,잠수함 오리 경보,deep research. found duck.,rough,잠수 / 조용한 날,False,상황에 맞는 일상 코미디. 실제 출시·제휴·서비스 상태를 암시하는 캡션은 별도 사실 확인.,episode-49.mp4,잠망경 위 고무 오리가 내려왔다 올라간다. 6.75초 이후 마지막 정상 프레임을 유지하여 끝의 얼굴 변형을 제외했다. 8초 192프레임 편집본 검수.
+50,반죽의 복수,nothing happening. nothing happ—,gm,느리다가 갑자기,False,상황에 맞는 일상 코미디. 실제 출시·제휴·서비스 상태를 암시하는 캡션은 별도 사실 확인.,episode-50.mp4,빵 반죽이 부풀며 밀대를 떨어뜨린다. 보라색 조형물의 픽셀 무늬가 유지된다.
+51,골프공 반품,excellent journey. same location.,rough,다시 원점,False,상황에 맞는 일상 코미디. 실제 출시·제휴·서비스 상태를 암시하는 캡션은 별도 사실 확인.,episode-51.mp4,골프공이 루프를 돌아 소울 앞으로 다시 돌아온다. 노란 소울의 원래 형태와 무늬가 유지된다.
+52,젤리 지진,market moves. fren remains.,rough,흔들려도 버팀,False,상황에 맞는 일상 코미디. 실제 출시·제휴·서비스 상태를 암시하는 캡션은 별도 사실 확인.,episode-52.mp4,큰 빨간 젤리가 흔들리다가 멈춘다. 옆의 붉은 조형물은 끝까지 같은 무늬를 유지한다.
+53,인형뽑기 공기,secured the bag. bag invisible.,frens,기대와 현실,False,상황에 맞는 일상 코미디. 실제 출시·제휴·서비스 상태를 암시하는 캡션은 별도 사실 확인.,episode-53.mp4,집게가 빈 곳을 집었다가 빈 채로 올라간다. 흰 조형물은 바뀌지 않는다.
+54,삼각형 독주회,small announcement. full production.,builder,큰 발표 / 작은 결과,False,상황에 맞는 일상 코미디. 실제 출시·제휴·서비스 상태를 암시하는 캡션은 별도 사실 확인.,episode-54.mp4,트라이앵글을 한 번 두드리자 금빛 종이가 쏟아진다. 분홍 조형물의 형태와 무늬가 유지된다.
+55,벨 하나의 무게,support ticket became a friend,builder,답장 대기,False,상황에 맞는 일상 코미디. 실제 출시·제휴·서비스 상태를 암시하는 캡션은 별도 사실 확인.,episode-55.mp4,호출 벨을 누르면 더 작은 벨이 옆으로 들어온다. 소울의 긴 비대칭 실루엣이 유지된다.
+56,해먹 회전초밥,taking it easy is a full-time job,frens,주말 / 휴식 실패,False,상황에 맞는 일상 코미디. 실제 출시·제휴·서비스 상태를 암시하는 캡션은 별도 사실 확인.,episode-56.mp4,해먹이 꼬이고 흔들렸다 풀린다. 보라색 소울은 판자와 함께 기울며 원래 형태와 픽셀 무늬를 유지한다.
+57,쿠키 금고,cold storage. warm cookie.,frens,작은 보물,False,상황에 맞는 일상 코미디. 실제 출시·제휴·서비스 상태를 암시하는 캡션은 별도 사실 확인.,episode-57.mp4,쿠키 한 개를 보관한 거대한 금고 문이 닫힌다. 노란 소울의 무늬가 유지된다.
+58,눈사람의 선풍기,had a plan. weather disagreed.,frens,불가능한 해결책,False,상황에 맞는 일상 코미디. 실제 출시·제휴·서비스 상태를 암시하는 캡션은 별도 사실 확인.,episode-58.mp4,선풍기가 눈을 밀어 당근을 드러낸다. 위의 민트색 사각형과 아래 검정 사각형만 유지되고 새 눈이 생기지 않는다.
+59,축포 한 조각,"we celebrate the small wins, fren",frens,작은 승리,False,상황에 맞는 일상 코미디. 실제 출시·제휴·서비스 상태를 암시하는 캡션은 별도 사실 확인.,episode-59.mp4,거대한 대포가 색종이 한 장만 발사한다. 보라색의 비대칭 도형 무늬가 끝까지 유지된다.
+60,도미노의 휴식,chain reaction took a lunch break,builder,기다림 / 곧,False,상황에 맞는 일상 코미디. 실제 출시·제휴·서비스 상태를 암시하는 캡션은 별도 사실 확인.,episode-60.mp4,도미노가 역으로 일어났다가 다시 쓰러져 쿠션에서 멈춘다. 소울이 통째로 기울지만 외곽과 얼굴 무늬가 유지된다.
+61,피자 한입 왕관,holding on by one cheese string,gm,점심 / 버티기,False,상황에 맞는 일상 코미디. 실제 출시·제휴·서비스 상태를 암시하는 캡션은 별도 사실 확인.,episode-61.mp4,치즈가 길게 늘어나다 끊어져 접시에 동그랗게 쌓인다. 보라색 소울의 픽셀은 고정되어 있다.
+62,대왕 키보드 탈출,one more tiny fix,builder,개발 중 / 업데이트,False,상황에 맞는 일상 코미디. 실제 출시·제휴·서비스 상태를 암시하는 캡션은 별도 사실 확인.,episode-62.mp4,스프링 키가 위로 솟았다 옆으로 쓰러진다. 투명 민트 소울의 형태가 유지된다.
+63,스크롤 없는 두루마리,read the entire thread. learned vibes.,builder,리서치 과몰입,False,상황에 맞는 일상 코미디. 실제 출시·제휴·서비스 상태를 암시하는 캡션은 별도 사실 확인.,episode-63.mp4,빈 두루마리가 말렸다가 길게 펼쳐진다. 노란 비대칭 소울 무늬가 유지된다.
+64,풍선껌 공장,expectations loading…,rough,과한 기대,False,상황에 맞는 일상 코미디. 실제 출시·제휴·서비스 상태를 암시하는 캡션은 별도 사실 확인.,episode-64.mp4,풍선껌이 부풀었다가 힘없이 줄어든다. 잠깐 일부를 가리지만 소울의 외곽과 픽셀 무늬는 유지된다.
+65,우주 피크닉,gm from slightly out of office,frens,먼 곳에서도 gm,False,상황에 맞는 일상 코미디. 실제 출시·제휴·서비스 상태를 암시하는 캡션은 별도 사실 확인.,episode-65.mp4,달 위에서 샌드위치가 무중력으로 떠오르고 돌다가 바구니 위로 내려온다. 흰 소울과 가로 무늬가 유지된다.
+66,대왕 연필 회의,roadmap: extensive. first line: pending.,builder,계획만 완벽,False,상황에 맞는 일상 코미디. 실제 출시·제휴·서비스 상태를 암시하는 캡션은 별도 사실 확인.,episode-66.mp4,거대한 연필이 일어나 흔들리다 지우개 쪽으로 눕는다. 분홍 소울과 검정 세로 사각형이 유지된다.
+67,경비 콘의 위엄,protecting my one brain cell,builder,작은 문제 보호,False,상황에 맞는 일상 코미디. 실제 출시·제휴·서비스 상태를 암시하는 캡션은 별도 사실 확인.,episode-67.mp4,교통콘이 길게 늘어났다 다시 작아진다. 민트·분홍 소울의 비대칭 실루엣이 유지된다.
+68,공룡 발자국 푸딩,someone with a bigger spoon arrived,rough,큰 손 등장 비유,False,상황에 맞는 일상 코미디. 실제 출시·제휴·서비스 상태를 암시하는 캡션은 별도 사실 확인.,episode-68.mp4,공룡 발자국 도장이 푸딩을 눌러 발자국을 남긴다. 소울의 외곽과 표정은 유지되며 끝부분의 한 작은 패치 색은 살짝 변한다.
+69,수영장 구명튜브,risk management: floaty,frens,준비 과잉,False,상황에 맞는 일상 코미디. 실제 출시·제휴·서비스 상태를 암시하는 캡션은 별도 사실 확인.,episode-69.mp4,튜브가 거대하게 부풀어 소울 주변을 돌다가 밖으로 굴러간다. 주황 소울과 가로 검정 무늬가 유지된다.
+70,우편함 한 알,checked the inbox. breakfast.,gm,답변 대기,False,상황에 맞는 일상 코미디. 실제 출시·제휴·서비스 상태를 암시하는 캡션은 별도 사실 확인.,episode-70.mp4,우편함에서 시리얼 한 개가 굴러나와 넘어진다. 가로 눈 무늬와 분홍색 면이 유지되며 코가 생기지 않는다.
+71,사막 오아시스 한 모금,liquidity arrived. one drop.,rough,휴식 / 힘든 날,False,상황에 맞는 일상 코미디. 실제 출시·제휴·서비스 상태를 암시하는 캡션은 별도 사실 확인.,episode-71.mp4,사막 분수에서 물 몇 방울만 떨어지고 멈춘다. 보라색 소울은 끝까지 같은 형태다.
+72,공장 승인 도장,after seventeen meetings: :),builder,업데이트 / 일의 무게,False,상황에 맞는 일상 코미디. 실제 출시·제휴·서비스 상태를 암시하는 캡션은 별도 사실 확인.,episode-72.mp4,거대한 도장이 작은 스마일만 남긴다. 노란 소울의 픽셀 표정과 실루엣 유지.
+73,구름 솜사탕,forecast: 100% delulu,frens,기분 반전,False,상황에 맞는 일상 코미디. 실제 출시·제휴·서비스 상태를 암시하는 캡션은 별도 사실 확인.,episode-73.mp4,솜사탕이 커졌다 기울며 작은 조각을 떨어뜨린다. 검정-밝은색-검정 가로 무늬 그대로 유지.
+74,기차 한 칸,delivery took the scenic route,builder,느려도 전진,False,상황에 맞는 일상 코미디. 실제 출시·제휴·서비스 상태를 암시하는 캡션은 별도 사실 확인.,episode-74.mp4,긴 리본 열차가 쿠키들을 운반한다. 세 번째 생성본에서 주황 소울의 빈 윗부분과 아래 검정 두 사각형이 끝까지 유지된다. 기획의 쿠키 한 개보다 여러 개가 생성되어 과한 배송 농담으로 사용한다.
+75,대왕 주사위 한 점,rolled for motivation. got one.,rough,랜덤한 하루,False,상황에 맞는 일상 코미디. 실제 출시·제휴·서비스 상태를 암시하는 캡션은 별도 사실 확인.,episode-75.mp4,거대한 주사위가 구르지만 결국 1만 나온다. 구리색 긴 소울의 가로 무늬가 유지된다.
+76,요가매트 말림,wellness completed. technically.,frens,주말 리셋,False,상황에 맞는 일상 코미디. 실제 출시·제휴·서비스 상태를 암시하는 캡션은 별도 사실 확인.,episode-76.mp4,요가매트가 펼쳐졌다 스스로 다시 말린다. 보라색 소울의 졸린 무늬가 유지된다.
+77,케첩 로켓,overengineering the dip,gm,과한 해결책,False,상황에 맞는 일상 코미디. 실제 출시·제휴·서비스 상태를 암시하는 캡션은 별도 사실 확인.,episode-77.mp4,케첩 병이 한 방울을 멀리 있는 감자튀김에 쏜다. 낮고 넓은 빨간 소울 형태와 검정 무늬가 유지된다.
+78,진공 청소 우주먼지,cleared the noise. found one thought.,builder,잡일 / 하루 종료,False,상황에 맞는 일상 코미디. 실제 출시·제휴·서비스 상태를 암시하는 캡션은 별도 사실 확인.,episode-78.mp4,청소기가 큰 먼지뭉치를 빨아들이고 작은 구슬만 남는다. 초록 소울과 세로 패턴 유지.
+79,낚싯대 없는 오리 연못,the group chat arrived,frens,조용한 자신감,False,상황에 맞는 일상 코미디. 실제 출시·제휴·서비스 상태를 암시하는 캡션은 별도 사실 확인.,episode-79.mp4,작은 고무 오리들 뒤로 거대한 오리가 지나간다. 긴 회색 소울이 바위 위에서 같은 무늬 유지.
+80,침대 알람 파업,gm. alarm clock called in sick.,gm,gm / 매일 시작,False,상황에 맞는 일상 코미디. 실제 출시·제휴·서비스 상태를 암시하는 캡션은 별도 사실 확인.,episode-80.mp4,알람시계가 떨리다가 슬리퍼 안으로 떨어진다. 초록 소울의 위쪽은 빈 상태이며 아래 세 검정 사각형이 유지된다.

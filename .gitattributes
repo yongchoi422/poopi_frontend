@@ -1,0 +1,10 @@
+# Solidity source bytes are part of compiler metadata and deployed code hashes.
+# Preserve each reviewed source exactly across Windows and Unix checkouts.
+*.sol -text
+
+# Public artifact bundles and artwork provenance also pin these file bytes.
+contracts/package-lock.json -text
+contracts/scripts/compile.mjs -text
+src/lighthouse/public-souls.json -text
+output/game/room-v2/soul-volume.mjs -text
+output/game/waiting-room/artwork.mjs -text
